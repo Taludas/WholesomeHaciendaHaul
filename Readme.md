@@ -38,8 +38,8 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 ### Patch Notes Version 1.1.1
 
 * Just some small bugfixes:
- - Obrero Residences can't be copied any longer. If selected with the Copy Tool, corresponding Jornalero residences will be used.
- - Fixed a Typo in the German Localisation: Banenen -> Bananen 
+    - Obrero Residences can't be copied any longer. If selected with the Copy Tool, corresponding Jornalero residences will be used.
+    - Fixed a Typo in the German Localisation: Banenen -> Bananen 
 
 ### Patch Notes Version 1.1
 
@@ -48,39 +48,36 @@ Upon popular demand, I decided to split the mod into modules. **ALL** Modules re
 Pick and choose what ever combination is your favourite :D
 
 * Base:
-
- - New separate build menu for all Hacienda buildings
- - New Icons for all Hacienda Modules for easier identification and accessibility
- - Hacienda Streets now unlimited and working like normal streets
- - Hacienda Farms with Plantains, Cotton, Tobacco (no fertility required) and split recipe book for NW and OW farms
- - Obrero Residences must be upgraded from Jornalero ones
- - Public buildings with Hacienda Grounddecal variation
- - Bugfixes
+    - New separate build menu for all Hacienda buildings
+    - New Icons for all Hacienda Modules for easier identification and accessibility
+    - Hacienda Streets now unlimited and working like normal streets
+    - Hacienda Farms with Plantains, Cotton, Tobacco (no fertility required) and split recipe book for NW and OW farms
+    - Obrero Residences must be upgraded from Jornalero ones
+    - Public buildings with Hacienda Grounddecal variation
+    - Bugfixes
 
 * BasicGameplay changes:
-
- - Radius of the Hacienda now up to 80
- - Fertiliser Factory got buffed and hasn’t to be build inside the Hacienda Radius
+    - Radius of the Hacienda now up to 80
+    - Fertiliser Factory got buffed and hasn’t to be build inside the Hacienda Radius
 
 * ExtendedHacienda by Lordys:
 Thanks to Lordys we now have a variety of new Hacienda specific buildings:
-
- - Small Marketstands → Satisfy need of Hacienda for Residences in its range
- - Small Jornalero and Obrero Residences (2x3) → 8/\[12\] and 13/\[20\] pop
- - Hacienda Chapel → Satisfies Chapel Need
- - Hacienda Fire Station, Hacienda Police Station → Two resolver units each and slightly higher coverage
- - Hacienda Trade Union → Radius 20! Costs 50 Obrero Worforce though
- - Hacienda Border Wall Semi-Automatic and manual → read below!
- - One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
+    - Small Marketstands → Satisfy need of Hacienda for Residences in its range
+    - Small Jornalero and Obrero Residences (2x3) → 8/\[12\] and 13/\[20\] pop
+    - Hacienda Chapel → Satisfies Chapel Need
+    - Hacienda Fire Station, Hacienda Police Station → Two resolver units each and slightly higher coverage
+    - Hacienda Trade Union → Radius 20! Costs 50 Obrero Worforce though
+    - Hacienda Border Wall Semi-Automatic and manual → read below!
+    - One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
 
 * ExtendedGameplay changes:
- - Hacienda Warehouse now up to 100 tons of storage and TWO transporter
- - Hacienda residences have been overhauled completely (see below)
- - Fertilities mater again (see below)
- - Hacienda Breweries: checked and adjusted (see below)
+    - Hacienda Warehouse now up to 100 tons of storage and TWO transporter
+    - Hacienda residences have been overhauled completely (see below)
+    - Fertilities mater again (see below)
+    - Hacienda Breweries: checked and adjusted (see below)
 
 * PolicyOverhaul:
- - Hacienda Policies completely replaced and rebalanced (see below)
+    - Hacienda Policies completely replaced and rebalanced (see below)
 
 
 ## Initial Mod Description with feature overview.
@@ -143,46 +140,46 @@ To be honest the vanilla Policies are like playing with the small scoops in Kind
 But as I’m more creative than that, I created 5 totally new and potentially game changing buffs for you to play around with. Now you’ll definitely consider every one of them.
 
 - Decree 1: Clean Environment Regulation (required Attractiveness: 450)
-Effects All Heavy Industries, all Mines, all Quarries, all NW Chemical Plants and all Breweries:
- * Productivity +20%
- * Chance of Fire -50%
- * Chance of Explosion -100%
- * Negative Infliction on Attractiveness -80%
- * Workforce needed +25%
- * Maintenance Costs +75%
+    * Effects All Heavy Industries, all Mines, all Quarries, all NW Chemical Plants and all Breweries:
+        * Productivity +20%
+        * Chance of Fire -50%
+        * Chance of Explosion -100%
+        * Negative Infliction on Attractiveness -80%
+        * Workforce needed +25%
+        * Maintenance Costs +75%
 
 - Decree 2: Local Factory Outlet Regulation (required Attractiveness: 700)
-Effects All New World Residences:
-  - Reduced Consumption of:
-   * Ponchos -25%
-   * Bombins-15%
-   * Coffee -10%
-   * Cigars -10%
-   * Extra happiness from Market/Hacienda +5
-   * Income -10%
+    * Effects All New World Residences:
+        - Reduced Consumption of:
+            * Ponchos -25%
+            * Bombins-15%
+            * Coffee -10%
+            * Cigars -10%
+            * Extra happiness from Market/Hacienda +5
+            * Income -10%
 
-Effects All Clothing Factories, all Intermediate Good Producers, Coffee Roaster and Cigar Factory:
- * Extra Goods every third Cycle (1/3)
- * Attractiveness +5%
- * Workforce needed +15%
- * Maintenance Costs -50%
+    * Effects All Clothing Factories, all Intermediate Good Producers, Coffee Roaster and Cigar Factory:
+        * Extra Goods every third Cycle (1/3)
+        * Attractiveness +5%
+        * Workforce needed +15%
+        * Maintenance Costs -50%
 
 - Decree 3: Lumberjack Educational Decree (required Attractiveness: 1000)
-Effects All Lumberjacks and all NW Orchards
- * Productivity +15%
- * Attractiveness +10
- * Workforce needed -50%
- * Forest Density -25%
- * Extra Goods: Wanza Wood 1/7 and Cherry Wood 1/10
+    * Effects All Lumberjacks and all NW Orchards
+        * Productivity +15%
+        * Attractiveness +10
+        * Workforce needed -50%
+        * Forest Density -25%
+        * Extra Goods: Wanza Wood 1/7 and Cherry Wood 1/10
 
 - Decree 4: Vineyard Promotion Act (required Attractiveness: 1750)
-Effects Hacienda Vineyards
- * Extra Grapes every second cycle (+50%)
- * Grape fertility provided
+    * Effects Hacienda Vineyards
+        * Extra Grapes every second cycle (+50%)
+        * Grape fertility provided
 
 - Decree 5: Transporter Modernisation Act (required Attractiveness: 2200)
-Effects All NW Crop Farms and all NW Orchards
- * Replaces the standard horse drawn carriage with a modern tractor which allows for faster unloading at warehouses (5 seconds) and faster movement speed (+40%)
+    * Effects All NW Crop Farms and all NW Orchards
+        * Replaces the standard horse drawn carriage with a modern tractor which allows for faster unloading at warehouses (5 seconds) and faster movement speed (+40%)
 
 ### Bugfixes:
 - Hacienda Main Building removed from the ItemEffectTargetPool “All Hacienda Buildings” so that it can’t be boosted by Items which affect “All Production Buildings”.
