@@ -1,5 +1,7 @@
 # The Wholesome Hacienda Haul 
 
+![Thumbnail](https://user-images.githubusercontent.com/64583643/167893634-35b83fe1-ad75-4c35-acf5-541b7804e98d.png)
+
 This is a modular overhaul of the DLC10 Seeds of Change which touches nearly every aspect of newly introduced gameplay into the sandbox mod. Pick and choose which changes you like the most!
 
 ## German Description/Deutsche Beschreibung: 
