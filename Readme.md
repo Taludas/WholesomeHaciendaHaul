@@ -4,14 +4,20 @@
 
 This is a modular overhaul of the DLC10 Seeds of Change which touches nearly every aspect of newly introduced gameplay into the sandbox mod. Pick and choose which changes you like the most!
 
-## German Description/Deutsche Beschreibung: 
-[Hier](https://drive.google.com/file/d/1XuLAhn64quZtXhRGoY9ycfVPHxAzi_4x/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
+## How to use
+-
+- Be sure how to use either the [Anno Mod Manager](https://www.nexusmods.com/anno1800/mods/35) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
+- Make sure you always have the latest version of the Anno Mod Loader installed.
+- download the mod archieve from [GitHub releases](https://github.com/Taludas/WholesomeHaciendaHaul/releases)
 
 **I HIGHLY SUGGEST TO LOAD THE GAME UPWITH A PRE-DLC10 SAVE FOR COMPATIBILITY!**
 
 **Remove all older versions of this mod. If you remove modules mid play through you might get funny results.**
 
-## Changelog: 
+## German Description/Deutsche Beschreibung: 
+[Hier](https://drive.google.com/file/d/1XuLAhn64quZtXhRGoY9ycfVPHxAzi_4x/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
+
+## Changelog 
 
 ### Patch-Notes Version 1.2
 
@@ -82,7 +88,7 @@ Thanks to Lordys we now have a variety of new Hacienda specific buildings:
     - Hacienda Policies completely replaced and rebalanced (see below)
 
 
-## Initial Mod Description with feature overview.
+## Initial Mod Description with feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
 
 Dear Ubi Team, dear Annoholic community.
@@ -183,7 +189,7 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
     * Effects All NW Crop Farms and all NW Orchards
         * Replaces the standard horse drawn carriage with a modern tractor which allows for faster unloading at warehouses (5 seconds) and faster movement speed (+40%)
 
-### Bugfixes:
+### Bugfixes
 - Hacienda Main Building removed from the ItemEffectTargetPool “All Hacienda Buildings” so that it can’t be boosted by Items which affect “All Production Buildings”.
 - Hacienda Warehouse removed from the ItemEffectTargetPool “All Hacienda Buildings” so that it can’t be boosted by Items which affect “All Production Buildings”.
 - Jornalero Hacienda Residences are now affected by the boost of the Cordillera Set in the Zoo.
