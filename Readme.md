@@ -148,6 +148,8 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
         * Workforce needed +25%
         * Maintenance Costs +75%
 
+![Policy 1](https://user-images.githubusercontent.com/64583643/167889393-7435e0e6-2886-420d-990a-2c9ad9469d10.jpg)        
+
 - Decree 2: Local Factory Outlet Regulation (required Attractiveness: 700)
     * Effects All New World Residences:
         - Reduced Consumption of:
