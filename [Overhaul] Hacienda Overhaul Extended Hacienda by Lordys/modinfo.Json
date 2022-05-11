@@ -1,0 +1,70 @@
+{
+  "Version": "1.2",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul_ExtendedHacienda",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "English": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "French": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "German": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Italian": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Japanese": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Korean": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Polish": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Russian": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Spanish": "The Wholesome Hacienda Haul Extended Hacienda by Lordys",
+    "Taiwanese": "The Wholesome Hacienda Haul Extended Hacienda by Lordys"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This Mod contains new Hacienda buildings, perfectly fit to expand your New World Empire.",
+    "French": null,
+    "German": "Diese Mod enthält neue Hacienda-Gebäude, die perfekt geeignet sind, um Euer New World Empire zu erweitern.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}
