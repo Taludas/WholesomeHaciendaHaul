@@ -1,6 +1,6 @@
 {
   "Version": "1.2",
-  "ModID": "Taludas_TheWholesomeHaciendaHaul",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul_Base",
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
@@ -17,23 +17,23 @@
     "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": "The Wholesome Hacienda Haul",
-    "English": "The Wholesome Hacienda Haul",
-    "French": "The Wholesome Hacienda Haul",
-    "German": "The Wholesome Hacienda Haul",
-    "Italian": "The Wholesome Hacienda Haul",
-    "Japanese": "The Wholesome Hacienda Haul",
-    "Korean": "The Wholesome Hacienda Haul",
-    "Polish": "The Wholesome Hacienda Haul",
-    "Russian": "The Wholesome Hacienda Haul",
-    "Spanish": "The Wholesome Hacienda Haul",
-    "Taiwanese": "The Wholesome Hacienda Haul"
+    "Chinese": "The Wholesome Hacienda Haul Base",
+    "English": "The Wholesome Hacienda Haul Base",
+    "French": "The Wholesome Hacienda Haul Base",
+    "German": "The Wholesome Hacienda Haul Base",
+    "Italian": "The Wholesome Hacienda Haul Base",
+    "Japanese": "The Wholesome Hacienda Haul Base",
+    "Korean": "The Wholesome Hacienda Haul Base",
+    "Polish": "The Wholesome Hacienda Haul Base",
+    "Russian": "The Wholesome Hacienda Haul Base",
+    "Spanish": "The Wholesome Hacienda Haul Base",
+    "Taiwanese": "The Wholesome Hacienda Haul Base"
   },
   "Description": {
     "Chinese": null,
-    "English": "This is a modular overhaul of the DLC10 Seeds of Change which touches nearly every aspect of newly introduced gameplay into the sandbox mod. Pick and choose which changes you like the most!",
+    "English": "This is the Base Version of the Mod, without it no other module will work correctly!",
     "French": null,
-    "German": "Dies ist eine modulare Überarbeitung des DLC10 Keim der Hoffnung, die fast jeden Aspekt des neu eingeführten Gameplays in den Sandbox-Modus einbezieht. Wähle aus, welche Änderungen Dir am besten gefallen!",
+    "German": "Dies ist die Basisversion des Mods, ohne sie funktioniert kein anderes Modul korrekt!",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
