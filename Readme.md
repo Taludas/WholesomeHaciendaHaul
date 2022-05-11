@@ -10,7 +10,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 - Make sure you always have the latest version of the Anno Mod Loader installed.
 - download the mod archieve from [GitHub releases](https://github.com/Taludas/WholesomeHaciendaHaul/releases)
 
-**I HIGHLY SUGGEST TO LOAD THE GAME UPWITH A PRE-DLC10 SAVE FOR COMPATIBILITY!**
+**I HIGHLY SUGGEST TO LOAD THE GAME WITH A PRE-DLC10 SAVE FOR COMPATIBILITY!**
 
 **Remove all older versions of this mod. If you remove modules mid play through you might get funny results.**
 
