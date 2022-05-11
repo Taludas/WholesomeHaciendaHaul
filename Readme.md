@@ -151,12 +151,12 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
 - Decree 2: Local Factory Outlet Regulation (required Attractiveness: 700)
     * Effects All New World Residences:
         - Reduced Consumption of:
-            * Ponchos -25%
-            * Bombins-15%
-            * Coffee -10%
-            * Cigars -10%
-            * Extra happiness from Market/Hacienda +5
-            * Income -10%
+            - Ponchos -25%
+            - Bombins-15%
+            - Coffee -10%
+            - Cigars -10%
+        - Extra happiness from Market/Hacienda +5
+        - Income -10%
 
     * Effects All Clothing Factories, all Intermediate Good Producers, Coffee Roaster and Cigar Factory:
         * Extra Goods every third Cycle (1/3)
