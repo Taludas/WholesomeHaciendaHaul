@@ -19,17 +19,17 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 * Production time of fertilizer left at 1:30 after GU14.1, internal storage reduced to 2 tons to limit the range of the carts
       
 * Bugfixes:
- - Hacienda farms Banana, Cotton and Tobacco no longer need fertilities on the island in the Basic Gameplay Changes variant.
- - Chewing gum buildings (cinnamon orchard and chemical factory) now unlock at 2000 Obreros, not only the production chain. (Before you had to build the skyscrapers first to unlock these buildings.)
- - Visual bugs at the Extended Hacienda Guildhouse fixed: Foreman no longer bugs through the floor and a flag is rotated.
- - Chewing gum is now only demanded from 2000 Obreros. Previously 1500, the problem here was that the production chain was  uncovered at 1500 and unlocked at 2000.
- - Reset all changes to the internal stock to vanilla value, as the calculation of the transporter range depends proportionally on this. As a result, the Hacienda spice farm, for example, had a range of 125 tiles on stone roads in the extended version, which effectively covered the entire island, so that the hot sauce breweries were almost always approached directly, even if they were at the other end of the island. Now all farms have a range on stone roads of 25 tiles, as in Vanilla.
- - Positions of the Hacienda banana, cotton and tobacco farms in the Workforce Boost menu adjusted.
- - InfoDescription for various ConstructionCategories added and fixed for Hacienda Warehouse
- - Default decal skin for public buildings set to vanilla, so you always have to press Ctrl+V (or your hotkey for that) to switch the decal to Hacienda Ground
- - police and church as well as guildhouse now cause Mercier to react accordingly when they are built
- - locked all new relevant buildings for AI to prevent them from getting stuck
- - Hacienda Main Buidling added to the Influence Investment "Optimisation" AssetPool
+    - Hacienda farms Banana, Cotton and Tobacco no longer need fertilities on the island in the Basic Gameplay Changes variant.
+    - Chewing gum buildings (cinnamon orchard and chemical factory) now unlock at 2000 Obreros, not only the production chain. (Before you had to build the skyscrapers first to unlock these buildings.)
+    - Visual bugs at the Extended Hacienda Guildhouse fixed: Foreman no longer bugs through the floor and a flag is rotated.
+    - Chewing gum is now only demanded from 2000 Obreros. Previously 1500, the problem here was that the production chain was  uncovered at 1500 and unlocked at 2000.
+    - Reset all changes to the internal stock to vanilla value, as the calculation of the transporter range depends proportionally on this. As a result, the Hacienda spice farm, for example, had a range of 125 tiles on stone roads in the extended version, which effectively covered the entire island, so that the hot sauce breweries were almost always approached directly, even if they were at the other end of the island. Now all farms have a range on stone roads of 25 tiles, as in Vanilla.
+    - Positions of the Hacienda banana, cotton and tobacco farms in the Workforce Boost menu adjusted.
+    - InfoDescription for various ConstructionCategories added and fixed for Hacienda Warehouse
+    - Default decal skin for public buildings set to vanilla, so you always have to press Ctrl+V (or your hotkey for that) to switch the decal to Hacienda Ground
+    - police and church as well as guildhouse now cause Mercier to react accordingly when they are built
+    - locked all new relevant buildings for AI to prevent them from getting stuck
+    - Hacienda Main Buidling added to the Influence Investment "Optimisation" AssetPool
 
 ### Patch Notes Version 1.1.2
 
