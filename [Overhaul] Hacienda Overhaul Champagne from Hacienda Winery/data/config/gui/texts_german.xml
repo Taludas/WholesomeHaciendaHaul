@@ -1,0 +1,18 @@
+<ModOps>
+  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002310</GUID>
+      <Text>Hacienda Weinkeller</Text>
+    </Text>
+    <Text>
+      <GUID>1999002311</GUID>
+      <Text>Wein</Text>
+    </Text>
+    <Text>
+      <GUID>1999002312</GUID>
+      <Text>Die zunehmende Beliebtheit Eurer ständig wachsenden Hacienda hat viele Weinliebhaber auf Eure Insel gelockt. Der intensive Geschmack der sonnengereiften Trauben in Kombination mit einer Prise Zimt ergibt ein einzigartiges Bouquet. Die Reifung des jungen Weins in exklusiven Kirschholzfässern verfeinert seinen Geschmack noch mehr.</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

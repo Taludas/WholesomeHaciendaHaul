@@ -9,6 +9,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 - Be sure how to use either the [Anno Mod Manager](https://www.nexusmods.com/anno1800/mods/35) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
 - Make sure you always have the latest version of the Anno Mod Loader installed.
 - download the mod archieve from [GitHub releases](https://github.com/Taludas/WholesomeHaciendaHaul/releases)
+- **All mods from this archieve need the Base Module! Make sure to install it no matter what other mods you want to install from this package.** 
 
 **I HIGHLY SUGGEST TO LOAD THE GAME WITH A PRE-DLC10 SAVE FOR COMPATIBILITY!**
 
@@ -18,6 +19,11 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 [Hier](https://drive.google.com/file/d/1XuLAhn64quZtXhRGoY9ycfVPHxAzi_4x/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
 
 ## Changelog 
+
+### Patch Notes Version 1.3
+
+* Module 1: Hacienda Winery added. Available from 1 investor skyscraper level 3. Requires grapes, cinnamon and cherry wood. Produces "Champagne" (for now...).
+* Update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as my mod farms and Jakob's mod farms can now be placed freely in their radius. The original mod is no longer required.
 
 ### Patch-Notes Version 1.2
 

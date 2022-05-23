@@ -218,7 +218,7 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="AddNextSibling" GUID="100657">
+    <ModOp Type="addNextSibling" GUID="100657">
         <Asset>
             <Template>Farmfield</Template>
             <Values>
@@ -369,7 +369,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="AddNextSibling" GUID="24796">
+    <ModOp Type="addNextSibling" GUID="24796">
         <Asset>
             <Template>Recipe</Template>
             <Values>
@@ -1016,7 +1016,6 @@
                         <Percental>1</Percental>
                     </WorkforceAmountUpgrade>
                 </BuildingUpgrade>
-                <Buff />
                 <CultureUpgrade>
                     <AttractivenessUpgrade>
                         <Value>5</Value>
@@ -1447,11 +1446,14 @@
                     <LineID>36524</LineID>
                 </Text>
                 <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value>100</Value>
-                        <Percental>1</Percental>
-                    </ProductivityUpgrade>
                     <AddedFertility>120013</AddedFertility>
+                    <AdditionalOutput>
+                        <Item>
+                          <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                          <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                          <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
                 </FactoryUpgrade>
                 <BuildingUpgrade />
                 <Buff />

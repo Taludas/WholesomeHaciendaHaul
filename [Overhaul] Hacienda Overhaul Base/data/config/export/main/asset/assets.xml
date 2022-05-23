@@ -53,16 +53,17 @@
 
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24770']"></ModOp>
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='25224']"></ModOp>
-    <ModOp Type="remove" GUID="25178" Path="/Values/ConstructionCategory/BuildingList/Item[Building='24768']"></ModOp>
-
     <ModOp Type="remove" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='25178']"></ModOp>
+
+    <!-- Remove the modul of empty nw farm for now due to constant crashes after selecting a recipe from blank -->
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']"></ModOp>
 
     <ModOp Type="replace" GUID="25178" Path="/Values/Standard/IconFilename">
         <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_tree_3.png</IconFilename>
     </ModOp>
 
     <!-- ConstructionMenu Hacienda -->
-    <ModOp Type="AddNextSibling" GUID="25000194">
+    <ModOp Type="addNextSibling" GUID="25000194">
         <Asset>
             <Template>ConstructionCategory</Template>
             <Values>
@@ -121,7 +122,7 @@
     </ModOp>
 
     <!-- Baumenü Hacienda hinzufügen neben Obreros -->
-    <ModOp Type="AddNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='25000194']">
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='25000194']">
         <Item>
             <Category>1999002020</Category>
         </Item>
@@ -856,7 +857,7 @@
         </FactoryBase>
     </ModOp>
 
-    <!-- Hacienda Farmen aufteilen in NW und OW Seeds - Seperate Gebäude + Rezeptbücher -->
+    <!-- #Hacienda Farmen aufteilen in NW und OW Seeds - Seperate Gebäude + Rezeptbücher -->
     <!-- Bananas -->
     <ModOp Type="addNextSibling" GUID="24798">
         <Asset>
@@ -1091,7 +1092,7 @@
     </ModOp>
 
 
-    <ModOp Type="AddNextSibling" GUID="24796">
+    <ModOp Type="addNextSibling" GUID="24796">
         <Asset>
             <Template>Recipe</Template>
             <Values>
@@ -1358,7 +1359,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="AddNextSibling" GUID="24796">
+    <ModOp Type="addNextSibling" GUID="24796">
         <Asset>
             <Template>Recipe</Template>
             <Values>
@@ -1624,7 +1625,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="AddNextSibling" GUID="24796">
+    <ModOp Type="addNextSibling" GUID="24796">
         <Asset>
             <Template>Recipe</Template>
             <Values>
@@ -1892,11 +1893,12 @@
         </Asset>
     </ModOp>
 
+    <!-- Needs to be removed for the moment because of not fixable ctd when selecting any recipe from an empty recipe farm
     <ModOp Type="addNextSibling" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']">
         <Item>
             <ModuleGUID>1999002015</ModuleGUID>
         </Item>
-    </ModOp>
+    </ModOp> -->
 
     <!-- Trigger all new Buildings and Recipes with 1 Obrero -->
     <ModOp Type="addNextSibling" GUID="130248">
