@@ -1,0 +1,70 @@
+{
+  "Version": "1.3",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul_FreeFarmfieldPlacement",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "English": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "French": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "German": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Italian": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Japanese": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Korean": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Polish": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Russian": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Spanish": "The Wholesome Hacienda Haul Free Farmfield Placement",
+    "Taiwanese": "The Wholesome Hacienda Haul Free Farmfield Placement"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This Mod updates the not longer maintained mod from Finnem. All Farm modules and animal pastures are freely placable inside the radius of the farm. Also caontains my and Jakobs mod farms.",
+    "French": null,
+    "German": "Dieser Mod aktualisiert den nicht mehr weitergeführten Mod von Finnem. Alle Farmmodule und Tierweiden sind innerhalb des Radius der Farm frei platzierbar. Beinhaltet auch meine und Jakobs Mod-Farmen.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}
