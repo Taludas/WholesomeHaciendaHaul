@@ -21,6 +21,9 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 
 ## Changelog 
 
+### Patch Notes Version 1.3.1
+* Set SeconPartyRelevant to 0 for the Hacienda Winery, so that AIs won't get messed up while using it.
+
 ### Patch Notes Version 1.3
 
 * Module 1: Hacienda Winery added. Available from 1 investor skyscraper level 3. Requires grapes, cinnamon and cherry wood. Produces "Champagne" (for now...).
