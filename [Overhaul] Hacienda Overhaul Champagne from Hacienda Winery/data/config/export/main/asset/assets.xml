@@ -26,6 +26,7 @@
           <BuildingCategoryName>100000</BuildingCategoryName>
           <BuildModeRandomRotation>180</BuildModeRandomRotation>
           <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
         <Blocking />
         <Object>
