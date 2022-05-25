@@ -24,7 +24,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 <details>
     <summary>Patch Notes Version 1.3.1</summary>
 
-* Set SeconPartyRelevant to 0 for the Hacienda Winery, so that AIs won't get messed up while using it.
+* Set SecondPartyRelevant to 0 for the Hacienda Winery, so that AIs won't get messed up while using it.
 </details>
 
 <details>
