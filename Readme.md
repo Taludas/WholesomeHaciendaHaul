@@ -30,10 +30,10 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 <details>
     <summary>Patch Notes Version 1.3</summary>
 
-![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
+![banner](https://user-images.githubusercontent.com/64583643/170326244-da7a2b35-e93e-43f5-9f70-928a5a4571c3.png)
 * Module 1: Hacienda Winery added. Available from 1 investor skyscraper level 3. Requires grapes, cinnamon and cherry wood. Produces "Champagne" (for now...).
 
-![banner](https://user-images.githubusercontent.com/64583643/170326244-da7a2b35-e93e-43f5-9f70-928a5a4571c3.png)
+![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
 * Update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as my mod farms and Jakob's mod farms can now be placed freely in their radius. The original mod is no longer required.
 </details>
 
