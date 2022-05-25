@@ -1,5 +1,4 @@
 <ModOps>
-  <SecondPartyRelevant>0</SecondPartyRelevant>
   <!-- Integriere Lordys Public Mod Buildings to the game -> Hacienda Build Menu -->
 
   <!-- #Hacienda Church -->
@@ -771,7 +770,7 @@
     </Item>
   </ModOp>
 
-  <ModOp Type="AddNextSibling" GUID="25178">
+  <ModOp Type="addNextSibling" GUID="25178">
     <Asset>
       <Template>ConstructionCategory</Template>
       <Values>
@@ -1822,7 +1821,7 @@
 
   <!-- Construction Menu Hacienda Border Wall Single ornaments -->
 
-  <ModOp Type="AddNextSibling" GUID="25178">
+  <ModOp Type="addNextSibling" GUID="25178">
     <Asset>
       <Template>ConstructionCategory</Template>
       <Values>
