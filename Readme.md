@@ -22,20 +22,20 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 ## Changelog 
 
 <details>
-    <summary>**Patch Notes Version 1.3.1**</summary>
+    <summary>Patch Notes Version 1.3.1</summary>
 
 * Set SeconPartyRelevant to 0 for the Hacienda Winery, so that AIs won't get messed up while using it.
 </details>
 
 <details>
-    <summary>**Patch Notes Version 1.3**</summary>
+    <summary>Patch Notes Version 1.3</summary>
 
 * Module 1: Hacienda Winery added. Available from 1 investor skyscraper level 3. Requires grapes, cinnamon and cherry wood. Produces "Champagne" (for now...).
 * Update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as my mod farms and Jakob's mod farms can now be placed freely in their radius. The original mod is no longer required.
 </details>
 
 <details>
-    <summary>**Patch Notes Version 1.2**</summary>
+    <summary>Patch Notes Version 1.2</summary>
 
 * Adjustments for compatibility with Burrito Boom
 * New Hacienda Town Hall added to Extended Hacienda module
@@ -57,13 +57,13 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 </details>
 
 <details>
-    <summary>**Patch Notes Version 1.1.2**</summary>
+    <summary>Patch Notes Version 1.1.2</summary>
 
 * Hotfix for all Localisations except English. Sorry for the inconvienence, I accidentally zipped up older texts files for the other languages.
 </details>
 
 <details>
-    <summary>**Patch Notes Version 1.1.1**</summary>
+    <summary>Patch Notes Version 1.1.1</summary>
 
 * Just some small bugfixes:
     - Obrero Residences can't be copied any longer. If selected with the Copy Tool, corresponding Jornalero residences will be used.
@@ -71,7 +71,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 </details>
 
 <details>
-    <summary>**Patch Notes Version 1.1**</summary>
+    <summary>Patch Notes Version 1.1</summary>
 
 Upon popular demand, I decided to split the mod into modules. **ALL** Modules require the Base Module to be inside your mod folder. All other modules are optional. Following is a brief overview about each modules features:
 
