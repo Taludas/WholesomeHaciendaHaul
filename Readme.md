@@ -30,7 +30,10 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 <details>
     <summary>Patch Notes Version 1.3</summary>
 
+![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
 * Module 1: Hacienda Winery added. Available from 1 investor skyscraper level 3. Requires grapes, cinnamon and cherry wood. Produces "Champagne" (for now...).
+
+![banner](https://user-images.githubusercontent.com/64583643/170326244-da7a2b35-e93e-43f5-9f70-928a5a4571c3.png)
 * Update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as my mod farms and Jakob's mod farms can now be placed freely in their radius. The original mod is no longer required.
 </details>
 
@@ -78,6 +81,7 @@ Upon popular demand, I decided to split the mod into modules. **ALL** Modules re
 Pick and choose what ever combination is your favourite :D
 
 * Base:
+    ![banner](https://user-images.githubusercontent.com/64583643/170326044-14f16f0a-9854-40e2-af8c-aba3b4ea021d.png)
     - New separate build menu for all Hacienda buildings
     - New Icons for all Hacienda Modules for easier identification and accessibility
     - Hacienda Streets now unlimited and working like normal streets
@@ -87,11 +91,13 @@ Pick and choose what ever combination is your favourite :D
     - Bugfixes
 
 * BasicGameplay changes:
+    ![banner](https://user-images.githubusercontent.com/64583643/170326070-ad4251a2-c6fc-45eb-a529-dd5c7961f0f0.png)
     - Radius of the Hacienda now up to 80
     - Fertiliser Factory got buffed and hasn’t to be build inside the Hacienda Radius
 
 * ExtendedHacienda by Lordys:
-Thanks to Lordys we now have a variety of new Hacienda specific buildings:
+    ![banner](https://user-images.githubusercontent.com/64583643/170326118-9b8d5fd9-ba7a-412e-b45b-fe8ec3c32edd.png)
+    Thanks to Lordys we now have a variety of new Hacienda specific buildings:
     - Small Marketstands → Satisfy need of Hacienda for Residences in its range
     - Small Jornalero and Obrero Residences (2x3) → 8/\[12\] and 13/\[20\] pop
     - Hacienda Chapel → Satisfies Chapel Need
@@ -101,12 +107,14 @@ Thanks to Lordys we now have a variety of new Hacienda specific buildings:
     - One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
 
 * ExtendedGameplay changes:
+    ![banner](https://user-images.githubusercontent.com/64583643/170326142-cfb81268-9a48-4a72-80e2-e8713faf38c6.png)
     - Hacienda Warehouse now up to 100 tons of storage and TWO transporter
     - Hacienda residences have been overhauled completely (see below)
     - Fertilities mater again (see below)
     - Hacienda Breweries: checked and adjusted (see below)
 
 * PolicyOverhaul:
+    ![banner](https://user-images.githubusercontent.com/64583643/170326173-21795d8f-869d-4086-adf1-56fa7d664698.png)
     - Hacienda Policies completely replaced and rebalanced (see below)
 </details>
 
