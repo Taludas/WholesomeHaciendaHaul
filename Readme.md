@@ -19,7 +19,15 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 ## German Description/Deutsche Beschreibung: 
 [Hier](https://drive.google.com/file/d/1XuLAhn64quZtXhRGoY9ycfVPHxAzi_4x/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
 
+## Mod Images
+You can find a gallery of images from my mod [here](https://drive.google.com/drive/folders/1COozbj61okJG_NbKA_GmyTnj4wGiRneP?usp=sharing).
+
 ## Changelog 
+<details>
+    <summary>Patch Notes Version 1.3.2</summary>
+
+* Added the Hacienda Vineyard to the ItemEffectTargetPool "All alcohol production chains", so that I will be buffed by various festivals.
+</details>
 
 <details>
     <summary>Patch Notes Version 1.3.1</summary>
