@@ -322,7 +322,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="25894,25674,192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>1999002010</GUID>
         </Item>
