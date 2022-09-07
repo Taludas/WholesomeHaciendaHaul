@@ -676,6 +676,9 @@
     <ModOp Type="add" GUID="24801,25064,25126,25350,25508,1999002310" Path="/Values/Culture">
         <Attractiveness>-5</Attractiveness>
     </ModOp>
+    <ModOp Type="replace" GUID="24801,25064,25126,25350,25508,1999002310" Path="/Values/Culture/CultureType">
+        <CultureType>Factory</CultureType>
+    </ModOp>
 
     <!-- Breweries mit höheren Baukosten -->
     <ModOp Type="replace" GUID="24801,25064,25126,25350,25508,1999002310" Path="/Values/Cost/Costs">

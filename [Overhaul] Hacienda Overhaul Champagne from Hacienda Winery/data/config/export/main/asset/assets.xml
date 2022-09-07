@@ -18,7 +18,7 @@
         <Standard>
           <GUID>1999002310</GUID>
           <Name>Hacienda Wine Brewery</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_champagne.png</IconFilename>
+          <IconFilename>data/modgraphics/ui/icon_wine.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
         <Building>
@@ -220,7 +220,7 @@
         <Standard>
           <GUID>1999002311</GUID>
           <Name>Recipe_01 Wine</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_champagne.png</IconFilename>
+          <IconFilename>data/modgraphics/ui/icon_wine.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>

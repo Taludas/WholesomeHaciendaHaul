@@ -54,13 +54,16 @@
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24770']"></ModOp>
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='25224']"></ModOp>
     <ModOp Type="remove" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='25178']"></ModOp>
+    <ModOp Type="remove" GUID="500946" Path="/Values/ConstructionCategory/BuildingList/Item[Building='25178']"></ModOp>
 
-    <!-- Remove the modul of empty nw farm for now due to constant crashes after selecting a recipe from blank -->
-    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']"></ModOp>
+    <!-- Remove the modul of empty nw farm for now due to constant crashes after selecting a recipe from blank #obsolete: fixed in Policies Mod
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']"></ModOp> -->
 
     <ModOp Type="replace" GUID="25178" Path="/Values/Standard/IconFilename">
         <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_tree_3.png</IconFilename>
     </ModOp>
+
+    <ModOp Type="remove" GUID="25178" Path="/Values/ConstructionCategory/BuildingList/Item[Building='24768']"></ModOp>
 
     <!-- ConstructionMenu Hacienda -->
     <ModOp Type="addNextSibling" GUID="25000194">
