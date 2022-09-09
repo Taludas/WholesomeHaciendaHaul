@@ -28,8 +28,8 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
 
 * Minor Bugfixes:
     - Found the cause of the crash when switching recipies between the Hacienda Farms: I forgot to change the relevant asset entry for the Blank Hacienda Farm in my Policies Overhaul which gives the tractor boost to the farms. Though the blank farm never produces anything, the game doesn't like the missmatch between the blank farm and the respective recipe farm. Blank Farm is now back into the modules of the Hacienda menu.
-    - For whatever reason the Hacienda Breweries had their attractivness impact shown in the city tab where only positive attractivness values are presented by default. I changed it to Factory. (Maybe the devs once planned to give them an attractive boost to the city and justed had an typo with the minus???)
-    - Cleared an issue where the Hacienda Tab in the Build Menu with the Hacienda Church was visable and buildable to early in the game, because I added the Church to the AssetPool Chapel, which is by default unhidden/unlocked with Jornaleros.
+    - For whatever reason the Hacienda Breweries had their attractivness impact shown in the city tab where only positive attractivness values are presented by default. I changed it to Factory. (Maybe the devs once planned to give them an attractiveness boost to the city and just had an typo with the minus???)
+    - Cleared an issue where the Hacienda Tab in the Build Menu with the Hacienda Church was visible and buildable too early in the game, because I added the Church to the AssetPool Chapel, which is by default unhidden/unlocked with Jornaleros.
     - If you use my Production Chain Overhaul or the Shared Goods Mod, the Hacienda Winery and its recipe now show the correct icon for Wine instead of Champagne.
     - Cleaned up the buildmenu of the Hacienda Overhaul, somehow the Hacienda was still in the Obreros Tab, but inside the Hacienda Ornaments Tab (that shouldn't be there in the first place). It should be very clear now, that the Hacienda and its Ornaments can only be found in the Hacienda Build Menu Tab, as intended. 
 </details>
