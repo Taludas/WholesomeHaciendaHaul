@@ -26,7 +26,7 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
 <details>
     <summary>Patch Notes Version 1.3.3</summary>
 
-* Minor Buckfixes:
+* Minor Bugfixes:
     - Found the cause of the crash when switching recipies between the Hacienda Farms: I forgot to change the relevant asset entry for the Blank Hacienda Farm in my Policies Overhaul which gives the tractor boost to the farms. Though the blank farm never produces anything, the game doesn't like the missmatch between the blank farm and the respective recipe farm. Blank Farm is now back into the modules of the Hacienda menu.
     - For whatever reason the Hacienda Breweries had their attractivness impact shown in the city tab where only positive attractivness values are presented by default. I changed it to Factory. (Maybe the devs once planned to give them an attractive boost to the city and justed had an typo with the minus???)
     - Cleared an issue where the Hacienda Tab in the Build Menu with the Hacienda Church was visable and buildable to early in the game, because I added the Church to the AssetPool Chapel, which is by default unhidden/unlocked with Jornaleros.
