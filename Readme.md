@@ -39,7 +39,8 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
     - Found the cause of the crash when switching recipies between the Hacienda Farms: I forgot to change the relevant asset entry for the Blank Hacienda Farm in my Policies Overhaul which gives the tractor boost to the farms. Though the blank farm never produces anything, the game doesn't like the missmatch between the blank farm and the respective recipe farm. Blank Farm is now back into the modules of the Hacienda menu.
     - Removed some Bugfixes silently introduced with GU15.
 
-* New features:    
+* New features:
+    ![Banner](https://user-images.githubusercontent.com/64583643/192149310-8fcbf8b6-b878-48c3-9269-0a2a9c9fdfa7.png)    
     - Added the Hacienda Streets from Muggenstürmer's [CityOrnaments Mod](https://www.nexusmods.com/anno1800/mods/93) as an optional and seperate mod to replace my Hacienda streets. The streets now feature bridges and railway crossings. Thanks to Muggen for letting me use his fantastic work!
 </details>
 
