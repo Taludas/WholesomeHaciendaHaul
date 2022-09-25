@@ -24,6 +24,26 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.4.0</summary>
+
+* Update for GU15:
+    - Updated Hacienda Quarters for new Lifestyle needs and RequiredtobeBuilding change:
+        - Base Version: 2x3 Jornalero Residences are updated to 8 Jornaleros + 12 from Lifestyle Needs (20 total).
+        - Base Version: 2x3 Obrero Residences are updated to 16 Obreros + 24 from Lifestyle Needs (40 total).
+        - Extended Gameplaychanges: 4x4 Jornalero Residences are updated to 30 Jornaleros + 30 from Lifestyle Needs (60 total).
+        - Extended Gameplaychanges: 4x4 Obrero Residences are updated to 70 Obreros + 60 from Lifestyle Needs (130 total).    
+        - Extended Gameplaychanges: 2x3 Jornalero Residences are updated to 13 Jornaleros + 12 from Lifestyle Needs (25 total).
+        - Extended Gameplaychanges: 2x3 Obrero Residences are updated to 26 Obreros + 24 from Lifestyle Needs (50 total).
+
+* Minor Bugfixes:
+    - Found the cause of the crash when switching recipies between the Hacienda Farms: I forgot to change the relevant asset entry for the Blank Hacienda Farm in my Policies Overhaul which gives the tractor boost to the farms. Though the blank farm never produces anything, the game doesn't like the missmatch between the blank farm and the respective recipe farm. Blank Farm is now back into the modules of the Hacienda menu.
+    - Removed some Bugfixes silently introduced with GU15.
+
+* New features:    
+    - Added the Hacienda Streets from Muggenstürmer's [CityOrnaments Mod](https://www.nexusmods.com/anno1800/mods/93) as an optional and seperate mod to replace my Hacienda streets. The streets now feature bridges and railway crossings. Thanks to Muggen for letting me use his fantastic work!
+</details>
+
+<details>
     <summary>Patch Notes Version 1.3.3</summary>
 
 * Minor Bugfixes:
