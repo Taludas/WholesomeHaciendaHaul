@@ -1,7 +1,7 @@
 <ModOps>
 
- 
-<!-- #Hacienda Radius fixen -->
+
+    <!-- #Hacienda Radius fixen -->
 
     <!-- Hacienda Radius überarbeiten -->
     <ModOp Type="add" GUID="24768" Path="/Values/Hacienda">
@@ -59,11 +59,11 @@
 
     <!-- Hacienda Straßenreichweite überarbeiten -->
     <ModOp Type="add" GUID="24768" Path="/Values/PublicService">
-		<FullSatisfactionDistance>100</FullSatisfactionDistance>
-		<NoSatisfactionDistance>120</NoSatisfactionDistance>
-	</ModOp>
+        <FullSatisfactionDistance>100</FullSatisfactionDistance>
+        <NoSatisfactionDistance>120</NoSatisfactionDistance>
+    </ModOp>
 
-<!-- #Überarbeitung Düngerproduktion -->
+    <!-- #Überarbeitung Düngerproduktion -->
 
     <ModOp Type="replace" GUID="24805" Path="/Values/FactoryBase">
         <FactoryBase>
