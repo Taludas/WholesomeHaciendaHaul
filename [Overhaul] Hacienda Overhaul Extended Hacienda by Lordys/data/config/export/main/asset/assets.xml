@@ -2172,7 +2172,8 @@
         <FeedbackController />
         <Residence7>
           <PopulationLevel7>15000005</PopulationLevel7>
-          <ResidentMax>8</ResidentMax>
+          <ResidentMax>20</ResidentMax>
+          <ResidentsRequiredForUpgrade>8</ResidentsRequiredForUpgrade>
         </Residence7>
         <LogisticNode />
         <AmbientMoodProvider />
@@ -2193,36 +2194,21 @@
 
 
   <!-- Anpassung der Verbrauchsgüter auf 8 Pop und neues Haus -->
-  <ModOp Type="addNextSibling" GUID="15000005" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']">
+  <ModOp Type="add" GUID="15000005" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']/RequiredBuildings">
     <Item>
-      <Product>25546</Product>
-      <SupplyWeight>7</SupplyWeight>
-      <RequiredToBeBuilding>1999002091</RequiredToBeBuilding>
+      <RequiredBuilding>1999002091</RequiredBuilding>
     </Item>
   </ModOp>
 
-  <ModOp Type="addNextSibling" GUID="15000005" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010216']">
+  <ModOp Type="add" GUID="15000005" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010216']/RequiredBuildings">
     <Item>
-      <Product>1010216</Product>
-      <Amount>0.000555556</Amount>
-      <SupplyWeight>4</SupplyWeight>
-      <MoneyValue>25</MoneyValue>
-      <FullWeightPopulationCount>300</FullWeightPopulationCount>
-      <NoWeightPopulationCount>299</NoWeightPopulationCount>
-      <RequiredToBeBuilding>1999002091</RequiredToBeBuilding>
+      <RequiredBuilding>1999002091</RequiredBuilding>
     </Item>
   </ModOp>
 
-  <ModOp Type="addNextSibling" GUID="15000005" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']">
+  <ModOp Type="add" GUID="15000005" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']/RequiredBuildings">
     <Item>
-      <Product>25506</Product>
-      <Amount>0.00041667</Amount>
-      <SupplyWeight>4</SupplyWeight>
-      <IsOptionalHappinessValue>1</IsOptionalHappinessValue>
-      <MoneyValue>10</MoneyValue>
-      <FullWeightPopulationCount>300</FullWeightPopulationCount>
-      <NoWeightPopulationCount>299</NoWeightPopulationCount>
-      <RequiredToBeBuilding>1999002091</RequiredToBeBuilding>
+      <RequiredBuilding>1999002091</RequiredBuilding>
     </Item>
   </ModOp>
 
@@ -2264,6 +2250,14 @@
             </Item>
             <Item>
               <Product>25506</Product>
+              <AdditionalSupply>-2</AdditionalSupply>
+            </Item>
+            <Item>
+              <Product>536</Product>
+              <AdditionalSupply>-1</AdditionalSupply>
+            </Item>
+            <Item>
+              <Product>2524</Product>
               <AdditionalSupply>-2</AdditionalSupply>
             </Item>
           </InputBenefitModifier>
@@ -2354,7 +2348,7 @@
         <FeedbackController />
         <Residence7>
           <PopulationLevel7>15000006</PopulationLevel7>
-          <ResidentMax>12</ResidentMax>
+          <ResidentMax>40</ResidentMax>
         </Residence7>
         <LogisticNode />
         <AmbientMoodProvider />
@@ -2376,44 +2370,22 @@
   </ModOp>
 
 
-  <!-- Anpassung der Verbrauchsgüter auf 12 Pop und neues Haus -->
-  <ModOp Type="addNextSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']">
+  <!-- Anpassung der Verbrauchsgüter auf 15 Pop und neues Haus -->
+  <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']/RequiredBuildings">
     <Item>
-      <Product>25546</Product>
-      <SupplyWeight>7</SupplyWeight>
-      <RequiredToBeBuilding>1999002092</RequiredToBeBuilding>
+      <RequiredBuilding>1999002092</RequiredBuilding>
     </Item>
   </ModOp>
 
-  <ModOp Type="remove" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']"></ModOp>
-
-  <ModOp Type="addPrevSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+  <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']/RequiredBuildings">
     <Item>
-      <Product>25506</Product>
-      <Amount>0.000476191</Amount>
-      <SupplyWeight>4</SupplyWeight>
-      <MoneyValue>10</MoneyValue>
-      <RequiredToBeBuilding>24793</RequiredToBeBuilding>
+      <RequiredBuilding>1999002092</RequiredBuilding>
     </Item>
   </ModOp>
 
-  <ModOp Type="addPrevSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+  <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']/RequiredBuildings">
     <Item>
-      <Product>25506</Product>
-      <Amount>0.000476191</Amount>
-      <SupplyWeight>4</SupplyWeight>
-      <MoneyValue>10</MoneyValue>
-      <RequiredToBeBuilding>1999002092</RequiredToBeBuilding>
-    </Item>
-  </ModOp>
-
-  <ModOp Type="addNextSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']">
-    <Item>
-      <Product>25131</Product>
-      <Amount>0.000952381</Amount>
-      <SupplyWeight>4</SupplyWeight>
-      <MoneyValue>40</MoneyValue>
-      <RequiredToBeBuilding>1999002092</RequiredToBeBuilding>
+      <RequiredBuilding>1999002092</RequiredBuilding>
     </Item>
   </ModOp>
 
@@ -2443,11 +2415,11 @@
             </Item>
             <Item>
               <Product>25506</Product>
-              <AdditionalSupply>-2</AdditionalSupply>
+              <AdditionalSupply>-3</AdditionalSupply>
             </Item>
             <Item>
               <Product>120033</Product>
-              <AdditionalSupply>-1</AdditionalSupply>
+              <AdditionalSupply>-2</AdditionalSupply>
             </Item>
             <Item>
               <Product>120043</Product>
@@ -2455,11 +2427,11 @@
             </Item>
             <Item>
               <Product>120035</Product>
-              <AdditionalSupply>-3</AdditionalSupply>
+              <AdditionalSupply>-2</AdditionalSupply>
             </Item>
             <Item>
               <Product>25131</Product>
-              <AdditionalSupply>-3</AdditionalSupply>
+              <AdditionalSupply>-2</AdditionalSupply>
             </Item>
             <Item>
               <Product>120032</Product>
@@ -2470,8 +2442,16 @@
               <AdditionalSupply>-1</AdditionalSupply>
             </Item>
             <Item>
-              <Product>1010206</Product>
-              <AdditionalSupply>-1</AdditionalSupply>
+              <Product>535</Product>
+              <AdditionalSupply>-2</AdditionalSupply>
+            </Item>
+            <Item>
+              <Product>536</Product>
+              <AdditionalSupply>-2</AdditionalSupply>
+            </Item>
+            <Item>
+              <Product>2524</Product>
+              <AdditionalSupply>-2</AdditionalSupply>
             </Item>
           </InputBenefitModifier>
         </PopulationUpgrade>
