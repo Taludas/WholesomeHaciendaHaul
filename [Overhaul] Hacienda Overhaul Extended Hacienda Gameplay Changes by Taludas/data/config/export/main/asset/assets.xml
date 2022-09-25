@@ -372,39 +372,26 @@
 
     <!-- #Hacienda Häuser balancing -->
 
-    <!-- Hacienda Jornaleros auf 30 erhöhen-->
-    <ModOp Type="replace" GUID="24792" Path="/Values/Residence7">
-        <Residence7>
-            <PopulationLevel7>15000005</PopulationLevel7>
-            <ResidentMax>30</ResidentMax>
-        </Residence7>
+    <!-- Hacienda Jornaleros auf 60 erhöhen-->
+    <ModOp Type="replace" GUID="24792" Path="/Values/Residence7/ResidentMax">
+        <ResidentMax>60</ResidentMax>
+    </ModOp>
+    <ModOp Type="replace" GUID="24792" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+        <ResidentsRequiredForUpgrade>30</ResidentsRequiredForUpgrade>
     </ModOp>
 
-    <ModOp Type="replace" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
-        <InputBenefitModifier>
-            <Item>
-                <Product>120033</Product>
-                <AdditionalSupply>1</AdditionalSupply>
-            </Item>
-            <Item>
-                <Product>120043</Product>
-                <AdditionalSupply>2</AdditionalSupply>
-            </Item>
-            <Item>
-                <Product>25506</Product>
-                <AdditionalSupply>4</AdditionalSupply>
-            </Item>
-            <Item>
-                <Product>1010216</Product>
-                <AdditionalSupply>3</AdditionalSupply>
-            </Item>
-        </InputBenefitModifier>
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>6</AdditionalSupply>
+        </Item>
     </ModOp>
 
-    <ModOp Type="replace" GUID="24792" Path="/Values/UpgradeList">
-        <UpgradeList>
-            <DefaultBuff>25742</DefaultBuff>
-        </UpgradeList>
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>1010216</Product>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
     </ModOp>
 
     <!-- Obrero-Hacienda bekommen 3 Attraktivität pro Haus -->
@@ -414,11 +401,11 @@
         </Culture>
     </ModOp>
 
-    <!-- Hacienda Obreros auf 55 erhöhen-->
+    <!-- Hacienda Obreros auf 130 erhöhen-->
     <ModOp Type="replace" GUID="24793" Path="/Values/Residence7">
         <Residence7>
             <PopulationLevel7>15000006</PopulationLevel7>
-            <ResidentMax>55</ResidentMax>
+            <ResidentMax>130</ResidentMax>
         </Residence7>
     </ModOp>
 
@@ -436,15 +423,17 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120037']"></ModOp>
-    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120032']"></ModOp>
-    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010206']"></ModOp>
-    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120035']"></ModOp>
-
     <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
         <Item>
             <Product>25506</Product>
-            <AdditionalSupply>6</AdditionalSupply>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>120035</Product>
+            <AdditionalSupply>2</AdditionalSupply>
         </Item>
     </ModOp>
 
@@ -455,15 +444,45 @@
         </Item>
     </ModOp>
 
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']">
+        <FullWeightPopulationCount>600</FullWeightPopulationCount>
+        <NoWeightPopulationCount>299</NoWeightPopulationCount>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120037']">
+        <Item>
+            <Product>120037</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120032']">
+        <Item>
+            <Product>120032</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010206']">
+        <Item>
+            <Product>1010206</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
     <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs">
         <Item>
             <Product>135186</Product>
             <Amount>0.0000866667</Amount>
-            <SupplyWeight>5</SupplyWeight>
+            <SupplyWeight>7</SupplyWeight>
             <MoneyValue>25</MoneyValue>
             <FullWeightPopulationCount>2500</FullWeightPopulationCount>
             <NoWeightPopulationCount>1999</NoWeightPopulationCount>
-            <RequiredToBeBuilding>24793</RequiredToBeBuilding>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
         </Item>
     </ModOp>
 
@@ -471,17 +490,16 @@
         <Item>
             <Product>135233</Product>
             <Amount>0.00005</Amount>
-            <SupplyWeight>5</SupplyWeight>
+            <SupplyWeight>10</SupplyWeight>
             <MoneyValue>40</MoneyValue>
             <FullWeightPopulationCount>3000</FullWeightPopulationCount>
             <NoWeightPopulationCount>2499</NoWeightPopulationCount>
-            <RequiredToBeBuilding>24793</RequiredToBeBuilding>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
         </Item>
-    </ModOp>
-
-    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']">
-        <FullWeightPopulationCount>600</FullWeightPopulationCount>
-        <NoWeightPopulationCount>299</NoWeightPopulationCount>
     </ModOp>
 
     <!-- Boost Items Rathaus mit Verbesserung für Hacienda-Bewohner -->
@@ -715,15 +733,15 @@
     <ModOp Type="replace" GUID="1999002310" Path="/Values/Maintenance">
         <Maintenance>
             <Maintenances>
-              <Item>
-                <Product>1010017</Product>
-                <Amount>250</Amount>
-                <InactiveAmount>125</InactiveAmount>
-              </Item>
-              <Item>
-                <Product>1010367</Product>
-                <Amount>150</Amount>
-              </Item>
+                <Item>
+                    <Product>1010017</Product>
+                    <Amount>250</Amount>
+                    <InactiveAmount>125</InactiveAmount>
+                </Item>
+                <Item>
+                    <Product>1010367</Product>
+                    <Amount>150</Amount>
+                </Item>
             </Maintenances>
         </Maintenance>
     </ModOp>
@@ -731,69 +749,33 @@
     <!-- #Anpassung Lordys 2x3 Häuser auf die neuen Bedürfnisse -->
     <!-- Jornaleros -->
 
-    <ModOp Type="replace" GUID="1999002091" Path="/Values/Residence7">
-        <Residence7>
-            <PopulationLevel7>15000005</PopulationLevel7>
-            <ResidentMax>12</ResidentMax>
-        </Residence7>
+    <ModOp Type="replace" GUID="1999002091" Path="/Values/Residence7/ResidentMax">
+        <ResidentMax>25</ResidentMax>
+    </ModOp>
+    <ModOp Type="replace" GUID="1999002091" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+        <ResidentsRequiredForUpgrade>13</ResidentsRequiredForUpgrade>
     </ModOp>
 
-    <ModOp Type="replace" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25546']">
-        <Item>
-            <Product>25546</Product>
-            <AdditionalSupply>-3</AdditionalSupply>
-        </Item>
-    </ModOp>
     <ModOp Type="replace" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']">
         <Item>
             <Product>120033</Product>
             <AdditionalSupply>-1</AdditionalSupply>
         </Item>
     </ModOp>
+
     <ModOp Type="replace" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010216']">
         <Item>
             <Product>1010216</Product>
-            <AdditionalSupply>-2</AdditionalSupply>
-        </Item>
-    </ModOp>
-    <ModOp Type="replace" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25506']">
-        <Item>
-            <Product>25506</Product>
             <AdditionalSupply>-1</AdditionalSupply>
         </Item>
     </ModOp>
 
+    <ModOp Type="remove" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25506']"></ModOp>
+
+
     <!-- Obreros -->
-
-    <ModOp Type="addNextSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']">
-        <Item>
-            <Product>135186</Product>
-            <Amount>0.0000866667</Amount>
-            <SupplyWeight>5</SupplyWeight>
-            <MoneyValue>25</MoneyValue>
-            <FullWeightPopulationCount>2500</FullWeightPopulationCount>
-            <NoWeightPopulationCount>1999</NoWeightPopulationCount>
-            <RequiredToBeBuilding>1999002092</RequiredToBeBuilding>
-        </Item>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135233']">
-        <Item>
-            <Product>135233</Product>
-            <Amount>0.00005</Amount>
-            <SupplyWeight>5</SupplyWeight>
-            <MoneyValue>40</MoneyValue>
-            <FullWeightPopulationCount>3000</FullWeightPopulationCount>
-            <NoWeightPopulationCount>2499</NoWeightPopulationCount>
-            <RequiredToBeBuilding>1999002092</RequiredToBeBuilding>
-        </Item>
-    </ModOp>
-
-    <ModOp Type="replace" GUID="1999002092" Path="/Values/Residence7">
-        <Residence7>
-            <PopulationLevel7>15000006</PopulationLevel7>
-            <ResidentMax>20</ResidentMax>
-        </Residence7>
+    <ModOp Type="replace" GUID="1999002092" Path="/Values/Residence7/ResidentMax">
+        <ResidentMax>50</ResidentMax>
     </ModOp>
 
     <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25546']">
@@ -803,55 +785,59 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="remove" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120043']"></ModOp>
-    <ModOp Type="remove" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']"></ModOp>
-
-    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25506']">
+    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']">
         <Item>
-            <Product>25506</Product>
+            <Product>25546</Product>
             <AdditionalSupply>-1</AdditionalSupply>
         </Item>
     </ModOp>
-    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120035']">
+
+    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120043']">
         <Item>
-            <Product>120035</Product>
-            <AdditionalSupply>-3</AdditionalSupply>
+            <Product>25546</Product>
+            <AdditionalSupply>-1</AdditionalSupply>
         </Item>
     </ModOp>
-    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25131']">
-        <Item>
-            <Product>25131</Product>
-            <AdditionalSupply>-3</AdditionalSupply>
-        </Item>
-    </ModOp>
+
+    <ModOp Type="remove" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25506']"></ModOp>
+
     <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120032']">
         <Item>
             <Product>120032</Product>
             <AdditionalSupply>-1</AdditionalSupply>
         </Item>
     </ModOp>
+
     <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120037']">
         <Item>
             <Product>120037</Product>
             <AdditionalSupply>-1</AdditionalSupply>
         </Item>
     </ModOp>
-    <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010206']">
+
+    <!-- add Chewing Gums and Violins to consumption -->
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']/RequiredBuildings">
         <Item>
-            <Product>1010206</Product>
-            <AdditionalSupply>-1</AdditionalSupply>
+            <RequiredBuilding>1999002092</RequiredBuilding>
         </Item>
     </ModOp>
+
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135233']/RequiredBuildings">
+        <Item>
+            <RequiredBuilding>1999002092</RequiredBuilding>
+        </Item>
+    </ModOp>
+
     <ModOp Type="add" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier">
         <Item>
             <Product>135186</Product>
-            <AdditionalSupply>-4</AdditionalSupply>
+            <AdditionalSupply>-5</AdditionalSupply>
         </Item>
     </ModOp>
     <ModOp Type="add" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier">
         <Item>
             <Product>135233</Product>
-            <AdditionalSupply>-3</AdditionalSupply>
+            <AdditionalSupply>-7</AdditionalSupply>
         </Item>
     </ModOp>
 
