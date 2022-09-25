@@ -25,17 +25,20 @@
     </ModOp>
 
     <!-- Ornamentstraße kosten Ziegel -->
-    <ModOp Type="replace" GUID="24770,25224" Path="/Values/Cost/Costs">
-        <Costs>
-            <Item>
-                <Ingredient>1010017</Ingredient>
-                <Amount>50</Amount>
-            </Item>
-            <Item>
-                <Ingredient>1010205</Ingredient>
-                <Amount>1</Amount>
-            </Item>
-        </Costs>
+    <ModOp Type="replace" GUID="24770,25224" Path="/Values/Cost">
+        <Cost>
+            <Costs>
+                <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>50</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>1</Amount>
+                </Item>
+            </Costs>
+            <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
     </ModOp>
 
     <!-- Ornamentstraßen ohne Limit als Ornamental Streets -->
@@ -621,28 +624,34 @@
         <PickingAsset>24792</PickingAsset>
     </ModOp>
 
-    <!-- Jornalero-Hacienda Cordilleren Buff -->
+    <!-- Jornalero-Hacienda Cordilleren Buff #obsolet dank Fix GU15?
     <ModOp Type="add" GUID="191132" Path="/Values/ItemEffect/EffectTargets">
         <Item>
             <GUID>24792</GUID>
         </Item>
-    </ModOp>
+    </ModOp> -->
 
-    <!-- Remove Hacienda Jornaleros from All Obreros/Investors ItemTargetPool -->
-    <ModOp Type="remove" GUID="192446" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='24792']"></ModOp>
+    <!-- Remove Hacienda Jornaleros from All Obreros/Investors ItemTargetPool #obsolet dank GU15?
+    <ModOp Type="remove" GUID="192446" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='24792']"></ModOp> -->
 
-    <!-- Reihenfolge Tortillas und Hot Suace ändern -->
+    <!-- Reihenfolge Tortillas und Hot Suace ändern, +2 Hot Suace, weil sonst bei Aufstieg 2 ausziehen, dafür Tortillas 2 weniger -->
     <ModOp Type="remove" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']"></ModOp>
 
     <ModOp Type="addPrevSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
         <Item>
             <Product>25506</Product>
             <Amount>0.000476191</Amount>
-            <SupplyWeight>4</SupplyWeight>
+            <SupplyWeight>6</SupplyWeight>
             <MoneyValue>10</MoneyValue>
-            <RequiredToBeBuilding>24793</RequiredToBeBuilding>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
         </Item>
     </ModOp>
+
+    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120035']"></ModOp>
 
     <!-- Atole Need freischalten mit 300 Obreros  -->
     <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']">
@@ -665,8 +674,8 @@
     <!-- remove Obrero houses from module selection! -> must be upgraded -->
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24793']"></ModOp>
 
-    <!-- Remove Hacienda Houses and Main Building and Storage Room from All Production Buildings by removing the hole pool from the all production buildings pool and adding the farms back in (breweries are there already !) -->
-    <ModOp Type="remove" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='25674']"></ModOp>
+    <!-- Remove Hacienda Houses and Main Building and Storage Room from All Production Buildings by removing the whole pool from the all production buildings pool and adding the farms back in (breweries are there already !) -->
+    <!--<ModOp Type="remove" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='25674']"></ModOp> #obsolet: fixed with GU15, but forgot to add farms back in?-->
     <ModOp Type="add" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>25894</GUID>
@@ -1896,12 +1905,12 @@
         </Asset>
     </ModOp>
 
-    <!-- Needs to be removed for the moment because of not fixable ctd when selecting any recipe from an empty recipe farm
+    <!-- Needs to be removed for the moment because of not fixable ctd when selecting any recipe from an empty recipe farm #fixed in PoliciesMod -->
     <ModOp Type="addNextSibling" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']">
         <Item>
             <ModuleGUID>1999002015</ModuleGUID>
         </Item>
-    </ModOp> -->
+    </ModOp>
 
     <!-- Trigger all new Buildings and Recipes with 1 Obrero -->
     <ModOp Type="addNextSibling" GUID="130248">

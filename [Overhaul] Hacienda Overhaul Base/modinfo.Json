@@ -1,5 +1,5 @@
 {
-  "Version": "1.3",
+  "Version": "1.4",
   "ModID": "Taludas_TheWholesomeHaciendaHaul_Base",
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -46,9 +46,9 @@
   [
     {
       "Chinese": null,
-      "English": "If used with an existing savegame from after GU14 update, the recipelists for the newly added Hacienda Farms will not work and/or crash your game.",
+      "English": null,
       "French": null,
-      "German": "Wenn Ihr ein bestehendes Savegame von nach dem GU14-Update verwendet, werden die Rezeptlisten für die neu hinzugefügten Hacienda-Farmen nicht funktionieren und/oder Euer Spiel abstürzen lassen.",
+      "German": null,
       "Italian": null,
       "Japanese": null,
       "Korean": null,
