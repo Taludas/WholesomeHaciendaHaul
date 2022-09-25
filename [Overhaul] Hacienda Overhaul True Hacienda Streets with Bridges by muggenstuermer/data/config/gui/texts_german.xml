@@ -1,0 +1,22 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999002110</GUID>
+            <Text>Hacienda-Straße</Text>
+        </Text>
+        <Text>
+            <GUID>1999002111</GUID>
+            <Text>Hacienda-Straße Brücke</Text>
+        </Text>
+        <Text>
+            <GUID>1999002112</GUID>
+            <Text>Hacienda-Weg</Text>
+        </Text>
+        <Text>
+            <GUID>1999002113</GUID>
+            <Text>Hacienda-Weg Brücke</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>
