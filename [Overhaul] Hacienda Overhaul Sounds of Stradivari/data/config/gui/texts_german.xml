@@ -1,0 +1,46 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999002115</GUID>
+            <Text>Quarzgrube</Text>
+        </Text>
+        <Text>
+            <GUID>1999002116</GUID>
+            <Text>alle Quarzgruben</Text>
+        </Text>
+        <Text>
+            <GUID>1999002117</GUID>
+            <Text>Chemiefabrik: Farben und Lacke</Text>
+        </Text>
+        <Text>
+            <GUID>1999002118</GUID>
+            <Text>Farben und Lacke</Text>
+        </Text>
+        <Text>
+            <GUID>1999002119</GUID>
+            <Text>Eisenmine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002120</GUID>
+            <Text>alle Eisenminen</Text>
+        </Text>
+        <Text>
+            <GUID>1999002121</GUID>
+            <Text>Hochofen</Text>
+        </Text>
+        <Text>
+            <GUID>1999002122</GUID>
+            <Text>alle Hochöfen</Text>
+        </Text>
+        <Text>
+            <GUID>1999002123</GUID>
+            <Text>Violinen-Manufaktur</Text>
+        </Text>
+        <Text>
+            <GUID>1999002124</GUID>
+            <Text>Violinen</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,70 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul_TrueHaciendaStreets",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "English": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "French": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "German": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Italian": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Japanese": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Korean": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Polish": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Russian": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Spanish": "The Wholesome Hacienda Haul True Hacienda Streets",
+    "Taiwanese": "The Wholesome Hacienda Haul True Hacienda Streets"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Build the Hacienda Streets as true Streets, with Bridges and Rail Crossings!",
+    "French": null,
+    "German": "Baut die Hacienda Straßen als richtige Straßen, mit Brücken und Schienenkreuzung!",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}

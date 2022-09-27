@@ -1,0 +1,1318 @@
+<ModOps>
+
+    <!-- New production Buildings for Sand, Iron, Coal, Steel, Laquer and Violins in NW -->
+    <!-- #Sand Mine -->
+    <ModOp Type="addNextSibling" GUID="101267">
+        <Asset>
+            <Template>SlotFactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002115</GUID>
+                    <Name>sand mine NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_quartz_sand.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/hacienda_expanded/nw_sand_mine/nw_sand_mine_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sand Mine</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>3725</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>216871</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>239709</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Soil</MaterialType>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010228</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Slot>
+                    <SlotType>Clay</SlotType>
+                    <WorkArea>100418</WorkArea>
+                </Slot>
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>60</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2750</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                        <DamageExplosionChance>0</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                        <Explosion>
+                            <BaseChance>0</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Industrializable />
+                <Electrifiable />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add to relevant Pools -->
+    <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002115</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- New EffectTargetPool: All Sand Mines used instead of OW coastal sand mine only-->
+    <ModOp Type="addNextSibling" GUID="190886">
+        <Asset>
+            <Template>ItemEffectTargetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002116</GUID>
+                    <Name>all sand mines</Name>
+                </Standard>
+                <ItemEffectTargetPool>
+                    <EffectTargetGUIDs>
+                        <Item>
+                            <GUID>1010560</GUID>
+                        </Item>
+                    </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- replace old effect targets with new target pool -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010560' or GUID='1500010714']">
+        <Item>
+            <GUID>1999002116</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010560' or GUID='1500010714']">
+        <Item>
+            <GUID>1999002116</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="190886" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010560' or GUID='1500010714']">
+        <Item>
+            <GUID>1999002116</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- add sand mines to pool -->
+    <ModOp Type="add" GUID="1999002116" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002115</GUID>
+        </Item>
+        <Item>
+            <GUID>1500010708</GUID>            <!-- Jakobs Sand Mine NW -->
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002115</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1999002115</Factory>
+        </Item>
+    </ModOp>
+
+    <!-- #Charcoal Kiln for everyone -->
+    <ModOp Type="replace" GUID="1345" Path="/Values/Standard/Name">
+        <Name>heavy_03 (Coal Heavy Industry) Colony01</Name>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1010299">
+        <Asset>
+            <BaseAssetGUID>1010298</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1345</GUID>
+                    <Name>Charcoal Kiln (new)</Name>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/eoy21/graphics/buildings/production/heavy_03/heavy_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Selection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Locked>
+                    <DLCDependency>24962</DLCDependency>
+                </Locked>
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010226</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>15</Amount>
+                            <ShutdownThreshold>0.2</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1345' or (Values/Standard/GUID='1345' and Values/Standard/Name='heavy_03 (Coal Heavy Industry) Colony01')][position() < last()]" />
+    <ModOp Type="remove" GUID="1345" Path="/Values/Locked/DLCDependency" />
+
+    <!-- #Iron Mine on Gold Slots (Provisional) -->
+    <ModOp Type="addNextSibling" GUID="101311">
+        <Asset>
+            <Template>SlotFactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002119</GUID>
+                    <Name>Iron Mine NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_iron.png</IconFilename>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking></Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>800</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>5</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/mining_02/mining_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh></Mesh>
+                <Selection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Constructable></Constructable>
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202274</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Wood</MaterialType>
+                </SoundEmitter>
+                <FeedbackController></FeedbackController>
+                <Infolayer></Infolayer>
+                <UpgradeList></UpgradeList>
+                <Factory7></Factory7>
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010227</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>8</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>15</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode></LogisticNode>
+                <Slot>
+                    <SlotType>GoldOre</SlotType>
+                    <WorkArea>1010543</WorkArea>
+                </Slot>
+                <AmbientMoodProvider>
+                    <Murmur>Mine</Murmur>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>50</Amount>
+                            <InactiveAmount>25</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable></Pausable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                        <Illness>
+                            <BaseChance>1</BaseChance>
+                        </Illness>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+                <Electrifiable></Electrifiable>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- New EffectTargetPool: All Iron Mines used instead of OW iron mine only-->
+    <ModOp Type="addNextSibling" GUID="190886">
+        <Asset>
+            <Template>ItemEffectTargetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002120</GUID>
+                    <Name>all iron mines</Name>
+                </Standard>
+                <ItemEffectTargetPool>
+                    <EffectTargetGUIDs>
+                        <Item>
+                            <GUID>1010305</GUID>
+                        </Item>
+                    </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- replace old effect targets with new target pool -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010305' or GUID='1500010715']">
+        <Item>
+            <GUID>1999002120</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="190882" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010305' or GUID='1500010715']">
+        <Item>
+            <GUID>1999002120</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="190786" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010305' or GUID='1500010715']">
+        <Item>
+            <GUID>1999002120</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- add iron mines to pool -->
+    <ModOp Type="add" GUID="1999002120" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002119</GUID>
+        </Item>
+        <Item>
+            <GUID>1500010710</GUID>            <!-- Jakobs Iron Mine NW -->
+        </Item>
+    </ModOp>
+
+    <!-- Add to relevant Pools -->
+    <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002119</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002119</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1999002119</Factory>
+        </Item>
+    </ModOp>
+
+    <!-- #Steel Furnace NW -->
+    <ModOp Type="addNextSibling" GUID="1010297">
+        <Asset>
+            <BaseAssetGUID>1010297</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002121</GUID>
+                    <Name>Steel Furnace NW</Name>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/hacienda_expanded/nw_steel_furnace/nw_steel_furnace.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Selection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Locked />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010227</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010226</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010219</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>30</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>75</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- New EffectTargetPool: All Steel Mines used instead of OW steel furnace only-->
+    <ModOp Type="addNextSibling" GUID="190886">
+        <Asset>
+            <Template>ItemEffectTargetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002122</GUID>
+                    <Name>all iron mines</Name>
+                </Standard>
+                <ItemEffectTargetPool>
+                    <EffectTargetGUIDs>
+                        <Item>
+                            <GUID>1010297</GUID>
+                        </Item>
+                    </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- replace old effect targets with new target pool -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010297']">
+        <Item>
+            <GUID>1999002122</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="193771" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010297']">
+        <Item>
+            <GUID>1999002122</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="190842" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010297']">
+        <Item>
+            <GUID>1999002122</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="192436" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010297']">
+        <Item>
+            <GUID>1999002122</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- add steel furnace to pool -->
+    <ModOp Type="add" GUID="1999002122" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002121</GUID>
+        </Item>
+        <Item>
+            <GUID>1500010706</GUID>            <!-- Jakobs Steel furnace NW -->
+        </Item>
+    </ModOp>
+
+    <!-- Add to relevant Pools -->
+    <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002121</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002121</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1999002121</Factory>
+        </Item>
+    </ModOp>
+
+    <!-- #Chemical Factory Laquer -->
+    <ModOp Type="addNextSibling" GUID="135133">
+        <Asset>
+            <Template>Multifactory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002117</GUID>
+                    <Name>Multifactory_Chemical_Laqcuer_NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lacquer.png</IconFilename>
+                    <InfoDescription>132783</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>132773</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/hacienda_expanded/multifactory_01_colony01_04/multifactory_01_colony01_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>65000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>45</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <GUIType>Production</GUIType>
+                    <StaticHelpEntryPoint>HighLifeChemicalPlants</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chemical Plant: Lacquer</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52156</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>279511</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010228</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010255</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135130</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>5</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>135129</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>10</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>800</Amount>
+                            <InactiveAmount>400</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010367</Product>
+                            <Amount>125</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>Tourist_ChemicalPlantOldWorld</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <RecipeBuilding>
+                    <RecipeList>135226</RecipeList>
+                </RecipeBuilding>
+                <Culture>
+                    <HasPollution>1</HasPollution>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add to relevant Pools -->
+    <ModOp Type="add" GUID="6000018,193856,194011" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002117</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002117</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1999002117</Factory>
+        </Item>
+    </ModOp>
+
+    <!-- Add Recipe for laquer NW-->
+    <ModOp Type="addNextSibling" GUID="135146">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002118</GUID>
+                    <Name>Recipe_Lacquer_NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_lacquer.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Lacquer</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52420</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999002117</RecipeBuilding>
+                    <RecipeDescriptionText>135137</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/chemical_factory/recipebook_chemical_lacquer.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>145</PosX>
+                            <PosY>5</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>400</PosX>
+                            <PosY>80</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosY>20</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137487</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- add recipe to recipe list -->
+    <ModOp Type="add" GUID="135226" Path="/Values/RecipeList/Recipes">
+        <Item>
+            <Recipe>1999002118</Recipe>
+        </Item>
+    </ModOp>
+
+    <!-- #adopt Violoin Product -->
+
+    <ModOp Type="replace" GUID="135233" Path="/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+    </ModOp>
+    <ModOp Type="add" GUID="135233" Path="/Values/Product/ProductionRegions">
+        <Item>
+            <RegionType>Colony01</RegionType>
+            <RequiredDLCs>
+                <Item>
+                    <RequiredDLC>410085</RequiredDLC>
+                </Item>
+            </RequiredDLCs>
+        </Item>
+    </ModOp>
+
+    <!-- #Violin manufactory -->
+    <ModOp Type="addNextSibling" GUID="135397">
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002123</GUID>
+                    <Name>Violin Manufactory NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_violin.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <Blocking>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>17000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>35</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/hacienda_expanded/violin_workshop/violin_workshop.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Violin Manufactory</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>13037</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280042</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Multifactory</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010219</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135087</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135129</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>135233</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>3</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>60</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>1000</Amount>
+                            <InactiveAmount>500</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010367</Product>
+                            <Amount>200</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3750</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>0</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add to relevant Pools -->
+    <ModOp Type="add" GUID="6000018,193856,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002123</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002123</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1999002123</Factory>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="136831,136835,136833" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999002123</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Violin production chain NW -->
+    <ModOp Type="addNextSibling" GUID="137598">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002124</GUID>
+                    <Name>violin chain NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_violin.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1999002123</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1999002121</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1999002119</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1345</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>135088</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002117</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1999002115</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010333</Building>
+                                </Item>
+                                <Item>
+                                    <Building>135134</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>101260</Building>
+                                        </Item>
+                                        <Item>
+                                            <Building>101270</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Violins</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52308</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Buildmenu Entry -->
+    <ModOp Type="addNextSibling" GUID="1999002020,1999002070" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999002072' or (not(../Item/Building='1999002025'))][last()]">
+        <Item>
+            <Building>1999002124</Building>
+        </Item>
+    </ModOp>
+
+    <!-- #Trigger new buildings and all products with 2500 Obreros -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002125</GUID>
+                    <Name>Violins NW Unhide Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>2000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002124</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002126</GUID>
+                    <Name>Violins NW Unlock Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>2500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002115</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1345</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002119</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002121</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002123</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002124</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135233</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002117</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002118</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135134</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135147</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135221</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135129</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135087</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

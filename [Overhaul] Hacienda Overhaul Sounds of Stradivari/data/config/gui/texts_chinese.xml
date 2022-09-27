@@ -1,0 +1,46 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999002115</GUID>
+            <Text>Sand Mine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002116</GUID>
+            <Text>all Sand Mines</Text>
+        </Text>
+        <Text>
+            <GUID>1999002117</GUID>
+            <Text>Chemical Factory: Lacquer</Text>
+        </Text>
+        <Text>
+            <GUID>1999002118</GUID>
+            <Text>Lacquer</Text>
+        </Text>
+        <Text>
+            <GUID>1999002119</GUID>
+            <Text>Iron Mine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002120</GUID>
+            <Text>all Iron Mines</Text>
+        </Text>
+        <Text>
+            <GUID>1999002121</GUID>
+            <Text>Steel Furnace</Text>
+        </Text>
+        <Text>
+            <GUID>1999002122</GUID>
+            <Text>all Steel Furnaces</Text>
+        </Text>
+        <Text>
+            <GUID>1999002123</GUID>
+            <Text>Violin Manufactory</Text>
+        </Text>
+        <Text>
+            <GUID>1999002124</GUID>
+            <Text>Violins</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>
