@@ -30,7 +30,7 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
     ![Banner](https://user-images.githubusercontent.com/64583643/192605638-41616a81-7f59-4ff6-8bc6-28d2a02306ed.png) 
     - Added Module 2 - Sounds of Stradivari. This mod enables you to produce Violins in the New World utilising Hacienda Overhaul features. Lacquer can now be produced from Quartz (Sand Mine on Clay Slots), Caoutchouc, and Ethanol. Cherry wood is obtainable by using the Hacienda policy 3: Woodcutter Training as a byproduct form lumberjacks and orchards. Steel can be produced in the furnace from Iron ore, mined on Gold slots. 
 
-    Thank you to [Jakob](https://github.com/jakobharder/anno-1800-jakobs-mods) for providing the basic graphics of the sand mine and the fixed steel furnace as well as some code to get compatibility between his mod ["New World Construction"](https://github.com/jakobharder/anno-1800-jakobs-mods/tree/main/mods/production-nw-construction) and mine.
+    Thank you to [Jakob](https://github.com/jakobharder/anno-1800-jakobs-mods) for providing the basic graphics of the sand mine and the fixed steel furnace as well as some code to get compatibility between his mod ["New World Construction"](https://github.com/jakobharder/anno-1800-jakobs-mods/tree/main/mods/production-nw-construction) and mine. Just a little heads up, my shared buildings with Jakob's Mod might differ slightly in workforce requirements, build costs and maintenance costs.
 </details>
 
 <details>

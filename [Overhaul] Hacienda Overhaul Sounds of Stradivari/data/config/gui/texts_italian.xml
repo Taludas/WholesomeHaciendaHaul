@@ -41,6 +41,10 @@
             <GUID>1999002124</GUID>
             <Text>Violins</Text>
         </Text>
+        <Text>
+            <GUID>1999002128</GUID>
+            <Text>all Charcoal Kilns</Text>
+        </Text>
     </ModOp>
 
 </ModOps>
