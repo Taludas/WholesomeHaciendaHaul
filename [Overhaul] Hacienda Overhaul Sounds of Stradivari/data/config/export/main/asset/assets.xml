@@ -169,7 +169,9 @@
                 <Culture>
                     <CultureType>Culture</CultureType>
                 </Culture>
-                <Industrializable />
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
                 <Electrifiable />
             </Values>
         </Asset>
