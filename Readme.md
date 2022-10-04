@@ -24,6 +24,16 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.5.1</summary>
+
+* Minor Bugfixes:
+    - Fixed an Issue with the trade values of certain goods (i.e. Hot sauce) due to missing <IsMainFactory> values.
+
+* New features:
+    - Adjusted the item effect target pools of the OW and NW charcoal kilns to be replaced by one united "all charcoal kilns" effect target pool.
+</details>
+
+<details>
     <summary>Patch Notes Version 1.5.0</summary>
 
 * New features:
