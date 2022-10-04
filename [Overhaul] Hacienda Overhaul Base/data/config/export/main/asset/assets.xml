@@ -789,6 +789,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Coffee -->
@@ -802,6 +803,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Caoutchouc -->
@@ -815,6 +817,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Cacao -->
@@ -828,6 +831,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Potatos -->
@@ -840,6 +844,7 @@
                     <StorageAmount>4</StorageAmount>
                 </Item>
             </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Spices -->
@@ -853,6 +858,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Grain -->
@@ -866,6 +872,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
 
@@ -974,6 +981,7 @@
                             <StorageAmount>4</StorageAmount>
                         </Item>
                     </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <LogisticNode />
                 <ModuleOwner>
@@ -1240,6 +1248,7 @@
                         </Item>
                     </FactoryOutputs>
                     <CycleTime>60</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <LogisticNode />
                 <ModuleOwner>
@@ -1508,6 +1517,7 @@
                         </Item>
                     </FactoryOutputs>
                     <CycleTime>120</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <LogisticNode />
                 <ModuleOwner>
@@ -2081,6 +2091,7 @@
                     <StorageAmount>4</StorageAmount>
                 </Item>
             </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Beer -->
@@ -2106,6 +2117,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Atole -->
@@ -2131,6 +2143,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Schnapps -->
@@ -2151,6 +2164,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
     <!-- Hot Sauce -->
@@ -2171,6 +2185,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>120</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
     </ModOp>
 

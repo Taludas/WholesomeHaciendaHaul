@@ -662,6 +662,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>120</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
     </ModOp>
 
@@ -687,6 +688,7 @@
                 </Item>
             </FactoryOutputs>
             <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
         </FactoryBase>
     </ModOp>
 

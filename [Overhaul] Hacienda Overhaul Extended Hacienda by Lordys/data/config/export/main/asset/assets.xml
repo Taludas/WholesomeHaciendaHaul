@@ -2073,7 +2073,9 @@
           <InfoDescription>163059</InfoDescription>
         </Standard>
         <Blocking />
-        <Building />
+        <Building>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
         <Cost />
         <Mesh />
         <Object>
@@ -2321,6 +2323,7 @@
         <Blocking />
         <Building>
           <PickingAsset>1999002091</PickingAsset>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
         </Building>
         <Cost />
         <Mesh />

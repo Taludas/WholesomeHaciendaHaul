@@ -134,6 +134,7 @@
             </Item>
           </FactoryOutputs>
           <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <LogisticNode />
         <Maintenance>

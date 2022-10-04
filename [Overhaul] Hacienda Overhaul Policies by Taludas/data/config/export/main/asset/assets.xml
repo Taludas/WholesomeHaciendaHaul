@@ -141,6 +141,7 @@
                         </Item>
                     </FactoryOutputs>
                     <CycleTime>120</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <LogisticNode />
                 <ModuleOwner>

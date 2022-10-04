@@ -14,6 +14,7 @@
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking />
                 <Cost>
@@ -331,6 +332,7 @@
                 </Standard>
                 <Building>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking></Blocking>
                 <Cost>
@@ -555,6 +557,7 @@
                 </Standard>
                 <Building>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Object>
                     <Variations>
@@ -699,6 +702,7 @@
                     <BuildingCategoryName>132773</BuildingCategoryName>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking />
                 <Object>
@@ -945,6 +949,7 @@
                 <Building>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking>
                 </Blocking>
