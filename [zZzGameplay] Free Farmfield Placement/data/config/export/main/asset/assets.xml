@@ -1,0 +1,67 @@
+<ModOps>
+
+	<!-- Crop Farms NW, OW, Enbesa -->
+	<ModOp Type="merge" GUID="1010262,1010264,1010265,100655,100654,1010329,1010330,1010331,1010332,1010333,101251,101263,101270,114448,114447,114450,114451,114452,114453,5463,5814" Path="/Values/ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusVanillaFarms">
+		<ModuleBuildRadius>45</ModuleBuildRadius>
+	</ModOp>
+
+  	<ImyaTweaks Title="Features of Free Farmfield Placement:" />
+	<ImyaExpose Path="self::ModuleBuildRadius" ModOpID="SetModuleRadiusVanillaFarms" ExposeID="SetModuleRadiusVanillaFarms" Description="This Value sets the radius for all vanilla crop farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+	<!-- Crop Farms Hacienda -->
+	<ModOp Type="merge" GUID="24798,25003,25005,25006,25009,25019,25020,25128" Path="/Values/ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusVanillaHaciendaFarms">
+		<ModuleBuildRadius>25</ModuleBuildRadius>
+	</ModOp>
+
+	<ImyaExpose Path="self::ModuleBuildRadius" ModOpID="SetModuleRadiusVanillaHaciendaFarms" ExposeID="SetModuleRadiusVanillaHaciendaFarms" Description="This Value sets the radius for all vanilla Hacienda crop farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+	<!-- Animal Farms -->
+	<ModOp Type="merge" GUID="1010267,1010269,1010263,101269,101272,114456,114439,112676,112682,5457" Path="/Values/ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusVanillaAnimalFarms">
+		<ModuleBuildRadius>15</ModuleBuildRadius>
+	</ModOp>
+
+	<ImyaExpose Path="self::ModuleBuildRadius" ModOpID="SetModuleRadiusVanillaAnimalFarms" ExposeID="SetModuleRadiusVanillaAnimalFarms" Description="This Value sets the radius for all vanilla animal farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+	<!-- Mod Farmen Taludas -->
+	<ModOp Type="merge" GUID="1999000100,1999000102,1999002218" Path="/Values/ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusTaludasModFarms">
+		<ModuleBuildRadius>45</ModuleBuildRadius>
+	</ModOp>
+
+	<ImyaExpose Path="self::ModuleBuildRadius" ModOpID="SetModuleRadiusTaludasModFarms" ExposeID="SetModuleRadiusTaludasModFarms" Description="This Value sets the radius for all of Taludas Mods crop farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+	<ModOp Type="merge" GUID="1999002001,1999002004,1999002007,1999002010,1999002219" Path="/Values/ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusTaludasModHaciendaFarms">
+		<ModuleBuildRadius>25</ModuleBuildRadius>
+	</ModOp>
+
+	<ImyaExpose Path="self::ModuleBuildRadius" ModOpID="SetModuleRadiusTaludasModHaciendaFarms" ExposeID="SetModuleRadiusTaludasModHaciendaFarms" Description="This Value sets the radius for all of Taludas Mods Hacienda crop farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+	<!-- Mod Farmen Jakob -->
+	<ModOp Type="merge" GUID="1500010107,1500010124,1500010848,1500010830" Path="/Values/ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusJakobModFarms">
+		<ModuleBuildRadius>45</ModuleBuildRadius>
+	</ModOp>
+	
+	<ImyaExpose Path="self::ModuleBuildRadius" ModOpID="SetModuleRadiusJakobModFarms" ExposeID="SetModuleRadiusJakobModFarms" Description="This Value sets the radius for all of Jakobs Mods crop farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+	<ModOp Type="merge" GUID="1500010104" Path="/Values" ModOpID="SetModuleRadiusJakobModAnimalFarms">	
+		<ModuleOwner>
+			<ModuleBuildRadius>15</ModuleBuildRadius>
+		</ModuleOwner>
+	</ModOp>
+
+	<ImyaExpose Path="self::ModuleOwner/ModuleBuildRadius" ModOpID="SetModuleRadiusJakobModAnimalFarms" ExposeID="SetModuleRadiusJakobModAnimalFarms" Description="This Value sets the radius for all of Jakobs Mods animal farms, in which you can build the field modules." Kind="Slider">
+		<SliderDefinition Min="0" Max="250" Stepping="5" />
+	</ImyaExpose>
+
+</ModOps>

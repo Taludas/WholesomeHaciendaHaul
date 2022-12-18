@@ -1,0 +1,395 @@
+<ModOps>
+  <!-- #Product Champagne overhaul for NW -->
+  <ModOp Type="replace" GUID="120016" Path="/Values/Product/AssociatedRegion">
+    <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+  </ModOp>
+
+  <ModOp Type="add" GUID="120016" Path="/Values/Product/ProductionRegions">
+    <Item>
+      <RegionType>Colony01</RegionType>
+    </Item>
+  </ModOp>
+
+  <!-- #Hacienda Winery -->
+  <ModOp Type="addNextSibling" GUID="24800">
+    <Asset>
+      <Template>Multifactory</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002310</GUID>
+          <Name>Hacienda Wine Brewery</Name>
+          <IconFilename>data/modgraphics/ui/icon_wine.png</IconFilename>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100000</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/hacienda/hacienda_brewery_wine/hacienda_winery.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Hacienda Brewery</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>55216</LineID>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+          <DLCDependency>24961</DLCDependency>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200809</Sound>
+            </Item>
+            <Item>
+              <Sound>282245</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>120014</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>133093</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>135087</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>120016</Product>
+              <Amount>1</Amount>
+              <StorageAmount>2</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010366</Product>
+              <Amount>30</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable>
+          <IncidentInfectionChanceFactors>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Electrifiable />
+        <AmbientMoodProvider />
+        <Attackable>
+          <MaximumHitPoints>4500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <UpgradeList />
+        <Pausable>
+          <IsHaciendaDependent>1</IsHaciendaDependent>
+        </Pausable>
+        <FeedbackController />
+        <Infolayer />
+        <RecipeBuilding>
+          <RecipeList>24802</RecipeList>
+        </RecipeBuilding>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Add to relevant Pools -->
+  <ModOp Type="add" GUID="25674,435,192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1999002310</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="190650,190649,190648,116185,190645,190647,116176" Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>1999002310</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1999002310</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1999002310</Factory>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25055,25672" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1999002310</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- #Hacienda Winery Recipe -->
+  <ModOp Type="addNextSibling" GUID="24803">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002311</GUID>
+          <Name>Recipe_01 Wine</Name>
+          <IconFilename>data/modgraphics/ui/icon_wine.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Wine Recipe</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>55222</LineID>
+        </Text>
+        <Recipe>
+          <RecipeBuilding>1999002310</RecipeBuilding>
+          <RecipeDescriptionText>1999002312</RecipeDescriptionText>
+          <RecipeImage>data/modgraphics/ui/moodimage_wine.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>30</PosX>
+              <PosY>75</PosY>
+              <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>260</PosX>
+              <PosY>100</PosY>
+              <UICirclePointer>West</UICirclePointer>
+            </Item>
+            <Item>
+              <PosX>350</PosX>
+              <PosY>350</PosY>
+              <UICirclePointer>NorthWest</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+        </Recipe>
+        <Locked>
+          <DLCDependency>24961</DLCDependency>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="24802" Path="/Values/RecipeList/Recipes/Item[Recipe='25507']">
+    <Item>
+      <Recipe>1999002311</Recipe>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="25061" Path="/Values/AssetPool/AssetList/Item[Asset='25507']">
+    <Item>
+      <Asset>1999002311</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- #add to Buildmenu: Sub-Menu Hacienda Breweries -->
+  <ModOp Type="add" GUID="1999002025" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>1999002310</Building>
+    </Item>
+  </ModOp>
+
+  <!-- #Trigger Winery-->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002313</GUID>
+          <Name>Unhide Winery Modular Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000006</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1999002310</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002311</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002314</GUID>
+          <Name>Winery Unlock Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>ObjectBuilt</PlayerCounter>
+                <Context>601884</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999002310</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999002311</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

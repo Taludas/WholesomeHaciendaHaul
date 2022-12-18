@@ -1,0 +1,5 @@
+<ModOps>
+	<ModOp Type="add" Path="/Templates/Group[Name = 'Economy']/Template[Name = 'FarmBuilding']/Properties/ModuleOwner/AdditionalModuleMustBeMainBuildingAdjacent">
+		<AdditionalModuleMustBeMainBuildingAdjacent>0</AdditionalModuleMustBeMainBuildingAdjacent>			 
+	</ModOp>
+</ModOps>

@@ -1,0 +1,82 @@
+{
+  "Version": "2.0",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Overhaul",
+    "English": "Overhaul",
+    "French": "Overhaul",
+    "German": "Overhaul",
+    "Italian": "Overhaul",
+    "Japanese": "Overhaul",
+    "Korean": "Overhaul",
+    "Polish": "Overhaul",
+    "Russian": "Overhaul",
+    "Spanish": "Overhaul",
+    "Taiwanese": "Overhaul"
+  },
+  "ModName": {
+    "Chinese": "The Wholesome Hacienda Haul",
+    "English": "The Wholesome Hacienda Haul",
+    "French": "The Wholesome Hacienda Haul",
+    "German": "The Wholesome Hacienda Haul",
+    "Italian": "The Wholesome Hacienda Haul",
+    "Japanese": "The Wholesome Hacienda Haul",
+    "Korean": "The Wholesome Hacienda Haul",
+    "Polish": "The Wholesome Hacienda Haul",
+    "Russian": "The Wholesome Hacienda Haul",
+    "Spanish": "The Wholesome Hacienda Haul",
+    "Taiwanese": "The Wholesome Hacienda Haul"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "# The Wholesome Hacienda Overhaul \n This mod is a complete and modular overhaul of DLC10 'Seeds of Change'.\n\n## Main Features: \n\n- Mandatory content:\n\n- New separate build menu for all Hacienda Buildings. \n\n- Numerous Bug Fixes. \n\n- Modular content: \n\n- Hacienda Tiles are now working like normal streets. No longer are they treated as ornaments which need to be build one by one and must be adjacent to the main building. \n\n- Hacienda residences must be upgraded like normal houses. \n\n- Three missing Hacienda Farms 'Plantains', 'Cotton' and 'Tobacco' have been added. Therefore the farm is split into a NW and OW version with separate recipe books. \n\n- All regular public buildings are now available with Hacienda Ground Decal as variations of the normal buildings.\n\n- The range of the Hacienda has been overhauled and can be customized to user preference. \n\n- The Fertiliser Works has been overhauled to be complete modular. \n\n- 5 new Hacienda Policies to choose from. \n\n- Nearly 20 new buildings and production chains connected to the Hacienda (in cooperation with Lordys). \n\n- New 2x3 Hacienda residences for Obreros and Artistas. \n\n- Extensive overhauls of the Hacienda residences occupation capacity and needs. \n\n- New Wine and Violin production chains to supply your residents more independently from OW. \n\n- Using the electricity feature of New World Rising, Hacienda Farms can now use more modern Tractor transporters which unload a lot faster at warehouses. \n\n- Most modular content can be customized through usage of the 'iModYourAnno' Mod Manager. Under the tweaking tab you may pick and choose which features you like the most! \n\n- If you want to disable certain features completely, go to the 'assets.xml' file in the mod folder and delete individual modules via removing the corresponding <Include> command.",
+    "French": null,
+    "German": "# The Wholesome Hacienda Overhaul \n Diese Mod ist eine komplette und modulare Überarbeitung von DLC10 'Seeds of Change'.\n\n## Hauptmerkmale: \n\n- Obligatorische Inhalte:\n\n- Neues separates Baumenü für alle Hacienda-Gebäude. \n\n- Zahlreiche Fehlerbehebungen. \n\n- Modulare Inhalte: \n\n- Hacienda Kacheln funktionieren jetzt wie normale Straßen. Sie werden nicht mehr wie Ornamente behandelt, die einzeln gebaut werden müssen und an das Hauptgebäude angrenzen müssen. \n\n- Hacienda-Residenzen müssen wie normale Häuser aufgewertet werden. \n\n- Drei fehlende Hacienda-Farmen 'Bananen', 'Baumwolle' und 'Tabak' wurden hinzugefügt. Daher ist die Farm in eine NW- und OW-Version mit separaten Rezeptbüchern aufgeteilt. \n\n- Alle regulären öffentlichen Gebäude sind nun mit Hacienda-Bodendecal als Variationen der normalen Gebäude erhältlich.\n\n- Der Radius der Hacienda wurde überarbeitet und kann nach den Wünschen der Spieler angepasst werden. \n\n- Das Düngemittelwerk wurde überarbeitet und ist nun komplett modular aufgebaut. \n\n- 5 neue Hacienda Policies zur Auswahl. \n\n- Fast 20 neue Gebäude und Produktionsketten, die mit der Hacienda verbunden sind (in Zusammenarbeit mit Lordys). \n\n- Neue 2x3 Hacienda-Wohnungen für Obreros und Artistas. \n\n- Umfassende Überarbeitung der Hacienda-Häuser hinsichtlich Belegungskapazität und Bedarf. \n\n- Neue Wein- und Violinenproduktionsketten, um deine Bewohner noch unabhängiger von der OW zu versorgen. \n\n- Mit dem Strom-Feature von New World Rising können Hacienda-Farmen nun modernere Traktor-Transporter einsetzen, die viel schneller an den Lagerhäusern entladen. \n\n- Die meisten modularen Inhalte können mit Hilfe des 'iModYourAnno' Mod Managers angepasst werden. Unter der Registerkarte 'Tweaking' könnt ihr die Funktionen auswählen, die euch am besten gefallen! \n\n- Wenn du bestimmte Funktionen komplett deaktivieren möchtest, gehe zur Datei 'assets.xml' im Mod-Ordner und lösche einzelne Module durch Entfernen des entsprechenden <Include>-Befehls.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"NewWorldRising",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"Highlife",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "partly"
+    }   
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}

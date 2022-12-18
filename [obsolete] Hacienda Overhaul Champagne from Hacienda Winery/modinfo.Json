@@ -1,0 +1,70 @@
+{
+  "Version": "1.4",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul_HaciendaWinery",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "English": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "French": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "German": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Italian": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Japanese": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Korean": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Polish": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Russian": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Spanish": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery",
+    "Taiwanese": "The Wholesome Hacienda Haul - Module 1: Hacienda Winery"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This Mod contains a new Hacienda Brewery: The Hacienda Winery. It produces Champagne in the New World from Grapes, Cinnamon and Cherry Wood.",
+    "French": null,
+    "German": "Diese Mod enthält eine neue Hacienda-Brauerei: Den Hacienda Weinkeller. Dieser porduziert Sekt in der Neuen Welt aus Trauben, Zimt und Kirschholz.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}

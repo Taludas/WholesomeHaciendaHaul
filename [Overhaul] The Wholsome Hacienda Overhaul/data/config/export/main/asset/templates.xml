@@ -1,0 +1,265 @@
+<ModOps>
+
+  <ModOp Type="addNextSibling" Path="//Template[Name = 'RecipeFarm']">
+    <Template>
+      <Name>Electrifiable_RecipeFarm_Taludas</Name>
+      <Properties>
+        <Standard>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100000</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Cost />
+        <Object>
+          <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text />
+        <Constructable>
+          <DestructionCategory>Production</DestructionCategory>
+        </Constructable>
+        <Locked />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                </VectorElement>
+                <Sound>214783</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+            <BuildMoveSuccess>
+              <Item>
+                <Sound>203996</Sound>
+              </Item>
+            </BuildMoveSuccess>
+            <BuildMoveEnd>
+              <Item>
+                <Sound>200141</Sound>
+              </Item>
+            </BuildMoveEnd>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <ExplosionOneShots>
+              <Item>
+                <Sound>203849</Sound>
+              </Item>
+            </ExplosionOneShots>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7>
+          <IsAgriculture>1</IsAgriculture>
+        </Factory7>
+        <FactoryBase />
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleBuildRadius>10</ModuleBuildRadius>
+          <ImplicitProductivityModules>0</ImplicitProductivityModules>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <Murmur>Farm</Murmur>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <ConsumerPriority>1</ConsumerPriority>
+        </Maintenance>
+        <Attackable>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Communication>FireIndustry</Communication>
+            </Fire>
+            <Riot>
+              <Communication>RiotIndustry</Communication>
+              <InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+            </Riot>
+            <Illness>
+              <Base>0</Base>
+              <Communication>IllnessIndustry</Communication>
+            </Illness>
+            <Explosion>
+              <Communication>ExplosionIndustry</Communication>
+            </Explosion>
+          </Infectable>
+        </IncidentInfectable>
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <Culture>
+          <CultureType>Factory</CultureType>
+        </Culture>
+        <QuestObject />
+        <Industrializable />
+        <Motorizable />
+        <EcoSystemProvider />
+        <MonoCulture />
+        <RecipeBuilding />
+        <Electrifiable />
+      </Properties>
+    </Template>
+  </ModOp>
+  <ModOp Type="addNextSibling" Path="//Template[Name = 'FreeAreaRecipeBuilding']">
+    <Template>
+      <Name>Electrifiable_FreeAreaRecipeBuilding_Taludas</Name>
+      <Properties>
+        <Standard>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100000</BuildingCategoryName>
+        </Building>
+        <Blocking>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Cost />
+        <Object>
+          <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text />
+        <Constructable>
+          <DestructionCategory>Production</DestructionCategory>
+        </Constructable>
+        <Locked />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+            <BuildMoveSuccess>
+              <Item>
+                <Sound>200133</Sound>
+              </Item>
+            </BuildMoveSuccess>
+            <BuildMoveEnd>
+              <Item>
+                <Sound>200141</Sound>
+              </Item>
+            </BuildMoveEnd>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase />
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <ConsumerPriority>1</ConsumerPriority>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+          <HasRuinState>1</HasRuinState>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <FreeAreaProductivity>
+          <WayTime>10000</WayTime>
+        </FreeAreaProductivity>
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Communication>FireIndustry</Communication>
+            </Fire>
+            <Riot>
+              <Communication>RiotIndustry</Communication>
+              <InitiallySpreadToSameGUID>1</InitiallySpreadToSameGUID>
+            </Riot>
+            <Illness>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+              <Communication>IllnessIndustry</Communication>
+            </Illness>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+              <Communication>ExplosionIndustry</Communication>
+            </Explosion>
+          </Infectable>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture />
+        <RecipeBuilding />
+        <Electrifiable />
+      </Properties>
+    </Template>
+  </ModOp>
+
+</ModOps>

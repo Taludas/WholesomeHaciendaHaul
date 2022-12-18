@@ -1,0 +1,212 @@
+<ModOps>
+    <!-- #Variations for public buildings with Hacienda Ground Decal -->
+
+    <!-- Polizei -->
+    <ModOp Type="add" GUID="101274" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101274" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_colony01_01/institution_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6258" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6258" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_advanced_colony01_01/institution_advanced_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Feuerwehr -->
+    <ModOp Type="add" GUID="101275" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101275" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_colony01_02/institution_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6259" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6259" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_advanced_colony01_02/institution_advanced_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Krankenhaus -->
+    <ModOp Type="add" GUID="101276" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101276" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_colony01_03/institution_colony01_03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6260" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6260" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_advanced_colony01_03/institution_advanced_colony01_03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Logistics_01 -->
+    <ModOp Type="add" GUID="101323" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101323" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/logistic_colony01_01/logistic_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Logistics_02 -->
+    <ModOp Type="add" GUID="101324" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101324" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/logistics_colony01_02/logistic_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Logistics_03 -->
+    <ModOp Type="add" GUID="101325" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101325" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/logistics_colony01_04/logistic_colony01_04.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Kapelle -->
+    <ModOp Type="add" GUID="101258" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101258" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/service_colony01_02/service_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Boxarena -->
+    <ModOp Type="add" GUID="101259" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101259" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/service_colony01_03/service_colony01_03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Guild House -->
+    <ModOp Type="add" GUID="101284" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101284" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/special/guild_house_colony01/guild_house_colony01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Town Hall -->
+    <ModOp Type="add" GUID="101285" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101285" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/special/townhall_colony01_01/townhall_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Post office NW -->
+    <ModOp Type="add" GUID="3761" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="3761" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/postoffice/postoffice_colony_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Movie Theater -->
+    <ModOp Type="add" GUID="6018" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="6018" Path="/Values/Object/Variations">
+        <Variations>
+            <Item>
+                <Filename>data/modgraphics/buildings/public/movie_theater/movie_theater_vanillafixed.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+
+    <ModOp Type="add" GUID="6018" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/movie_theater/movie_theater.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Electricity DLC12 -->
+    <ModOp Type="add" GUID="5164" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="5164" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/electricity/electricity_01_colony_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Samba School -->
+    <ModOp Type="add" GUID="5840" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="5840" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/dance_school/dance_school.cfg</Filename>
+        </Item>
+    </ModOp>
+</ModOps>

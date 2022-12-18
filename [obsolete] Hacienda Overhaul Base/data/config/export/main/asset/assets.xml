@@ -1,0 +1,2651 @@
+<ModOps>
+
+    <!-- #Ornamentstraßen fixen -->
+
+    <!--   Ornamentstraßen ohne Limit 
+    <ModOp Type="replace" GUID="24768" Path="/Values/ModuleOwner/ModuleLimits/Main">
+        <Main>
+            <Limit>10000</Limit>
+        </Main>
+    </ModOp> -->
+
+    <!-- Ornamentstraße ohne Feedback -->
+    <ModOp Type="replace" GUID="24770" Path="/Values/Object/Variations">
+        <Variations>
+            <Item>
+                <Filename>data/modgraphics/buildings/ornaments/hacienda/hacienda_ornaments_floor_1x1_01.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/modgraphics/buildings/ornaments/hacienda/hacienda_ornaments_floor_1x1_02.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/modgraphics/buildings/ornaments/hacienda/hacienda_ornaments_floor_1x1_03.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+
+    <!-- Ornamentstraße kosten Ziegel -->
+    <ModOp Type="replace" GUID="24770,25224" Path="/Values/Cost">
+        <Cost>
+            <Costs>
+                <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>50</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>1</Amount>
+                </Item>
+            </Costs>
+            <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+    </ModOp>
+
+    <!-- Ornamentstraßen ohne Limit als Ornamental Streets -->
+
+    <ModOp Type="replace" GUID="24770,25224" Path="/Template">
+        <Template>OrnamentalModule</Template>
+    </ModOp>
+    <ModOp Type="add" GUID="24770,25224" Path="/Values">
+        <Ornament>
+            <OrnamentUnit>1</OrnamentUnit>
+        </Ornament>
+    </ModOp>
+
+    <!-- #Hacienda eigenen Reiter im Baumenü -->
+
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24770']"></ModOp>
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='25224']"></ModOp>
+    <ModOp Type="remove" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='25178']"></ModOp>
+    <ModOp Type="remove" GUID="500946" Path="/Values/ConstructionCategory/BuildingList/Item[Building='25178']"></ModOp>
+
+    <!-- Remove the modul of empty nw farm for now due to constant crashes after selecting a recipe from blank #obsolete: fixed in Policies Mod
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']"></ModOp> -->
+
+    <ModOp Type="replace" GUID="25178" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_tree_3.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="25178" Path="/Values/ConstructionCategory/BuildingList/Item[Building='24768']"></ModOp>
+
+    <!-- ConstructionMenu Hacienda -->
+    <ModOp Type="addNextSibling" GUID="25000194">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002020</GUID>
+                    <Name>sa construction menu 3 (Hacienda)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_hacienda_main.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>24768</Building>
+                        </Item>
+                        <Item>
+                            <Building>24770</Building>
+                        </Item>
+                        <Item>
+                            <Building>25224</Building>
+                        </Item>
+                        <Item>
+                            <Building>24792</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002021</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002023</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002025</Building>
+                        </Item>
+                        <Item>
+                            <Building>24775</Building>
+                        </Item>
+                        <Item>
+                            <Building>24805</Building>
+                        </Item>
+                        <Item>
+                            <Building>25178</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>27185</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Baumenü Hacienda hinzufügen neben Obreros -->
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/Item[Category='25000194']">
+        <Item>
+            <Category>1999002020</Category>
+        </Item>
+    </ModOp>
+
+    <!-- Add Hacienda Construction Categorie next to the city tab in alternative build menu mode-->
+
+    <ModOp Type="addNextSibling" GUID="500946">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002070</GUID>
+                    <Name>sa construction menu 3 (Hacienda)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_hacienda_main.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>24768</Building>
+                        </Item>
+                        <Item>
+                            <Building>24770</Building>
+                        </Item>
+                        <Item>
+                            <Building>25224</Building>
+                        </Item>
+                        <Item>
+                            <Building>24792</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002021</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002023</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002025</Building>
+                        </Item>
+                        <Item>
+                            <Building>24775</Building>
+                        </Item>
+                        <Item>
+                            <Building>24805</Building>
+                        </Item>
+                        <Item>
+                            <Building>25178</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>27185</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/BuildingCategory/Categories/Item[Category='500946']">
+        <Item>
+            <Category>1999002070</Category>
+        </Item>
+    </ModOp>
+
+    <!-- Hacienda Construction Categories -->
+    <!-- Sub-Menu NW Farms -->
+    <ModOp Type="addNextSibling" GUID="25178">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002021</GUID>
+                    <Name>Hacienda NW Farm Sub-Menu</Name>
+                    <IconFilename>data/modgraphics/ui/icon_hacienda_crop_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1999002001</Building>
+                        </Item>
+                        <Item>
+                            <Building>24798</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002004</Building>
+                        </Item>
+                        <Item>
+                            <Building>25006</Building>
+                        </Item>
+                        <Item>
+                            <Building>25003</Building>
+                        </Item>
+                        <Item>
+                            <Building>25005</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002007</Building>
+                        </Item>
+                        <Item>
+                            <Building>25009</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1999002022</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55245</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Sub-Menu OW Farms -->
+    <ModOp Type="addNextSibling" GUID="25178">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002023</GUID>
+                    <Name>Hacienda OW Farm Sub-Menu</Name>
+                    <IconFilename>data/modgraphics/ui/icon_hacienda_crop_ow.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>25019</Building>
+                        </Item>
+                        <Item>
+                            <Building>25128</Building>
+                        </Item>
+                        <Item>
+                            <Building>25020</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1999002024</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55245</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Sub-Menu Hacienda Brewery -->
+    <ModOp Type="addNextSibling" GUID="25178">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002025</GUID>
+                    <Name>Hacienda Brewery Sub-Menu</Name>
+                    <IconFilename>data/modgraphics/ui/icon_hacienda_brewery.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>25350</Building>
+                        </Item>
+                        <Item>
+                            <Building>25064</Building>
+                        </Item>
+                        <Item>
+                            <Building>24801</Building>
+                        </Item>
+                        <Item>
+                            <Building>25508</Building>
+                        </Item>
+                        <Item>
+                            <Building>25126</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1999002026</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55245</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Lock Storage Room, Jornalero Residence, Dung Factory -->
+    <ModOp Type="replace" GUID="24805,24775,24792" Path="/Values/Locked">
+        <Locked>
+            <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+    </ModOp>
+
+    <!--Trigger Freischaltung neue Constructioncategories und Baumenü mit 1 Obrero -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002027</GUID>
+                    <Name>Hacienda Baumenü Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002020</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002021</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002023</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002025</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24805</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24775</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24792</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002020</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002021</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002023</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002025</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24805</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24775</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24792</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002071</GUID>
+                    <Name>Hacienda Baumenü Trigger 2 alternative Buildmenu</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002070</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002070</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Hacienda Module Icons ersetzen -->
+
+    <ModOp Type="replace" GUID="24800" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_hacienda_brewery.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24792" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_hacienda_house.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24794" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_hacienda_crop_nw.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_hacienda_warehouse.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24805" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_fertilizer_good.png</IconFilename>
+    </ModOp>
+
+
+    <!-- #Diverse Bugfixes für Hacienda und Häuser -->
+    <!-- Jornaleros Upgradeable machen -->
+
+    <ModOp Type="replace" GUID="24792" Path="/Values/Upgradable">
+        <Upgradable>
+            <NextGUID>24793</NextGUID>
+            <UpgradeCost>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>0</InheritedIndex>
+                        <InheritanceMapV2>
+                            <Entry>
+                                <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                <Index>0</Index>
+                            </Entry>
+                        </InheritanceMapV2>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>1</InheritedIndex>
+                        <InheritanceMapV2>
+                            <Entry>
+                                <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                <Index>1</Index>
+                            </Entry>
+                        </InheritanceMapV2>
+                    </VectorElement>
+                    <Amount>5</Amount>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>2</InheritedIndex>
+                        <InheritanceMapV2>
+                            <Entry>
+                                <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                <Index>2</Index>
+                            </Entry>
+                        </InheritanceMapV2>
+                    </VectorElement>
+                    <Amount>10</Amount>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>3</InheritedIndex>
+                        <InheritanceMapV2>
+                            <Entry>
+                                <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                <Index>3</Index>
+                            </Entry>
+                        </InheritanceMapV2>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>4</InheritedIndex>
+                        <InheritanceMapV2>
+                            <Entry>
+                                <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                <Index>4</Index>
+                            </Entry>
+                        </InheritanceMapV2>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>5</InheritedIndex>
+                        <InheritanceMapV2>
+                            <Entry>
+                                <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                <Index>5</Index>
+                            </Entry>
+                        </InheritanceMapV2>
+                    </VectorElement>
+                </Item>
+            </UpgradeCost>
+        </Upgradable>
+    </ModOp>
+
+    <!-- Obreros kopieren unmöglich machen -->
+    <ModOp Type="add" GUID="24793" Path="/Values/Building">
+        <PickingAsset>24792</PickingAsset>
+    </ModOp>
+
+    <!-- Jornalero-Hacienda Cordilleren Buff #obsolet dank Fix GU15?
+    <ModOp Type="add" GUID="191132" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>24792</GUID>
+        </Item>
+    </ModOp> -->
+
+    <!-- Remove Hacienda Jornaleros from All Obreros/Investors ItemTargetPool #obsolet dank GU15?
+    <ModOp Type="remove" GUID="192446" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='24792']"></ModOp> -->
+
+    <!-- Reihenfolge Tortillas und Hot Suace ändern, +2 Hot Suace, weil sonst bei Aufstieg 2 ausziehen, dafür Tortillas 2 weniger -->
+    <ModOp Type="remove" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']"></ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+        <Item>
+            <Product>25506</Product>
+            <Amount>0.000476191</Amount>
+            <SupplyWeight>6</SupplyWeight>
+            <MoneyValue>10</MoneyValue>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120035']"></ModOp>
+
+    <!-- Atole Need freischalten mit 300 Obreros  -->
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']">
+        <FullWeightPopulationCount>600</FullWeightPopulationCount>
+        <NoWeightPopulationCount>299</NoWeightPopulationCount>
+    </ModOp>
+
+    <!-- Fix LOD issue with one of the obrero houses -->
+    <ModOp Type="replace" GUID="24793" Path="/Values/Object/Variations/Item[Filename='data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate01.cfg']">
+        <Item>
+            <Filename>data/modgraphics/buildings/houses/living_space_module_tier02_estate01.cfg</Filename>
+        </Item>
+    </ModOp>
+    <ModOp Type="replace" GUID="24793" Path="/Values/Object/Variations/Item[Filename='data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate03.cfg']">
+        <Item>
+            <Filename>data/modgraphics/buildings/houses/living_space_module_tier02_estate03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- remove Obrero houses from module selection! -> must be upgraded -->
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24793']"></ModOp>
+
+    <!-- Remove Hacienda Houses and Main Building and Storage Room from All Production Buildings by removing the whole pool from the all production buildings pool and adding the farms back in (breweries are there already !) -->
+    <!--<ModOp Type="remove" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='25674']"></ModOp> #obsolet: fixed with GU15, but forgot to add farms back in?-->
+    <ModOp Type="add" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>25894</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- Captain of Industry Influence buff - add Hacienda -->
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>24768</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Hacienda Production Farm Fixes -->
+    <!-- Products checken -->
+    <ModOp Type="replace" GUID="114369" Path="/Values/Product">
+        <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>25</BasePrice>
+            <CivLevel>1</CivLevel>
+            <AssociatedRegion>Africa</AssociatedRegion>
+            <ProductionRegions>
+                <Item>
+                    <RegionType>Africa</RegionType>
+                    <RequiredDLCs>
+                        <Item>
+                            <RequiredDLC>410071</RequiredDLC>
+                        </Item>
+                    </RequiredDLCs>
+                </Item>
+                <Item>
+                    <RegionType>Colony01</RegionType>
+                    <RequiredDLCs>
+                        <Item>
+                            <RequiredDLC>24961</RequiredDLC>
+                        </Item>
+                    </RequiredDLCs>
+                </Item>
+            </ProductionRegions>
+        </Product>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010192" Path="/Values/Product">
+        <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>20</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <ProductionRegions>
+                <Item>
+                    <RegionType>Moderate</RegionType>
+                </Item>
+                <Item>
+                    <RegionType>Colony01</RegionType>
+                    <RequiredDLCs>
+                        <Item>
+                            <RequiredDLC>24961</RequiredDLC>
+                        </Item>
+                    </RequiredDLCs>
+                </Item>
+            </ProductionRegions>
+        </Product>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010195" Path="/Values/Product">
+        <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>10</BasePrice>
+            <CivLevel>1</CivLevel>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <ProductionRegions>
+                <Item>
+                    <RegionType>Moderate</RegionType>
+                </Item>
+                <Item>
+                    <RegionType>Colony01</RegionType>
+                    <RequiredDLCs>
+                        <Item>
+                            <RequiredDLC>24961</RequiredDLC>
+                        </Item>
+                    </RequiredDLCs>
+                </Item>
+            </ProductionRegions>
+        </Product>
+    </ModOp>
+
+    <!-- Productiontime und Lager checken -->
+    <!-- Sugar Cane -->
+    <ModOp Type="replace" GUID="24798" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010251</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+        </FactoryBase>
+    </ModOp>
+    <!-- Corn -->
+    <ModOp Type="replace" GUID="25003" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>120034</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Coffee -->
+    <ModOp Type="replace" GUID="25005" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>120031</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Caoutchouc -->
+    <ModOp Type="replace" GUID="25006" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010255</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Cacao -->
+    <ModOp Type="replace" GUID="25009" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010254</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Potatos -->
+    <ModOp Type="replace" GUID="25019" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010195</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Spices -->
+    <ModOp Type="replace" GUID="25020" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>114369</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Grain -->
+    <ModOp Type="replace" GUID="25128" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010192</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+
+    <!-- #Hacienda Farmen aufteilen in NW und OW Seeds - Seperate Gebäude + Rezeptbücher -->
+    <!-- Bananas -->
+    <ModOp Type="addNextSibling" GUID="24798">
+        <Asset>
+            <Template>RecipeFarm</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002001</GUID>
+                    <Name>Hacienda universal farm Plantains</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_banana.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>6</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/buildings/production/hacienda/hacienda_farm_banana/hacienda_farm_bananas.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda Plantains Farm</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55200</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200571</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>120041</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                            <Limit>64</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>101280</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdditionalModule>269849</AdditionalModule>
+                    <FertilizerModuleData>
+                        <Module>25241</Module>
+                    </FertilizerModuleData>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                    <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable>
+                    <IsHaciendaDependent>1</IsHaciendaDependent>
+                </Pausable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <QuestObject />
+                <Industrializable />
+                <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+                <EcoSystemProvider />
+                <MonoCulture />
+                <RecipeBuilding>
+                    <RecipeList>24795</RecipeList>
+                </RecipeBuilding>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25672,26008" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1999002001</Asset>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002001</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002001</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+        <Item>
+            <Building>1999002001</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>270098</UnitClass>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="191897,191898,191899,193652,190688,190690,190692,190686" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999002001</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='24798']">
+        <Item>
+            <Factory>1999002001</Factory>
+        </Item>
+    </ModOp>
+
+
+    <ModOp Type="addNextSibling" GUID="24796">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002002</GUID>
+                    <Name>Recipe_00 Bananas</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_banana.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Plantains</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55208</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999002001</RecipeBuilding>
+                    <RecipeDescriptionText>1999002003</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/universal_farm/recipebook_universalfarm_plantains.png</RecipeImage>
+                </Recipe>
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Cotton -->
+    <ModOp Type="addNextSibling" GUID="24798">
+        <Asset>
+            <Template>RecipeFarm</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002004</GUID>
+                    <Name>Hacienda universal farm Cotton</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_cotton.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>6</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/buildings/production/hacienda/hacienda_farm_cotton/hacienda_farm_cotton.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda Plantains Farm</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55200</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200571</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010253</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>2</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>60</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                            <Limit>64</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>1010336</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdditionalModule>269849</AdditionalModule>
+                    <FertilizerModuleData>
+                        <Module>25241</Module>
+                    </FertilizerModuleData>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                    <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable>
+                    <IsHaciendaDependent>1</IsHaciendaDependent>
+                </Pausable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <QuestObject />
+                <Industrializable />
+                <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+                <EcoSystemProvider />
+                <MonoCulture />
+                <RecipeBuilding>
+                    <RecipeList>24795</RecipeList>
+                </RecipeBuilding>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25672,26008" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1999002004</Asset>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002004</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002004</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+        <Item>
+            <Building>1999002004</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269968</UnitClass>
+                    <ShrinksFieldsOnTouch>1</ShrinksFieldsOnTouch>
+                    <VehicleType>Harvester</VehicleType>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190099,190937,190938,190939,190688,190690,190692,190686,191342" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999002004</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='24798']">
+        <Item>
+            <Factory>1999002004</Factory>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="24796">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002005</GUID>
+                    <Name>Recipe_00 Cotton</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_cotton.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cotton</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55208</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999002004</RecipeBuilding>
+                    <RecipeDescriptionText>1999002006</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/universal_farm/recipebook_universalfarm_cotton.png</RecipeImage>
+                </Recipe>
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Tobacco -->
+    <ModOp Type="addNextSibling" GUID="24798">
+        <Asset>
+            <Template>RecipeFarm</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002007</GUID>
+                    <Name>Hacienda universal farm Tobacco</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_tobacco.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>6</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/buildings/production/hacienda/hacienda_farm_tobacco/hacienda_farm_tobacco.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda Plantains Farm</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55200</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200571</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010252</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>1</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>120</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                            <Limit>64</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>1010335</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdditionalModule>269849</AdditionalModule>
+                    <FertilizerModuleData>
+                        <Module>25241</Module>
+                    </FertilizerModuleData>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                    <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable>
+                    <IsHaciendaDependent>1</IsHaciendaDependent>
+                </Pausable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <QuestObject />
+                <Industrializable />
+                <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+                <EcoSystemProvider />
+                <MonoCulture />
+                <RecipeBuilding>
+                    <RecipeList>24795</RecipeList>
+                </RecipeBuilding>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25672,26008" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1999002007</Asset>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002007</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002007</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+        <Item>
+            <Building>1999002007</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>270097</UnitClass>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190100,190934,190935,190936,193671,190687,190689,190691,190639" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999002007</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='25009']">
+        <Item>
+            <Factory>1999002007</Factory>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="24796">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002008</GUID>
+                    <Name>Recipe_00 Tobacco</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_tobacco.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Tobacco</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55208</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999002007</RecipeBuilding>
+                    <RecipeDescriptionText>1999002009</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/universal_farm/recipebook_universalfarm_tobacco.png</RecipeImage>
+                </Recipe>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Hacienda Farmen Recipe Lists trennen -->
+    <!-- Recipe List NW Farms -->
+
+    <ModOp Type="replace" GUID="24795" Path="/Values/RecipeList/Recipes">
+        <Recipes>
+            <Item>
+                <Recipe>1999002002</Recipe>
+            </Item>
+            <Item>
+                <Recipe>24796</Recipe>
+            </Item>
+            <Item>
+                <Recipe>1999002005</Recipe>
+            </Item>
+            <Item>
+                <Recipe>25013</Recipe>
+            </Item>
+            <Item>
+                <Recipe>25010</Recipe>
+            </Item>
+            <Item>
+                <Recipe>25012</Recipe>
+            </Item>
+            <Item>
+                <Recipe>1999002008</Recipe>
+            </Item>
+            <Item>
+                <Recipe>25015</Recipe>
+            </Item>
+        </Recipes>
+    </ModOp>
+
+    <!-- Recipe List OW Farms -->
+    <ModOp Type="addNextSibling" GUID="24795">
+        <Asset>
+            <Template>RecipeList</Template>
+            <Values>
+                <RecipeList>
+                    <Recipes>
+                        <Item>
+                            <Recipe>25023</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>25024</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>25349</Recipe>
+                        </Item>
+                    </Recipes>
+                    <RecipeListType>Farm</RecipeListType>
+                    <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_universalfarm.png</RecipeListMoodImage>
+                    <RecipeListDescription>25261</RecipeListDescription>
+                </RecipeList>
+                <Standard>
+                    <GUID>1999002014</GUID>
+                    <Name>RecipeList</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Status>ToBeDeleted</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25019,25020,25128" Path="/Values/RecipeBuilding">
+        <RecipeBuilding>
+            <RecipeList>1999002014</RecipeList>
+        </RecipeBuilding>
+    </ModOp>
+
+    <!-- Neue leere Farm für OW Seeds -->
+    <ModOp Type="addNextSibling" GUID="24794">
+        <Asset>
+            <Template>RecipeFarm</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002015</GUID>
+                    <Name>Hacienda universal farm OW blank</Name>
+                    <IconFilename>data/modgraphics/ui/icon_hacienda_crop_ow.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>3000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc10/graphics/buildings/special/hacienda/universal_farm_module/universal_farm_module_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda Farm</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55199</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200571</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase />
+                <LogisticNode />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                            <Limit>64</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>1010334</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdditionalModule>269849</AdditionalModule>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                    <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance />
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Fire>
+                        <Riot>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Riot>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                </IncidentInfectable>
+                <Pausable>
+                    <IsHaciendaDependent>1</IsHaciendaDependent>
+                </Pausable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <QuestObject />
+                <Industrializable />
+                <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+                <EcoSystemProvider />
+                <MonoCulture />
+                <RecipeBuilding>
+                    <RecipeList>1999002014</RecipeList>
+                    <IsBlank>1</IsBlank>
+                </RecipeBuilding>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Needs to be removed for the moment because of not fixable ctd when selecting any recipe from an empty recipe farm #fixed in PoliciesMod -->
+    <ModOp Type="addNextSibling" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']">
+        <Item>
+            <ModuleGUID>1999002015</ModuleGUID>
+        </Item>
+    </ModOp>
+
+    <!-- Trigger all new Buildings and Recipes with 1 Obrero -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002016</GUID>
+                    <Name>Hacienda Farm Overhaul Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002001</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002002</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002004</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002014</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002015</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002001</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002002</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002004</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002014</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002015</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Hacienda Production Brewery Fixes -->
+    <!-- Products checken -->
+    <ModOp Type="replace" GUID="1010216" Path="/Values/Product">
+        <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11705</ProductCategory>
+            <BasePrice>25</BasePrice>
+            <CivLevel>1</CivLevel>
+            <AssociatedRegion>Moderate;Arctic;Colony01</AssociatedRegion>
+            <ProductionRegions>
+                <Item>
+                    <RegionType>Moderate</RegionType>
+                </Item>
+                <Item>
+                    <RegionType>Colony01</RegionType>
+                    <RequiredDLCs>
+                        <Item>
+                            <RequiredDLC>24961</RequiredDLC>
+                        </Item>
+                    </RequiredDLCs>
+                </Item>
+            </ProductionRegions>
+        </Product>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010214" Path="/Values/Product">
+        <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11705</ProductCategory>
+            <BasePrice>325</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+            <ProductionRegions>
+                <Item>
+                    <RegionType>Moderate</RegionType>
+                </Item>
+                <Item>
+                    <RegionType>Colony01</RegionType>
+                    <RequiredDLCs>
+                        <Item>
+                            <RequiredDLC>24961</RequiredDLC>
+                        </Item>
+                    </RequiredDLCs>
+                </Item>
+            </ProductionRegions>
+        </Product>
+    </ModOp>
+
+    <!-- Productiontime und Lager checken -->
+    <!-- Rum -->
+    <ModOp Type="replace" GUID="24801" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>120008</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>8</StorageAmount>
+                </Item>
+                <Item>
+                    <Product>1010251</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>6</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010257</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Beer -->
+    <ModOp Type="replace" GUID="25064" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>1010192</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                    <Product>120034</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>3</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010214</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Atole -->
+    <ModOp Type="replace" GUID="25126" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>120034</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>3</StorageAmount>
+                </Item>
+                <Item>
+                    <Product>1010251</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+                <Item>
+                    <Product>25131</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Schnapps -->
+    <ModOp Type="replace" GUID="25350" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>1010195</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>6</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+                <Item>
+                    <Product>1010216</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+    <!-- Hot Sauce -->
+    <ModOp Type="replace" GUID="25508" Path="/Values/FactoryBase">
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>114369</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+                <Item>
+                    <Product>25506</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>1</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>120</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+    </ModOp>
+
+    <!-- Lock relevant farms and factories for Unlocktrigger -->
+    <ModOp Type="add" GUID="25005,25009,25126,25064,25062,25130,25012,25015" Path="/Values/Locked">
+        <DefaultLockedState>1</DefaultLockedState>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="25794"></ModOp>
+    <ModOp Type="remove" GUID="25791" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='25130']"></ModOp>
+    <ModOp Type="remove" GUID="25791" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='25126']"></ModOp>
+
+    <!-- #Unlocktrigger -->
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002060</GUID>
+                    <Name>Atole Trauben Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>25126</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25012</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002061</GUID>
+                    <Name>Kaffee Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>25064</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25062</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>25126</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25012</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002062</GUID>
+                    <Name>Bier Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>600</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002007</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002008</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>25064</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25062</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002063</GUID>
+                    <Name>Tabak Kakao Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>25009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25015</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002007</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002008</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002064</GUID>
+                    <Name>Tabak Kakao Unlock Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>25009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25015</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Variationen für das Ground Decal der relevanten Öffis hinzufügen -->
+
+    <!-- Polizei -->
+    <ModOp Type="add" GUID="101274" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101274" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_colony01_01/institution_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Feuerwehr -->
+    <ModOp Type="add" GUID="101275" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101275" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_colony01_02/institution_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Krankenhaus -->
+    <ModOp Type="add" GUID="101276" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101276" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/institution_colony01_03/institution_colony01_03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Logistics_01 -->
+    <ModOp Type="add" GUID="101323" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101323" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/logistic_colony01_01/logistic_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Logistics_02 -->
+    <ModOp Type="add" GUID="101324" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101324" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/logistics_colony01_02/logistic_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Logistics_03 -->
+    <ModOp Type="add" GUID="101325" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101325" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/logistics_colony01_04/logistic_colony01_04.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Kapelle -->
+    <ModOp Type="add" GUID="101258" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101258" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/service_colony01_02/service_colony01_02.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Boxarena -->
+    <ModOp Type="add" GUID="101259" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101259" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/public/service_colony01_03/service_colony01_03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Guild House -->
+    <ModOp Type="add" GUID="101284" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101284" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/special/guild_house_colony01/guild_house_colony01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- Town Hall -->
+    <ModOp Type="add" GUID="101285" Path="/Values/Building">
+        <AllowChangeVariation>1</AllowChangeVariation>
+        <BuildModeStartVariation>0</BuildModeStartVariation>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101285" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/modgraphics/buildings/special/townhall_colony01_01/townhall_colony01_01.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- #Anpassung Marketplace Storage List an neue Bedürfnisse -->
+
+    <ModOp Type="add" GUID="120058" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1010216</Product>
+        </Item>
+        <Item>
+            <Product>25506</Product>
+        </Item>
+        <Item>
+            <Product>25131</Product>
+        </Item>
+    </ModOp>
+
+
+</ModOps>

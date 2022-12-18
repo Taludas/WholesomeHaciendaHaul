@@ -1,0 +1,70 @@
+{
+  "Version": "1.4",
+  "ModID": "Taludas_TheWholesomeHaciendaHaul_BasicGameplayChanges",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "English": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "French": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "German": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Italian": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Japanese": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Korean": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Polish": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Russian": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Spanish": "The Wholesome Hacienda Haul Basic Gameplay Changes",
+    "Taiwanese": "The Wholesome Hacienda Haul Basic Gameplay Changes"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This Mod contains the basic Hacienda Gameplay Changes: A wider Hacienda radius and a debuff to fertilizer.",
+    "French": null,
+    "German": "Diese Mod enthält die grundlegenden Hacienda Gameplay Änderungen: Ein größerer Hacienda-Radius und ein Debuff für Dünger.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}

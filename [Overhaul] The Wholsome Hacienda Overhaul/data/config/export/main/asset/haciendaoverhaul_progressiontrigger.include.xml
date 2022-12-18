@@ -1,0 +1,319 @@
+<ModOps>
+    <!-- #Lock relevant farms and factories for Unlocktrigger -->
+    <ModOp Type="replace" GUID="24805,24775,24792,25005,25009,25126,25064,25062,25130,25012,25015,24770,25224" Path="/Values/Locked">
+        <Locked>
+            <DefaultLockedState>1</DefaultLockedState>
+            <DLCDependency>24961</DLCDependency>
+        </Locked>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="25794"></ModOp>
+    <ModOp Type="remove" GUID="25791" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='25130']"></ModOp>
+    <ModOp Type="remove" GUID="25791" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='25126']"></ModOp>
+
+
+    <!-- #Unlocktrigger Progression Hacienda Farms/Breweries -->
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002060</GUID>
+                    <Name>Atole Trauben Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>25126</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25012</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002061</GUID>
+                    <Name>Kaffee Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>25064</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25062</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>25126</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25005</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25012</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002062</GUID>
+                    <Name>Bier Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>600</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>25064</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25062</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002063</GUID>
+                    <Name>Kakao Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>25009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25015</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002064</GUID>
+                    <Name>Kakao Unlock Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>25009</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25015</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!--Trigger Unlock new Construction Categories and build menus with 1 Obrero -->
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002027</GUID>
+                    <Name>Hacienda Baumenü Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002020</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002070</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002021</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002023</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002025</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24805</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24775</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>24792</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
