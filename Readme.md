@@ -11,7 +11,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 - download the mod archieve from [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases)
 - select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
 
-**With version 2.0, it is extremely important to remove all older versions of this mod. The Mod is now a single mod folder and modules are disabled through editing assets.xml file or through IModYourAnno Mod Manager!**
+**With version 2.0, it is extremely important to remove all older versions of this mod. The Mod is now a single mod folder and modules are disabled through editing assets.xml file or through IModYourAnno Mod Manager! If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!**
 
 ## Changelog
 <details>
@@ -20,7 +20,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 * New features:
     - Major overhaul of the mod structure. The mod now consists of a single mod folder to be installed manually or via iModYourAnno. Please make sure to remove all older mod folders of this mod. This process should be savegame compatible. Free Farmfield Placement was left in a separate mod folder since it affects vanilla gameplay as well.
     - Modularity: If you remove certain features of this mod, you can open the included asset.xml file and remove single modules via deleting single <include>-Commands. There is a little description in the assets file to tell you what the module does.
-    - Tweaking: This mod now supports tweaking via iModYourAnno Mod Manager. No need to tinker with the assets files yourself. Just open the 'Teaking' tab and see what can be changed. You can tweak many number values to your liking, f.e. the Hacienda radius or the production time of certain production buildings. You can also disable whole mod features through the 'Tweaking' tab toggels.
+    - Tweaking: This mod now supports tweaking via iModYourAnno Mod Manager. No need to tinker with the assets files yourself. Just open the 'Teaking' tab and see what can be changed. You can tweak many number values to your liking, f.e. the Hacienda radius or the production time of certain production buildings. You can also disable whole mod features through the 'Tweaking' tab toggels. If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!
 
 * Update for GU16:
     - Made the whole mod compatible with GU16. Added Artista 2x3 Residences and updated Hacienda Quarters for new Lifestyle needs and RequiredtobeBuilding change:
