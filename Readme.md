@@ -20,7 +20,7 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 * New features:
     - Major overhaul of the mod structure. The mod now consists of a single mod folder to be installed manually or via iModYourAnno. Please make sure to remove all older mod folders of this mod. This process should be savegame compatible. Free Farmfield Placement was left in a separate mod folder since it affects vanilla gameplay as well.
     - Modularity: If you remove certain features of this mod, you can open the included asset.xml file and remove single modules via deleting single <include>-Commands. There is a little description in the assets file to tell you what the module does.
-    - Tweaking: This mod now supports tweaking via iModYourAnno Mod Manager. No need to tinker with the assets files yourself. Just open the 'Teaking' tab and see what can be changed. You can tweak many number values to your liking, f.e. the Hacienda radius or the production time of certain production buildings. You can also disable whole mod features through the 'Tweaking' tab toggels. If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!
+    - Tweaking: This mod now supports tweaking via iModYourAnno Mod Manager. No need to tinker with the assets files yourself. Just open the 'Tweaking' tab and see what can be changed. You can tweak many number values to your liking, f.e. the Hacienda radius or the production time of certain production buildings. You can also disable whole mod features through the 'Tweaking' tab toggels. If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!
 
 * Update for GU16:
     - Made the whole mod compatible with GU16. Added Artista 2x3 Residences and updated Hacienda Quarters for new Lifestyle needs and RequiredtobeBuilding change:
@@ -316,6 +316,10 @@ In cooperation with Lordys, I developped an extention to the Hacienda DLC with n
 * Hacienda Townhall
 * Hacienda Border Wall Semi-Automatic and manual → read below!
 * One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
+
+### Mod Tweaks through iModYourAnno
+
+If you use the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) you will find a tweakin tab in it. There are several options to tweak some gameplay elements of this mod. For example you can toggle wheter the Hacienda Farms require a fertility. Or what recipe the winery uses. With regards to the policies you can decide to either use the vanilla ones or my modded ones and you can specify the required Attractivness amount needed to unlock these. If you want the full experience, I suggest you switch every toggle option to 'on'. The value tweaking is up to your own liking. Feel free to experiment with your own numbers. Always remember to save you changes and delete the Cache Folder inside your mods folder afterwards.
 
 ### Bugfixes
 - Hacienda Main Building removed from the ItemEffectTargetPool “All Hacienda Buildings” so that it can’t be boosted by Items which affect “All Production Buildings”.
