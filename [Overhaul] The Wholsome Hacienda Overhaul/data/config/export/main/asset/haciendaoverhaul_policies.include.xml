@@ -1724,38 +1724,6 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="193771">
-        <Asset>
-            <Template>ItemEffectTargetPool</Template>
-            <Values>
-                <Standard>
-                    <GUID>1999002151</GUID>
-                    <Name>All artista residences</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>All artista residences</Text>
-                            <Status>Exported</Status>
-                            <ExportCount>1</ExportCount>
-                        </English>
-                    </LocaText>
-                    <LineID>36151</LineID>
-                </Text>
-                <ItemEffectTargetPool>
-                    <EffectTargetGUIDs>
-                        <Item>
-                            <GUID>5405</GUID>
-                        </Item>
-                        <Item>
-                            <GUID>6086</GUID>
-                        </Item>
-                    </EffectTargetGUIDs>
-                </ItemEffectTargetPool>
-            </Values>
-        </Asset>
-    </ModOp>
-
     <ModOp Type="addNextSibling" GUID="142449">
         <Asset>
             <Template>FestivalBuff</Template>
@@ -1781,7 +1749,7 @@
                 <ItemEffect>
                     <EffectTargets>
                         <Item>
-                            <GUID>1999002310</GUID>
+                            <GUID>1999002010</GUID>
                         </Item>
                     </EffectTargets>
                 </ItemEffect>

@@ -23,6 +23,17 @@
         </FixedValues>
     </ImyaExpose>
 
+<!-- Fertilizer Works Industrializable Toggle -->
+    <ModOp Type="replace" GUID="24805" Path="/Template" ModOpID="FertiliserIndustrializable">
+        <Template>BuffFactoryCultureIndustrializable_Taludas</Template>
+    </ModOp>
+
+    <ImyaExpose Path="self::Template" Kind="Toggle" ModOpID="FertiliserIndustrializable" ExposeID="FertiliserWorks_Industrializable" Description="Switch on to enable electricity boost for the Hacienda Fertiliser Works.">
+        <AltValue>
+            <Template>BuffFactoryCulture</Template>
+        </AltValue>    
+    </ImyaExpose>
+
 <!-- Internal Storage -->
     <ModOp Type="add" GUID="24805" Path="/Values/FactoryBase">
         <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
@@ -42,7 +53,7 @@
         <IsHaciendaDependent>1</IsHaciendaDependent>
     </ModOp>
 
-    <ImyaExpose Path="self::IsHaciendaDependent" Kind="Toggle" ModOpID="FertiliserHaciendaDependent" ExposeID="FertiliserWorks_IsHaciendaDependent" Description="Switch off to remove the requirement for the Hacienda Works to be inside the Hacienda Range.">
+    <ImyaExpose Path="self::IsHaciendaDependent" Kind="Toggle" ModOpID="FertiliserHaciendaDependent" ExposeID="FertiliserWorks_IsHaciendaDependent" Description="Switch off to remove the requirement for the Hacienda Works to be inside the Hacienda Range (If you don't change anything else in this menu, please toggle the switch to 'on' ones, save and then toggle it of again to remove the Hacienda Dependency!)">
         <AltValue>
             <IsHaciendaDependent>0</IsHaciendaDependent>
         </AltValue>    

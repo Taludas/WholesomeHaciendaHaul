@@ -261,5 +261,66 @@
       </Properties>
     </Template>
   </ModOp>
+  <ModOp Type="addNextSibling" Path="//Template[Name = 'BuffFactoryCulture']">
+    <Template>
+      <Name>BuffFactoryCultureIndustrializable_Taludas</Name>
+      <Properties>
+        <Standard />
+        <Text />
+        <Building>
+          <BuildingType>Factory</BuildingType>
+        </Building>
+        <Blocking />
+        <Mesh />
+        <BuffFactory />
+        <FactoryBase />
+        <FeedbackController />
+        <Pausable>
+          <CanPauseManually>1</CanPauseManually>
+        </Pausable>
+        <Selection>
+          <GUIType>Production</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Attackable />
+        <Maintenance />
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <LogisticNode />
+        <Constructable />
+        <Locked />
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Base>0</Base>
+            </Fire>
+            <Riot>
+              <Base>0</Base>
+            </Riot>
+            <Illness>
+              <Base>0</Base>
+            </Illness>
+            <Explosion>
+              <Base>0</Base>
+            </Explosion>
+          </Infectable>
+        </IncidentInfectable>
+        <Object />
+        <SoundEmitter />
+        <Cost />
+        <Infolayer />
+        <UpgradeList />
+        <Culture />
+        <Industrializable />
+        <Electrifiable />
+      </Properties>
+    </Template>
+  </ModOp>
 
 </ModOps>
