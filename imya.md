@@ -61,71 +61,21 @@ To be honest the vanilla Policies are like playing with the small scoops in Kind
 But as I’m more creative than that, I created 5 totally new and potentially game changing buffs for you to play around with. Now you’ll definitely consider every one of them.
 
 - Decree 1: Clean Environment Regulation (required Attractiveness: 450)
-    - Effects All Heavy Industries, all Mines, all Quarries, all NW Chemical Plants and all Breweries:
-        - Productivity +20%
-        - Chance of Fire -50%
-        - Chance of Explosion -100%
-        - Negative Infliction on Attractiveness -80%
-        - Workforce needed +25%
-        - Maintenance Costs +75%
-
 - Decree 2: Local Factory Outlet Regulation (required Attractiveness: 700)
-    - Effects All New World Residences:
-        - Reduced Consumption of:
-            - Ponchos -25%
-            - Bombins-15%
-            - Coffee -10%
-            - Cigars -10%
-            - Fans -10%
-            - Scooters -10%
-        - Extra happiness from Market/Hacienda +5
-        - Income -10%
-
-    - Effects All Clothing Factories, all Intermediate Good Producers, Coffee Roaster, Cigar Factory, Fan Factory and Scooter Factory:
-        - Extra Goods every third Cycle (1/3)
-        - Attractiveness +5%
-        - Workforce needed +15%
-        - Maintenance Costs -50%
-
 - Decree 3: Lumberjack Educational Decree (required Attractiveness: 1000)
-    - Effects All Lumberjacks and all NW Orchards
-        - Productivity +15%
-        - Attractiveness +10
-        - Workforce needed -50%
-        - Forest Density -25%
-        - Extra Goods: Wanza Wood 1/7 and Cherry Wood 1/10
-
 - Decree 4: Vineyard Promotion Act (required Attractiveness: 1750)
-    - Effects Hacienda Vineyards
-        - Extra Grapes every second cycle (+50%)
-        - Grape fertility provided
-        - +25 Attractivness
-
-    - Effects Hacienda Winery
-        - Extra Champagne every second cycle (+50%)
-        - +25 Attractivness
-
-    - Effects all Artista residences:
-        - +58 extra Money , +5 Happiness and +5 Inhabitants from the Champagne lifestyle need as well as a -25% reduction of said need.
-
 - Decree 5: Cultural Conservation Act (required Attractiveness: 2200)
-    - Effects all Obrero and all Artista Residences
-        - Income per House -25%
-        - Bonus Happiness +5 and Bonus Inhabitents +5 from Samba School and Lanterns
-        - Reduced consumption of Light Bulbs (-25%), Fans (-50%) and Scooters (-75%)
-        - Increaded consumpttion of Typewriters (+25%), Soccer Balls (+50%) and Sewing Machines (+75%)
-        - If the Boxing Arena need is fullfiled, the residences gain Cinema need fullfiled
-        - If Lantern need is fullfiled, the residences gain Electricity need fullfiled
 
 ### Extented Hacienda by Lordys and Taludas
 In cooperation with Lordys, I developped an extention to the Hacienda DLC with new public buildings, new 2x3 Hacienda residences and a outer Hacienda wall ornament to further customise your Gameplay experience.
-- Small Marketstands → Satisfy need of Hacienda for Residences in its range
-- Small Jornalero, Obrero Residences and Artista Residences (2x3) → 24/\[30\], 44/\[55\] and 68/\[85\] pop
-- Hacienda Chapel → Satisfies Chapel Need
-- Hacienda Fire Station, Hacienda Police Station (both with advanced Versions as well) → Two resolver units each and slightly higher coverage
-- Hacienda Trade Union → Radius 20! Costs 50 Obrero Worforce though
+
+- Small Marketstands: Satisfy need of Hacienda for Residences in its range
+- Small Jornalero, Obrero Residences and Artista Residences (2x3): 24/[30], 44/[55] and 68/[85] pop
+- Hacienda Chapel: Satisfies Chapel Need
+- Hacienda Fire Station, Hacienda Police Station (both with advanced Versions as well): Two resolver units each and slightly higher coverage
+- Hacienda Trade Union: Radius 20! Costs 50 Obrero Worforce though
 - Hacienda Townhall
-- Hacienda Border Wall Semi-Automatic and manual → read below!
+- Hacienda Border Wall Semi-Automatic and manual: read below!
 - One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
 
 ### Mod Tweaks through iModYourAnno
