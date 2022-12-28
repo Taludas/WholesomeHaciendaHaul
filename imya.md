@@ -70,7 +70,7 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
 In cooperation with Lordys, I developped an extention to the Hacienda DLC with new public buildings, new 2x3 Hacienda residences and a outer Hacienda wall ornament to further customise your Gameplay experience.
 
 - Small Marketstands: Satisfy need of Hacienda for Residences in its range
-- Small Jornalero, Obrero Residences and Artista Residences (2x3): 24/[30], 44/[55] and 68/[85] pop
+- Small Jornalero, Obrero Residences and Artista Residences (2x3): 24 [30], 44 [55] and 68 [85] pop
 - Hacienda Chapel: Satisfies Chapel Need
 - Hacienda Fire Station, Hacienda Police Station (both with advanced Versions as well): Two resolver units each and slightly higher coverage
 - Hacienda Trade Union: Radius 20! Costs 50 Obrero Worforce though
