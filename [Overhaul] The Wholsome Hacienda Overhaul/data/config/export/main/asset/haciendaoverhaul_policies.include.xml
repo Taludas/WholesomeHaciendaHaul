@@ -1043,6 +1043,9 @@
                             <GUID>101415</GUID>
                         </Item>
                         <Item>
+                            <GUID>101273</GUID>
+                        </Item>
+                        <Item>
                             <GUID>101296</GUID>
                         </Item>
                         <Item>
@@ -1083,6 +1086,9 @@
                         </Item>
                         <Item>
                             <GUID>1418</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>5933</GUID>
                         </Item>
                     </EffectTargetGUIDs>
                 </ItemEffectTargetPool>
