@@ -31,11 +31,11 @@
     <!-- #MODULAR: Policies Reworked -->
     <Include File="haciendaoverhaul_policies.include.xml" />
 
-    <!-- #MODULAR: Extended Hacienda by Lordys and Taludas -->
-    <Include File="haciendaoverhaul_extendedhacienda.include.xml" />
-
     <!-- #MODULAR: Hacienda Winery -->
     <Include File="haciendaoverhaul_winery.include.xml" />
+
+    <!-- #MODULAR: Extended Hacienda by Lordys and Taludas -->
+    <Include File="haciendaoverhaul_extendedhacienda.include.xml" />
 
     <!-- #MODULAR: Expanded Hacienda Gameplay Changes  -->
     <Include File="haciendaoverhaul_expandedhaciendagameplaychanges.include.xml" />
