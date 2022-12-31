@@ -17,11 +17,12 @@ This is a modular overhaul of the DLC10 Seeds of Change which touches nearly eve
 <details>
     <summary>Patch Notes Version 2.1</summary>
 
+* New Feature:
+    - made Hacienda Fertiliser Works electrifiable with toggle in iMYA
 * Update:
     - rewrite whole code of Free Farmdfield placement mod to support modded farms without needing to include GUIDs
 * Bugfixes:
     - English Description for Policy 4 fixed
-    - made Hacienda Fertiliser Works electrifiable with toggle in iMYA
     - fixed displayed and active buff for Hacienda Policy 4 (missing 2x3 Artista Houses and generell mess-up with the grape farm and winery)
     - fixed Chewing Gum and Violins needs to appear after Sewing Machines in Needs Tab
     - Fix Bug with invisible Hacienda ground decal for Hacienda Hospital
