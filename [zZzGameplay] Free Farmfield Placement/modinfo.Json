@@ -1,11 +1,8 @@
 {
-  "Version": "2.0",
+  "Version": "3.0",
   "ModID": "Taludas_TheWholesomeHaciendaHaul_FreeFarmfieldPlacement",
   "IncompatibleIds": null,
   "ModDependencies": [
-    "jakob_extra_goods",
-    "Taludas_CoffeeTobaccoEnbesaFull",
-    "Taludas_TheWholesomeHaciendaHaul"
   ],
   "Category": {
     "Chinese": "Gameplay",
@@ -21,23 +18,23 @@
     "Taiwanese": "Gameplay"
   },
   "ModName": {
-    "Chinese": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "English": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "French": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "German": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Italian": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Japanese": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Korean": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Polish": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Russian": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Spanish": "The Wholesome Hacienda Haul Free Farmfield Placement",
-    "Taiwanese": "The Wholesome Hacienda Haul Free Farmfield Placement"
+    "Chinese": "Free Farmfield Placement",
+    "English": "Free Farmfield Placement",
+    "French": "Free Farmfield Placement",
+    "German": "Free Farmfield Placement",
+    "Italian": "Free Farmfield Placement",
+    "Japanese": "Free Farmfield Placement",
+    "Korean": "Free Farmfield Placement",
+    "Polish": "Free Farmfield Placement",
+    "Russian": "Free Farmfield Placement",
+    "Spanish": "Free Farmfield Placement",
+    "Taiwanese": "Free Farmfield Placement"
   },
   "Description": {
     "Chinese": null,
-    "English": "This Mod updates the not longer maintained mod 'Free Farmfield Placement' from Finnem. All Farm modules and animal pastures are freely placable inside the radius of the farm. While using iModYourAnno you can tweak the radii yourself! Also contains my and Jakobs mod farms.",
+    "English": "# Free Farmfield Placement \n\n This Mod updates the not longer maintained mod 'Free Farmfield Placement' from Finnem. \n\n All Farm modules and animal pastures are freely placable inside the radius of the farm. \n\n## While using iModYourAnno you can tweak the radii yourself! \n\n## This mod should be compatible with all modded farms as well.",
     "French": null,
-    "German": "Dieser Mod aktualisiert den nicht mehr weitergeführten Mod 'Free Farmfield Placement' von Finnem. Alle Farmmodule und Tierweiden sind innerhalb des Radius der Farm frei platzierbar. Bei der Verwendung von iModYourAnno könnt ihr die Radien selbst anpassen! Beinhaltet auch meine und Jakobs Mod-Farmen.",
+    "German": "# Free Farmfield Placement \n\n Dieser Mod aktualisiert den nicht mehr weitergeführten Mod 'Free Farmfield Placement' von Finnem. \n\n Alle Farmmodule und Tierweiden sind innerhalb des Radius der Farm frei platzierbar. \n\n## Bei der Verwendung von iModYourAnno könnt ihr die Radien selbst anpassen! \n\n## Diese Mod ist in der Regel auch mit allen Mod-Farmen kompatibel.",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -63,6 +60,10 @@
     }
   ],
   "DLCDependencies": [
+    {
+      "DLC":"ThePassage",
+      "Dependant": "partly"
+    },
     {
       "DLC":"LandOfLions",
       "Dependant": "partly"

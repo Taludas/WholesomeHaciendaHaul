@@ -1,5 +1,14 @@
 <ModOps>
-	<ModOp Type="add" Path="/Templates/Group[Name = 'Economy']/Template[Name = 'FarmBuilding']/Properties/ModuleOwner/AdditionalModuleMustBeMainBuildingAdjacent">
+	<ModOp Type="add" Path="//Template[Name = 'FarmBuilding']/Properties/ModuleOwner">
+		<AdditionalModuleMustBeMainBuildingAdjacent>0</AdditionalModuleMustBeMainBuildingAdjacent>			 
+	</ModOp>
+	<ModOp Type="add" Path="//Template[Name = 'FarmBuilding_BuildPermit']/Properties/ModuleOwner">
+		<AdditionalModuleMustBeMainBuildingAdjacent>0</AdditionalModuleMustBeMainBuildingAdjacent>			 
+	</ModOp>
+	<ModOp Type="add" Path="//Template[Name = 'FarmBuilding_Electrifiable']/Properties/ModuleOwner">
+		<AdditionalModuleMustBeMainBuildingAdjacent>0</AdditionalModuleMustBeMainBuildingAdjacent>			 
+	</ModOp>
+	<ModOp Type="add" Path="//Template[Name = 'RecipeFarm']/Properties/ModuleOwner">
 		<AdditionalModuleMustBeMainBuildingAdjacent>0</AdditionalModuleMustBeMainBuildingAdjacent>			 
 	</ModOp>
 </ModOps>
