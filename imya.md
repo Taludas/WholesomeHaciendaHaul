@@ -4,6 +4,10 @@
 
 This is a modular overhaul of the DLC10 Seeds of Change which touches nearly every aspect of newly introduced gameplay into the sandbox mod. Pick and choose which changes you like the most!
 
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
+
 **With version 2.0, it is extremely important to remove all older versions of this mod. The Mod is now a single mod folder and modules are disabled through editing assets.xml file or through IModYourAnno Mod Manager! If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!**
 
 ## Mod Description with main feature overview
