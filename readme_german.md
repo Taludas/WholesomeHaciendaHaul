@@ -11,7 +11,7 @@ Wenn euch diese Mod gefällt und ihr mich unterstützen wollt, könnt ihr sie ge
 ## How to use
 
 - Verwende entweder den [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) Mod-Manager oder kenne wie man [Mods manuell installiert](https://github.com/jakobharder/anno1800-mod-loader#mods).
-- Wenn du die Mod manuell herunterlädst, benutze das Archiv von [GitHub releases]((https://github.com/Taludas/WholesomeHaciendaHaul/releases). Ladet nicht das gesamte Repo herunter!
+- Wenn du die Mod manuell herunterlädst, benutze das Archiv von [GitHub releases](https://github.com/Taludas/WholesomeHaciendaHaul/releases). Ladet nicht das gesamte Repo herunter!
 - Wählt die relevanten Mods aus und zieht sie in euren 1800 Mod-Ordner oder benutzt den iModYourAnno Mod Manager zur manuellen Installation.
 
 **If you change from older versions to version 2.x, it is extremely important to remove all older versions of this mod. The Mod is now a single mod folder and modules are disabled through editing assets.xml file or through iModYourAnno Mod Manager! If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!**
