@@ -1,0 +1,366 @@
+<ModOps>
+    <!-- Jornalero-Hacienda Cordilleren Buff #obsolet dank Fix GU15?
+    <ModOp Type="add" GUID="191132" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>24792</GUID>
+        </Item>
+    </ModOp> -->
+
+    <!-- Remove Hacienda Jornaleros from All Obreros/Investors ItemTargetPool #obsolet dank GU15?
+    <ModOp Type="remove" GUID="192446" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='24792']"></ModOp> -->
+
+    <!-- # Split HaciendaModulePopBuff for Obrero and Artista -->
+    <ModOp Type="replace" GUID="6086" Path="/Values/UpgradeList/DefaultBuff">
+        <DefaultBuff>1999002163</DefaultBuff>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25743">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002163</GUID>
+                    <Name>HacienadaModulePopBuff_Civ3</Name>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>6086</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text/>
+                <BuildingUpgrade/>
+                <Buff/>
+                <PopulationUpgrade>
+                    <InputBenefitModifier>
+                        <Item>
+                            <Product>120033</Product>
+                            <AdditionalSupply>1</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120043</Product>
+                            <AdditionalSupply>1</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120037</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120032</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010206</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120035</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010217</Product>
+                            <AdditionalSupply>5</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120030</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>135230</Product>
+                            <AdditionalSupply>7</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>117698</Product>
+                            <AdditionalSupply>4</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>535</Product>
+                            <AdditionalSupply>4</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>536</Product>
+                            <AdditionalSupply>5</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>2524</Product>
+                            <AdditionalSupply>8</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>133532</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>135232</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120016</Product>
+                            <AdditionalSupply>1</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010250</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010208</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>117699</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                    </InputBenefitModifier>
+                </PopulationUpgrade>
+                <ResidenceUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <CultureUpgrade>
+                    <HideBuff>1</HideBuff>
+                </CultureUpgrade>
+                <InfluenceSourceUpgrade/>
+                <WarehouseUpgrade/>
+                <DistributionUpgrade/>
+                <ItemContainerUpgrade/>
+                <FactoryUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Change Tortillas and Hot Sauce need in residence menu, +2 for Hot Sauce, so no Obreros move out with upgrade, therefore remove +2 Buff on Tortillas -->
+    <ModOp Type="remove" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']"></ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+        <Item>
+            <Product>25506</Product>
+            <Amount>0.000476191</Amount>
+            <SupplyWeight>6</SupplyWeight>
+            <MoneyValue>10</MoneyValue>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120035']"></ModOp>
+
+    <!-- #Change sewing machine need in Artista residence menu to after Coffee and Bombins -->
+    <ModOp Type="remove" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010206']"></ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120037']">
+        <Item>
+            <Product>1010206</Product>
+            <Amount>0.000416667</Amount>
+            <SupplyWeight>5</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+        </Item>
+    </ModOp>
+
+    <!-- #Atole Need unlock with 300 Obreros  -->
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']">
+        <FullWeightPopulationCount>600</FullWeightPopulationCount>
+        <NoWeightPopulationCount>299</NoWeightPopulationCount>
+    </ModOp>
+
+    <!-- #Fix LOD issue with one of the obrero houses -->
+    <ModOp Type="replace" GUID="24793" Path="/Values/Object/Variations/Item[Filename='data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate01.cfg']">
+        <Item>
+            <Filename>data/modgraphics/buildings/houses/living_space_module_tier02_estate01.cfg</Filename>
+        </Item>
+    </ModOp>
+    <ModOp Type="replace" GUID="24793" Path="/Values/Object/Variations/Item[Filename='data/dlc10/graphics/buildings/special/hacienda/living_space_module/living_space_module_tier02_estate03.cfg']">
+        <Item>
+            <Filename>data/modgraphics/buildings/houses/living_space_module_tier02_estate03.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <!-- #Remove Hacienda Houses and Main Building and Storage Room from All Production Buildings by removing the whole pool from the all production buildings pool and adding the farms back in (breweries are there already !) -->
+    <!--<ModOp Type="remove" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='25674']"></ModOp> #obsolet: fixed with GU15, but forgot to add farms back in?-->
+    <ModOp Type="add" GUID="193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>25894</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Captain of Industry Influence buff - add Hacienda -->
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>24768</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Anpassung Marketplace Storage List an neue Bedürfnisse -->
+    <ModOp Type="addNextSibling" GUID="120058" Path="/Values/ProductStorageList/ProductList/Item[Product = '120043']">
+        <Item>
+            <Product>1010216</Product>
+        </Item>
+        <Item>
+            <Product>25506</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="120058" Path="/Values/ProductStorageList/ProductList/Item[Product = '120035']">
+        <Item>
+            <Product>25131</Product>
+        </Item>
+    </ModOp>
+
+    <!-- #Products Associated Region and Production Region fixen -->
+    <!-- Farms -->
+    <ModOp Type="replace" GUID="114369" Path="/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Africa;Colony01</AssociatedRegion>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="114369" Path="/Values/Product/ProductionRegions">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Africa</RegionType>
+                <RequiredDLCs>
+                    <Item>
+                        <RequiredDLC>410071</RequiredDLC>
+                    </Item>
+                </RequiredDLCs>
+            </Item>
+            <Item>
+                <RegionType>Colony01</RegionType>
+                <RequiredDLCs>
+                    <Item>
+                        <RequiredDLC>24961</RequiredDLC>
+                    </Item>
+                </RequiredDLCs>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010192" Path="/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010192" Path="/Values/Product/ProductionRegions">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+                <RegionType>Colony01</RegionType>
+                <RequiredDLCs>
+                    <Item>
+                        <RequiredDLC>24961</RequiredDLC>
+                    </Item>
+                </RequiredDLCs>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010195" Path="/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010195" Path="/Values/Product/ProductionRegions">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+                <RegionType>Colony01</RegionType>
+                <RequiredDLCs>
+                    <Item>
+                        <RequiredDLC>24961</RequiredDLC>
+                    </Item>
+                </RequiredDLCs>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
+    <!-- Breweries -->
+    <ModOp Type="replace" GUID="1010216" Path="/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Moderate;Arctic;Colony01</AssociatedRegion>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010216" Path="/Values/Product/ProductionRegions">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+                <RegionType>Colony01</RegionType>
+                <RequiredDLCs>
+                    <Item>
+                        <RequiredDLC>24961</RequiredDLC>
+                    </Item>
+                </RequiredDLCs>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010214" Path="/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1010214" Path="/Values/Product/ProductionRegions">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+                <RegionType>Colony01</RegionType>
+                <RequiredDLCs>
+                    <Item>
+                        <RequiredDLC>24961</RequiredDLC>
+                    </Item>
+                </RequiredDLCs>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
+    <!-- Schnapps Cycletime to 30 sec like in OW -->
+    <ModOp Type="replace" GUID="25350" Path="/Values/FactoryBase/CycleTime">
+        <CycleTime>30</CycleTime>
+    </ModOp>
+
+    <!-- Tobasco Storage output storage to 1 for decreased range -->
+    <ModOp Type="replace" GUID="25508" Path="/Values/FactoryBase/FactoryOutputs/Item[Product = '25506']/StorageAmount">
+        <StorageAmount>1</StorageAmount>
+    </ModOp>
+
+    <!-- Corn Hacienda Farm Storage output storage to 2 for decreased range -->
+    <ModOp Type="replace" GUID="25003" Path="/Values/FactoryBase/FactoryOutputs/Item[Product = '120034']/StorageAmount">
+        <StorageAmount>2</StorageAmount>
+    </ModOp>
+
+    <!-- Cautchouc Hacienda Farm Storage output storage to 2 for decreased range -->
+    <ModOp Type="replace" GUID="25006" Path="/Values/FactoryBase/FactoryOutputs/Item[Product = '1010255']/StorageAmount">
+        <StorageAmount>2</StorageAmount>
+    </ModOp>
+
+    <!-- #Vanilla Streets Fix-->
+    <!-- Ornamental roads without Feedback -->
+    <ModOp Type="replace" GUID="24770" Path="/Values/Object/Variations">
+        <Variations>
+            <Item>
+                <Filename>data/modgraphics/buildings/ornaments/hacienda/hacienda_ornaments_floor_1x1_01.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/modgraphics/buildings/ornaments/hacienda/hacienda_ornaments_floor_1x1_02.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/modgraphics/buildings/ornaments/hacienda/hacienda_ornaments_floor_1x1_03.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+
+    <!-- Ornamental roads new template -->
+    <ModOp Type="replace" GUID="24770,25224" Path="/Template">
+        <Template>OrnamentalModule</Template>
+    </ModOp>
+    <ModOp Type="add" GUID="24770,25224" Path="/Values">
+        <Ornament>
+            <OrnamentUnit>1</OrnamentUnit>
+        </Ornament>
+        <Pausable />
+    </ModOp>
+    <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ModuleLimits"></ModOp>
+
+</ModOps>

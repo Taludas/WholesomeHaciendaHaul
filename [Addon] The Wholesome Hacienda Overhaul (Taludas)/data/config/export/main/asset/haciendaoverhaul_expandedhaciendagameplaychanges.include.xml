@@ -1,0 +1,1334 @@
+<ModOps>
+
+    <!-- #Change chewing gum in NW BuildMenu to own GUID to make it visible there earlier and keep it back in old world -->
+
+    <ModOp Type="remove" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137604']" />
+    <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137604']" />
+
+    <ModOp Type="addNextSibling" GUID="25000194,500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+        <Item>
+            <Building>1999002072</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="1999002020,1999002070" Condition="@1999002020" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999002025']">
+        <Item>
+            <Building>1999002072</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="137604">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002072</GUID>
+                    <Name>chewing gum chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/goods_highlife/icon_bubble_gum.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>135185</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010333</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010317</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010329</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>133030</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chewing Gum</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>52314</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002080</GUID>
+                    <Name>Trigger Unhide Kaugummi SA früher als OW</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002072</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002073</GUID>
+                    <Name>Trigger Unlock Kaugummi SA früher als OW</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>2000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002072</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Trigger rest of chewing gum assets for availability before Skyscrapers -->
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002101</GUID>
+                    <Name>Trigger Unhide Kaugummi Rest Produkte SA früher als OW</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>135221</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135185</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135223</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135186</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133010</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133030</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133028</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133093</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002102</GUID>
+                    <Name>Trigger Unlock Kaugummi Rest Produkte SA früher als OW</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>2000</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>135221</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135185</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135223</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135186</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133010</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133030</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133028</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133093</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002157</GUID>
+                    <Name>Trigger Unlock Kaugummi Rest Produkte SA früher als OW Creative Mode</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>135221</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135185</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135223</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135186</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133010</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133030</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133028</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>133093</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002072</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Hacienda Warehouse with Transporters -->
+
+    <!-- Hacienda Warehouse with Transporters -->
+    <ModOp Type="replace" GUID="24775" Path="/Template">
+        <Template>Warehouse</Template>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Standard/InfoDescription">
+        <InfoDescription>1999002028</InfoDescription>
+    </ModOp>
+
+    <ModOp Type="add" GUID="24775" Path="/Values/Building">
+        <BuildingType>Logistic</BuildingType>
+        <BuildingCategoryName>11151</BuildingCategoryName>
+        <AllowChangeDirection>1</AllowChangeDirection>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/LogisticNode" ModOpID="HaciendaWarehouseQueueCount">
+        <LogisticNode>
+            <TransporterCountMax>0</TransporterCountMax>
+            <QueueConfiguration>
+                <ProcessingQueueParallelCount>1</ProcessingQueueParallelCount>
+            </QueueConfiguration>
+        </LogisticNode>
+    </ModOp>
+
+    <ImyaTweaks Title="Features of HaciendaOverhaul: Expanded Hacienda Gameplay Changes" />
+    <ImyaExpose Path="self::LogisticNode/QueueConfiguration/ProcessingQueueParallelCount" ModOpID="HaciendaWarehouseQueueCount" ExposeID="HaciendaWarehouseQueueCount" Description="This value sets the number of loading ramps for the Hacienda Warehouse" Kind="Slider">
+        <SliderDefinition Min="1" Max="4" Stepping="1" />
+    </ImyaExpose>
+
+    <ModOp Type="add" GUID="24775" Path="/Values/Selection">
+        <GUIType>Warehouse</GUIType>
+        <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Warehouse/WarehouseStorage" ModOpID="HaciendaWarehouseStorageCapacity">
+        <WarehouseStorage>
+            <StorageMax>100</StorageMax>
+        </WarehouseStorage>
+    </ModOp>
+
+    <ImyaExpose Path="self::WarehouseStorage/StorageMax" ModOpID="HaciendaWarehouseStorageCapacity" ExposeID="HaciendaWarehouseStorageCapacity" />
+
+    <ModOp Type="replace" GUID="24775" Path="/Values/Maintenance/Maintenances" ModOpID="HaciendaWarehouseMaintanence">
+        <Maintenances>
+            <Item>
+                <Product>1010017</Product>
+                <Amount>250</Amount>
+                <InactiveAmount>125</InactiveAmount>
+            </Item>
+            <Item>
+                <Product>1010367</Product>
+                <Amount>50</Amount>
+            </Item>
+        </Maintenances>
+    </ModOp>
+
+    <ImyaExpose Path="self::Maintenances/Item[2]/Amount" ModOpID="HaciendaWarehouseMaintanence" ExposeID="HaciendaWarehouseMaintanenceAmount" />
+
+    <ImyaExpose Path="self::Maintenances/Item[2]/Product" ModOpID="HaciendaWarehouseMaintanence" ExposeID="HaciendaWarehouseMaintanenceType" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Warehouse [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
+        <FixedValues>
+            <Value>0</Value>
+            <Value>1010366</Value>
+            <Value>1010367</Value>
+            <Value>5406</Value>
+        </FixedValues>    
+    </ImyaExpose> 
+
+    <!-- #Hacienda residences balancing -->
+
+    <!-- Hacienda Jornaleros max pop 65 -->
+    <ModOp Type="replace" GUID="24792" Path="/Values/Residence7/ResidentMax">
+        <ResidentMax>65</ResidentMax>
+    </ModOp>
+    <ModOp Type="replace" GUID="24792" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+        <ResidentsRequiredForUpgrade>30</ResidentsRequiredForUpgrade>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>6</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25742" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>1010216</Product>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <!-- Obrero-Hacienda residences get +3 attractivness per residence -->
+    <ModOp Type="replace" GUID="24793" Path="/Values/Culture" ModOpID="HaciendaObrerosAttractivness">
+        <Culture>
+            <Attractiveness>3</Attractiveness>
+        </Culture>
+    </ModOp>
+
+    <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaObrerosAttractivness" ExposeID="HaciendaObrerosAttractivnessAmount" />
+
+    <!-- Hacienda Obreros max pop 135 -->
+    <ModOp Type="replace" GUID="24793" Path="/Values/Residence7">
+        <Residence7>
+            <PopulationLevel7>15000006</PopulationLevel7>
+            <ResidentMax>135</ResidentMax>
+        </Residence7>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']">
+        <Item>
+            <Product>120033</Product>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120043']">
+        <Item>
+            <Product>120043</Product>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>4</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>120035</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25131</Product>
+            <AdditionalSupply>1</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120037']">
+        <Item>
+            <Product>120037</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120032']">
+        <Item>
+            <Product>120032</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25743" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010206']">
+        <Item>
+            <Product>1010206</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs">
+        <Item>
+            <Product>135186</Product>
+            <Amount>0.0000866667</Amount>
+            <SupplyWeight>7</SupplyWeight>
+            <MoneyValue>25</MoneyValue>
+            <FullWeightPopulationCount>2500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs">
+        <Item>
+            <Product>135233</Product>
+            <Amount>0.00005</Amount>
+            <SupplyWeight>10</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>2499</NoWeightPopulationCount>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>24793</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <!-- Artistas max Pop 215, +5 Attractiveness -->
+    <ModOp Type="replace" GUID="6086" Path="/Values/Residence7/ResidentMax">
+        <ResidentMax>215</ResidentMax>
+    </ModOp>
+    <ModOp Type="replace" GUID="6086" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+        <ResidentsRequiredForUpgrade>140</ResidentsRequiredForUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="6086" Path="/Values/Culture" ModOpID="HaciendaArtistasAttractivness">
+        <Culture>
+            <Attractiveness>5</Attractiveness>
+        </Culture>
+    </ModOp>
+
+    <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaArtistasAttractivness" ExposeID="HaciendaArtistasAttractivnessAmount" />
+
+    <!-- add Hacienda, Atole, Tabasco, Chewing Gums and Violins to consumption -->
+    <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+        <Item>
+            <Product>25546</Product>
+            <SupplyWeight>7</SupplyWeight>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>6086</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+        <Item>
+            <Product>25506</Product>
+            <Amount>0.000476191</Amount>
+            <SupplyWeight>10</SupplyWeight>
+            <MoneyValue>10</MoneyValue>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>6086</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+        <Item>
+            <Product>25131</Product>
+            <Amount>0.000952381</Amount>
+            <SupplyWeight>8</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>6086</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010206']">
+        <Item>
+            <Product>135186</Product>
+            <Amount>0.0000866667</Amount>
+            <SupplyWeight>7</SupplyWeight>
+            <MoneyValue>25</MoneyValue>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>6086</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']">
+        <Item>
+            <Product>135233</Product>
+            <Amount>0.00005</Amount>
+            <SupplyWeight>10</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>6086</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="6086" Path="/Values/UpgradeList/DefaultBuff">
+        <DefaultBuff>1999002148</DefaultBuff>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="6088">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002148</GUID>
+                    <Name>HacienadaModulePopBuff_Civ3 Extended Overhaul</Name>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>6086</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text />
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade>
+                    <InputBenefitModifier>
+                        <Item>
+                            <Product>120035</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120032</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>                        
+                        <Item>
+                            <Product>120037</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010206</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5803</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>6600</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5381</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>6265</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5388</Product>
+                            <AdditionalSupply>7</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5395</Product>
+                            <AdditionalSupply>7</AdditionalSupply>
+                        </Item>  
+                        <Item>
+                            <Product>5391</Product>
+                            <AdditionalSupply>7</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5391</Product>
+                            <AdditionalSupply>0</AdditionalSupply>
+                        </Item>  
+                        <Item>
+                            <Product>120030</Product>
+                            <AdditionalSupply>-12</AdditionalSupply>
+                        </Item>      
+                        <Item>
+                            <Product>1010354</Product>
+                            <AdditionalSupply>-10</AdditionalSupply>
+                        </Item>                                                      
+
+                        <Item>
+                            <Product>535</Product>
+                            <AdditionalSupply>4</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>536</Product>
+                            <AdditionalSupply>5</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>2524</Product>
+                            <AdditionalSupply>8</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010208</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>117699</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010250</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120016</Product>
+                            <AdditionalSupply>1</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>135232</Product>
+                            <AdditionalSupply>3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>133532</Product>
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                    </InputBenefitModifier>
+                </PopulationUpgrade>
+                <ResidenceUpgrade />
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade>
+                    <HideBuff>1</HideBuff>
+                </CultureUpgrade>
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Boost Items Rathaus mit Verbesserung für Hacienda-Bewohner -->
+    <ModOp Type="add" GUID="190193" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135186</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135233</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="191815" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>1</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135186</Product>
+            <AdditionalSupply>1</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135233</Product>
+            <AdditionalSupply>1</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="191816" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135186</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135233</Product>
+            <AdditionalSupply>2</AdditionalSupply>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="191817" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>25506</Product>
+            <AdditionalSupply>3</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135186</Product>
+            <AdditionalSupply>3</AdditionalSupply>
+        </Item>
+        <Item>
+            <Product>135233</Product>
+            <AdditionalSupply>3</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="120058" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010206']">
+        <Item>
+            <Product>135186</Product>
+        </Item>
+        <Item>
+            <Product>135233</Product>
+        </Item>
+    </ModOp>
+
+    <!-- #Hacienda Production Farm Fixes -->
+
+    <!-- Fertilities matter for NW Seeds-->
+
+    <!-- Sugar Cane -->
+    <ModOp Type="replace" GUID="24798" Path="/Values/Factory7" ModOpID="HaciendaSugarCaneFarmFertility">
+        <Factory7>
+            <NeededFertility>1010573</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaSugarCaneFarmFertility" ExposeID="HaciendaSugarCaneFarmRequiresFertility" Description="Sets whether the Hacienda Sugar Cane Farm requires the fertility." Kind="Toggle">
+        <AltValue>
+            <Factory7 />
+        </AltValue>
+    </ImyaExpose>
+
+    <!-- Corn -->
+    <ModOp Type="replace" GUID="25003" Path="/Values/Factory7" ModOpID="HaciendaCornFarmFertility">
+        <Factory7>
+            <NeededFertility>120038</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCornFarmFertility" ExposeID="HaciendaCornFarmRequiresFertility" Description="Sets whether the Hacienda Corn Farm requires the fertility." Kind="Toggle">
+        <AltValue>
+            <Factory7 />
+        </AltValue>
+    </ImyaExpose>
+
+    <!-- Coffee -->
+    <ModOp Type="replace" GUID="25005" Path="/Values/Factory7" ModOpID="HaciendaCoffeeFarmFertility">
+        <Factory7>
+            <NeededFertility>120039</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCoffeeFarmFertility" ExposeID="HaciendaCoffeeFarmRequiresFertility" Description="Sets whether the Hacienda Coffee Farm requires the fertility." Kind="Toggle">
+        <AltValue>
+            <Factory7 />
+        </AltValue>
+    </ImyaExpose>
+
+    <!-- Caoutchouc -->
+    <ModOp Type="replace" GUID="25006" Path="/Values/Factory7" ModOpID="HaciendaCaoutchoucFarmFertility">
+        <Factory7>
+            <NeededFertility>1010574</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCaoutchoucFarmFertility" ExposeID="HaciendaCaoutchoucFarmRequiresFertility" Description="Sets whether the Hacienda Caoutchouc Farm requires the fertility." Kind="Toggle">
+        <AltValue>
+            <Factory7 />
+        </AltValue>
+    </ImyaExpose>
+
+    <!-- Cacao -->
+    <ModOp Type="replace" GUID="25009" Path="/Values/Factory7" ModOpID="HaciendaCacaoFarmFertility">
+        <Factory7>
+            <NeededFertility>1010575</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCacaoFarmFertility" ExposeID="HaciendaCacaoFarmRequiresFertility" Description="Sets whether the Hacienda Cacao Farm requires the fertility." Kind="Toggle">
+        <AltValue>
+            <Factory7 />
+        </AltValue>
+    </ImyaExpose>
+
+    <!--
+
+    <ModOp Type="replace" GUID="25019" Path="/Values/Factory7">
+        <Factory7>
+            <NeededFertility>1010569</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25128" Path="/Values/Factory7">
+        <Factory7>
+            <NeededFertility>1010571</NeededFertility>
+        </Factory7>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25020" Path="/Values/Factory7">
+        <Factory7>
+            <NeededFertility>114348</NeededFertility>
+        </Factory7>
+    </ModOp> -->
+
+    <!-- Productiontime und Lager checken -->
+
+    <!-- Spices -->
+    <ModOp Type="replace" GUID="25020" Path="/Values/FactoryBase" ModOpID="HaciendaSpiceFarmCycleTime">
+        <FactoryBase>
+            <FactoryOutputs>
+                <Item>
+                    <Product>114369</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>1</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>120</CycleTime>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+    </ModOp>
+
+    <ImyaExpose Path="self::FactoryBase/CycleTime" ModOpID="HaciendaSpiceFarmCycleTime" ExposeID="HaciendaSpiceFarmCycleTime" Description="Production time of the Hacienda Spice Farm [in seconds]. The transporter range is not affected by this change." Kind="Enum">
+        <FixedValues>
+          <Value>30</Value>
+          <Value>60</Value>
+          <Value>90</Value>
+          <Value>120</Value>
+        </FixedValues>
+    </ImyaExpose>
+
+    <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaSpiceFarmCycleTime" ExposeID="HaciendaSpiceFarmStorageAmount" Description="Storage Amount of the Hacienda Spice Farm [in tons]" Kind="Slider">
+        <SliderDefinition Min="1" Max="10" Stepping="1" />
+    </ImyaExpose>
+
+    <!-- #Hacienda Production Brewery Fixes -->
+
+    <!-- Productiontime und Lager checken -->
+    <!-- Hot Sauce -->
+    <ModOp Type="replace" GUID="25508" Path="/Values/FactoryBase" ModOpID="HaciendaTabascoBreweryCycleTime">
+        <FactoryBase>
+            <FactoryInputs>
+                <Item>
+                    <Product>114369</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+                <Item>
+                    <Product>25506</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>2</StorageAmount>
+                </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+    </ModOp>
+
+    <ImyaExpose Path="self::FactoryBase/CycleTime" ModOpID="HaciendaTabascoBreweryCycleTime" ExposeID="HaciendaTabascoBreweryCycleTime" Description="Production time of the Hacienda Hot Sauce Brewery [in seconds]. The transporter range is not affected by this change." Kind="Enum">
+        <FixedValues>
+          <Value>30</Value>
+          <Value>60</Value>
+          <Value>90</Value>
+          <Value>120</Value>
+        </FixedValues>
+    </ImyaExpose>
+
+    <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaTabascoBreweryCycleTime" ExposeID="HaciendaTabascoBreweryStorageAmount" Description="Storage Amount of the Hacienda Hot Sauce Brewery [in tons]" Kind="Slider">
+        <SliderDefinition Min="1" Max="10" Stepping="1" />
+    </ImyaExpose>
+
+    <!-- Breweries mit geringerem Attraktivitätsmalus -->
+    <ModOp Type="add" GUID="24801,25064,25126,25350,25508" Path="/Values/Culture" ModOpID="HaciendaBreweryAttractiveness">
+        <Attractiveness>-5</Attractiveness>
+    </ModOp>
+
+    <ImyaExpose Path="self::Attractiveness" ModOpID="HaciendaBreweryAttractiveness" ExposeID="HaciendaBreweryAttractiveness" />
+
+    <ModOp Type="replace" GUID="24801,25064,25126,25350,25508" Path="/Values/Culture/CultureType">
+        <CultureType>Culture</CultureType>
+    </ModOp>
+
+    <!-- Breweries mit höheren Baukosten -->
+    <ModOp Type="replace" GUID="24801,25064,25126,25350,25508" Path="/Values/Cost/Costs">
+        <Costs>
+            <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>3500</Amount>
+            </Item>
+            <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+            </Item>
+            <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>15</Amount>
+            </Item>
+            <Item>
+                <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+                <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+                <Ingredient>1010202</Ingredient>
+            </Item>
+        </Costs>
+    </ModOp>
+
+    <!-- Brewery Wine angepasst -->
+    <Group Condition="@1999002310">
+        <ModOp Type="replace" GUID="1999002310" Path="/Values/Cost/Costs">
+            <Costs>
+                <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>3500</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>10</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>15</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010218</Ingredient>
+                </Item>
+                <Item>
+                    <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                    <Ingredient>1010202</Ingredient>
+                </Item>
+            </Costs>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002310" Path="/Values/Selection/ParticipantMessageArcheType">
+            <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002310" Path="/Values/Maintenance">
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product>
+                        <Amount>250</Amount>
+                        <InactiveAmount>125</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010367</Product>
+                        <Amount>150</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+        </ModOp>
+    </Group>
+
+    <!-- #Anpassung Lordys 2x3 Häuser auf die neuen Bedürfnisse -->
+    <!-- Jornaleros -->
+    <Group Condition="@1999002091">
+        <ModOp Type="replace" GUID="1999002091" Path="/Values/Residence7/ResidentMax">
+            <ResidentMax>30</ResidentMax>
+        </ModOp>
+        <ModOp Type="replace" GUID="1999002091" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+            <ResidentsRequiredForUpgrade>13</ResidentsRequiredForUpgrade>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']">
+            <Item>
+                <Product>120033</Product>
+                <AdditionalSupply>-1</AdditionalSupply>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010216']">
+            <Item>
+                <Product>1010216</Product>
+                <AdditionalSupply>-1</AdditionalSupply>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="remove" GUID="1999002095" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25506']"></ModOp>
+    </Group>
+
+
+    <!-- Obreros -->
+    <Group Condition="@1999002092">
+        <ModOp Type="replace" GUID="1999002092" Path="/Values/Residence7/ResidentMax">
+            <ResidentMax>55</ResidentMax>
+        </ModOp>
+        <ModOp Type="replace" GUID="1999002092" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+            <ResidentsRequiredForUpgrade>26</ResidentsRequiredForUpgrade>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25546']">
+            <Item>
+                <Product>25546</Product>
+                <AdditionalSupply>-3</AdditionalSupply>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='120033']">
+            <Item>
+                <Product>25546</Product>
+                <AdditionalSupply>-1</AdditionalSupply>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="remove" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item[Product='25506']"></ModOp>
+
+        <ModOp Type="add" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+            <Item>
+                <Product>5830</Product>
+                <AdditionalSupply>1</AdditionalSupply>
+            </Item>
+        </ModOp>
+
+        <!-- add Chewing Gums and Violins to consumption -->
+        <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002092</RequiredBuilding>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="15000006" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135233']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002092</RequiredBuilding>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+            <Item>
+                <Product>135186</Product>
+                <AdditionalSupply>-5</AdditionalSupply>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="1999002096" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+            <Item>
+                <Product>135233</Product>
+                <AdditionalSupply>-7</AdditionalSupply>
+            </Item>
+        </ModOp>    
+    </Group>
+
+
+    <!-- 2x3 Artista Hacienda adjustments -->
+    <Group Condition="@1999002139">
+        <ModOp Type="replace" GUID="1999002139" Path="/Values/Residence7/ResidentMax">
+            <ResidentMax>85</ResidentMax>
+        </ModOp>
+        <ModOp Type="replace" GUID="1999002139" Path="/Values/Residence7/ResidentsRequiredForUpgrade">
+            <ResidentsRequiredForUpgrade>52</ResidentsRequiredForUpgrade>
+        </ModOp>
+
+        <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002139</RequiredBuilding>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002139</RequiredBuilding>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002139</RequiredBuilding>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002139</RequiredBuilding>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135233']/RequiredBuildings">
+            <Item>
+                <RequiredBuilding>1999002139</RequiredBuilding>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999002140" Path="/Values">
+            <Values>
+                <Standard>
+                <GUID>1999002140</GUID>
+                <Name>HacienadaModulePopBuff_Civ3 2x3 residences</Name>
+                </Standard>
+                <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                    <GUID>1999002139</GUID>
+                    </Item>
+                </EffectTargets>
+                </ItemEffect>
+                <Text />
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade>
+                <InputBenefitModifier>
+                    <Item>
+                    <Product>120035</Product>
+                    <AdditionalSupply>-3</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>120032</Product>
+                    <AdditionalSupply>-3</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>120037</Product>
+                    <AdditionalSupply>-3</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>1010206</Product>
+                    <AdditionalSupply>-3</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>6600</Product>
+                    <AdditionalSupply>0</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>5803</Product>
+                    <AdditionalSupply>-1</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>5381</Product>
+                    <AdditionalSupply>0</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>5388</Product>
+                    <AdditionalSupply>0</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>5395</Product>
+                    <AdditionalSupply>0</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>5391</Product>
+                    <AdditionalSupply>0</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>120030</Product>
+                    <AdditionalSupply>-17</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>1010354</Product>
+                    <AdditionalSupply>-16</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>535</Product>
+                    <AdditionalSupply>-1</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>536</Product>
+                    <AdditionalSupply>-3</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>2524</Product>
+                    <AdditionalSupply>-6</AdditionalSupply>
+                    </Item>
+                    <Item>
+                    <Product>1010250</Product>
+                    <AdditionalSupply>-2</AdditionalSupply>
+                    </Item>
+                    <Item>
+                        <Product>25546</Product>
+                        <AdditionalSupply>-3</AdditionalSupply>
+                    </Item>
+                    <Item>
+                        <Product>25131</Product>
+                        <AdditionalSupply>-5</AdditionalSupply>
+                    </Item>
+                    <Item>
+                        <Product>25506</Product>
+                        <AdditionalSupply>-6</AdditionalSupply>
+                    </Item>
+                    <Item>
+                        <Product>135186</Product>
+                        <AdditionalSupply>-4</AdditionalSupply>
+                    </Item>
+                    <Item>
+                        <Product>135233</Product>
+                        <AdditionalSupply>-6</AdditionalSupply>
+                    </Item>
+                </InputBenefitModifier>
+                </PopulationUpgrade>
+                <ResidenceUpgrade />
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade>
+                <HideBuff>1</HideBuff>
+                </CultureUpgrade>
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </ModOp>    
+    </Group>
+
+    <ModOp Type="addNextSibling" GUID="1345">
+        <Asset>
+            <!-- fallback dump -->
+            <Template>fake</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002127</GUID>
+                </Standard>
+                <Culture>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1999002092" Path="/Values/Culture | //Values[Standard/GUID='1999002127']/Culture" ModOpID="2x3HaciendaObrerosAttractivness">
+        <Attractiveness>1</Attractiveness>
+    </ModOp>
+    <ImyaExpose Path="self::Attractiveness" ModOpID="2x3HaciendaObrerosAttractivness" ExposeID="Hacienda2x3ObrerosAttractivness" />
+
+    <ModOp Type="add" GUID="1999002139" Path="/Values/Culture | //Values[Standard/GUID='1999002127']/Culture/Attractiveness" ModOpID="2x3HaciendaArtistasAttractivness">
+        <Attractiveness>3</Attractiveness>
+    </ModOp>
+    <ImyaExpose Path="self::Attractiveness" ModOpID="2x3HaciendaArtistasAttractivness" ExposeID="Hacienda2x3ArtistasAttractivness" />
+
+</ModOps>

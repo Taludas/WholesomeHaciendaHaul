@@ -40,8 +40,8 @@ The vanilla Hacienda Warehouse hasn’t a real value over the normal Depots insi
 - For the Obrero Residences, they now get 3 points of attractiveness by default to help you reach the required amounts of it to unlock the Hacienda policies. Their inhabitant count has been lifted to 165. An extra incentive was given to the new products Hot Sauce and Atole as well as the newly introduced needs: Chewing Gum and Violins unlocked at 1500 and 2000 Obreros respectively to further strengthen the incentive to build those production lines in later game. 
 - To accommodate the changed needs, population boosting items like Saint D’Artois and Papal Paper now give extra residents from Hot Sauce as well as Chewing gums and Violins to promote not only NW usage of these goods but also the supply of Violins and Chewing gum to Engineer and Investor Skyscrapers, as those productions are not really space efficient for the amount of inhabitants they give.
 
-### Fertiliser Factory got buffed and hasn’t to be build inside the Hacienda Radius
-Production time of the Fertiliser Factory has been lifted to 90 seconds. At the same time, the buff for the animal farms has been reduced to 1/10 instead of 1/3. Now you have to build 3 Animal farms at 110% to supply one unboosted Fertiliser Factory instead of a one to three ratio as before. The Fertiliser Factory also doesn’t need to be build inside the Hacienda radius any more, because I think most of us don’t wanna wake to the smell of poop every day, would we?
+### Fertilizer Factory got buffed and hasn’t to be build inside the Hacienda Radius
+Production time of the Fertilizer Factory has been lifted to 90 seconds. At the same time, the buff for the animal farms has been reduced to 1/10 instead of 1/3. Now you have to build 3 Animal farms at 110% to supply one unboosted Fertilizer Factory instead of a one to three ratio as before. The Fertilizer Factory also doesn’t need to be build inside the Hacienda radius any more, because I think most of us don’t wanna wake to the smell of poop every day, would we?
 
 ### Hacienda Farms: 4 new crop types and fertilities mater again
 Why exactly is it that the Devs left out the three crops Bananas, Cotton and Tobacco? Well, I theorize that the recipe book has no more space than to fit 8 recipes at the current scale of each item on the list. So they told their art team to design all crop farms for the New World fertilities and then dumped the ones nobody likes - because of balancing and item game - overboard. But the graphics did survive the drip into the final game files! I spent an hour creating the Tobacco plantation until I noticed at export that there already is on! I mean wtf. I paid full price but due to a really simple UI design problem, so much content was stolen from me. Especially since the Tobacco Plantation was one of the most unused Farm in the entire game, a Hacienda version in vanilla could have made a really good opportunity to actually plant it instead of getting it as a by-product from bananas.
@@ -71,20 +71,20 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
 - Decree 5: Cultural Conservation Act (required Attractiveness: 2200)
 
 ### Extented Hacienda by Lordys and Taludas
-In cooperation with Lordys, I developped an extention to the Hacienda DLC with new public buildings, new 2x3 Hacienda residences and a outer Hacienda wall ornament to further customise your Gameplay experience.
+In cooperation with Lordys, I developed an extension to the Hacienda DLC with new public buildings, new 2x3 Hacienda residences and a outer Hacienda wall ornament to further customize your Gameplay experience.
 
 - Small Marketstands: Satisfy need of Hacienda for Residences in its range
 - Small Jornalero, Obrero Residences and Artista Residences (2x3): 24 [30], 44 [55] and 68 [85] pop
 - Hacienda Chapel: Satisfies Chapel Need
 - Hacienda Fire Station, Hacienda Police Station (both with advanced Versions as well): Two resolver units each and slightly higher coverage
-- Hacienda Trade Union: Radius 20! Costs 50 Obrero Worforce though
+- Hacienda Trade Union: Radius 20! Costs 50 Obrero Workforce though
 - Hacienda Townhall
 - Hacienda Border Wall Semi-Automatic and manual: read below!
 - One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
 
 ### Mod Tweaks through iModYourAnno
 
-If you use the iModYourAnno Anno Mod Manager you will find a tweakin tab in it. There are several options to tweak some gameplay elements of this mod. For example you can toggle wheter the Hacienda Farms require a fertility. Or what recipe the winery uses. With regards to the policies you can decide to either use the vanilla ones or my modded ones and you can specify the required Attractivness amount needed to unlock these. If you want the full experience, I suggest you switch every toggle option to 'on'. The value tweaking is up to your own liking. Feel free to experiment with your own numbers. Always remember to save you changes and delete the Cache Folder inside your mods folder afterwards.
+If you use the iModYourAnno Anno Mod Manager you will find a tweaking tab in it. There are several options to tweak some gameplay elements of this mod. For example you can toggle whether the Hacienda Farms require a fertility. Or what recipe the winery uses. With regards to the policies you can decide to either use the vanilla ones or my modded ones and you can specify the required Attractiveness amount needed to unlock these. If you want the full experience, I suggest you switch every toggle option to 'on'. The value tweaking is up to your own liking. Feel free to experiment with your own numbers. Always remember to save you changes and delete the Cache Folder inside your mods folder afterwards.
 
 ### Bugfixes
 - Hacienda Main Building removed from the ItemEffectTargetPool “All Hacienda Buildings” so that it can’t be boosted by Items which affect “All Production Buildings”.

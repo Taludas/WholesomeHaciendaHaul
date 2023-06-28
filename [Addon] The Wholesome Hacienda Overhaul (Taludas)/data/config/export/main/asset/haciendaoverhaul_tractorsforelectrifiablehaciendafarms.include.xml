@@ -1,0 +1,201 @@
+<ModOps>
+    <!-- Old Decree Tier5 Tractor Buff for Farms -> made available for Hacienda Farms with DLC12, since Farms can't differnetiate between Powerplant and buffed Electricity -->
+
+    <ModOp Type="replace" GUID="24794,24798,25003,25005,25006,25009,25019,25020,25128" Path="/Template">
+        <Template>Electrifiable_RecipeFarm_Taludas</Template>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1999002001,1999002004,1999002007,1999002015" Condition="@1999002015" Path="/Template">
+        <Template>Electrifiable_RecipeFarm_Taludas</Template>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1999002010" Condition="@1999002010" Path="/Template">
+        <Template>Electrifiable_RecipeFarm_Taludas</Template>
+    </ModOp>
+
+    <ModOp GUID="24794,24798,25003,25005,25006,25009,25019,25020,25128" Path="/Values/Industrializable" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+          <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+        </Industrializable>
+    </ModOp>
+
+    <ModOp GUID="1999002001,1999002004,1999002007,1999002015" Condition="@1999002015" Path="/Values/Industrializable" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+          <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+        </Industrializable>
+    </ModOp>
+
+    <ModOp GUID="1999002010" Path="/Values/Industrializable" Condition="@1999002010" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+          <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+        </Industrializable>
+    </ModOp>
+
+    <ModOp GUID="24794,24798,25003,25005,25006,25009,25019,25020,25128" Path="/Values" Type="add">
+        <Electrifiable>
+            <ElectrifiedEffect>0</ElectrifiedEffect>
+            <ElectricityBoost>0</ElectricityBoost>
+            <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+    </ModOp>
+
+    <ModOp GUID="1999002001,1999002004,1999002007,1999002015" Condition="@1999002015" Path="/Values" Type="add">
+        <Electrifiable>
+            <ElectrifiedEffect>0</ElectrifiedEffect>
+            <ElectricityBoost>0</ElectricityBoost>
+            <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+    </ModOp>
+
+    <ModOp GUID="1999002010" Condition="@1999002010" Path="/Values" Type="add">
+        <Electrifiable>
+            <ElectrifiedEffect>0</ElectrifiedEffect>
+            <ElectricityBoost>0</ElectricityBoost>
+            <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+    </ModOp>
+
+    <!-- Feedback Unit which uses the the tractor plus 1 trailer is replacing the standard SA Residence Transporter -->
+    <ModOp GUID="141486" Path="/Values/FeedbackSessionDescription/LogisticConfig/TransporterClasses/ResidenceTransporter" Type="replace">
+        <ResidenceTransporter>
+            <TransporterClass>269966</TransporterClass>
+        </ResidenceTransporter>
+    </ModOp>
+
+    <!-- New transporter unit moves at same speed as electrified carriages and unloads 5 times faster than the regular transporter unit -->
+    <ModOp GUID="1010106" Path="Values/Transporter7" Type="replace">
+        <Transporter7>
+            <FeedbackType>ResidenceTransporter</FeedbackType>
+            <ProcessingTimes>
+                <LoadingTime>4</LoadingTime>
+                <UnloadingTime>4</UnloadingTime>
+            </ProcessingTimes>
+            <TransporterSpeed>1.4</TransporterSpeed>
+        </Transporter7>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="269969" Path="/Values/TrafficFeedbackUnit/OverwriteSpeed" />
+
+    <!-- Replace Tractor with on trailer from the farms, so that is exclusive for the market cards -->
+    <ModOp Type="replace" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='1010331']">
+        <Item>
+            <Building>1010331</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269967</UnitClass>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='101251']">
+        <Item>
+            <Building>101251</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269968</UnitClass>
+                    <ShrinksFieldsOnTouch>1</ShrinksFieldsOnTouch>
+                    <VehicleType>Harvester</VehicleType>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='25005']">
+        <Item>
+            <Building>25005</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269968</UnitClass>
+                    <ShrinksFieldsOnTouch>1</ShrinksFieldsOnTouch>
+                    <VehicleType>Harvester</VehicleType>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='25019']">
+        <Item>
+            <Building>25019</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269967</UnitClass>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings/Item[Building='25020']">
+        <Item>
+            <Building>25020</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269968</UnitClass>
+                    <ShrinksFieldsOnTouch>1</ShrinksFieldsOnTouch>
+                    <VehicleType>Harvester</VehicleType>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+</ModOps>

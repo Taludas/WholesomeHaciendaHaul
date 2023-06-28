@@ -4,42 +4,54 @@
 
 This is a modular overhaul of the DLC10 Seeds of Change which touches nearly every aspect of newly introduced gameplay into the sandbox mod. Pick and choose which changes you like the most!
 
-If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
+Für die deutsche Version des readmes, bitte [hier](readme_german.md) klicken.
+
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's height!)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
 
 ## How to use
 
 - Either use [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) mod manager or know [how to install mods manually](https://github.com/jakobharder/anno1800-mod-loader#mods).
-- If you download the mod manually, use the archieve from [GitHub releases](https://github.com/Taludas/WholesomeHaciendaHaul/releases). Don't download the whole repo!
+- If you download the mod manually, use the archive from [GitHub releases](https://github.com/Taludas/WholesomeHaciendaHaul/releases). Don't download the whole repo!
 - select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
 
 **If you change from versions 1.x.x to version 2.0, it is extremely important to remove all older versions of this mod. The Mod is now a single mod folder and modules are disabled through editing assets.xml file or through IModYourAnno Mod Manager! If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!**
 
+## Mod Images
+You can find a gallery of images from my mod [here](docs/).
+
 ## Changelog
 <details>
-    <summary>Patch Notes Version 2.1</summary>
+    <summary>Patch Notes Version 2.1.0</summary>
+
+* New Features:
+    - relocated the Free Farmfield Placement Mod to [Gameplay Mods Collection](https://github.com/Taludas/GameplayModsCollection). It is a standalone mod and will be handled as such in future.
+    - made whole mod even more customizable. With iMYA it is now possible to disable whole parts of the mod. Each module is now completely independent from one another (but I still suggest to enable all features, it will grant you with the best synergy, f.e. Policies mod and Hacienda Winery.) You will always get the basics, like the separate buildmenu.
+* Bugfixes:
+    - Removed some customization options, that are no longer required, like the toggle to switch on electricity in the Hacienda Breweries.
+</details>
+
+<details>
+    <summary>Patch Notes Version 2.0.1</summary>
 
 * New Feature:
-    - made Hacienda Fertiliser Works electrifiable with toggle in iMYA
-* Update:
-    - rewrite whole code of Free Farmdfield placement mod to support modded farms without needing to include GUIDs
+    - made Hacienda Fertilizer Works electrifiable with toggle in iMYA
 * Bugfixes:
     - English Description for Policy 4 fixed
     - fixed displayed and active buff for Hacienda Policy 4 (missing 2x3 Artista Houses and generell mess-up with the grape farm and winery)
     - fixed Chewing Gum and Violins needs to appear after Sewing Machines in Needs Tab
     - Fix Bug with invisible Hacienda ground decal for Hacienda Hospital
     - Fix costume maker and bombin weaver missing in Hacienda Policy 2
-    - Fix to include NW cattle farm and nandu farm for Free Farmfield Placement
 </details>
 
 <details>
     <summary>Patch Notes Version 2.0</summary>
 
 * New features:
-    - Major overhaul of the mod structure. The mod now consists of a single mod folder to be installed manually or via iModYourAnno. Please make sure to remove all older mod folders of this mod. This process should be savegame compatible. Free Farmfield Placement was left in a separate mod folder since it affects vanilla gameplay as well.
+    - Major overhaul of the mod structure. The mod now consists of a single mod folder to be installed manually or via iModYourAnno. Please make sure to remove all older mod folders of this mod. This process should be savegame compatible.
     - Modularity: If you remove certain features of this mod, you can open the included asset.xml file and remove single modules via deleting single <include>-Commands. There is a little description in the assets file to tell you what the module does.
-    - Tweaking: This mod now supports tweaking via iModYourAnno Mod Manager. No need to tinker with the assets files yourself. Just open the 'Tweaking' tab and see what can be changed. You can tweak many number values to your liking, f.e. the Hacienda radius or the production time of certain production buildings. You can also disable whole mod features through the 'Tweaking' tab toggels. If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!
+    - Tweaking: This mod now supports tweaking via iModYourAnno Mod Manager. No need to tinker with the assets files yourself. Just open the 'Tweaking' tab and see what can be changed. You can tweak many number values to your liking, f.e. the Hacienda radius or the production time of certain production buildings. You can also disable whole mod features through the 'Tweaking' tab toggles. If you use iModYourAnno, please notice, that you have to turn on all toggles in the Tweaking tab to get the intended 'Full Experience'!
 
 * Update for GU16:
     - Made the whole mod compatible with GU16. Added Artista 2x3 Residences and updated Hacienda Quarters for new Lifestyle needs and RequiredtobeBuilding change:
@@ -95,15 +107,15 @@ If you like this mod and want to support me, feel free to share it with your fri
 
 * New features:
     ![Banner](https://user-images.githubusercontent.com/64583643/192149310-8fcbf8b6-b878-48c3-9269-0a2a9c9fdfa7.png)    
-    - Added the Hacienda Streets from Muggenstürmer's [CityOrnaments Mod](https://www.nexusmods.com/anno1800/mods/93) as an optional and seperate mod to replace my Hacienda streets. The streets now feature bridges and railway crossings. Thanks to Muggen for letting me use his fantastic work!
+    - Added the Hacienda Streets from Muggenstürmer's [CityOrnaments Mod](https://www.nexusmods.com/anno1800/mods/93) as an optional and separate mod to replace my Hacienda streets. The streets now feature bridges and railway crossings. Thanks to Muggen for letting me use his fantastic work!
 </details>
 
 <details>
     <summary>Patch Notes Version 1.3.3</summary>
 
 * Minor Bugfixes:
-    - Found the cause of the crash when switching recipies between the Hacienda Farms: I forgot to change the relevant asset entry for the Blank Hacienda Farm in my Policies Overhaul which gives the tractor boost to the farms. Though the blank farm never produces anything, the game doesn't like the missmatch between the blank farm and the respective recipe farm. Blank Farm is now back into the modules of the Hacienda menu.
-    - For whatever reason the Hacienda Breweries had their attractivness impact shown in the city tab where only positive attractivness values are presented by default. I changed it to Factory. (Maybe the devs once planned to give them an attractiveness boost to the city and just had an typo with the minus???)
+    - Found the cause of the crash when switching recipes between the Hacienda Farms: I forgot to change the relevant asset entry for the Blank Hacienda Farm in my Policies Overhaul which gives the tractor boost to the farms. Though the blank farm never produces anything, the game doesn't like the mismatch between the blank farm and the respective recipe farm. Blank Farm is now back into the modules of the Hacienda menu.
+    - For whatever reason the Hacienda Breweries had their attractiveness impact shown in the city tab where only positive attractiveness values are presented by default. I changed it to Factory. (Maybe the devs once planned to give them an attractiveness boost to the city and just had an typo with the minus???)
     - Cleared an issue where the Hacienda Tab in the Build Menu with the Hacienda Church was visible and buildable too early in the game, because I added the Church to the AssetPool Chapel, which is by default unhidden/unlocked with Jornaleros.
     - If you use my Production Chain Overhaul or the Shared Goods Mod, the Hacienda Winery and its recipe now show the correct icon for Wine instead of Champagne.
     - Cleaned up the buildmenu of the Hacienda Overhaul, somehow the Hacienda was still in the Obreros Tab, but inside the Hacienda Ornaments Tab (that shouldn't be there in the first place). It should be very clear now, that the Hacienda and its Ornaments can only be found in the Hacienda Build Menu Tab, as intended. 
@@ -127,8 +139,6 @@ If you like this mod and want to support me, feel free to share it with your fri
 ![banner](https://user-images.githubusercontent.com/64583643/170326244-da7a2b35-e93e-43f5-9f70-928a5a4571c3.png)
 * Module 1: Hacienda Winery added. Available from 1 investor skyscraper level 3. Requires grapes, cinnamon and cherry wood. Produces "Champagne" (for now...).
 
-![banner](https://user-images.githubusercontent.com/64583643/170326213-2c3aafcc-ed65-4fd2-82ce-a21f3b67d23d.png)
-* Update of the mod "[Free Farmfield Placement](https://www.nexusmods.com/anno1800/mods/26)" by Finnem. The fields of all farms and animal farms incl. Hacienda farms, as well as my mod farms and Jakob's mod farms can now be placed freely in their radius. The original mod is no longer required.
 </details>
 
 <details>
@@ -150,13 +160,13 @@ If you like this mod and want to support me, feel free to share it with your fri
     - Default decal skin for public buildings set to vanilla, so you always have to press Ctrl+V (or your hotkey for that) to switch the decal to Hacienda Ground
     - police and church as well as guildhouse now cause Mercier to react accordingly when they are built
     - locked all new relevant buildings for AI to prevent them from getting stuck
-    - Hacienda Main Buidling added to the Influence Investment "Optimisation" AssetPool
+    - Hacienda Main Buidling added to the Influence Investment "Optimization" AssetPool
 </details>
 
 <details>
     <summary>Patch Notes Version 1.1.2</summary>
 
-* Hotfix for all Localisations except English. Sorry for the inconvienence, I accidentally zipped up older texts files for the other languages.
+* Hotfix for all Localizations except English. Sorry for the inconvenience, I accidentally zipped up older texts files for the other languages.
 </details>
 
 <details>
@@ -172,7 +182,7 @@ If you like this mod and want to support me, feel free to share it with your fri
 
 Upon popular demand, I decided to split the mod into modules. **ALL** Modules require the Base Module to be inside your mod folder. All other modules are optional. Following is a brief overview about each modules features:
 
-Pick and choose what ever combination is your favourite :D
+Pick and choose what ever combination is your favorite :D
 
 * Base:
     ![banner](https://user-images.githubusercontent.com/64583643/170326044-14f16f0a-9854-40e2-af8c-aba3b4ea021d.png)
@@ -187,7 +197,7 @@ Pick and choose what ever combination is your favourite :D
 * BasicGameplay changes:
     ![banner](https://user-images.githubusercontent.com/64583643/170326070-ad4251a2-c6fc-45eb-a529-dd5c7961f0f0.png)
     - Radius of the Hacienda now up to 80
-    - Fertiliser Factory got buffed and hasn’t to be build inside the Hacienda Radius
+    - Fertilizer Factory got buffed and hasn’t to be build inside the Hacienda Radius
 
 * ExtendedHacienda by Lordys:
     ![banner](https://user-images.githubusercontent.com/64583643/170326118-9b8d5fd9-ba7a-412e-b45b-fe8ec3c32edd.png)
@@ -196,7 +206,7 @@ Pick and choose what ever combination is your favourite :D
     - Small Jornalero and Obrero Residences (2x3) → 8/\[12\] and 13/\[20\] pop
     - Hacienda Chapel → Satisfies Chapel Need
     - Hacienda Fire Station, Hacienda Police Station → Two resolver units each and slightly higher coverage
-    - Hacienda Trade Union → Radius 20! Costs 50 Obrero Worforce though
+    - Hacienda Trade Union → Radius 20! Costs 50 Obrero Workforce though
     - Hacienda Border Wall Semi-Automatic and manual → read below!
     - One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
 
@@ -244,8 +254,8 @@ The vanilla Hacienda Warehouse hasn’t a real value over the normal Depots insi
 - For the Obrero Residences, they now get 3 points of attractiveness by default to help you reach the required amounts of it to unlock the Hacienda policies. Their inhabitant count has been lifted to 165. An extra incentive was given to the new products Hot Sauce and Atole as well as the newly introduced needs: Chewing Gum and Violins unlocked at 1500 and 2000 Obreros respectively to further strengthen the incentive to build those production lines in later game. 
 - To accommodate the changed needs, population boosting items like Saint D’Artois and Papal Paper now give extra residents from Hot Sauce as well as Chewing gums and Violins to promote not only NW usage of these goods but also the supply of Violins and Chewing gum to Engineer and Investor Skyscrapers, as those productions are not really space efficient for the amount of inhabitants they give.
 
-### Fertiliser Factory got buffed and hasn’t to be build inside the Hacienda Radius
-Production time of the Fertiliser Factory has been lifted to 90 seconds. At the same time, the buff for the animal farms has been reduced to 1/10 instead of 1/3. Now you have to build 3 Animal farms at 110% to supply one unboosted Fertiliser Factory instead of a one to three ratio as before. The Fertiliser Factory also doesn’t need to be build inside the Hacienda radius any more, because I think most of us don’t wanna wake to the smell of poop every day, would we?
+### Fertilizer Factory got buffed and hasn’t to be build inside the Hacienda Radius
+Production time of the Fertilizer Factory has been lifted to 90 seconds. At the same time, the buff for the animal farms has been reduced to 1/10 instead of 1/3. Now you have to build 3 Animal farms at 110% to supply one unboosted Fertilizer Factory instead of a one to three ratio as before. The Fertilizer Factory also doesn’t need to be build inside the Hacienda radius any more, because I think most of us don’t wanna wake to the smell of poop every day, would we?
 
 ### Hacienda Farms: 4 new crop types and fertilities mater again
 Why exactly is it that the Devs left out the three crops Bananas, Cotton and Tobacco? Well, I theorize that the recipe book has no more space than to fit 8 recipes at the current scale of each item on the list. So they told their art team to design all crop farms for the New World fertilities and then dumped the ones nobody likes - because of balancing and item game - overboard. But the graphics did survive the drip into the final game files! I spent an hour creating the Tobacco plantation until I noticed at export that there already is on! I mean wtf. I paid full price but due to a really simple UI design problem, so much content was stolen from me. Especially since the Tobacco Plantation was one of the most unused Farm in the entire game, a Hacienda version in vanilla could have made a really good opportunity to actually plant it instead of getting it as a by-product from bananas.
@@ -307,11 +317,11 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
     * Effects Hacienda Vineyards
         * Extra Grapes every second cycle (+50%)
         * Grape fertility provided
-        * +25 Attractivness
+        * +25 Attractiveness
 
     * Effects Hacienda Winery
         * Extra Champagne every second cycle (+50%)
-        * +25 Attractivness
+        * +25 Attractiveness
 
     * Effects all Artista residences:
         * +58 extra Money , +5 Happiness and +5 Inhabitants from the Champagne lifestyle need as well as a -25% reduction of said need.
@@ -319,26 +329,26 @@ But as I’m more creative than that, I created 5 totally new and potentially ga
 - Decree 5: Cultural Conservation Act (required Attractiveness: 2200)
     * Effects all Obrero and all Artista Residences
         * Income per House -25%
-        * Bonus Happiness +5 and Bonus Inhabitents +5 from Samba School and Lanterns
+        * Bonus Happiness +5 and Bonus Inhabitants +5 from Samba School and Lanterns
         * Reduced consumption of Light Bulbs (-25%), Fans (-50%) and Scooters (-75%)
-        * Increaded consumpttion of Typewriters (+25%), Soccer Balls (+50%) and Sewing Machines (+75%)
+        * Increased consumption of Typewriters (+25%), Soccer Balls (+50%) and Sewing Machines (+75%)
         * If the Boxing Arena need is fullfiled, the residences gain Cinema need fullfiled
         * If Lantern need is fullfiled, the residences gain Electricity need fullfiled
 
-### Extented Hacienda by Lordys and Taludas
-In cooperation with Lordys, I developped an extention to the Hacienda DLC with new public buildings, new 2x3 Hacienda residences and a outer Hacienda wall ornament to further customise your Gameplay experience.
+### Extended Hacienda by Lordys and Taludas
+In cooperation with Lordys, I developed an extension to the Hacienda DLC with new public buildings, new 2x3 Hacienda residences and a outer Hacienda wall ornament to further customize your Gameplay experience.
 * Small Marketstands → Satisfy need of Hacienda for Residences in its range
 * Small Jornalero, Obrero Residences and Artista Residences (2x3) → 24/\[30\], 44/\[55\] and 68/\[85\] pop
 * Hacienda Chapel → Satisfies Chapel Need
 * Hacienda Fire Station, Hacienda Police Station (both with advanced Versions as well) → Two resolver units each and slightly higher coverage
-* Hacienda Trade Union → Radius 20! Costs 50 Obrero Worforce though
+* Hacienda Trade Union → Radius 20! Costs 50 Obrero Workforce though
 * Hacienda Townhall
 * Hacienda Border Wall Semi-Automatic and manual → read below!
 * One quick word on the topic of the semi-automatic outer wall. Since the Anno Code only allows for ornaments to be in the middle of the decal to snap automatically into the right place, I had to use a trick. You have to build a two tile wide corridor of wall first. Afterwards you can safely delete the inner circle and the outer one will stay connected the right way!
 
 ### Mod Tweaks through iModYourAnno
 
-If you use the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) you will find a tweakin tab in it. There are several options to tweak some gameplay elements of this mod. For example you can toggle wheter the Hacienda Farms require a fertility. Or what recipe the winery uses. With regards to the policies you can decide to either use the vanilla ones or my modded ones and you can specify the required Attractivness amount needed to unlock these. If you want the full experience, I suggest you switch every toggle option to 'on'. The value tweaking is up to your own liking. Feel free to experiment with your own numbers. Always remember to save you changes and delete the Cache Folder inside your mods folder afterwards.
+If you use the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) you will find a tweaking tab in it. There are several options to tweak some gameplay elements of this mod. For example you can toggle whether the Hacienda Farms require a fertility. Or what recipe the winery uses. With regards to the policies you can decide to either use the vanilla ones or my modded ones and you can specify the required Attractiveness amount needed to unlock these. If you want the full experience, I suggest you switch every toggle option to 'on'. The value tweaking is up to your own liking. Feel free to experiment with your own numbers. Always remember to save you changes and delete the Cache Folder inside your mods folder afterwards.
 
 ### Bugfixes
 - Hacienda Main Building removed from the ItemEffectTargetPool “All Hacienda Buildings” so that it can’t be boosted by Items which affect “All Production Buildings”.
