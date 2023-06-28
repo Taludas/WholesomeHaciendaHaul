@@ -28,6 +28,7 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 * Neue Features:
     - Die Mod Free Farmfield Placement wurde in die [Gameplay Mods Collection](https://github.com/Taludas/GameplayModsCollection) verschoben. Diese Mod ist eine eigenständige Mod und wird in Zukunft auch als solche behandelt werden.
     - Diese Mod ist jetzt noch besser anpassbar. Mit iMYA ist es nun möglich, ganze Teile dieser Mod abzuschalten. Jedes Modul ist nun völlig unabhängig voneinander (ich empfehle aber trotzdem, alle Funktionen zu aktivieren, da dies die besten Synergieeffekte bringt, z.B. Policies Mod und Hacienda Winery). Die Grundfunktionen, wie z.B. das separate Bau-Menü, bleiben erhalten.
+    - Hinzufügen einer Russischen Lokalisation, bereitgestellt von @DrD_AVEL
 * Bugfixes:
     - Einige Anpassungsoptionen, die nicht mehr benötigt werden, wurden entfernt, wie z.B. der Schalter zum Einschalten der Elektrizität in den Hacienda-Brauereien.
 </details>
@@ -35,14 +36,14 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 <details>
     <summary>Patch Notes Version 2.0.1</summary>
 
-* New Feature:
-    - made Hacienda Fertilizer Works electrifiable with toggle in iMYA
-* Bugfixes:
-    - English Description for Policy 4 fixed
-    - fixed displayed and active buff for Hacienda Policy 4 (missing 2x3 Artista Houses and generell mess-up with the grape farm and winery)
-    - fixed Chewing Gum and Violins needs to appear after Sewing Machines in Needs Tab
-    - Fix Bug with invisible Hacienda ground decal for Hacienda Hospital
-    - Fix costume maker and bombin weaver missing in Hacienda Policy 2
+* Neue Funktion:
+    - Hacienda Fertilizer Works elektrifizierbar gemacht mit Toggle in iMYA
+* Fehlerbehebungen:
+    - Englische Beschreibung für Politik 4 korrigiert
+    - angezeigte und aktive Buffs für Hacienda Policy 4 korrigiert (fehlende 2x3 Artista Häuser und generelles Durcheinander mit der Traubenfarm und dem Weingut)
+    - Kaugummi und Geigen müssen nach Nähmaschinen im Needs Tab erscheinen
+    - Fix Bug mit unsichtbarem Hacienda Decal für Hacienda Hospital
+    - Kostümbildner und Hutmacher fehlen in Hacienda Policy 2
 </details>
 
 <Details>
