@@ -28,6 +28,7 @@ You can find a gallery of images from my mod [here](docs/).
 * New Features:
     - relocated the Free Farmfield Placement Mod to [Gameplay Mods Collection](https://github.com/Taludas/GameplayModsCollection). It is a standalone mod and will be handled as such in future.
     - made whole mod even more customizable. With iMYA it is now possible to disable whole parts of the mod. Each module is now completely independent from one another (but I still suggest to enable all features, it will grant you with the best synergy, f.e. Policies mod and Hacienda Winery.) You will always get the basics, like the separate buildmenu.
+    - added Russion Translation, provided by @DrD_AVEL
 * Bugfixes:
     - Removed some customization options, that are no longer required, like the toggle to switch on electricity in the Hacienda Breweries.
 </details>
