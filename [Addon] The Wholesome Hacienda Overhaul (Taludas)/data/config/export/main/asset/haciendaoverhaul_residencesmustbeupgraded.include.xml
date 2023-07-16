@@ -1,4 +1,10 @@
 <ModOps>
+    <!-- #remove Obrero and Artista Residences, if you use "residences must be upgraded" or "extended Hacienda"-->
+    <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020/ConstructionCategory/BuildingList/Item[Building = '24793']" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24793']"></ModOp>
+    <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020/ConstructionCategory/BuildingList/Item[Building = '6086']" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '6086']"></ModOp>
+    <ModOp Type="remove" GUID="1999002093" Condition="@1999002093/ConstructionCategory/BuildingList/Item[Building = '24793']" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24793']"></ModOp>
+    <ModOp Type="remove" GUID="1999002093" Condition="@1999002093/ConstructionCategory/BuildingList/Item[Building = '6086']" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '6086']"></ModOp>
+
     <!-- #Jornaleros Upgradeable -->
     <ModOp Type="replace" GUID="24792" Path="/Values/Upgradable">
         <Upgradable>
@@ -315,4 +321,9 @@
     <!-- #remove Obrero and Artista houses from module selection! -> must be upgraded -->
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24793']"></ModOp>
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='6086']"></ModOp>
+
+    <!-- #apoint new uniform Icon for Hacienda Residences, when using "residences must be upgraded"-->
+    <ModOp Type="replace" GUID="24792" Condition="!@24768/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24793']" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_hacienda_house.png</IconFilename>
+    </ModOp>
 </ModOps>

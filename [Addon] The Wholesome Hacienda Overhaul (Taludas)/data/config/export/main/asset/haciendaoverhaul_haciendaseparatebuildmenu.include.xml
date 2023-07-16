@@ -3,7 +3,7 @@
     <ModOp Type="remove" GUID="24768" Condition="@1999002110" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24770']"></ModOp>
     <ModOp Type="remove" GUID="24768" Condition="@1999002112" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='25224']"></ModOp>
     <ModOp Type="remove" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='7281']"></ModOp>
-    <ModOp Type="remove" GUID="500137" Path="/Values/ConstructionCategory/BuildingList/Item[Building='7281']"></ModOp>
+    <ModOp Type="remove" GUID="500137" Path="/Values/ConstructionCategory/BuildingList/Item[Building='7281']"></ModOp>    
 
     <!-- Remove the modul of empty nw farm for now due to constant crashes after selecting a recipe from blank #obsolete: fixed in Policies Mod
     <ModOp Type="remove" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24794']"></ModOp> -->
@@ -142,6 +142,16 @@
         </Item>
     </ModOp>
 
+    <!-- Add Obrero and Artista Residences, if you don't use "residences must be upgraded"-->
+    <ModOp Type="addNextSibling" GUID="1999002020,1999002070" Condition="!@1999002093" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24792']">
+        <Item>
+            <Building>24793</Building>
+        </Item>
+        <Item>
+            <Building>6086</Building>
+        </Item>
+    </ModOp>
+
     <!-- #Hacienda Construction Sub-Categories -->
     <!-- Sub-Menu NW Farms -->
     <ModOp Type="addNextSibling" GUID="25178">
@@ -276,10 +286,6 @@
 
     <ModOp Type="replace" GUID="24800" Path="/Values/Standard/IconFilename">
         <IconFilename>data/modgraphics/ui/icon_hacienda_brewery.png</IconFilename>
-    </ModOp>
-
-    <ModOp Type="replace" GUID="24792" Condition="!@24768/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='24793']" Path="/Values/Standard/IconFilename">
-        <IconFilename>data/modgraphics/ui/icon_hacienda_house.png</IconFilename>
     </ModOp>
 
     <ModOp Type="replace" GUID="24794" Path="/Values/Standard/IconFilename">

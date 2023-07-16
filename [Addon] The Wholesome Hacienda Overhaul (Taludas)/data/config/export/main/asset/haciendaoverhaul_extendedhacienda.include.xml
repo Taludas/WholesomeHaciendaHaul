@@ -3809,6 +3809,23 @@
     </Item>
   </ModOp>
 
+  <!-- Add Obrero and Artista Residences, if you don't use "residences must be upgraded" and use "Extended Hacienda"-->
+  <Group Condition="!@24793/Building[PickingAsset = 24792]">
+    <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020/ConstructionCategory/BuildingList/Item[Building = '24793']" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24793']"></ModOp>
+    <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020/ConstructionCategory/BuildingList/Item[Building = '6086']" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '6086']"></ModOp>
+
+    <ModOp Type="addNextSibling" GUID="1999002093" Condition="@1999002093" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24792']">
+      <Item>
+          <Building>24793</Building>
+      </Item>
+      <Item>
+          <Building>6086</Building>
+      </Item>
+    </ModOp>
+  </Group>
+  
+
+
   <!-- Trigger all new buildings and wall ornament buildings with 1 Obrero -->
   <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
