@@ -6,8 +6,8 @@
         <HaciendaRadius>20</HaciendaRadius>
     </ModOp>
 
-    <ImyaTweaks Title="Features of HaciendaOverhaul: Modular Hacienda Range" />
-    <ImyaExpose Path="self::HaciendaRadius" ModOpID="HaciendaBaseRange" ExposeID="HaciendaBaseRange" Description="This value sets the Hacienda base radius [in Tiles]." />
+    <ImyaTweaks Title="Features of Hacienda Overhaul: Modular Hacienda Range" Description="Adjust the features of the module, concerning the values of the Hacienda Radius." Icon="data/ui/2kimages/main/icons/icon_range.png" />
+    <ImyaExpose Path="self::HaciendaRadius" ModOpID="HaciendaBaseRange" ExposeID="Hacienda Radius: Base Range" Description="This value sets the Hacienda base radius [in Tiles]." />
 
     <!-- Hacienda Radius Increase Steps -->
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds">
@@ -59,12 +59,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[1]/ResidentThreshold" ModOpID="HaciendaPopIncrease1">
         <ResidentThreshold>1000</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease1" ExposeID="PopulationThreshold_HaciendaRadiusIncrease1" Description="This value sets the population requirment for the first radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease1" ExposeID="Population Threshold for 1st increase of Hacienda Radius" Description="This value sets the population requirment for the first radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[1]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease1">
         <AdditionalHaciendaRadius>10</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease1" ExposeID="HaciendaRadiusIncrease1" Description="This value sets the radius increase for the first radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease1" ExposeID="Value of 1st Hacienda Radius Increase" Description="This value sets the radius increase for the first radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -72,12 +72,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[2]/ResidentThreshold" ModOpID="HaciendaPopIncrease2">
         <ResidentThreshold>1500</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease2" ExposeID="PopulationThreshold_HaciendaRadiusIncrease2" Description="This value sets the population requirment for the second radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease2" ExposeID="Population Threshold for 2nd increase of Hacienda Radius" Description="This value sets the population requirment for the second radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[2]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease2">
         <AdditionalHaciendaRadius>15</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease2" ExposeID="HaciendaRadiusIncrease2" Description="This value sets the radius increase for the second radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease2" ExposeID="Value of 2nd Hacienda Radius Increase" Description="This value sets the radius increase for the second radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -85,12 +85,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[3]/ResidentThreshold" ModOpID="HaciendaPopIncrease3">
         <ResidentThreshold>2000</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease3" ExposeID="PopulationThreshold_HaciendaRadiusIncrease3" Description="This value sets the population requirment for the third radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease3" ExposeID="Population Threshold for 3rd increase of Hacienda Radius" Description="This value sets the population requirment for the third radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[3]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease3">
         <AdditionalHaciendaRadius>10</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease3" ExposeID="HaciendaRadiusIncrease3" Description="This value sets the radius increase for the third radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease3" ExposeID="Value of 3rd Hacienda Radius Increase" Description="This value sets the radius increase for the third radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -98,12 +98,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[4]/ResidentThreshold" ModOpID="HaciendaPopIncrease4">
         <ResidentThreshold>2500</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease4" ExposeID="PopulationThreshold_HaciendaRadiusIncrease4" Description="This value sets the population requirment for the foruth radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease4" ExposeID="Population Threshold for 4th increase of Hacienda Radius" Description="This value sets the population requirment for the foruth radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[4]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease4">
         <AdditionalHaciendaRadius>5</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease4" ExposeID="HaciendaRadiusIncrease4" Description="This value sets the radius increase for the foruth radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease4" ExposeID="Value of 4th Hacienda Radius Increase" Description="This value sets the radius increase for the foruth radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -111,12 +111,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[5]/ResidentThreshold" ModOpID="HaciendaPopIncrease5">
         <ResidentThreshold>3000</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease5" ExposeID="PopulationThreshold_HaciendaRadiusIncrease5" Description="This value sets the population requirment for the fifth radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease5" ExposeID="Population Threshold for 5th increase of Hacienda Radius" Description="This value sets the population requirment for the fifth radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[5]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease5">
         <AdditionalHaciendaRadius>3</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease5" ExposeID="HaciendaRadiusIncrease5" Description="This value sets the radius increase for the fifth radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease5" ExposeID="Value of 5th Hacienda Radius Increase" Description="This value sets the radius increase for the fifth radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -124,12 +124,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[6]/ResidentThreshold" ModOpID="HaciendaPopIncrease6">
         <ResidentThreshold>3500</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease6" ExposeID="PopulationThreshold_HaciendaRadiusIncrease6" Description="This value sets the population requirment for the sixth radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease6" ExposeID="Population Threshold for 6th increase of Hacienda Radius" Description="This value sets the population requirment for the sixth radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[6]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease6">
         <AdditionalHaciendaRadius>3</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease6" ExposeID="HaciendaRadiusIncrease6" Description="This value sets the radius increase for the sixth radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease6" ExposeID="Value of 6th Hacienda Radius Increase" Description="This value sets the radius increase for the sixth radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -137,12 +137,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[7]/ResidentThreshold" ModOpID="HaciendaPopIncrease7">
         <ResidentThreshold>4000</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease7" ExposeID="PopulationThreshold_HaciendaRadiusIncrease7" Description="This value sets the population requirment for the seventh radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease7" ExposeID="Population Threshold for 7th increase of Hacienda Radius" Description="This value sets the population requirment for the seventh radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[7]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease7">
         <AdditionalHaciendaRadius>2</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease7" ExposeID="HaciendaRadiusIncrease7" Description="This value sets the radius increase for the seventh radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease7" ExposeID="Value of 7th Hacienda Radius Increase" Description="This value sets the radius increase for the seventh radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -150,12 +150,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[8]/ResidentThreshold" ModOpID="HaciendaPopIncrease8">
         <ResidentThreshold>5000</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease8" ExposeID="PopulationThreshold_HaciendaRadiusIncrease8" Description="This value sets the population requirment for the eighth radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease8" ExposeID="Population Threshold for 8th increase of Hacienda Radius" Description="This value sets the population requirment for the eighth radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[8]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease8">
         <AdditionalHaciendaRadius>2</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease8" ExposeID="HaciendaRadiusIncrease8" Description="This value sets the radius increase for the eighth radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease8" ExposeID="Value of 8th Hacienda Radius Increase" Description="This value sets the radius increase for the eighth radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -163,12 +163,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[9]/ResidentThreshold" ModOpID="HaciendaPopIncrease9">
         <ResidentThreshold>7500</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease9" ExposeID="PopulationThreshold_HaciendaRadiusIncrease9" Description="This value sets the population requirment for the ninth radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease9" ExposeID="Population Threshold for 9th increase of Hacienda Radius" Description="This value sets the population requirment for the ninth radius increase of the Hacienda." />
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[9]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease9">
         <AdditionalHaciendaRadius>5</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease9" ExposeID="HaciendaRadiusIncrease9" Description="This value sets the radius increase for the ninth radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease9" ExposeID="Value of 9th Hacienda Radius Increase" Description="This value sets the radius increase for the ninth radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -176,12 +176,12 @@
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[10]/ResidentThreshold" ModOpID="HaciendaPopIncrease10">
         <ResidentThreshold>10000</ResidentThreshold>
     </ModOp>
-    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease10" ExposeID="PopulationThreshold_HaciendaRadiusIncrease10" Description="This value sets the population requirment for the tenth radius increase of the Hacienda." />
+    <ImyaExpose Path="self::ResidentThreshold" ModOpID="HaciendaPopIncrease10" ExposeID="Population Threshold for 10th increase of Hacienda Radius" Description="This value sets the population requirment for the tenth radius increase of the Hacienda." />
     
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/AdditionalRadiusThresholds/Item[10]/AdditionalHaciendaRadius" ModOpID="HaciendaRangeIncrease10">
         <AdditionalHaciendaRadius>5</AdditionalHaciendaRadius>
     </ModOp>
-    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease10" ExposeID="HaciendaRadiusIncrease10" Description="This value sets the radius increase for the tenth radius increase of the Hacienda [in Tiles].">
+    <ImyaExpose Path="self::AdditionalHaciendaRadius" Kind="Slider" ModOpID="HaciendaRangeIncrease10" ExposeID="Value of 10th Hacienda Radius Increase" Description="This value sets the radius increase for the tenth radius increase of the Hacienda [in Tiles].">
         <SliderDefinition Min="1" Max="20" Stepping="1" />
     </ImyaExpose>
 
@@ -189,11 +189,11 @@
     <ModOp Type="add" GUID="24768" Path="/Values/PublicService" ModOpID="HaciendaPublicServiceRangeFull">
         <FullSatisfactionDistance>100</FullSatisfactionDistance>
     </ModOp>
-    <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="HaciendaPublicServiceRangeFull" ExposeID="HaciendaPublicServiceRange_FullSatisfactionDistance" Description="This value sets the Range, in which the Hacienda Public Service need is fully supplied (dark green)." />
+    <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="HaciendaPublicServiceRangeFull" ExposeID="Hacienda Public Service Range: Full Satisfaction Distance" Description="This value sets the Range, in which the Hacienda Public Service need is fully supplied (dark green)." />
 
     <ModOp Type="add" GUID="24768" Path="/Values/PublicService" ModOpID="HaciendaPublicServiceRangeNo">
         <NoSatisfactionDistance>120</NoSatisfactionDistance>
     </ModOp>
-    <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="HaciendaPublicServiceRangeNo" ExposeID="HaciendaPublicServiceRange_NoSatisfactionDistance" Description="This value sets the Range, in which the Hacienda Public Service need is only partially supplied (light green)." />
+    <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="HaciendaPublicServiceRangeNo" ExposeID="Hacienda Public Service Range: No Satisfaction Distance" Description="This value sets the Range, in which the Hacienda Public Service need is only partially supplied (light green)." />
 
 </ModOps>    

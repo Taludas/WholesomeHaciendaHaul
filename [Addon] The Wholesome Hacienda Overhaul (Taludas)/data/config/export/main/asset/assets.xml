@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Turn on or off entire Features of the mod. Use the panels below to further fine tune your experience." />
+    <ImyaTweaks Title="Turn on or off entire Features of the mod. Use the panels below to further fine tune your experience." Description="Switch all the Toggles to 'on' to get the full experience. By default, all modules are enabled!" Icon="data/ui/2kimages/main/3dicons/hacienda/icon_hacienda_main.png" />
     <!-- #MANDATORY: Hacienda separate build menu entry -->
     <Include File="haciendaoverhaul_haciendaseparatebuildmenu.include.xml" />
     
@@ -12,50 +12,50 @@
    
     <!-- #MODULAR: Replace vanilla Hacienda Tiles with true streets -->
     <Include File="haciendaoverhaul_truehaciendastreets.include.xml" ModOpID="truehaciendastreets" />
-    <ImyaExpose Path="*" ModOpID="truehaciendastreets" ExposeID="Enable True Hacienda Streets" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="truehaciendastreets" ExposeID="Enable True Hacienda Streets" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Residences must be upgraded -->
     <Include File="haciendaoverhaul_residencesmustbeupgraded.include.xml" ModOpID="residencesmustbeupgraded" />
-    <ImyaExpose Path="*" ModOpID="residencesmustbeupgraded" ExposeID="Enable Residences must be upgraded" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="residencesmustbeupgraded" ExposeID="Enable Residences must be upgraded" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Include missing Hacienda Farms in the recipe book -->
     <Include File="haciendaoverhaul_missinghaciendafarms.include.xml" ModOpID="missinghaciendafarms" />
-    <ImyaExpose Path="*" ModOpID="missinghaciendafarms" ExposeID="Enable missing Hacienda Farms" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="missinghaciendafarms" ExposeID="Enable missing Hacienda Farms" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Public Buildings with Hacienda Ground Decal -->
     <Include File="haciendaoverhaul_publicbuildingshaciendaground.include.xml" ModOpID="publicbuildingshaciendaground" />
-    <ImyaExpose Path="*" ModOpID="publicbuildingshaciendaground" ExposeID="Enable Public Buildings with Hacienda Ground" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="publicbuildingshaciendaground" ExposeID="Enable Public Buildings with Hacienda Ground" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Customizable Increased Hacienda Range -->
     <Include File="haciendaoverhaul_modularhaciendarange.include.xml" ModOpID="modularhaciendarange" />
-    <ImyaExpose Path="*" ModOpID="modularhaciendarange" ExposeID="Enable Modular Hacienda Range" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="modularhaciendarange" ExposeID="Enable Modular Hacienda Range" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Modular Hacienda Fertiliser Works -->
     <Include File="haciendaoverhaul_modularfertiliserworks.include.xml" ModOpID="modularfertiliserworks" />
-    <ImyaExpose Path="*" ModOpID="modularfertiliserworks" ExposeID="Enable Modular Fertiliser Works" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="modularfertiliserworks" ExposeID="Enable Modular Fertiliser Works" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Policies Reworked -->
     <Include File="haciendaoverhaul_policies.include.xml" ModOpID="policies" />
-    <ImyaExpose Path="*" ModOpID="policies" ExposeID="Enable Alternative Hacienda Poliecies" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="policies" ExposeID="Enable Alternative Hacienda Poliecies" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Hacienda Winery -->
     <Include File="haciendaoverhaul_winery.include.xml" ModOpID="winery" />
-    <ImyaExpose Path="*" ModOpID="winery" ExposeID="Enable Hacienda Winery" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="winery" ExposeID="Enable Hacienda Winery" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Extended Hacienda by Lordys and Taludas -->
     <Include File="haciendaoverhaul_extendedhacienda.include.xml" ModOpID="extendedhacienda" />
-    <ImyaExpose Path="*" ModOpID="extendedhacienda" ExposeID="Enable Extended Hacienda" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="extendedhacienda" ExposeID="Enable Extended Hacienda" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Expanded Hacienda Gameplay Changes  -->
     <Include File="haciendaoverhaul_expandedhaciendagameplaychanges.include.xml" ModOpID="expandedhaciendagameplaychanges" />
-    <ImyaExpose Path="*" ModOpID="expandedhaciendagameplaychanges" ExposeID="Enable expanded Hacienda Gameplay Changes" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="expandedhaciendagameplaychanges" ExposeID="Enable expanded Hacienda Gameplay Changes" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Electrified Hacienda Farms use fast Tractors instead of usual transporters -->
     <Include File="haciendaoverhaul_tractorsforelectrifiablehaciendafarms.include.xml" ModOpID="tractorsforelectrifiablehaciendafarms" />
-    <ImyaExpose Path="*" ModOpID="tractorsforelectrifiablehaciendafarms" ExposeID="Enable Tractors for Electrified Hacienda Farms" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="tractorsforelectrifiablehaciendafarms" ExposeID="Enable Tractors for Electrified Hacienda Farms" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #MODULAR: Sounds of Stradivari -->
     <Include File="haciendaoverhaul_soundsofstradivari.include.xml" ModOpID="soundsofstradivari" />
-    <ImyaExpose Path="*" ModOpID="soundsofstradivari" ExposeID="Enable Violin Production in the New World" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="soundsofstradivari" ExposeID="Enable Violin Production in the New World" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
 </ModOps>

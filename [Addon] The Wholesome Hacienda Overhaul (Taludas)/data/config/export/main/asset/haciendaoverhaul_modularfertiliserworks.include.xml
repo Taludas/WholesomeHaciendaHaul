@@ -6,15 +6,15 @@
         <BaseBuffDistance>20</BaseBuffDistance>
     </ModOp>
 
-    <ImyaTweaks Title="Features of HaciendaOverhaul: Modular Hacienda Fertiliser Works" />
-    <ImyaExpose Path="self::BaseBuffDistance" ModOpID="FertiliserBuffDistance" ExposeID="FertiliserWorks_BuffDistance" Description="This value sets the radius of the Buff provided by the Hacienda Fertiliser Works [in tiles]." />
+    <ImyaTweaks Title="Features of Hacienda Overhaul: Modular Hacienda Fertiliser Works" Description="Adjust the features of the module, concerning the values of the Hacienda Fertiliser Works." Icon="data/ui/2kimages/main/3dicons/scenario/goods/icon_fertilizer_good.png" />
+    <ImyaExpose Path="self::BaseBuffDistance" ModOpID="FertiliserBuffDistance" ExposeID="Fertiliser Works: Buff Distance" Description="This value sets the radius of the Buff provided by the Hacienda Fertiliser Works [in tiles]." />
 
 <!-- Cycle Time -->
     <ModOp Type="add" GUID="24805" Path="/Values/FactoryBase" ModOpID="FertiliserCycleTime">
         <CycleTime>30</CycleTime>
     </ModOp>
 
-    <ImyaExpose Path="self::CycleTime" Kind="Enum" ModOpID="FertiliserCycleTime" ExposeID="FertiliserWorks_CycleTime" Description="This value sets the cycle time of the Hacienda Fertiliser Works [in seconds].">
+    <ImyaExpose Path="self::CycleTime" Kind="Enum" ModOpID="FertiliserCycleTime" ExposeID="Fertiliser Works: Cycle Time" Description="This value sets the cycle time of the Hacienda Fertiliser Works [in seconds].">
         <FixedValues>
             <Value>30</Value>
             <Value>60</Value>
@@ -24,15 +24,13 @@
     </ImyaExpose>
 
 <!-- Fertilizer Works Industrializable Toggle -->
-    <ModOp Type="replace" GUID="24805" Path="/Template" ModOpID="FertiliserIndustrializable">
-        <Template>BuffFactoryCultureIndustrializable_Taludas</Template>
-    </ModOp>
+    <Group ModOpID="FertiliserIndustrializable">
+        <ModOp Type="replace" GUID="24805" Path="/Template">
+            <Template>BuffFactoryCultureIndustrializable_Taludas</Template>
+        </ModOp>
+    </Group>
 
-    <ImyaExpose Path="self::Template" Kind="Toggle" ModOpID="FertiliserIndustrializable" ExposeID="FertiliserWorks_Industrializable" Description="Switch on to enable electricity boost for the Hacienda Fertiliser Works.">
-        <AltValue>
-            <Template>BuffFactoryCulture</Template>
-        </AltValue>    
-    </ImyaExpose>
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="FertiliserIndustrializable" ExposeID="Fertiliser Works: Industrializable" Description="Switch on to enable electricity boost for the Hacienda Fertiliser Works."></ImyaExpose>
 
 <!-- Internal Storage -->
     <ModOp Type="add" GUID="24805" Path="/Values/FactoryBase">
@@ -44,27 +42,25 @@
         <StorageAmount>5</StorageAmount>
     </ModOp>
 
-    <ImyaExpose Path="self::StorageAmount" Kind="Slider" ModOpID="FertiliserStorageAmount" ExposeID="FertiliserWorks_InternalStorageAmount" Description="This value sets the internal storage of the Hacienda Fertiliser Works [in tones]. It will not mess with the range of its Transporters.">
+    <ImyaExpose Path="self::StorageAmount" Kind="Slider" ModOpID="FertiliserStorageAmount" ExposeID="Fertiliser Works: Internal Storage Amount" Description="This value sets the internal storage of the Hacienda Fertiliser Works [in tones]. It will not mess with the range of its Transporters.">
         <SliderDefinition Min="1" Max="10" Stepping="1" />
     </ImyaExpose>
 
 <!-- Hacienda Dependent Toggle -->
-    <ModOp Type="replace" GUID="24805" Path="/Values/Pausable/IsHaciendaDependent" ModOpID="FertiliserHaciendaDependent">
-        <IsHaciendaDependent>1</IsHaciendaDependent>
-    </ModOp>
-
-    <ImyaExpose Path="self::IsHaciendaDependent" Kind="Toggle" ModOpID="FertiliserHaciendaDependent" ExposeID="FertiliserWorks_IsHaciendaDependent" Description="Switch off to remove the requirement for the Hacienda Works to be inside the Hacienda Range (If you don't change anything else in this menu, please toggle the switch to 'on' ones, save and then toggle it of again to remove the Hacienda Dependency!)">
-        <AltValue>
+    <Group ModOpID="FertiliserHaciendaDependent">
+        <ModOp Type="replace" GUID="24805" Path="/Values/Pausable/IsHaciendaDependent">
             <IsHaciendaDependent>0</IsHaciendaDependent>
-        </AltValue>    
-    </ImyaExpose>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="FertiliserHaciendaDependent" ExposeID="Fertiliser Works: Hacienda Dependency" Description="Switch on to remove the requirement for the Hacienda Works to be inside the Hacienda Range"></ImyaExpose>
 
 <!-- Modify buff for different amounts of extra goods -->
     <ModOp Type="replace" GUID="24806" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[Product = '24807']/AdditionalOutputCycle" ModOpID="FertiliserAdditionalOutput">
         <AdditionalOutputCycle>3</AdditionalOutputCycle>
     </ModOp>
 
-    <ImyaExpose Path="self::AdditionalOutputCycle" Kind="Slider" ModOpID="FertiliserAdditionalOutput" ExposeID="FertiliserWorks_AdditionalOutputAmountPerCycle" Description="This value sets the ratio of Dung generated by the animal farms in range of the Hacienda Fertiliser Works [in 1/value].">
+    <ImyaExpose Path="self::AdditionalOutputCycle" Kind="Slider" ModOpID="FertiliserAdditionalOutput" ExposeID="Fertiliser Works: AdditionalOutputAmountPerCycle" Description="This value sets the ratio of Dung generated by the animal farms in range of the Hacienda Fertiliser Works [in 1/value].">
         <SliderDefinition Min="1" Max="10" Stepping="1" />
     </ImyaExpose>
 

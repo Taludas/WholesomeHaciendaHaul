@@ -125,11 +125,6 @@
               <Amount>1</Amount>
               <StorageAmount>4</StorageAmount>
             </Item>
-            <Item>
-              <Product>133093</Product>
-              <Amount>1</Amount>
-              <StorageAmount>4</StorageAmount>
-            </Item>
           </FactoryInputs>
           <FactoryOutputs>
             <Item>
@@ -193,8 +188,8 @@
     <CycleTime>120</CycleTime>
   </ModOp>
 
-  <ImyaTweaks Title="Features of HaciendaOverhaul: Hacienda Winery" />
-  <ImyaExpose Path="self::CycleTime" ModOpID="HaciendaWineryCycleTime" ExposeID="HaciendaWineryCycleTime" Description="Production time of the Hacienda Winery [in seconds]. The transporter range is not affected by this change." Kind="Enum">
+  <ImyaTweaks Title="Features of Hacienda Overhaul: Hacienda Winery" Description="Adjust the features of the module, concerning the values of the Hacienda winery." Icon="data/ui/2kimages/main/3dicons/icon_grapes.png" />
+  <ImyaExpose Path="self::CycleTime" ModOpID="HaciendaWineryCycleTime" ExposeID="Hacienda Winery: Cycle Time" Description="Production time of the Hacienda Winery [in seconds]. The transporter range is not affected by this change." Kind="Enum">
     <FixedValues>
       <Value>30</Value>
       <Value>60</Value>
@@ -207,32 +202,12 @@
     <StorageAmount>1</StorageAmount>
   </ModOp>
 
-  <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaWineryStorageAmount" ExposeID="HaciendaWineryStorageAmount" Description="Storage Amount of the Hacienda Winery [in tons]" Kind="Slider">
+  <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaWineryStorageAmount" ExposeID="Hacienda Winery: Storage Amount" Description="Storage Amount of the Hacienda Winery [in tons]" Kind="Slider">
     <SliderDefinition Min="1" Max="10" Stepping="1" />
   </ImyaExpose>
 
-  <ModOp Type="replace" GUID="1999002310" Path="/Values/FactoryBase/FactoryInputs" ModOpID="HaciendaWineryRecipe">
-    <FactoryInputs>
-      <Item>
-        <Product>120014</Product>
-        <Amount>1</Amount>
-        <StorageAmount>4</StorageAmount>
-      </Item>
-      <Item>
-        <Product>135087</Product>
-        <Amount>1</Amount>
-        <StorageAmount>4</StorageAmount>
-      </Item>
-      <Item>
-        <Product>133093</Product>
-        <Amount>1</Amount>
-        <StorageAmount>4</StorageAmount>
-      </Item>
-    </FactoryInputs>
-  </ModOp>
-
-  <ImyaExpose Path="self::FactoryInputs" ModOpID="HaciendaWineryRecipe" ExposeID="HaciendaWineryRecipe" Description="Toggles, whether the Hacienda Winery uses cinnamon in its recipe." Kind="Toggle">
-    <AltValue>
+  <Group ModOpID="HaciendaWineryRecipe">
+    <ModOp Type="replace" GUID="1999002310" Path="/Values/FactoryBase/FactoryInputs">
       <FactoryInputs>
         <Item>
           <Product>120014</Product>
@@ -244,9 +219,16 @@
           <Amount>1</Amount>
           <StorageAmount>4</StorageAmount>
         </Item>
+        <Item>
+          <Product>133093</Product>
+          <Amount>1</Amount>
+          <StorageAmount>4</StorageAmount>
+        </Item>
       </FactoryInputs>
-    </AltValue>
-  </ImyaExpose>
+    </ModOp>
+  </Group>
+
+  <ImyaExpose Path="*" ModOpID="HaciendaWineryRecipe" ExposeID="Hacienda Winery: Recipe" Description="Toggles, whether the Hacienda Winery uses cinnamon in its recipe [Default=on]." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- Add to relevant Pools -->
   <ModOp Type="add" GUID="25674,435,192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">

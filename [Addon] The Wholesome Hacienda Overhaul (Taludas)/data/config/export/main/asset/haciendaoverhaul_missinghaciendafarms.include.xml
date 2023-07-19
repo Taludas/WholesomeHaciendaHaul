@@ -1065,45 +1065,31 @@
     </ModOp>
 
     <!-- #Hacienda Farms with modular fertility requirement -->
-    <!-- Plantains -->
-    <ModOp Type="replace" GUID="1999002001" Path="/Values/Factory7" ModOpID="HaciendaPlantainsFarmFertility">
-        <Factory7>
-            <NeededFertility>120040</NeededFertility>
-        </Factory7>
-    </ModOp>
+    <Group ModOpID="MissingHaciendaFarmsRequiresFertility">
+        <!-- Plantains -->
+        <ModOp Type="replace" GUID="1999002001" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>120040</NeededFertility>
+            </Factory7>
+        </ModOp>
 
-    <ImyaTweaks Title="Features of HaciendaOverhaul: Missing Hacienda Farms" />
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaPlantainsFarmFertility" ExposeID="HaciendaPlantainsFarmRequiresFertility" Description="Sets whether the Hacienda Plantains Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
+        <!-- Cotton -->
+        <ModOp Type="replace" GUID="1999002004" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010576</NeededFertility>
+            </Factory7>
+        </ModOp>
 
-    <!-- Cotton -->
-    <ModOp Type="replace" GUID="1999002004" Path="/Values/Factory7" ModOpID="HaciendaCottonFarmFertility">
-        <Factory7>
-            <NeededFertility>1010576</NeededFertility>
-        </Factory7>
-    </ModOp>
+        <!-- Tobacco -->
+        <ModOp Type="replace" GUID="1999002007" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010577</NeededFertility>
+            </Factory7>
+        </ModOp>
+    </Group>
 
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCottonFarmFertility" ExposeID="HaciendaCottonFarmRequiresFertility" Description="Sets whether the Hacienda Cotton Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
-
-    <!-- Tobacco -->
-    <ModOp Type="replace" GUID="1999002007" Path="/Values/Factory7" ModOpID="HaciendaTobaccoFarmFertility">
-        <Factory7>
-            <NeededFertility>1010577</NeededFertility>
-        </Factory7>
-    </ModOp>
-
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaTobaccoFarmFertility" ExposeID="HaciendaTobaccoFarmRequiresFertility" Description="Sets whether the Hacienda Tobacco Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
+    <ImyaTweaks Title="Features of Hacienda Overhaul: Missing Hacienda Farms" Description="Adjust the features of the module, concerning the fertility requirment of the newly added and previously missing Hacienda Farms for Plantains, Cotton and Tobacco." Icon="data/ui/2kimages/main/3dicons/hacienda/icon_hacienda_module_farm.png" />
+    <ImyaExpose Path="*" ModOpID="MissingHaciendaFarmsRequiresFertility" ExposeID="Missing Hacienda Farms: Fertilities required" Description="Sets whether the newly added Plantain, Cotton and Tobacco Farms requires the respective fertility." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #Trigger all new Buildings and Recipes with 1 Obrero, Tobacoo with 600/1000 -->
     <ModOp Type="addNextSibling" GUID="130248">

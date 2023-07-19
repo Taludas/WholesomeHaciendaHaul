@@ -1662,8 +1662,8 @@
     <SocketScopeRadius>20</SocketScopeRadius>
   </ModOp>
 
-  <ImyaTweaks Title="Features of HaciendaOverhaul: Extendend Hacienda" />
-  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="HaciendaGuildHouseRadius" ExposeID="HaciendaGuildHouseRadius" Description="This value sets the raidus of the Hacienda Guild House [in tiles]" Kind="Enum">
+  <ImyaTweaks Title="Features of Hacienda Overhaul: Extendend Hacienda" Description="Adjust the features of the module, concerning values of the newly added buildings 'Hacienda Guildhouse' and 'Hacienda Townhaul'." Icon="data/ui/2kimages/main/3dicons/hacienda/icon_hacienda_modules.png" />
+  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="HaciendaGuildHouseRadius" ExposeID="Hacienda Guildhouse: Radius" Description="This value sets the raidus of the Hacienda Guild House [in tiles]" Kind="Enum">
     <FixedValues>
       <Value>10</Value>
       <Value>15</Value>
@@ -1679,9 +1679,9 @@
       </Item>
   </ModOp>
 
-  <ImyaExpose Path="self::Item/Amount" ModOpID="HaciendaGuildHouseMaintanence" ExposeID="HaciendaGuildHouseMaintanenceAmount" />
+  <ImyaExpose Path="self::Item/Amount" ModOpID="HaciendaGuildHouseMaintanence" ExposeID="Hacienda Guildhouse: Workforce Amount" />
 
-  <ImyaExpose Path="self::Item/Product" ModOpID="HaciendaGuildHouseMaintanence" ExposeID="HaciendaGuildHouseMaintanenceType" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Guild House [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
+  <ImyaExpose Path="self::Item/Product" ModOpID="HaciendaGuildHouseMaintanence" ExposeID="Hacienda Guildhouse: Workforce Type" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Guild House [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
       <FixedValues>
           <Value>0</Value>
           <Value>1010366</Value>
@@ -4050,7 +4050,7 @@
     <SocketScopeRadius>15</SocketScopeRadius>
   </ModOp>
 
-  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="HaciendaTownhallRadius" ExposeID="HaciendaTownhallRadius" Description="This value sets the raidus of the Hacienda Guild House [in tiles]" Kind="Enum">
+  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="HaciendaTownhallRadius" ExposeID="Hacienda Townhall: Radius" Description="This value sets the raidus of the Hacienda Guild House [in tiles]" Kind="Enum">
     <FixedValues>
       <Value>10</Value>
       <Value>15</Value>
@@ -4066,9 +4066,9 @@
       </Item>
   </ModOp>
 
-  <ImyaExpose Path="self::Item/Amount" ModOpID="HaciendaTownhallMaintanence" ExposeID="HaciendaTownhallMaintanenceAmount" />
+  <ImyaExpose Path="self::Item/Amount" ModOpID="HaciendaTownhallMaintanence" ExposeID="Hacienda Townhall: Workforce Amount" />
 
-  <ImyaExpose Path="self::Item/Product" ModOpID="HaciendaTownhallMaintanence" ExposeID="HaciendaTownhallMaintanenceType" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Guild House [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
+  <ImyaExpose Path="self::Item/Product" ModOpID="HaciendaTownhallMaintanence" ExposeID="Hacienda Townhall: Workforce Type" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Guild House [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
       <FixedValues>
           <Value>0</Value>
           <Value>1010366</Value>

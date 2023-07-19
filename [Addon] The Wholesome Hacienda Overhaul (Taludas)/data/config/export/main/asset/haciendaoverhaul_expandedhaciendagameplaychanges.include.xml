@@ -285,8 +285,8 @@
                     <TriggerCondition>
                         <Template>ConditionIsCreativeMode</Template>
                         <Values>
-                        <Condition />
-                        <ConditionIsCreativeMode />
+                            <Condition />
+                            <ConditionIsCreativeMode />
                         </Values>
                     </TriggerCondition>
                     <TriggerActions>
@@ -362,8 +362,8 @@
         </LogisticNode>
     </ModOp>
 
-    <ImyaTweaks Title="Features of HaciendaOverhaul: Expanded Hacienda Gameplay Changes" />
-    <ImyaExpose Path="self::LogisticNode/QueueConfiguration/ProcessingQueueParallelCount" ModOpID="HaciendaWarehouseQueueCount" ExposeID="HaciendaWarehouseQueueCount" Description="This value sets the number of loading ramps for the Hacienda Warehouse" Kind="Slider">
+    <ImyaTweaks Title="Features of Hacienda Overhaul: Expanded Hacienda Gameplay Changes" Description="Adjust the features of the module, mostly focusing on number values for factories and residences." Icon="data/ui/2kimages/main/3dicons/influence/icon_buff_optimisation_gold.png" />
+    <ImyaExpose Path="self::LogisticNode/QueueConfiguration/ProcessingQueueParallelCount" ModOpID="HaciendaWarehouseQueueCount" ExposeID="Hacienda Warehouse: Loading Ramp Count" Description="This value sets the number of loading ramps for the Hacienda Warehouse" Kind="Slider">
         <SliderDefinition Min="1" Max="4" Stepping="1" />
     </ImyaExpose>
 
@@ -378,7 +378,7 @@
         </WarehouseStorage>
     </ModOp>
 
-    <ImyaExpose Path="self::WarehouseStorage/StorageMax" ModOpID="HaciendaWarehouseStorageCapacity" ExposeID="HaciendaWarehouseStorageCapacity" />
+    <ImyaExpose Path="self::WarehouseStorage/StorageMax" ModOpID="HaciendaWarehouseStorageCapacity" ExposeID="Hacienda Warehouse: Storage Capacity" />
 
     <ModOp Type="replace" GUID="24775" Path="/Values/Maintenance/Maintenances" ModOpID="HaciendaWarehouseMaintanence">
         <Maintenances>
@@ -394,16 +394,16 @@
         </Maintenances>
     </ModOp>
 
-    <ImyaExpose Path="self::Maintenances/Item[2]/Amount" ModOpID="HaciendaWarehouseMaintanence" ExposeID="HaciendaWarehouseMaintanenceAmount" />
+    <ImyaExpose Path="self::Maintenances/Item[2]/Amount" ModOpID="HaciendaWarehouseMaintanence" ExposeID="Hacienda Warehouse: Maintanence Amount" />
 
-    <ImyaExpose Path="self::Maintenances/Item[2]/Product" ModOpID="HaciendaWarehouseMaintanence" ExposeID="HaciendaWarehouseMaintanenceType" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Warehouse [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
+    <ImyaExpose Path="self::Maintenances/Item[2]/Product" ModOpID="HaciendaWarehouseMaintanence" ExposeID="Hacienda Warehouse: Workforce Type" Description="These values set the amount and type of workforce which is used as maintanence for the Hacienda Warehouse [0 - None, 1010366 - Jornaleros, 1010367 - Obreros, 5406 - Artistas]" Kind="Enum">
         <FixedValues>
             <Value>0</Value>
             <Value>1010366</Value>
             <Value>1010367</Value>
             <Value>5406</Value>
-        </FixedValues>    
-    </ImyaExpose> 
+        </FixedValues>
+    </ImyaExpose>
 
     <!-- #Hacienda residences balancing -->
 
@@ -436,7 +436,7 @@
         </Culture>
     </ModOp>
 
-    <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaObrerosAttractivness" ExposeID="HaciendaObrerosAttractivnessAmount" />
+    <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaObrerosAttractivness" ExposeID="Hacienda Obreros: Attractivness Amount" />
 
     <!-- Hacienda Obreros max pop 135 -->
     <ModOp Type="replace" GUID="24793" Path="/Values/Residence7">
@@ -547,7 +547,7 @@
         </Culture>
     </ModOp>
 
-    <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaArtistasAttractivness" ExposeID="HaciendaArtistasAttractivnessAmount" />
+    <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaArtistasAttractivness" ExposeID="Hacienda Artistas: Attractivness Amount" />
 
     <!-- add Hacienda, Atole, Tabasco, Chewing Gums and Violins to consumption -->
     <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
@@ -649,7 +649,7 @@
                         <Item>
                             <Product>120032</Product>
                             <AdditionalSupply>2</AdditionalSupply>
-                        </Item>                        
+                        </Item>
                         <Item>
                             <Product>120037</Product>
                             <AdditionalSupply>2</AdditionalSupply>
@@ -681,7 +681,7 @@
                         <Item>
                             <Product>5395</Product>
                             <AdditionalSupply>7</AdditionalSupply>
-                        </Item>  
+                        </Item>
                         <Item>
                             <Product>5391</Product>
                             <AdditionalSupply>7</AdditionalSupply>
@@ -689,15 +689,15 @@
                         <Item>
                             <Product>5391</Product>
                             <AdditionalSupply>0</AdditionalSupply>
-                        </Item>  
+                        </Item>
                         <Item>
                             <Product>120030</Product>
                             <AdditionalSupply>-12</AdditionalSupply>
-                        </Item>      
+                        </Item>
                         <Item>
                             <Product>1010354</Product>
                             <AdditionalSupply>-10</AdditionalSupply>
-                        </Item>                                                      
+                        </Item>
 
                         <Item>
                             <Product>535</Product>
@@ -822,70 +822,44 @@
 
     <!-- Fertilities matter for NW Seeds-->
 
-    <!-- Sugar Cane -->
-    <ModOp Type="replace" GUID="24798" Path="/Values/Factory7" ModOpID="HaciendaSugarCaneFarmFertility">
-        <Factory7>
-            <NeededFertility>1010573</NeededFertility>
-        </Factory7>
-    </ModOp>
+    <Group ModOpID="HaciendaFarmFertility">
+        <!-- Sugar Cane -->
+        <ModOp Type="replace" GUID="24798" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010573</NeededFertility>
+            </Factory7>
+        </ModOp>
+    
+        <!-- Corn -->
+        <ModOp Type="replace" GUID="25003" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>120038</NeededFertility>
+            </Factory7>
+        </ModOp>
+    
+        <!-- Coffee -->
+        <ModOp Type="replace" GUID="25005" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>120039</NeededFertility>
+            </Factory7>
+        </ModOp>
+    
+        <!-- Caoutchouc -->
+        <ModOp Type="replace" GUID="25006" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010574</NeededFertility>
+            </Factory7>
+        </ModOp>
+    
+        <!-- Cacao -->
+        <ModOp Type="replace" GUID="25009" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010575</NeededFertility>
+            </Factory7>
+        </ModOp>
+    </Group>
 
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaSugarCaneFarmFertility" ExposeID="HaciendaSugarCaneFarmRequiresFertility" Description="Sets whether the Hacienda Sugar Cane Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
-
-    <!-- Corn -->
-    <ModOp Type="replace" GUID="25003" Path="/Values/Factory7" ModOpID="HaciendaCornFarmFertility">
-        <Factory7>
-            <NeededFertility>120038</NeededFertility>
-        </Factory7>
-    </ModOp>
-
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCornFarmFertility" ExposeID="HaciendaCornFarmRequiresFertility" Description="Sets whether the Hacienda Corn Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
-
-    <!-- Coffee -->
-    <ModOp Type="replace" GUID="25005" Path="/Values/Factory7" ModOpID="HaciendaCoffeeFarmFertility">
-        <Factory7>
-            <NeededFertility>120039</NeededFertility>
-        </Factory7>
-    </ModOp>
-
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCoffeeFarmFertility" ExposeID="HaciendaCoffeeFarmRequiresFertility" Description="Sets whether the Hacienda Coffee Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
-
-    <!-- Caoutchouc -->
-    <ModOp Type="replace" GUID="25006" Path="/Values/Factory7" ModOpID="HaciendaCaoutchoucFarmFertility">
-        <Factory7>
-            <NeededFertility>1010574</NeededFertility>
-        </Factory7>
-    </ModOp>
-
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCaoutchoucFarmFertility" ExposeID="HaciendaCaoutchoucFarmRequiresFertility" Description="Sets whether the Hacienda Caoutchouc Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
-
-    <!-- Cacao -->
-    <ModOp Type="replace" GUID="25009" Path="/Values/Factory7" ModOpID="HaciendaCacaoFarmFertility">
-        <Factory7>
-            <NeededFertility>1010575</NeededFertility>
-        </Factory7>
-    </ModOp>
-
-    <ImyaExpose Path="self::Factory7" ModOpID="HaciendaCacaoFarmFertility" ExposeID="HaciendaCacaoFarmRequiresFertility" Description="Sets whether the Hacienda Cacao Farm requires the fertility." Kind="Toggle">
-        <AltValue>
-            <Factory7 />
-        </AltValue>
-    </ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="HaciendaFarmFertility" ExposeID="Hacienda Farms: Fertilities required" Description="Sets whether the vanilla Hacienda Farms requires the plant's fertility." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!--
 
@@ -925,16 +899,16 @@
         </FactoryBase>
     </ModOp>
 
-    <ImyaExpose Path="self::FactoryBase/CycleTime" ModOpID="HaciendaSpiceFarmCycleTime" ExposeID="HaciendaSpiceFarmCycleTime" Description="Production time of the Hacienda Spice Farm [in seconds]. The transporter range is not affected by this change." Kind="Enum">
+    <ImyaExpose Path="self::FactoryBase/CycleTime" ModOpID="HaciendaSpiceFarmCycleTime" ExposeID="Hacienda Spice Farm: Cycle Time" Description="Production time of the Hacienda Spice Farm [in seconds]. The transporter range is not affected by this change." Kind="Enum">
         <FixedValues>
-          <Value>30</Value>
-          <Value>60</Value>
-          <Value>90</Value>
-          <Value>120</Value>
+            <Value>30</Value>
+            <Value>60</Value>
+            <Value>90</Value>
+            <Value>120</Value>
         </FixedValues>
     </ImyaExpose>
 
-    <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaSpiceFarmCycleTime" ExposeID="HaciendaSpiceFarmStorageAmount" Description="Storage Amount of the Hacienda Spice Farm [in tons]" Kind="Slider">
+    <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaSpiceFarmCycleTime" ExposeID="Hacienda Spice Farm: Storage Amount" Description="Storage Amount of the Hacienda Spice Farm [in tons]" Kind="Slider">
         <SliderDefinition Min="1" Max="10" Stepping="1" />
     </ImyaExpose>
 
@@ -965,16 +939,16 @@
         </FactoryBase>
     </ModOp>
 
-    <ImyaExpose Path="self::FactoryBase/CycleTime" ModOpID="HaciendaTabascoBreweryCycleTime" ExposeID="HaciendaTabascoBreweryCycleTime" Description="Production time of the Hacienda Hot Sauce Brewery [in seconds]. The transporter range is not affected by this change." Kind="Enum">
+    <ImyaExpose Path="self::FactoryBase/CycleTime" ModOpID="HaciendaTabascoBreweryCycleTime" ExposeID="Hacienda Tabasco Brewery: Cycle Time" Description="Production time of the Hacienda Hot Sauce Brewery [in seconds]. The transporter range is not affected by this change." Kind="Enum">
         <FixedValues>
-          <Value>30</Value>
-          <Value>60</Value>
-          <Value>90</Value>
-          <Value>120</Value>
+            <Value>30</Value>
+            <Value>60</Value>
+            <Value>90</Value>
+            <Value>120</Value>
         </FixedValues>
     </ImyaExpose>
 
-    <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaTabascoBreweryCycleTime" ExposeID="HaciendaTabascoBreweryStorageAmount" Description="Storage Amount of the Hacienda Hot Sauce Brewery [in tons]" Kind="Slider">
+    <ImyaExpose Path="self::FactoryBase/FactoryOutputs/Item/StorageAmount" ModOpID="HaciendaTabascoBreweryCycleTime" ExposeID="Hacienda Tabasco Brewery: Storage Amount" Description="Storage Amount of the Hacienda Hot Sauce Brewery [in tons]" Kind="Slider">
         <SliderDefinition Min="1" Max="10" Stepping="1" />
     </ImyaExpose>
 
@@ -983,7 +957,7 @@
         <Attractiveness>-5</Attractiveness>
     </ModOp>
 
-    <ImyaExpose Path="self::Attractiveness" ModOpID="HaciendaBreweryAttractiveness" ExposeID="HaciendaBreweryAttractiveness" />
+    <ImyaExpose Path="self::Attractiveness" ModOpID="HaciendaBreweryAttractiveness" ExposeID="Hacienda Breweries: Default Attractiveness" />
 
     <ModOp Type="replace" GUID="24801,25064,25126,25350,25508" Path="/Values/Culture/CultureType">
         <CultureType>Culture</CultureType>
@@ -1149,7 +1123,7 @@
                 <Product>135233</Product>
                 <AdditionalSupply>-7</AdditionalSupply>
             </Item>
-        </ModOp>    
+        </ModOp>
     </Group>
 
 
@@ -1192,111 +1166,111 @@
         <ModOp Type="replace" GUID="1999002140" Path="/Values">
             <Values>
                 <Standard>
-                <GUID>1999002140</GUID>
-                <Name>HacienadaModulePopBuff_Civ3 2x3 residences</Name>
+                    <GUID>1999002140</GUID>
+                    <Name>HacienadaModulePopBuff_Civ3 2x3 residences</Name>
                 </Standard>
                 <ItemEffect>
-                <EffectTargets>
-                    <Item>
-                    <GUID>1999002139</GUID>
-                    </Item>
-                </EffectTargets>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1999002139</GUID>
+                        </Item>
+                    </EffectTargets>
                 </ItemEffect>
                 <Text />
                 <BuildingUpgrade />
                 <Buff />
                 <PopulationUpgrade>
-                <InputBenefitModifier>
-                    <Item>
-                    <Product>120035</Product>
-                    <AdditionalSupply>-3</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>120032</Product>
-                    <AdditionalSupply>-3</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>120037</Product>
-                    <AdditionalSupply>-3</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>1010206</Product>
-                    <AdditionalSupply>-3</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>6600</Product>
-                    <AdditionalSupply>0</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>5803</Product>
-                    <AdditionalSupply>-1</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>5381</Product>
-                    <AdditionalSupply>0</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>5388</Product>
-                    <AdditionalSupply>0</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>5395</Product>
-                    <AdditionalSupply>0</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>5391</Product>
-                    <AdditionalSupply>0</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>120030</Product>
-                    <AdditionalSupply>-17</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>1010354</Product>
-                    <AdditionalSupply>-16</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>535</Product>
-                    <AdditionalSupply>-1</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>536</Product>
-                    <AdditionalSupply>-3</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>2524</Product>
-                    <AdditionalSupply>-6</AdditionalSupply>
-                    </Item>
-                    <Item>
-                    <Product>1010250</Product>
-                    <AdditionalSupply>-2</AdditionalSupply>
-                    </Item>
-                    <Item>
-                        <Product>25546</Product>
-                        <AdditionalSupply>-3</AdditionalSupply>
-                    </Item>
-                    <Item>
-                        <Product>25131</Product>
-                        <AdditionalSupply>-5</AdditionalSupply>
-                    </Item>
-                    <Item>
-                        <Product>25506</Product>
-                        <AdditionalSupply>-6</AdditionalSupply>
-                    </Item>
-                    <Item>
-                        <Product>135186</Product>
-                        <AdditionalSupply>-4</AdditionalSupply>
-                    </Item>
-                    <Item>
-                        <Product>135233</Product>
-                        <AdditionalSupply>-6</AdditionalSupply>
-                    </Item>
-                </InputBenefitModifier>
+                    <InputBenefitModifier>
+                        <Item>
+                            <Product>120035</Product>
+                            <AdditionalSupply>-3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120032</Product>
+                            <AdditionalSupply>-3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120037</Product>
+                            <AdditionalSupply>-3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010206</Product>
+                            <AdditionalSupply>-3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>6600</Product>
+                            <AdditionalSupply>0</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5803</Product>
+                            <AdditionalSupply>-1</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5381</Product>
+                            <AdditionalSupply>0</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5388</Product>
+                            <AdditionalSupply>0</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5395</Product>
+                            <AdditionalSupply>0</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>5391</Product>
+                            <AdditionalSupply>0</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>120030</Product>
+                            <AdditionalSupply>-17</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010354</Product>
+                            <AdditionalSupply>-16</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>535</Product>
+                            <AdditionalSupply>-1</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>536</Product>
+                            <AdditionalSupply>-3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>2524</Product>
+                            <AdditionalSupply>-6</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1010250</Product>
+                            <AdditionalSupply>-2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>25546</Product>
+                            <AdditionalSupply>-3</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>25131</Product>
+                            <AdditionalSupply>-5</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>25506</Product>
+                            <AdditionalSupply>-6</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>135186</Product>
+                            <AdditionalSupply>-4</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>135233</Product>
+                            <AdditionalSupply>-6</AdditionalSupply>
+                        </Item>
+                    </InputBenefitModifier>
                 </PopulationUpgrade>
                 <ResidenceUpgrade />
                 <IncidentInfectableUpgrade />
                 <CultureUpgrade>
-                <HideBuff>1</HideBuff>
+                    <HideBuff>1</HideBuff>
                 </CultureUpgrade>
                 <InfluenceSourceUpgrade />
                 <WarehouseUpgrade />
@@ -1304,7 +1278,7 @@
                 <ItemContainerUpgrade />
                 <FactoryUpgrade />
             </Values>
-        </ModOp>    
+        </ModOp>
     </Group>
 
     <ModOp Type="addNextSibling" GUID="1345">
@@ -1324,11 +1298,11 @@
     <ModOp Type="add" GUID="1999002092" Path="/Values/Culture | //Values[Standard/GUID='1999002127']/Culture" ModOpID="2x3HaciendaObrerosAttractivness">
         <Attractiveness>1</Attractiveness>
     </ModOp>
-    <ImyaExpose Path="self::Attractiveness" ModOpID="2x3HaciendaObrerosAttractivness" ExposeID="Hacienda2x3ObrerosAttractivness" />
+    <ImyaExpose Path="self::Attractiveness" ModOpID="2x3HaciendaObrerosAttractivness" ExposeID="Hacienda 2x3 Obreros: Attractivness" />
 
     <ModOp Type="add" GUID="1999002139" Path="/Values/Culture | //Values[Standard/GUID='1999002127']/Culture/Attractiveness" ModOpID="2x3HaciendaArtistasAttractivness">
         <Attractiveness>3</Attractiveness>
     </ModOp>
-    <ImyaExpose Path="self::Attractiveness" ModOpID="2x3HaciendaArtistasAttractivness" ExposeID="Hacienda2x3ArtistasAttractivness" />
+    <ImyaExpose Path="self::Attractiveness" ModOpID="2x3HaciendaArtistasAttractivness" ExposeID="Hacienda 2x3 Artistas: Attractivness" />
 
 </ModOps>

@@ -557,30 +557,24 @@
 
     <!-- #Hacienda Decrees bearbeiten-->
     <!-- Decree 1 -->
-    <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier1Decree" ModOpID="ToggleTier1Decree">
-        <Tier1Decree>
-            <Policy>1999002039</Policy>
-            <AttractivenessThreshold>Curious</AttractivenessThreshold>
-            <Description>1999002038</Description>
-        </Tier1Decree>
-    </ModOp>
-
-    <ImyaTweaks Title="Features of HaciendaOverhaul: Policies" />
-    <ImyaExpose Path="self::Tier1Decree" ModOpID="ToggleTier1Decree" ExposeID="ToggleTier1Decree" Description="Replaces the first Hacienda Policy with the custom made." Kind="Toggle">
-        <AltValue>
+    <Group ModOpID="ToggleTier1Decree">
+        <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier1Decree">
             <Tier1Decree>
-                <Policy>25622</Policy>
-                <AttractivenessThreshold>Ordinary</AttractivenessThreshold>
-                <Description>144162</Description>
+                <Policy>1999002039</Policy>
+                <AttractivenessThreshold>Curious</AttractivenessThreshold>
+                <Description>1999002038</Description>
             </Tier1Decree>
-        </AltValue>
-    </ImyaExpose>
+        </ModOp>
+    </Group>
+
+    <ImyaTweaks Title="Features of Hacienda Overhaul: Policies" Description="Adjust the features of the module, concerning the exchange of normal Hacienda Decrees with custom ones." Icon="data/ui/2kimages/main/3dicons/icon_dlc_seeds_of_change_128.png" />
+    <ImyaExpose Path="*" ModOpID="ToggleTier1Decree" ExposeID="Toggle Tier1 Decree" Description="Replaces the first Hacienda Policy with the custom made." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier1Decree/AttractivenessThreshold" ModOpID="AttractivenessThresholdTier1Decree">
         <AttractivenessThreshold>Curious</AttractivenessThreshold>
     </ModOp>
 
-    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier1Decree" ExposeID="AttractivenessThresholdTier1Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
+    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier1Decree" ExposeID="Attractiveness Threshold: Tier1 Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
         <FixedValues>
             <Value>Ordinary</Value>
             <Value>Fair</Value>
@@ -603,29 +597,23 @@
     </ImyaExpose>
 
     <!-- Decree 2 -->
-    <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier2Decree" ModOpID="ToggleTier2Decree">
-        <Tier2Decree>
-            <Policy>1999002045</Policy>
-            <AttractivenessThreshold>Pleasant</AttractivenessThreshold>
-            <Description>1999002044</Description>
-        </Tier2Decree>
-    </ModOp>
-
-    <ImyaExpose Path="self::Tier2Decree" ModOpID="ToggleTier2Decree" ExposeID="ToggleTier2Decree" Description="Replaces the second Hacienda Policy with the custom made." Kind="Toggle">
-        <AltValue>
+    <Group ModOpID="ToggleTier2Decree">
+        <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier2Decree">
             <Tier2Decree>
-                <Policy>25735</Policy>
-                <AttractivenessThreshold>Fair</AttractivenessThreshold>
-                <Description>144163</Description>
+                <Policy>1999002045</Policy>
+                <AttractivenessThreshold>Pleasant</AttractivenessThreshold>
+                <Description>1999002044</Description>
             </Tier2Decree>
-        </AltValue>
-    </ImyaExpose>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="*" ModOpID="ToggleTier2Decree" ExposeID="Toggle Tier2 Decree" Description="Replaces the second Hacienda Policy with the custom made." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier2Decree/AttractivenessThreshold" ModOpID="AttractivenessThresholdTier2Decree">
         <AttractivenessThreshold>Pleasant</AttractivenessThreshold>
     </ModOp>
 
-    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier2Decree" ExposeID="AttractivenessThresholdTier2Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
+    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier2Decree" ExposeID="Attractiveness Threshold: Tier2Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
         <FixedValues>
             <Value>Ordinary</Value>
             <Value>Fair</Value>
@@ -648,29 +636,24 @@
     </ImyaExpose>
 
     <!-- Decree 3 -->
-    <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier3Decree" ModOpID="ToggleTier3Decree">
-        <Tier3Decree>
-            <Policy>1999002031</Policy>
-            <AttractivenessThreshold>Appealing</AttractivenessThreshold>
-            <Description>1999002030</Description>
-        </Tier3Decree>
-    </ModOp>
-
-    <ImyaExpose Path="self::Tier3Decree" ModOpID="ToggleTier3Decree" ExposeID="ToggleTier3Decree" Description="Replaces the third Hacienda Policy with the custom made." Kind="Toggle">
-        <AltValue>
+    <Group ModOpID="ToggleTier3Decree">
+        <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier3Decree">
             <Tier3Decree>
-                <Policy>25686</Policy>
-                <AttractivenessThreshold>Curious</AttractivenessThreshold>
-                <Description>144164</Description>
+                <Policy>1999002031</Policy>
+                <AttractivenessThreshold>Appealing</AttractivenessThreshold>
+                <Description>1999002030</Description>
             </Tier3Decree>
-        </AltValue>
-    </ImyaExpose>
+        </ModOp>
+    </Group>
+
+
+    <ImyaExpose Path="*" ModOpID="ToggleTier3Decree" ExposeID="Toggle Tier3 Decree" Description="Replaces the third Hacienda Policy with the custom made." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier3Decree/AttractivenessThreshold" ModOpID="AttractivenessThresholdTier3Decree">
         <AttractivenessThreshold>Appealing</AttractivenessThreshold>
     </ModOp>
 
-    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier3Decree" ExposeID="AttractivenessThresholdTier3Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
+    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier3Decree" ExposeID="Attractiveness Threshold: Tier3 Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
         <FixedValues>
             <Value>Ordinary</Value>
             <Value>Fair</Value>
@@ -693,29 +676,23 @@
     </ImyaExpose>
 
     <!-- Decree 4 -->
-    <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier4Decree" ModOpID="ToggleTier4Decree">
-        <Tier4Decree>
-            <Policy>1999002050</Policy>
-            <AttractivenessThreshold>Attractive</AttractivenessThreshold>
-            <Description>1999002049</Description>
-        </Tier4Decree>
-    </ModOp>
-
-    <ImyaExpose Path="self::Tier4Decree" ModOpID="ToggleTier4Decree" ExposeID="ToggleTier4Decree" Description="Replaces the fourth Hacienda Policy with the custom made." Kind="Toggle">
-        <AltValue>
+    <Group ModOpID="ToggleTier4Decree">
+        <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier4Decree">
             <Tier4Decree>
-                <Policy>25659</Policy>
-                <AttractivenessThreshold>Appealing</AttractivenessThreshold>
-                <Description>144165</Description>
+                <Policy>1999002050</Policy>
+                <AttractivenessThreshold>Attractive</AttractivenessThreshold>
+                <Description>1999002049</Description>
             </Tier4Decree>
-        </AltValue>
-    </ImyaExpose>
+        </ModOp>       
+    </Group>
+
+    <ImyaExpose Path="*" ModOpID="ToggleTier4Decree" ExposeID="Toggle Tier4 Decree" Description="Replaces the fourth Hacienda Policy with the custom made." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier4Decree/AttractivenessThreshold" ModOpID="AttractivenessThresholdTier4Decree">
         <AttractivenessThreshold>Attractive</AttractivenessThreshold>
     </ModOp>
 
-    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier4Decree" ExposeID="AttractivenessThresholdTier4Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
+    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier4Decree" ExposeID="Attractiveness Threshold: Tier4 Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
         <FixedValues>
             <Value>Ordinary</Value>
             <Value>Fair</Value>
@@ -741,7 +718,7 @@
         <CycleTime>120</CycleTime>
     </ModOp>
 
-    <ImyaExpose Path="self::CycleTime" ModOpID="HaciendaGrapeFarmCycleTime" ExposeID="HaciendaGrapeFarmCycleTime" Description="Production time of the Hacienda Grape Farm [in seconds]. The transporter range is not affected by this change." Kind="Enum">
+    <ImyaExpose Path="self::CycleTime" ModOpID="HaciendaGrapeFarmCycleTime" ExposeID="Hacienda Grape Farm: Cycle Time" Description="Production time of the Hacienda Grape Farm [in seconds]. The transporter range is not affected by this change." Kind="Enum">
         <FixedValues>
           <Value>30</Value>
           <Value>60</Value>
@@ -754,34 +731,28 @@
         <StorageAmount>1</StorageAmount>
     </ModOp>
 
-    <ImyaExpose Path="self::StorageAmount" ModOpID="HaciendaGrapeFarmStorageAmount" ExposeID="HaciendaGrapeFarmStorageAmount" Description="Storage Amount of the Hacienda Grape Farm [in tons]" Kind="Slider">
+    <ImyaExpose Path="self::StorageAmount" ModOpID="HaciendaGrapeFarmStorageAmount" ExposeID="Hacienda Grape Farm: Storage Amount" Description="Storage Amount of the Hacienda Grape Farm [in tons]" Kind="Slider">
         <SliderDefinition Min="1" Max="10" Stepping="1" />
     </ImyaExpose>
 
     <!-- Decree 5 -->
-    <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier5Decree" ModOpID="ToggleTier5Decree">
-        <Tier5Decree>
-            <Policy>1999002055</Policy>
-            <AttractivenessThreshold>Beguiling</AttractivenessThreshold>
-            <Description>1999002054</Description>
-        </Tier5Decree>
-    </ModOp>
-
-    <ImyaExpose Path="self::Tier5Decree" ModOpID="ToggleTier5Decree" ExposeID="ToggleTier5Decree" Description="Replaces the fifth Hacienda Policy with the custom made." Kind="Toggle">
-        <AltValue>
+    <Group ModOpID="ToggleTier5Decree">
+        <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier5Decree">
             <Tier5Decree>
-                <Policy>25663</Policy>
-                <AttractivenessThreshold>Attractive</AttractivenessThreshold>
-                <Description>144166</Description>
+                <Policy>1999002055</Policy>
+                <AttractivenessThreshold>Beguiling</AttractivenessThreshold>
+                <Description>1999002054</Description>
             </Tier5Decree>
-        </AltValue>
-    </ImyaExpose>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="*" ModOpID="ToggleTier5Decree" ExposeID="Toggle Tier5 Decree" Description="Replaces the fifth Hacienda Policy with the custom made." Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <ModOp Type="replace" GUID="24768" Path="/Values/Hacienda/Policies/Tier5Decree/AttractivenessThreshold" ModOpID="AttractivenessThresholdTier5Decree">
         <AttractivenessThreshold>Beguiling</AttractivenessThreshold>
     </ModOp>
 
-    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier5Decree" ExposeID="AttractivenessThresholdTier5Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
+    <ImyaExpose Path="self::AttractivenessThreshold" ModOpID="AttractivenessThresholdTier5Decree" ExposeID="Attractiveness Threshold: Tier5 Decree" Description="This value sets the attractivness amount required to unlock this Hacienda Policy." Kind="Enum">
         <FixedValues>
             <Value>Ordinary</Value>
             <Value>Fair</Value>
