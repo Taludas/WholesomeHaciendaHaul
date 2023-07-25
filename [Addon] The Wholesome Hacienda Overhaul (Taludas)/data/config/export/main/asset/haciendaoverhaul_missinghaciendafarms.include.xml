@@ -194,7 +194,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>1999002001</Building>
         </Item>
@@ -461,7 +461,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>1999002004</Building>
         </Item>
@@ -730,7 +730,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>1999002007</Building>
         </Item>
@@ -1064,33 +1064,6 @@
         </Item>
     </ModOp>
 
-    <!-- #Hacienda Farms with modular fertility requirement -->
-    <Group ModOpID="MissingHaciendaFarmsRequiresFertility">
-        <!-- Plantains -->
-        <ModOp Type="replace" GUID="1999002001" Path="/Values/Factory7">
-            <Factory7>
-                <NeededFertility>120040</NeededFertility>
-            </Factory7>
-        </ModOp>
-
-        <!-- Cotton -->
-        <ModOp Type="replace" GUID="1999002004" Path="/Values/Factory7">
-            <Factory7>
-                <NeededFertility>1010576</NeededFertility>
-            </Factory7>
-        </ModOp>
-
-        <!-- Tobacco -->
-        <ModOp Type="replace" GUID="1999002007" Path="/Values/Factory7">
-            <Factory7>
-                <NeededFertility>1010577</NeededFertility>
-            </Factory7>
-        </ModOp>
-    </Group>
-
-    <ImyaTweaks Title="Features of Hacienda Overhaul: Missing Hacienda Farms" Description="Adjust the features of the module, concerning the fertility requirment of the newly added and previously missing Hacienda Farms for Plantains, Cotton and Tobacco." Icon="data/ui/2kimages/main/3dicons/hacienda/icon_hacienda_module_farm.png" />
-    <ImyaExpose Path="*" ModOpID="MissingHaciendaFarmsRequiresFertility" ExposeID="Missing Hacienda Farms: Fertilities required" Description="Sets whether the newly added Plantain, Cotton and Tobacco Farms requires the respective fertility." Kind="SkipToggle" InitState="True"></ImyaExpose>
-
     <!-- #Trigger all new Buildings and Recipes with 1 Obrero, Tobacoo with 600/1000 -->
     <ModOp Type="addNextSibling" GUID="130248">
         <Asset>
@@ -1275,8 +1248,8 @@
                     <TriggerCondition>
                         <Template>ConditionIsCreativeMode</Template>
                         <Values>
-                        <Condition />
-                        <ConditionIsCreativeMode />
+                            <Condition />
+                            <ConditionIsCreativeMode />
                         </Values>
                     </TriggerCondition>
                     <TriggerActions>
@@ -1322,5 +1295,781 @@
             </Values>
         </Asset>
     </ModOp>
-    
+
+    <!-- #Add missing Herbs and Orchid Farms after DLC12 -->
+    <!-- Herbs -->
+    <ModOp Type="addNextSibling" GUID="24798">
+        <Asset>
+            <Template>RecipeFarm</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002164</GUID>
+                    <Name>Hacienda universal farm Herbs</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_herbs_with_flower.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>6</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/buildings/production/hacienda/hacienda_farm_herbs/hacienda_farm_herbs.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda Herbs Farm</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55200</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200571</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>5383</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                            <Limit>64</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>5464</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdditionalModule>269849</AdditionalModule>
+                    <FertilizerModuleData>
+                        <Module>25241</Module>
+                    </FertilizerModuleData>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                    <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable>
+                    <IsHaciendaDependent>1</IsHaciendaDependent>
+                </Pausable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <QuestObject />
+                <Industrializable />
+                <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+                <EcoSystemProvider />
+                <MonoCulture />
+                <RecipeBuilding>
+                    <RecipeList>24795</RecipeList>
+                </RecipeBuilding>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25672,26008" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1999002164</Asset>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002164</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002164</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+        <Item>
+            <Building>1999002164</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269966</UnitClass>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190687,190692,8347" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999002164</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='25009']">
+        <Item>
+            <Factory>1999002164</Factory>
+        </Item>
+    </ModOp>
+
+
+    <ModOp Type="addNextSibling" GUID="24796">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002165</GUID>
+                    <Name>Recipe_00 Herbs</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_herbs_with_flower.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Herbs</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55208</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999002164</RecipeBuilding>
+                    <RecipeDescriptionText>1999002166</RecipeDescriptionText>
+                    <RecipeImage>data/modgraphics/buildings/production/hacienda/hacienda_farm_herbs/recipebook_hacienda_farm_herbs.png</RecipeImage>
+                </Recipe>
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="24795" Path="/Values/RecipeList/Recipes">
+        <Item>
+            <Recipe>1999002165</Recipe>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1999002021" Condition="@1999002021" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1999002164</Building>
+        </Item>
+    </ModOp>
+
+    <!-- Orchids -->
+    <ModOp Type="addNextSibling" GUID="24798">
+        <Asset>
+            <Template>RecipeFarm</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002169</GUID>
+                    <Name>Hacienda universal farm Orchids</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_orchid.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>6</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/modgraphics/buildings/production/hacienda/hacienda_farm_orchids/hacienda_farm_orchids.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hacienda Orchids Farm</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55200</LineID>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200795</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200571</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>5386</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                            <Limit>64</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>5815</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdditionalModule>269849</AdditionalModule>
+                    <FertilizerModuleData>
+                        <Module>25241</Module>
+                    </FertilizerModuleData>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                    <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010366</Product>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable>
+                    <IsHaciendaDependent>1</IsHaciendaDependent>
+                </Pausable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <QuestObject />
+                <Industrializable />
+                <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+                <EcoSystemProvider />
+                <MonoCulture />
+                <RecipeBuilding>
+                    <RecipeList>24795</RecipeList>
+                </RecipeBuilding>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25672,26008" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1999002169</Asset>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="25894,25674" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999002169</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999002169</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="141486" Path="/Values/FeedbackSessionDescription/FarmFieldConfig/FarmFieldBuildings">
+        <Item>
+            <Building>1999002169</Building>
+            <PersonSpawners>
+                <Item>
+                    <UnitClass>141706</UnitClass>
+                    <Amount_Default>12</Amount_Default>
+                    <Amount_RegularTractor>6</Amount_RegularTractor>
+                </Item>
+            </PersonSpawners>
+            <VehicleSpawners>
+                <Item>
+                    <UnitClass>269966</UnitClass>
+                </Item>
+                <Item>
+                    <UnitClass>25312</UnitClass>
+                    <VehicleType>Fertilizer</VehicleType>
+                </Item>
+            </VehicleSpawners>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="190687,190691,125115,125116,8347" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999002169</GUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1999002164']">
+        <Item>
+            <Factory>1999002169</Factory>
+        </Item>
+    </ModOp>
+
+
+    <ModOp Type="addNextSibling" GUID="24796">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002170</GUID>
+                    <Name>Recipe_00 Orchids</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_orchid.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Orchids</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>55208</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1999002169</RecipeBuilding>
+                    <RecipeDescriptionText>1999002171</RecipeDescriptionText>
+                    <RecipeImage>data/modgraphics/buildings/production/hacienda/hacienda_farm_orchids/recipebook_hacienda_farm_orchids.png</RecipeImage>
+                </Recipe>
+                <Locked>
+                    <DLCDependency>24961</DLCDependency>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="24795" Path="/Values/RecipeList/Recipes">
+        <Item>
+            <Recipe>1999002170</Recipe>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1999002021" Condition="@1999002021" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1999002169</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002167</GUID>
+                    <Name>Hacienda Farm Herbs Unhide Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>5403</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002164</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002165</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002172</GUID>
+                    <Name>Hacienda Farm Orchids Unhide Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>5403</Context>
+                                <CounterAmount>1800</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002169</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002170</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002173</GUID>
+                    <Name>Hacienda Farm Orchids Unlock Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>5403</Context>
+                                <CounterAmount>2700</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002169</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002170</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002168</GUID>
+                    <Name>Hacienda Farm Herbs/Orchids Unlock Trigger Creative Mode</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002164</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002165</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002169</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1999002170</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Hacienda Farms with modular fertility requirement -->
+    <Group ModOpID="MissingHaciendaFarmsRequiresFertility">
+        <!-- Plantains -->
+        <ModOp Type="replace" GUID="1999002001" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>120040</NeededFertility>
+            </Factory7>
+        </ModOp>
+
+        <!-- Cotton -->
+        <ModOp Type="replace" GUID="1999002004" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010576</NeededFertility>
+            </Factory7>
+        </ModOp>
+
+        <!-- Tobacco -->
+        <ModOp Type="replace" GUID="1999002007" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>1010577</NeededFertility>
+            </Factory7>
+        </ModOp>
+
+        <!-- Herbs -->
+        <ModOp Type="replace" GUID="1999002164" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>6250</NeededFertility>
+            </Factory7>
+        </ModOp>
+
+        <!-- Orchids -->
+        <ModOp Type="replace" GUID="1999002169" Path="/Values/Factory7">
+            <Factory7>
+                <NeededFertility>6251</NeededFertility>
+            </Factory7>
+        </ModOp>
+    </Group>
+
+    <ImyaTweaks Title="Features of Hacienda Overhaul: Missing Hacienda Farms" Description="Adjust the features of the module, concerning the fertility requirment of the newly added and previously missing Hacienda Farms for Plantains, Cotton and Tobacco." Icon="data/ui/2kimages/main/3dicons/hacienda/icon_hacienda_module_farm.png" />
+    <ImyaExpose Path="*" ModOpID="MissingHaciendaFarmsRequiresFertility" ExposeID="Missing Hacienda Farms: Fertilities required" Description="Sets whether the newly added Plantain, Cotton and Tobacco Farms requires the respective fertility." Kind="SkipToggle" InitState="True"></ImyaExpose>
+
+
 </ModOps>

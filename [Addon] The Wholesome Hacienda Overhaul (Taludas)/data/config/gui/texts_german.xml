@@ -461,6 +461,30 @@
             <GUID>1999002153</GUID>
             <Text>Eines Tages brachte ein ausländischer Reisender, der die weiten Ländereien Eurer Hacienda besuchte, eine Flasche mit tiefviolettem Wein mit. Erstaunt über seinen einzigartigen Geschmack, beschließt Ihr, einen Exportmarkt mit feinstem, lange gereiftem Wein aus Euren eigenen Weinkellern zu eröffnen.</Text>
         </Text>
+        <Text>
+            <GUID>1999002164</GUID>
+            <Text>Hacienda Kräutergarten</Text>
+        </Text>
+        <Text>
+            <GUID>1999002165</GUID>
+            <Text>Kräuter</Text>
+        </Text>
+        <Text>
+            <GUID>1999002166</GUID>
+            <Text>Auf dieser Farm werden verschiedene Kräuter angebaut, die sich durch ihre schönen Farben und ihren aromatischen Duft auszeichnen! Eine wunderbare Zutat, die jedes Gericht abrundet! Sie dürfen in keiner Küche fehlen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002169</GUID>
+            <Text>Hacienda Orchideen-Farm</Text>
+        </Text>
+        <Text>
+            <GUID>1999002170</GUID>
+            <Text>Orchideen</Text>
+        </Text>
+        <Text>
+            <GUID>1999002171</GUID>
+            <Text>Orchideen sind seit ihrer Entdeckung und ersten Kultivierung geheimnisvolle Pflanzen. Ihre Symmetrie, ihre Blüten- und Farbenvielfalt werden von Euren Investoren sehr geschätzt! Aber Vorsicht! Sie könnten an Orchideen-Fieber erkranken, wenn sie ihre Sammelleidenschaft nicht mehr kontrollieren können!</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

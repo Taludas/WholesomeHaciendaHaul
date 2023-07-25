@@ -461,6 +461,30 @@
             <GUID>1999002153</GUID>
             <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
         </Text>
+        <Text>
+            <GUID>1999002164</GUID>
+            <Text>Hacienda Herb Garden</Text>
+        </Text>
+        <Text>
+            <GUID>1999002165</GUID>
+            <Text>Herbs</Text>
+        </Text>
+        <Text>
+            <GUID>1999002166</GUID>
+            <Text>A variety of herbs are grown on this farm for their beautiful colours and aromatic scent! A wonderful ingredient to round off any dish! Definitely not to be missed in any kitchen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002169</GUID>
+            <Text>Hacienda Orchid Farm</Text>
+        </Text>
+        <Text>
+            <GUID>1999002170</GUID>
+            <Text>Orchids</Text>
+        </Text>
+        <Text>
+            <GUID>1999002171</GUID>
+            <Text>Orchids have been mysterious plants since their discovery and first cultivation. Their symmetry, flower and colour variety are highly valued among your Investors! But watch out: Your Investors might get sick with Orchidelirium, where they become unable to control their collector's passion!</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

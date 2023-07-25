@@ -5,7 +5,7 @@
         <Template>Electrifiable_RecipeFarm_Taludas</Template>
     </ModOp>
 
-    <ModOp Type="replace" GUID="1999002001,1999002004,1999002007,1999002015" Condition="@1999002015" Path="/Template">
+    <ModOp Type="replace" GUID="1999002001,1999002004,1999002007,1999002015,1999002164,1999002169" Condition="@1999002015" Path="/Template">
         <Template>Electrifiable_RecipeFarm_Taludas</Template>
     </ModOp>
 
@@ -21,7 +21,7 @@
         </Industrializable>
     </ModOp>
 
-    <ModOp GUID="1999002001,1999002004,1999002007,1999002015" Condition="@1999002015" Path="/Values/Industrializable" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
+    <ModOp GUID="1999002001,1999002004,1999002007,1999002015,1999002164,1999002169" Condition="@1999002015" Path="/Values/Industrializable" Type="replace" ModOpID="HaciendaFarmsBoostedbyElectricity">
         <Industrializable>
           <BoostedByIndustrialization>1</BoostedByIndustrialization>
           <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
@@ -45,7 +45,7 @@
         </Electrifiable>
     </ModOp>
 
-    <ModOp GUID="1999002001,1999002004,1999002007,1999002015" Condition="@1999002015" Path="/Values" Type="add">
+    <ModOp GUID="1999002001,1999002004,1999002007,1999002015,1999002164,1999002169" Condition="@1999002015" Path="/Values" Type="add">
         <Electrifiable>
             <ElectrifiedEffect>0</ElectrifiedEffect>
             <ElectricityBoost>0</ElectricityBoost>
