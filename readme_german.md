@@ -23,6 +23,21 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.2.0</summary>
+    
+![image](https://github.com/Taludas/WholesomeHaciendaHaul/assets/64583643/422a3cf1-2463-413c-9da3-bb5005e14364)
+
+* Ergänzungen:
+  * Neue Hacienda Farmen für Kräuter und Orchideen!
+  * Anpassungen für alle Mods an die neuen Funktionen von iModYourAnno v0.5 (neue Bilder, Standardoptionen werden automatisch im Tweaking-Tab umgeschaltet). ***WARNUNG***: Passt eure Tweaking-Optionen in iMYA an, bevor ihr weiterspielt, da diese nach dem Update auf v0.5 verloren gehen!
+
+* Fixes:
+  * Es wurde ein Problem behoben, bei dem nach der Deaktivierung des Mod-Moduls "Residences must be upgraded" keine Möglichkeit bestand, die Hacienda-Häuser der Obrero und Artista im neuen Baumenü zu bauen.
+
+</details>
+
+
+<details>
     <summary>Patch Notes Version 2.1.0</summary>
 
 * Neue Features:
@@ -266,7 +281,7 @@ Die Produktionszeit der Düngemittelfabrik wurde auf 90 Sekunden angehoben. Glei
 ### Hacienda Farms: 4 neue Pflanzenarten und Fruchtbarkeiten mater wieder
 Warum genau haben die Entwickler die drei Feldfrüchte Bananen, Baumwolle und Tabak weggelassen? Nun, ich vermute, dass das Rezeptbuch nicht mehr Platz hat, als 8 Rezepte in der aktuellen Größe für jeden Gegenstand auf der Liste zu haben. Also haben sie ihr Grafikteam angewiesen, alle Getreidefarmen für die Fruchtbarkeiten der Neuen Welt zu entwerfen und dann die, die niemand mag - wegen des Balancings und des Item-Spiels - über Bord geworfen. Aber die Grafiken haben den Sprung in die endgültigen Spieldateien überlebt! Ich habe eine Stunde damit verbracht, die Tabakplantage zu erstellen, bis ich beim Export bemerkt habe, dass es bereits eine gibt! Ich meine wtf. Ich habe den vollen Preis bezahlt, aber aufgrund eines wirklich einfachen UI-Design-Problems wurde mir so viel Inhalt gestohlen. Vor allem, da die Tabakplantage eine der am meisten ungenutzten Farmen im ganzen Spiel war, hätte eine Hacienda-Version in Vanille eine wirklich gute Gelegenheit sein können, sie tatsächlich anzubauen, anstatt sie als Nebenprodukt von Bananen zu bekommen.
 
-- Also habe ich dieses Problem selbst behoben, indem ich die Hacienda-Farmen in zwei Gebäude aufgeteilt habe, die New World Hacienda Crop Farms mit den lange verschollenen Bananen-, Baumwoll- und Tabakplantagen und die OW Hacienda Crop Farms mit Gewürzen und *Trommelwirbel bitte* einem Weinberg! Dazu später mehr.
+- Also habe ich dieses Problem selbst behoben, indem ich die Hacienda-Farmen in zwei Gebäude aufgeteilt habe, die New World Hacienda Crop Farms mit den lange verschollenen Bananen-, Baumwoll- und Tabakplantagen und die OW Hacienda Crop Farms mit Gewürzen und *Trommelwirbel bitte* einem Weinberg! Dazu später mehr. Mit Update 2.2.0 haben wir jetzt auch die fehlenden Farmen für die Fruchtbarkeiten aus DLC12: Kräuter und Orchideen!
 
 - Die Rezeptbücher sind jetzt auch geteilt, also achtet darauf. Alle Farmen wurden auf ihre Produktionszeit überprüft, damit sie zur Vanille passen. Da die Bedeutung der Scharfen Soße drastisch gestiegen ist, wurde der Produktionszyklus der Gewürzfarm auf 120 Sekunden gesetzt, so dass die Versorgung eine etwas größere Herausforderung wird. Eine weitere große Änderung ist, dass alle New World Crop Farms und der Vineyard nun die entsprechende Fruchtbarkeit auf der Insel benötigen. Ich verstehe nicht, warum ein so altes Feature der Anno-Reihe jetzt ganz weggelassen werden soll.
 

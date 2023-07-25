@@ -23,6 +23,20 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.2.0</summary>
+
+![image](https://github.com/Taludas/WholesomeHaciendaHaul/assets/64583643/422a3cf1-2463-413c-9da3-bb5005e14364)
+
+* Additions:
+  * New Hacienda Farms for Herbs and Orchids!
+  * Adjustments for all mods to the new features of iModYourAnno v0.5 (new images, default options are toggled automatically in the tweaking tab). ***WARNING***: Adjust your Tweaking options in iMYA before you continue playing, because those will be lost after update to v0.5!
+
+* Fixes:
+  * Fixed an issue, where on deactivation of the "Residences must be upgraded" mod module, you had no option to build the Obrero and Artista Hacienda residences from the new build menu.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 2.1.0</summary>
 
 * New Features:
@@ -261,7 +275,7 @@ Production time of the Fertilizer Factory has been lifted to 90 seconds. At the 
 ### Hacienda Farms: 4 new crop types and fertilities mater again
 Why exactly is it that the Devs left out the three crops Bananas, Cotton and Tobacco? Well, I theorize that the recipe book has no more space than to fit 8 recipes at the current scale of each item on the list. So they told their art team to design all crop farms for the New World fertilities and then dumped the ones nobody likes - because of balancing and item game - overboard. But the graphics did survive the drip into the final game files! I spent an hour creating the Tobacco plantation until I noticed at export that there already is on! I mean wtf. I paid full price but due to a really simple UI design problem, so much content was stolen from me. Especially since the Tobacco Plantation was one of the most unused Farm in the entire game, a Hacienda version in vanilla could have made a really good opportunity to actually plant it instead of getting it as a by-product from bananas.
 
-- So, I fixed that issue myself with a split of hacienda crop farms into two buildings, New World Hacienda Crop Farms including the long lost Banana, Cotton and Tobacco Plantations and OW Hacienda Crop Farms plus spices and *drum role please* a Vineyard! More on that later.
+- So, I fixed that issue myself with a split of hacienda crop farms into two buildings, New World Hacienda Crop Farms including the long lost Banana, Cotton and Tobacco Plantations and OW Hacienda Crop Farms plus spices and *drum role please* a Vineyard! More on that later. With update 2.2.0 we also have the missing Farms from DLC12: Herbs and Orchids!
 
 - The recipe books are now split as well, so watch out for that. All farms have been checked for their production time to fit vanilla. Since the importance of the Hot Sauce is increased drastically, Spice Farm production cycle was set to 120 seconds, so that supply becomes a bit more of a challenge. Another big change is that all New World Crop Farms and the Vineyard now require the corresponding fertility on the island. I don’t get it why such an old feature of the Anno series should now be dropped entirely.
 
