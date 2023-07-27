@@ -1858,8 +1858,8 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1999002167</GUID>
-                    <Name>Hacienda Farm Herbs Unhide Trigger</Name>
+                    <GUID>1999002174</GUID>
+                    <Name>Hacienda Farm Herbs Unlock Trigger</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -1880,14 +1880,14 @@
                                 <Values>
                                     <Action />
                                     <ActionUnlockAsset>
-                                        <UnhideAssets>
+                                        <UnlockAssets>
                                             <Item>
                                                 <Asset>1999002164</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1999002165</Asset>
                                             </Item>
-                                        </UnhideAssets>
+                                        </UnlockAssets>
                                     </ActionUnlockAsset>
                                 </Values>
                             </TriggerAction>
