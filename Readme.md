@@ -23,6 +23,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.2.1</summary>
+
+* Fixes:
+  * Fixed an issue, where the Hacienda Herb Farm would not unlock in Sandbox mode as intended (1 Artista).
+
+</details>
+
+<details>
     <summary>Patch Notes Version 2.2.0</summary>
 
 ![image](https://github.com/Taludas/WholesomeHaciendaHaul/assets/64583643/422a3cf1-2463-413c-9da3-bb5005e14364)

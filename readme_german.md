@@ -23,6 +23,14 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.2.1</summary>
+
+* Fixes:
+  * Ein Problem wurde behoben, bei dem der Hacienda Kräutergarten im Sandbox-Modus nicht wie vorgesehen freigeschaltet wurde (1 Artista).
+
+</details>
+
+<details>
     <summary>Patch Notes Version 2.2.0</summary>
     
 ![image](https://github.com/Taludas/WholesomeHaciendaHaul/assets/64583643/422a3cf1-2463-413c-9da3-bb5005e14364)
