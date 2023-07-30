@@ -499,24 +499,6 @@
                     <TriggerActions>
                         <Item>
                             <TriggerAction>
-                                <Template>ActionLockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionLockAsset>
-                                        <LockAssets>
-                                            <Item>
-                                                <Asset>24770</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>25224</Asset>
-                                            </Item>
-                                        </LockAssets>
-                                    </ActionLockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <Item>
-                            <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
                                     <Action />
@@ -556,24 +538,6 @@
                     <TriggerActions>
                         <Item>
                             <TriggerAction>
-                                <Template>ActionLockAsset</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionLockAsset>
-                                        <LockAssets>
-                                            <Item>
-                                                <Asset>24770</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>25224</Asset>
-                                            </Item>
-                                        </LockAssets>
-                                    </ActionLockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <Item>
-                            <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
                                     <Action />
@@ -604,6 +568,105 @@
         <Item>
             <Building>1999002112</Building>
         </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '24770']">
+        <Item>
+            <ModuleGUID>1999002110</ModuleGUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="replace" GUID="24768" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID = '25224']">
+        <Item>
+            <ModuleGUID>1999002112</ModuleGUID>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24770']"></ModOp>
+    <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '25224']"></ModOp>
+
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002176</GUID>
+                    <Name>HaciendaStreets Enable Mod Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>24770</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25224</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002177</GUID>
+                    <Name>HaciendaStreets Enable Mod Trigger Creative</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>24770</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>25224</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
     </ModOp>
 
     <!-- <ModOp Type="replace" GUID="1999002020,1999002070" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24770']" ModOpID="NewHaciendaStreetsinBuildmenuStreet1">
