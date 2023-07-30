@@ -485,6 +485,14 @@
             <GUID>1999002171</GUID>
             <Text>Orchids have been mysterious plants since their discovery and first cultivation. Their symmetry, flower and colour variety are highly valued among your Investors! But watch out: Your Investors might get sick with Orchidelirium, where they become unable to control their collector's passion!</Text>
         </Text>
+        <Text>
+            <GUID>1999002178</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
+        <Text>
+            <GUID>1999002179</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

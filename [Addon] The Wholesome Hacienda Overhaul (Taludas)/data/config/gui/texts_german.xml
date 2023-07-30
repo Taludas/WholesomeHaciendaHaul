@@ -485,6 +485,14 @@
             <GUID>1999002171</GUID>
             <Text>Orchideen sind seit ihrer Entdeckung und ersten Kultivierung geheimnisvolle Pflanzen. Ihre Symmetrie, ihre Blüten- und Farbenvielfalt werden von Euren Investoren sehr geschätzt! Aber Vorsicht! Sie könnten an Orchideen-Fieber erkranken, wenn sie ihre Sammelleidenschaft nicht mehr kontrollieren können!</Text>
         </Text>
+        <Text>
+            <GUID>1999002178</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Deaktiviert während der Nutzung dieses Mod-Moduls: True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
+        <Text>
+            <GUID>1999002179</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Deaktiviert während der Nutzung dieses Mod-Moduls: True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

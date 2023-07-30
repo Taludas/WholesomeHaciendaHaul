@@ -485,6 +485,14 @@
             <GUID>1999002171</GUID>
             <Text>Орхидеи - загадочные растения с момента их открытия и первого культивирования. Их симметрия, разнообразие цветов и расцветок высоко ценятся среди ваших инвесторов! Но будьте осторожны: ваши инвесторы могут заболеть орхиделирией, когда они будут не в состоянии контролировать свою страсть коллекционировать различные орхидеи!</Text>
         </Text>
+	<Text>
+            <GUID>1999002178</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
+        <Text>
+            <GUID>1999002179</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

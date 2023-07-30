@@ -581,6 +581,40 @@
         </Item>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="24770">
+        <Asset>
+            <BaseAssetGUID>24770</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002178</GUID>
+                    <Name>Fake Street</Name>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="merge" GUID="24770" Path="/Values">
+        <Building>
+            <PickingAsset>1999002178</PickingAsset>
+        </Building>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25224">
+        <Asset>
+            <BaseAssetGUID>25224</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002179</GUID>
+                    <Name>Fake Street 2</Name>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="merge" GUID="25224" Path="/Values">
+        <Building>
+            <PickingAsset>1999002179</PickingAsset>
+        </Building>
+    </ModOp>
+
     <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24770']"></ModOp>
     <ModOp Type="remove" GUID="1999002020,1999002070" Condition="@1999002020" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '25224']"></ModOp>
 
@@ -668,17 +702,5 @@
             </Values>
         </Asset>
     </ModOp>
-
-    <!-- <ModOp Type="replace" GUID="1999002020,1999002070" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '24770']" ModOpID="NewHaciendaStreetsinBuildmenuStreet1">
-        <Item>
-            <Building>1999002110</Building>
-        </Item>
-    </ModOp>
-
-    <ModOp Type="replace" GUID="1999002020,1999002070" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '25224']" ModOpID="NewHaciendaStreetsinBuildmenuStreet2">
-        <Item>
-            <Building>1999002112</Building>
-        </Item>
-    </ModOp> -->
 
 </ModOps>
