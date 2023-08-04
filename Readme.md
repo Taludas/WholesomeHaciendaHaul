@@ -23,6 +23,15 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.2.2</summary>
+
+* Fixes:
+  * Fixed an issue, where the Hacienda Orchid Farm had a see-through invisible wall from the inside of the main house.
+  * Fixed an issue with missing Hacienda Street Modules in the buildmenu after deactivating the module "True Hacienda Streets".
+  * Added a "locked warning" when trying to copy old Hacienda Street modules in a save, when using the module "True Hacienda Streets". made by @Qurila.
+</details>
+
+<details>
     <summary>Patch Notes Version 2.2.1</summary>
 
 * Fixes:

@@ -23,6 +23,15 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.2.2</summary>
+
+* Fixes:
+  * Ein Problem wurde behoben, bei dem die Hacienda Orchideenfarm eine unsichtbare, durchsichtige Wand im Inneren des Haupthauses hatte.
+  * Ein Problem mit fehlenden Hacienda-Straßenmodulen im Baumenü nach Deaktivierung des Moduls "True Hacienda Streets" wurde behoben.
+  * Es wurde eine "Gesperrt-Warnung" hinzugefügt, wenn man versucht, alte Hacienda-Sraßen-Module in einen Speicherstand zu kopieren, wenn man das Modul "True Hacienda Streets" verwendet. Made by @Qurila.
+</details>
+
+<details>
     <summary>Patch Notes Version 2.2.1</summary>
 
 * Fixes:
