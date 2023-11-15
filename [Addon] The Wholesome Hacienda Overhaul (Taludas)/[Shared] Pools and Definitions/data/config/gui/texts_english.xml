@@ -18,7 +18,7 @@
     </Text>
     <Text>
       <GUID>1500011901</GUID>
-      <Text>Steelwork</Text> <!-- 1010296 -->
+      <Text>Steelworks</Text> <!-- 1010296 -->
     </Text>
     <Text>
       <GUID>1500011902</GUID>
@@ -26,7 +26,7 @@
     </Text>
     <Text>
       <GUID>1500011903</GUID>
-      <Text>All Glassmaker</Text> <!-- 1010319 -->
+      <Text>Glassmaker</Text> <!-- 1010319 -->
     </Text>
     <Text>
       <GUID>1500011904</GUID>
@@ -35,7 +35,7 @@
     <Text>
       <GUID>1500200671</GUID>
       <Text>Brewery</Text> <!-- 1010292 -->
-    </Text>   
+    </Text>
     <Text>
       <GUID>1500200672</GUID>
       <Text>Schnapps Distillery</Text> <!-- 1010294 -->

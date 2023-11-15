@@ -501,6 +501,44 @@
       </Asset>
     </ModOp>
 
+    <ModOp Type="add" GUID="1999002151" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="@1500011044">
+      <Item>
+          <GUID>1500011044</GUID>
+      </Item>
+      <Item>
+          <GUID>1500011090</GUID>
+      </Item>
+    </ModOp>
+
+    <!-- If you use Vinery, replace single Artista Entries with collective pools in Policy 5 buff -->
+    <Group Condition="@1500011044">
+      <Group Condition="@1999002057">
+        <ModOp Type="remove" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets/Item[GUID='5405']"></ModOp>
+        <ModOp Type="remove" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets/Item[GUID='6086']"></ModOp>  
+        <ModOp Type="remove" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1500011044']"></ModOp>
+        <ModOp Type="remove" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1500011090']"></ModOp>
+
+        <ModOp Type="add" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets">
+          <Item>
+              <GUID>1999002151</GUID>
+          </Item>
+        </ModOp>
+      </Group>
+    </Group>
+
+    <Group Condition="!@1500011044">
+      <Group Condition="@1999002057">
+        <ModOp Type="remove" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets/Item[GUID='5405']"></ModOp>
+        <ModOp Type="remove" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets/Item[GUID='6086']"></ModOp>  
+
+        <ModOp Type="add" GUID="1999002057" Path="/Values/ItemEffect/EffectTargets">
+          <Item>
+              <GUID>1999002151</GUID>
+          </Item>
+        </ModOp>
+      </Group>
+    </Group>
+
     <ModOp Type="addNextSibling" GUID="25734">
       <Asset>
         <Template>TownhallBuff</Template>

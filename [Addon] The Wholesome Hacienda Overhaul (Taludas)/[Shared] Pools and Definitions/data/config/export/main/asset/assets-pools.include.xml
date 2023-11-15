@@ -126,7 +126,7 @@
     </ModOp>
   </Group>
 
-  <!-- # Steelwork -->
+  <!-- # Steelworks -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -134,7 +134,7 @@
         <Values>
           <Standard>
             <GUID>1500011901</GUID>
-            <Name>Steelwork</Name>
+            <Name>Steelworks</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>

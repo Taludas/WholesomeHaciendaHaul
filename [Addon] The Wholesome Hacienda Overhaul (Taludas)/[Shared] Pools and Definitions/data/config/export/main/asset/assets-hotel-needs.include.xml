@@ -42,7 +42,7 @@
       <NoWeightPopulationCount>49</NoWeightPopulationCount>
       <RequiredBuildings>
         <Item>
-          <RequiredBuilding>0</RequiredBuilding>
+          <RequiredBuilding>1440134300</RequiredBuilding>
           <Region>Colony01</Region>
         </Item>
       </RequiredBuildings>
@@ -59,7 +59,7 @@
       <NoWeightPopulationCount>2499</NoWeightPopulationCount>
       <RequiredBuildings>
         <Item>
-          <RequiredBuilding>0</RequiredBuilding>
+          <RequiredBuilding>1440134300</RequiredBuilding>
           <Region>Colony01</Region>
         </Item>
       </RequiredBuildings>
@@ -75,19 +75,49 @@
       <MoneyValue>75</MoneyValue>
       <RequiredBuildings>
         <Item>
-          <RequiredBuilding>0</RequiredBuilding>
+          <RequiredBuilding>1440134300</RequiredBuilding>
           <Region>Colony01</Region>
         </Item>
       </RequiredBuildings>
     </Item>
   </ModOp>
+  <ModOp Type="addNextSibling" GUID="601379"
+    Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='120043']"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']">
+    <Item>
+      <Product>120043</Product>
+      <Amount>0.01666667</Amount>
+      <HappinessValue>3</HappinessValue>
+      <MoneyValue>40</MoneyValue>
+      <FullWeightPopulationCount>75</FullWeightPopulationCount>
+      <NoWeightPopulationCount>49</NoWeightPopulationCount>
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>1440134300</RequiredBuilding>
+          <Region>Colony01</Region>
+        </Item>
+      </RequiredBuildings>
+    </Item>
+  </ModOp>
+
   <!-- copy needs from vanilla hotel -->
   <ModOp Type="add" GUID="601379"
     AllowNoMatch="1"
-    Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings/Item/RequiredBuilding='1440134300') and (Product&lt;1010500) and not(Product='133573') and not(Product='132761') and not(Product='133536') and not(Product='137757')]/RequiredBuildings">
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings/Item/RequiredBuilding='1440134300') and (Product&lt;1010500) and not(Product='133573') and not(Product='132761') and not(Product='133536') and not(Product='137757') and not(Product='1010247') and not(Product='134257') and not(Product='134781')]/RequiredBuildings">
     <Item>
       <RequiredBuilding>1440134300</RequiredBuilding>
       <Region>Colony01</Region>
     </Item>
   </ModOp>
+
+  <Group Condition="#NewWorldDocklands">
+    <ModOp Type="add" GUID="601379"
+      Condition="!/Values/PopulationLevel7/PopulationInputs/Item[Product='134781' and RequiredBuildings/Item/RequiredBuilding='1440134300']"
+      Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134781']/RequiredBuildings">
+      <Item>
+        <RequiredBuilding>1440134300</RequiredBuilding>
+        <Region>Colony01</Region>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>
