@@ -22,6 +22,19 @@ If you already used iMYA to tweak the mods, I'd advice to remove the stored sett
 Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 2.2.4</summary>
+
+* Aktualisierungen:
+  * Update der benötigten Shared Mod "[Shared] Pools and Definitions" auf die neueste Version.
+  * Kompatibilität mit Jakobs lückenlosen Artista-Residenzen & Wolkenkratzern aus "New World Cities" herstellen:  Die neue Hacienda-Politik Nr. 5 wirkt sich auch auf lückenlose Artista-Wohnhäuser und Wolkenkratzer aus
+
+* Fixes:
+  * Behebt ein Problem, bei dem man die Obrero- und Artista-Residenzen immer noch direkt aus dem Baumenü bauen konnte (nur bei Sortierung nach "Kategorie"), anstatt Jornaleros und Obreros aufzuwerten, wenn man das Modul " Wohnhäuser müssen aufgewertet werden" verwendet
+  * Behebung eines Tippfehlers beim neuen ItemEffectTargetPool "Alle Artista-Residenzen"
+</details>
+
 <details>
     <summary>Patch Notes Version 2.2.2</summary>
 

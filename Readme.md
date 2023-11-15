@@ -22,6 +22,19 @@ If you like this mod and want to support me, feel free to share it with your fri
 You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 2.2.4</summary>
+
+* Updates:
+  * update required shared mod "[Shared] Pools and Definitions" to the latest version.
+  * make compatible with Jakobs gapless Artista residences & skyscrapers from "New World Cities":  New Hacienda Policy no.5 also effects gapless Artista residences & skyscrapers
+
+* Fixes:
+  * fix an issue where you could still build the Obrero and Artista Residences directly from the build menu (only on "Category" sorting) instead of needing to upgrade Jornaleros and Obreros when using the module "Residences must be upgraded"
+  * fix a typo with the New ItemEffectTargetPool "All Artista Residences"
+</details>
+  
 <details>
     <summary>Patch Notes Version 2.2.2</summary>
 
