@@ -3,487 +3,487 @@
     <ModOp Type="add" Path="/TextExport/Texts">
         <Text>
             <GUID>1999002001</GUID>
-            <Text>Hacienda Plantains Farm</Text>
+            <Text>대농장 플랜테인 농장</Text>
         </Text>
         <Text>
             <GUID>1999002002</GUID>
-            <Text>Plantains</Text>
+            <Text>플랜테인</Text>
         </Text>
         <Text>
             <GUID>1999002003</GUID>
-            <Text>Ancient traditions bring it that your Jornaleros prefere these mushy green and yellow cooking bananas over the domesticated sweet ones from the shelf. Don't judge them, those poor guys can't know what they are missing!</Text>
+            <Text>고대 전통에 따르면 식민지 노동자는 선반에 있는 재배된 달콤한 바나나보다 흐물흐물해진 초록색 바나나와 노란색 요리용 바나나를 더 좋아한다고 합니다. 그들을 판단하지 마십시오. 그 불쌍한 사람들은 그들이 무엇을 놓치고 있는지 알 수 없습니다!</Text>
         </Text>
         <Text>
             <GUID>1999002004</GUID>
-            <Text>Hacienda Cotton Farm</Text>
+            <Text>대농장 목화 농장</Text>
         </Text>
         <Text>
             <GUID>1999002005</GUID>
-            <Text>Cotton</Text>
+            <Text>목화</Text>
         </Text>
         <Text>
             <GUID>1999002006</GUID>
-            <Text>Soft, fluffy fibre growing on a plant! Could you imagine that we used to run around in cloths made out of sheep wool? Enough of that, get this smooth, white fabric over here, now!</Text>
+            <Text>식물에서 자라는 부드럽고 폭신한 섬유질입니다! 우리가 양털로 만든 옷을 입고 뛰어다닌다는 것을 상상할 수 있습니까? 그거면 충분합니다, 이제 이 부드럽고 하얀 천을 여기로 가져오세요!</Text>
         </Text>
         <Text>
             <GUID>1999002007</GUID>
-            <Text>Hacienda Tobacco Farm</Text>
+            <Text>대농장 담배 농장</Text>
         </Text>
         <Text>
             <GUID>1999002008</GUID>
-            <Text>Tobacco</Text>
+            <Text>담배</Text>
         </Text>
         <Text>
             <GUID>1999002009</GUID>
-            <Text>Stinky dried brown leefs, cut to pieces and stuffed into sacks for export. Oh, those poor souls don't know what they are putting their bodys through. It's a treacherous modern addiction and unfortunately they are indulging it in my Restaurant!</Text>
+            <Text>냄새나는 말린 갈색 잎을 조각으로 자르고 수출용 자루에 담습니다. 아, 그 불쌍한 영혼들은 그들의 몸에 어떤 일을 겪게 되는지 모릅니다. 그것은 보기와 달리 위험한 현대적 중독이며 불행히도 그들은 이 식당에서 그것을 탐닉하고 있습니다!</Text>
         </Text>
         <Text>
             <GUID>1999002010</GUID>
-            <Text>Hacienda Vineyard</Text>
+            <Text>대농장 포도원</Text>
         </Text>
         <Text>
             <GUID>1999002011</GUID>
-            <Text>Grapes</Text>
+            <Text>포도</Text>
         </Text>
         <Text>
             <GUID>1999002012</GUID>
-            <Text>Sun-ripenend juicy red and violet grapes. These recent vintages from the New World will delight your pampered Investors' souls! We can just hope, that they'll accept the muddy fouly brewerage we call wine after having tasted this explosion of taste and flavour!</Text>
+            <Text>햇볕에 익어 과즙이 풍부한 붉은 색과 보라색으로 잘 익은 포도입니다. 신세계의 최신 빈티지는 당신의 방자한 투자자의 영혼을 기쁘게 할 것입니다! 우리는 그들이 이 폭발적인 맛과 풍미를 맛본 후에 우리가 포도주라고 부르는 탁하고 더러운 음료를 받아들일 것이라는 희망을 가질 수 있습니다!</Text>
         </Text>
         <Text>
             <GUID>1999002013</GUID>
-            <Text>Vines</Text>
+            <Text>포도원</Text>
         </Text>
         <Text>
             <GUID>1999002015</GUID>
-            <Text>Hacienda Old World Farm</Text>
+            <Text>대농장 구대륙 농장</Text>
         </Text>
         <Text>
             <GUID>24794</GUID>
-            <Text>Hacienda New World Farm</Text>
+            <Text>대농장 신대륙 농장</Text>
         </Text>
         <Text>
             <GUID>24795</GUID>
-            <Text>Hacienda Almanac for New World Farms</Text>
+            <Text>대농장 연감 - 신대륙 농장</Text>
         </Text>
         <Text>
             <GUID>1999002014</GUID>
-            <Text>Hacienda Almanac for Old World Farms</Text>
+            <Text>대농장 연감 - 구대륙 농장</Text>
         </Text>
         <Text>
             <GUID>25178</GUID>
-            <Text>Hacienda Ornaments</Text>
+            <Text>대농장 장식</Text>
         </Text>
         <Text>
             <GUID>19564</GUID>
-            <Text>Ornaments with Hacienda Paving</Text>
+            <Text>대농장 포장길이 포함된 장식</Text>
         </Text>
         <Text>
             <GUID>1999002017</GUID>
-            <Text>Hacienda</Text>
+            <Text>대농장</Text>
         </Text>
         <Text>
             <GUID>1999002020</GUID>
-            <Text>Hacienda</Text>
+            <Text>대농장</Text>
         </Text>
         <Text>
             <GUID>1999002021</GUID>
-            <Text>Hacienda Farms New World Crops</Text>
+            <Text>대농장 농장 - 신대륙 농작물</Text>
         </Text>
         <Text>
             <GUID>1999002022</GUID>
-            <Text>Overview of the available New World Hacienda Crop Farms</Text>
+            <Text>이용 가능한 대농장 신대륙 농장 작물에 대한 개요를 봅니다.</Text>
         </Text>
         <Text>
             <GUID>1999002023</GUID>
-            <Text>Hacienda Farms Old World Crops</Text>
+            <Text>대농장 농장 - 구대륙 농작물</Text>
         </Text>
         <Text>
             <GUID>1999002024</GUID>
-            <Text>Overview of the available Old World Hacienda Crop Farms</Text>
+            <Text>이용 가능한 대농장 구대륙 농장 작물에 대한 개요를 봅니다.</Text>
         </Text>
         <Text>
             <GUID>1999002025</GUID>
-            <Text>Hacienda Breweries</Text>
+            <Text>대농장 - 양조장</Text>
         </Text>
         <Text>
             <GUID>1999002026</GUID>
-            <Text>Overview of the available Hacienda Breweries</Text>
+            <Text>이용 가능한 대농장 양조장에 대한 개요를 봅니다.</Text>
         </Text>
         <Text>
             <GUID>24775</GUID>
-            <Text>Hacienda Warehouse</Text>
+            <Text>대농장 창고</Text>
         </Text>
         <Text>
             <GUID>1999002028</GUID>
-            <Text>Accepts and distributes goods from, and to your production buildings. Provides additional storage space as well.</Text>
+            <Text>플레이어의 생산 시설에서 생산한 물품을 받아들이고 분배하는 곳입니다. 그 자체로 추가 창고 공간을 제공합니다.</Text>
         </Text>
         <Text>
             <GUID>1999002030</GUID>
-            <Text>Increases the efficiency and attractivness of Lumberjack's Huts. Your Lumberjacks will now occasionaly plant luxourius foreign wood types.</Text>
+            <Text>벌목꾼의 오두막 효율 및 매력도 증가. 벌목꾼은 이따금씩 고급스러운 외국 목재를 심습니다.</Text>
         </Text>
         <Text>
             <GUID>1999002031</GUID>
-            <Text>Lumberjack Educational Decree</Text>
+            <Text>벌목꾼 교육 법령</Text>
         </Text>
         <Text>
             <GUID>1999002032</GUID>
-            <Text>"Oh, and one last thing: the tree will fall toward the notch you cut — I would suggest standing somewhere else."</Text>
+            <Text>"아, 그리고 마지막으로, 나무는 절단한 홈 쪽으로 떨어질 것이에요. 그러니 다른 곳에 서 있는 것이 좋아요."</Text>
         </Text>
         <Text>
             <GUID>1999002033</GUID>
-            <Text>Lumberjack Educational Decree</Text>
+            <Text>벌목꾼 교육 법령</Text>
         </Text>
         <Text>
             <GUID>1999002034</GUID>
-            <Text>"Oh, and one last thing: the tree will fall toward the notch you cut — I would suggest standing somewhere else."</Text>
+            <Text>"아, 그리고 마지막으로, 나무는 절단한 홈 쪽으로 떨어질 것이에요. 그러니 다른 곳에 서 있는 것이 좋아요."</Text>
         </Text>
         <Text>
             <GUID>1999002038</GUID>
-            <Text>Drastically reduces the environmental impact of heavy industruies to limit the propability of dretful disasters while maintaining good efficiency.</Text>
+            <Text>좋은 효율성을 유지하면서 중공업이 환경에 미치는 영향을 대폭 줄여 끔찍한 재해 발생 가능성을 제한합니다.</Text>
         </Text>
         <Text>
             <GUID>1999002039</GUID>
-            <Text>Clean Environment Regulation</Text>
+            <Text>청정 환경 규제</Text>
         </Text>
         <Text>
             <GUID>1999002040</GUID>
-            <Text>The safety of your workers, inhabitants and the condition of the surrounding ecosystem is your first priority as a wise Gouvernour.</Text>
+            <Text>노동자, 주민, 그리고 주변 생태계 상태의 안전은 현명한 주지사로서 당신의 최우선 과제입니다.</Text>
         </Text>
         <Text>
             <GUID>1999002041</GUID>
-            <Text>Clean Environment Regulation</Text>
+            <Text>청정 환경 규제</Text>
         </Text>
         <Text>
             <GUID>1999002042</GUID>
-            <Text>The safety of your workers, inhabitants and the condition of the surrounding ecosystem is your first priority as a wise Gouvernour.</Text>
+            <Text>노동자, 주민, 그리고 주변 생태계 상태의 안전은 현명한 주지사로서 당신의 최우선 과제입니다.</Text>
         </Text>
         <Text>
             <GUID>1999002043</GUID>
-            <Text>All Heavy Industries, Mines, Quarries, Chemical Plants and Breweries</Text>
+            <Text>모든 중공업, 광산, 채석장, 화학 공장, 양조장</Text>
         </Text>
         <Text>
             <GUID>1999002044</GUID>
-            <Text>Reduced Goods consumption while remaining good productivity for certain industry branches.</Text>
+            <Text>특정 산업 분야에서 우수한 생산성을 유지하면서 상품 소비를 줄입니다.</Text>
         </Text>
         <Text>
             <GUID>1999002045</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>현지 공장 아울렛 규정</Text>
         </Text>
         <Text>
             <GUID>1999002046</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
+            <Text>대농장의 강점은 현지 시장입니다. 지역 영세업체의 입지를 강화하기 위해 공장 아울렛이 도입됐습니다. 이러한 활동은 특정 상품의 소비를 줄이고 주민들의 전반적인 행복을 높여 생산성을 높여줍니다.</Text>
         </Text>
         <Text>
             <GUID>1999002047</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>현지 공장 아울렛 규정</Text>
         </Text>
         <Text>
             <GUID>1999002048</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
+            <Text>대농장의 강점은 현지 시장입니다. 지역 영세업체의 입지를 강화하기 위해 공장 아울렛이 도입됐습니다. 이러한 활동은 특정 상품의 소비를 줄이고 주민들의 전반적인 행복을 높여 생산성을 높여줍니다.</Text>
         </Text>
         <Text>
             <GUID>1999002049</GUID>
-            <Text>Support your local craftsmen so that your colony can become an influential wine-growing region.</Text>
+            <Text>당신의 식민지가 영향력 있는 와인 생산 지역이 될 수 있도록 지역 장인을 지원하십시오.</Text>
         </Text>
         <Text>
             <GUID>1999002050</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>포도원 진흥법</Text>
         </Text>
         <Text>
             <GUID>1999002051</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
+            <Text>어느 날 당신의 대농장 농장의 광대한 땅을 방문하는 한 외국인 여행자가 진한 보라색 액체 한 병을 가지고 왔습니다. 정말 독특한 맛에 놀라, 당신은 대농장 포도주 저장고에서 오래 숙성된 최고급 포도주로 수출 시장을 개척하기로 결정합니다.</Text>
         </Text>
         <Text>
             <GUID>1999002052</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>포도원 진흥법</Text>
         </Text>
         <Text>
             <GUID>1999002053</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
+            <Text>어느 날 당신의 대농장 농장의 광대한 땅을 방문하는 한 외국인 여행자가 진한 보라색 액체 한 병을 가지고 왔습니다. 정말 독특한 맛에 놀라, 당신은 대농장 포도주 저장고에서 오래 숙성된 최고급 포도주로 수출 시장을 개척하기로 결정합니다.</Text>
         </Text>
         <Text>
             <GUID>1999002054</GUID>
-            <Text>Reduces the amount of modern goods consumed by your inhabitents.</Text>
+            <Text>주민들이 소비하는 현대 상품의 양을 줄입니다.</Text>
         </Text>
         <Text>
             <GUID>1999002055</GUID>
-            <Text>Cultural Conservation Act</Text>
+            <Text>문화 보전법</Text>
         </Text>
         <Text>
             <GUID>1999002056</GUID>
-            <Text>The local assembly decided to ban the resently invented electronic gadgets in order to concentrate on the traditional cultural heritage of the New World.</Text>
+            <Text>지방 의회는 신대륙의 전통 문화 유산을 집중적으로 활용하기 위해 최근 발명된 전자제품을 금지하기로 결정했습니다.</Text>
         </Text>
         <Text>
             <GUID>1999002057</GUID>
-            <Text>Cultural Conservation Act</Text>
+            <Text>문화 보전법</Text>
         </Text>
         <Text>
             <GUID>1999002058</GUID>
-            <Text>The local assembly decided to ban the resently invented electronic gadgets in order to concentrate on the traditional cultural heritage of the New World.</Text>
+            <Text>지방 의회는 신대륙의 전통 문화 유산을 집중적으로 활용하기 위해 최근 발명된 전자제품을 금지하기로 결정했습니다.</Text>
         </Text>
         <Text>
             <GUID>1999002066</GUID>
-            <Text>All Clothing Factories, All Intermediate Good Producers, Coffee Roaster, Cigar Factory, Scooter Factory and Fan Factory</Text>
+            <Text>모든 의류 공장, 모든 중간재 공장, 커피 제조소, 시가 제작소, 스쿠터 공장, 선풍기 공장</Text>
         </Text>
         <Text>
             <GUID>1999002067</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>현지 공장 아울렛 규정</Text>
         </Text>
         <Text>
             <GUID>1999002068</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
+            <Text>대농장의 강점은 현지 시장입니다. 지역 영세업체의 입지를 강화하기 위해 공장 아울렛이 도입됐습니다. 이러한 활동은 특정 상품의 소비를 줄이고 주민들의 전반적인 행복을 높여 생산성을 높여줍니다.</Text>
         </Text>
         <Text>
             <GUID>1999002069</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>현지 공장 아울렛 규정</Text>
         </Text>
         <Text>
             <GUID>1999002070</GUID>
-            <Text>Hacienda</Text>
+            <Text>대농장</Text>
         </Text>
         <Text>
             <GUID>1999002072</GUID>
-            <Text>Chewing Gum</Text>
+            <Text>껌</Text>
         </Text>
         <Text>
             <GUID>1999002074</GUID>
-            <Text>Hacienda Church</Text>
+            <Text>대농장 교회</Text>
         </Text>
         <Text>
             <GUID>1999002075</GUID>
-            <Text>Hacienda Police Station</Text>
+            <Text>대농장 경찰서</Text>
         </Text>
         <Text>
             <GUID>1999002076</GUID>
-            <Text>Hacienda Guildhouse</Text>
+            <Text>대농장 무역 연합</Text>
         </Text>
         <Text>
             <GUID>1999002077</GUID>
-            <Text>Hacienda Connecting Border Wall</Text>
+            <Text>대농장 연결된 담벼락</Text>
         </Text>
         <Text>
             <GUID>1999002078</GUID>
-            <Text>Hacienda Small Marketplace</Text>
+            <Text>대농장 작은 시장</Text>
         </Text>
         <Text>
             <GUID>1999002081</GUID>
-            <Text>Hacienda Border Wall Large Gate</Text>
+            <Text>대농장 담벼락 큰 문</Text>
         </Text>
         <Text>
             <GUID>1999002082</GUID>
-            <Text>Hacienda Border Wall Small Gate</Text>
+            <Text>대농장 담벼락 작은 문</Text>
         </Text>
         <Text>
             <GUID>1999002083</GUID>
-            <Text>Hacienda Border Wall Straight 1</Text>
+            <Text>대농장 담벼락 직선 벽 1</Text>
         </Text>
         <Text>
             <GUID>1999002084</GUID>
-            <Text>Hacienda Border Wall Straight 2</Text>
+            <Text>대농장 담벼락 직선 벽 2</Text>
         </Text>
         <Text>
             <GUID>1999002085</GUID>
-            <Text>Hacienda Border Wall Corner</Text>
+            <Text>대농장 담벼락 모서리</Text>
         </Text>
         <Text>
             <GUID>1999002086</GUID>
-            <Text>Hacienda Border Wall Corner End</Text>
+            <Text>대농장 담벼락 모서리 말단</Text>
         </Text>
         <Text>
             <GUID>1999002087</GUID>
-            <Text>Hacienda Border Wall Corner Inwards Left</Text>
+            <Text>대농장 담벼락 모서리 안쪽 좌측</Text>
         </Text>
         <Text>
             <GUID>1999002088</GUID>
-            <Text>Hacienda Border Wall Corner Inwards Right</Text>
+            <Text>대농장 담벼락 모서리 안쪽 우측</Text>
         </Text>
         <Text>
             <GUID>1999002089</GUID>
-            <Text>Hacienda Border Wall T-Tile</Text>
+            <Text>대농장 담벼락 T자형 벽</Text>
         </Text>
         <Text>
             <GUID>1999002090</GUID>
-            <Text>Hacienda Border Wall Single Tiles</Text>
+            <Text>대농장 담벼락 단일 타일</Text>
         </Text>
         <Text>
             <GUID>1999002091</GUID>
-            <Text>Small Hacienda Jornalero Residence</Text>
+            <Text>작은 대농장 식민지 노동자 주거지</Text>
         </Text>
         <Text>
             <GUID>1999002092</GUID>
-            <Text>Small Hacienda Obrero Residence</Text>
+            <Text>작은 대농장 식민지 직공 주거지</Text>
         </Text>
         <Text>
             <GUID>1999002093</GUID>
-            <Text>Hacienda Residences</Text>
+            <Text>대농장 주거지</Text>
         </Text>
         <Text>
             <GUID>1999002098</GUID>
-            <Text>Hacienda Fire Station</Text>
+            <Text>대농장 소방서</Text>
         </Text>
         <Text>
             <GUID>1999002099</GUID>
-            <Text>Hacienda Public Institutions</Text>
+            <Text>대농장 공공시설</Text>
         </Text>
         <Text>
             <GUID>1999002100</GUID>
-            <Text>Hacienda Hospital</Text>
+            <Text>대농장 병원</Text>
         </Text>
         <Text>
             <GUID>1999002103</GUID>
-            <Text>Hacienda Town Hall</Text>
+            <Text>대농장 시청</Text>
         </Text>
         <Text>
             <GUID>1999002104</GUID>
-            <Text>Hacienda Public Institutions</Text>
+            <Text>대농장 공공시설</Text>
         </Text>
         <Text>
             <GUID>1999002106</GUID>
-            <Text>Administration</Text>
+            <Text>행정</Text>
         </Text>
         <Text>
             <GUID>1999002107</GUID>
-            <Text>Ornaments</Text>
+            <Text>장식</Text>
         </Text>
         <Text>
             <GUID>1999002108</GUID>
-            <Text>Residences</Text>
+            <Text>주거지</Text>
         </Text>
         <Text>
             <GUID>1999002109</GUID>
-            <Text>Emergency Services</Text>
+            <Text>비상시설</Text>
         </Text>
         <Text>
             <GUID>1999002110</GUID>
-            <Text>Hacienda Street</Text>
+            <Text>대농장 거리</Text>
         </Text>
         <Text>
             <GUID>1999002111</GUID>
-            <Text>Hacienda Street Bridge</Text>
+            <Text>대농장 거리 다리</Text>
         </Text>
         <Text>
             <GUID>1999002112</GUID>
-            <Text>Hacienda Pathway</Text>
+            <Text>대농장 오솔길</Text>
         </Text>
         <Text>
             <GUID>1999002113</GUID>
-            <Text>Hacienda Pathway Bridge</Text>
+            <Text>대농장 오솔길 다리</Text>
         </Text>
         <Text>
             <GUID>1999002115</GUID>
-            <Text>Sand Mine</Text>
+            <Text>모래 광산</Text>
         </Text>
         <Text>
             <GUID>1999002116</GUID>
-            <Text>all Sand Mines</Text>
+            <Text>모든 모래 광산</Text>
         </Text>
         <Text>
             <GUID>1999002117</GUID>
-            <Text>Chemical Factory: Lacquer</Text>
+            <Text>화학 공장: 래커</Text>
         </Text>
         <Text>
             <GUID>1999002118</GUID>
-            <Text>Lacquer</Text>
+            <Text>래커</Text>
         </Text>
         <Text>
             <GUID>1999002119</GUID>
-            <Text>Iron Mine</Text>
+            <Text>철광산</Text>
         </Text>
         <Text>
             <GUID>1999002120</GUID>
-            <Text>all Iron Mines</Text>
+            <Text>모든 철광산</Text>
         </Text>
         <Text>
             <GUID>1999002121</GUID>
-            <Text>Steel Furnace</Text>
+            <Text>제철소</Text>
         </Text>
         <Text>
             <GUID>1999002122</GUID>
-            <Text>all Steel Furnaces</Text>
+            <Text>모든 제철소</Text>
         </Text>
         <Text>
             <GUID>1999002123</GUID>
-            <Text>Violin Manufactory</Text>
+            <Text>바이올린 제조소</Text>
         </Text>
         <Text>
             <GUID>1999002124</GUID>
-            <Text>Violins</Text>
+            <Text>바이올린</Text>
         </Text>
         <Text>
             <GUID>1999002128</GUID>
-            <Text>all Charcoal Kilns</Text>
+            <Text>모든 숯가마</Text>
         </Text>
         <Text>
             <GUID>1999002145</GUID>
-            <Text>Advanced Hacienda Police Station</Text>
+            <Text>고급 대농장 경찰서</Text>
         </Text>
         <Text>
             <GUID>1999002146</GUID>
-            <Text>Advanced Hacienda Fire Station</Text>
+            <Text>고급 대농장 소방서</Text>
         </Text>
         <Text>
             <GUID>1999002147</GUID>
-            <Text>Advanced Hacienda Hospital</Text>
+            <Text>고급 대농장 병원</Text>
         </Text>
         <Text>
             <GUID>1999002139</GUID>
-            <Text>Small Hacienda Artista Residence</Text>
+            <Text>작은 대농장 아티스타 주거지</Text>
         </Text>
         <Text>
             <GUID>1999002310</GUID>
-            <Text>Hacienda Winery</Text>
+            <Text>대농장 포도주 양조장</Text>
         </Text>
         <Text>
             <GUID>1999002311</GUID>
-            <Text>Wine Recipe</Text>
+            <Text>포도주 레시피</Text>
         </Text>
         <Text>
             <GUID>1999002312</GUID>
-            <Text>The increasing popularity of your ever growing Hacienda attracted many wine connoisseurs to your Island. The intense flavour of the sunriped grapes combined with a dash of cinnamon produces a unique bouquet. Letting the young wine ripe inside exclusive cherry wood barrels refines its taste even more.</Text>
+            <Text>계속해서 성장하는 대농장의 인기가 높아짐에 따라 많은 포도주 감정가들이 귀하의 섬으로 모여들었습니다. 잘 익은 포도의 강렬한 맛과 약간의 계피가 결합되어 독특한 향미를 만들어냅니다. 오래되지 않은 포도주를 전용 체리 나무 통에서 숙성시키면 맛이 더욱 세련됩니다.</Text>
         </Text>
         <Text>
             <GUID>1999002149</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>포도원 진흥법</Text>
         </Text>
         <Text>
             <GUID>1999002150</GUID>
-            <Text>Your residents enjoy the taste of a matured wine from one of your aspiring local Hacienda Wineries.</Text>
+            <Text>주민들이 야심 있는 현지 대농장 포도주 양조장 중 한 곳에서 숙성된 포도주의 맛을 즐깁니다.</Text>
         </Text>
         <Text>
             <GUID>1999002151</GUID>
-            <Text>All Artista residences</Text>
+            <Text>모든 아티스타 주거지</Text>
         </Text>
         <Text>
             <GUID>1999002152</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>포도원 진흥법</Text>
         </Text>
         <Text>
             <GUID>1999002153</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
+            <Text>어느 날 당신의 대농장 농장의 광대한 땅을 방문하는 한 외국인 여행자가 진한 보라색 액체 한 병을 가지고 왔습니다. 정말 독특한 맛에 놀라, 당신은 대농장 포도주 저장고에서 오래 숙성된 최고급 포도주로 수출 시장을 개척하기로 결정합니다.</Text>
         </Text>
         <Text>
             <GUID>1999002164</GUID>
-            <Text>Hacienda Herb Garden</Text>
+            <Text>대농장 약초 정원</Text>
         </Text>
         <Text>
             <GUID>1999002165</GUID>
-            <Text>Herbs</Text>
+            <Text>약초</Text>
         </Text>
         <Text>
             <GUID>1999002166</GUID>
-            <Text>A variety of herbs are grown on this farm for their beautiful colours and aromatic scent! A wonderful ingredient to round off any dish! Definitely not to be missed in any kitchen.</Text>
+            <Text>아름다운 색깔과 향기로운 약초를 재배하는 다양한 약초들이 있는 농장이에요! 모든 요리를 마무리하는 훌륭한 재료입니다! 어느 주방에서나 놓칠 수 없는 부분이죠.</Text>
         </Text>
         <Text>
             <GUID>1999002169</GUID>
-            <Text>Hacienda Orchid Farm</Text>
+            <Text>대농장 난초 농장</Text>
         </Text>
         <Text>
             <GUID>1999002170</GUID>
-            <Text>Orchids</Text>
+            <Text>난초</Text>
         </Text>
         <Text>
             <GUID>1999002171</GUID>
-            <Text>Orchids have been mysterious plants since their discovery and first cultivation. Their symmetry, flower and colour variety are highly valued among your Investors! But watch out: Your Investors might get sick with Orchidelirium, where they become unable to control their collector's passion!</Text>
+            <Text>난초는 발견되고 처음 재배된 이래로부터 신비한 식물이었습니다. 그들의 대칭성, 꽃, 색상의 다양성은 투자가들 사이에서 높은 평가를 받고 있습니다! 하지만 조심하세요, 투자가들은 난초 열풍(Orchidelirium)에 빠져버려 수집가의 열정을 통제할 수 없게 될 수도 있습니다!</Text>
         </Text>
         <Text>
             <GUID>1999002178</GUID>
