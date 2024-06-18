@@ -152,7 +152,7 @@
           </Maintenances>
         </Maintenance>
         <Industrializable>
-          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
         </Industrializable>
         <IncidentInfectable>
           <IncidentInfectionChanceFactors>
@@ -255,7 +255,7 @@
     </Item>
   </ModOp>
 
-  <ModOp Type="add" GUID="25055,25672" Path="/Values/AssetPool/AssetList">
+  <ModOp Type="add" GUID="25672" Path="/Values/AssetPool/AssetList">
     <Item>
       <Asset>1999002310</Asset>
     </Item>
