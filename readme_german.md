@@ -22,6 +22,16 @@ If you already used iMYA to tweak the mods, I'd advice to remove the stored sett
 Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 2.3.0</summary>
+
+* Updates:
+  * Überarbeitung von Taludas Shared Products-Mods in einzelne Unter-Mods
+  * Hacienda-Lagerraum neu gebalanct, damit er standardmäßig 2 Laderampen hat
+
+* Fixes:
+  * Behebung der fehlenden Möglichkeit zur Nutzung von Strom auf dem Hacienda Weinkeller
+</details>
 
 <details>
     <summary>Patch Notes Version 2.2.4</summary>

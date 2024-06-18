@@ -1,4 +1,4 @@
-# The Wholesome Hacienda Haul 
+# The Wholesome Hacienda Haul
 
 ![Thumbnail](https://user-images.githubusercontent.com/64583643/167893634-35b83fe1-ad75-4c35-acf5-541b7804e98d.png)
 
@@ -24,6 +24,17 @@ You can find a gallery of images from my mod [here](docs/).
 ## Changelog
 
 <details>
+    <summary>Patch Notes Version 2.3.0</summary>
+
+* Updates:
+  * rework Taludas Shared Products mods into individual sub-mods
+  * rebalance Hacienda Storage Room to have 2 loading ramps by default
+
+* Fixes:
+  * fix missing electricity boost on hacienda winery
+</details>
+
+<details>
     <summary>Patch Notes Version 2.2.4</summary>
 
 * Updates:
@@ -34,7 +45,7 @@ You can find a gallery of images from my mod [here](docs/).
   * fix an issue where you could still build the Obrero and Artista Residences directly from the build menu (only on "Category" sorting) instead of needing to upgrade Jornaleros and Obreros when using the module "Residences must be upgraded"
   * fix a typo with the New ItemEffectTargetPool "All Artista Residences"
 </details>
-  
+
 <details>
     <summary>Patch Notes Version 2.2.2</summary>
 
@@ -105,11 +116,11 @@ You can find a gallery of images from my mod [here](docs/).
         - Base Version: 2x3 Artista Residences: 32 Artistas + 36 from Lifestyle Needs (68 total).
         - Extended Gameplaychanges: 4x4 Jornalero Residences are updated to 30 Jornaleros + 35 from Lifestyle Needs (65 total).
         - Extended Gameplaychanges: 4x4 Obrero Residences are updated to 70 Obreros + 65 from Lifestyle Needs (135 total).
-        - Extended Gameplaychanges: 4x4 Artista Residences are updated to 140 Artistas + 75 from Lifestyle Needs (215 total).      
+        - Extended Gameplaychanges: 4x4 Artista Residences are updated to 140 Artistas + 75 from Lifestyle Needs (215 total).
         - Extended Gameplaychanges: 2x3 Jornalero Residences are updated to 13 Jornaleros + 17 from Lifestyle Needs (30 total).
         - Extended Gameplaychanges: 2x3 Obrero Residences are updated to 26 Obreros + 29 from Lifestyle Needs (55 total).
         - Extended Gameplaychanges: 2x3 Artista Residences up to 52 Artistas + 33 from Lifestyle Needs (85 total).
-    - Added Hacienda, Hot Sauce and Atole need to Artista Hacienda Residences. 
+    - Added Hacienda, Hot Sauce and Atole need to Artista Hacienda Residences.
     - Added new public buildings with Hacienda Ground Decals.
     - Adjusted all Hacienda Policies to the new needs and possibilities of GU16. Policy 1 and 2 have been updated where Policy 5 has been removed completely and was outsourced as a separate module. It was replaced with a new policy.
 </details>
@@ -128,8 +139,8 @@ You can find a gallery of images from my mod [here](docs/).
     <summary>Patch Notes Version 1.5.0</summary>
 
 * New features:
-    ![Banner](https://user-images.githubusercontent.com/64583643/192605638-41616a81-7f59-4ff6-8bc6-28d2a02306ed.png) 
-    - Added Module 2 - Sounds of Stradivari. This mod enables you to produce Violins in the New World utilising Hacienda Overhaul features. Lacquer can now be produced from Quartz (Sand Mine on Clay Slots), Caoutchouc, and Ethanol. Cherry wood is obtainable by using the Hacienda policy 3: Woodcutter Training as a byproduct form lumberjacks and orchards. Steel can be produced in the furnace from Iron ore, mined on Gold slots. 
+    ![Banner](https://user-images.githubusercontent.com/64583643/192605638-41616a81-7f59-4ff6-8bc6-28d2a02306ed.png)
+    - Added Module 2 - Sounds of Stradivari. This mod enables you to produce Violins in the New World utilising Hacienda Overhaul features. Lacquer can now be produced from Quartz (Sand Mine on Clay Slots), Caoutchouc, and Ethanol. Cherry wood is obtainable by using the Hacienda policy 3: Woodcutter Training as a byproduct form lumberjacks and orchards. Steel can be produced in the furnace from Iron ore, mined on Gold slots.
 
     Thank you to [Jakob](https://github.com/jakobharder/anno-1800-jakobs-mods) for providing the basic graphics of the sand mine and the fixed steel furnace as well as some code to get compatibility between his mod ["New World Construction"](https://github.com/jakobharder/anno-1800-jakobs-mods/tree/main/mods/production-nw-construction) and mine. Just a little heads up, my shared buildings with Jakob's Mod might differ slightly in workforce requirements, build costs and maintenance costs.
 </details>
@@ -142,7 +153,7 @@ You can find a gallery of images from my mod [here](docs/).
         - Base Version: 2x3 Jornalero Residences are updated to 8 Jornaleros + 12 from Lifestyle Needs (20 total).
         - Base Version: 2x3 Obrero Residences are updated to 16 Obreros + 24 from Lifestyle Needs (40 total).
         - Extended Gameplaychanges: 4x4 Jornalero Residences are updated to 30 Jornaleros + 30 from Lifestyle Needs (60 total).
-        - Extended Gameplaychanges: 4x4 Obrero Residences are updated to 70 Obreros + 60 from Lifestyle Needs (130 total).    
+        - Extended Gameplaychanges: 4x4 Obrero Residences are updated to 70 Obreros + 60 from Lifestyle Needs (130 total).
         - Extended Gameplaychanges: 2x3 Jornalero Residences are updated to 13 Jornaleros + 12 from Lifestyle Needs (25 total).
         - Extended Gameplaychanges: 2x3 Obrero Residences are updated to 26 Obreros + 24 from Lifestyle Needs (50 total).
 
@@ -151,7 +162,7 @@ You can find a gallery of images from my mod [here](docs/).
     - Removed some Bugfixes silently introduced with GU15.
 
 * New features:
-    ![Banner](https://user-images.githubusercontent.com/64583643/192149310-8fcbf8b6-b878-48c3-9269-0a2a9c9fdfa7.png)    
+    ![Banner](https://user-images.githubusercontent.com/64583643/192149310-8fcbf8b6-b878-48c3-9269-0a2a9c9fdfa7.png)
     - Added the Hacienda Streets from Muggenstürmer's [CityOrnaments Mod](https://www.nexusmods.com/anno1800/mods/93) as an optional and separate mod to replace my Hacienda streets. The streets now feature bridges and railway crossings. Thanks to Muggen for letting me use his fantastic work!
 </details>
 
@@ -163,7 +174,7 @@ You can find a gallery of images from my mod [here](docs/).
     - For whatever reason the Hacienda Breweries had their attractiveness impact shown in the city tab where only positive attractiveness values are presented by default. I changed it to Factory. (Maybe the devs once planned to give them an attractiveness boost to the city and just had an typo with the minus???)
     - Cleared an issue where the Hacienda Tab in the Build Menu with the Hacienda Church was visible and buildable too early in the game, because I added the Church to the AssetPool Chapel, which is by default unhidden/unlocked with Jornaleros.
     - If you use my Production Chain Overhaul or the Shared Goods Mod, the Hacienda Winery and its recipe now show the correct icon for Wine instead of Champagne.
-    - Cleaned up the buildmenu of the Hacienda Overhaul, somehow the Hacienda was still in the Obreros Tab, but inside the Hacienda Ornaments Tab (that shouldn't be there in the first place). It should be very clear now, that the Hacienda and its Ornaments can only be found in the Hacienda Build Menu Tab, as intended. 
+    - Cleaned up the buildmenu of the Hacienda Overhaul, somehow the Hacienda was still in the Obreros Tab, but inside the Hacienda Ornaments Tab (that shouldn't be there in the first place). It should be very clear now, that the Hacienda and its Ornaments can only be found in the Hacienda Build Menu Tab, as intended.
 </details>
 
 <details>
@@ -193,7 +204,7 @@ You can find a gallery of images from my mod [here](docs/).
 * New Hacienda Town Hall added to Extended Hacienda module
 * Vanilla Guildhouse and Town Hall with Hacienda Decal added (variations)
 * Production time of fertilizer left at 1:30 after GU14.1, internal storage reduced to 2 tons to limit the range of the carts
-      
+
 * Bugfixes:
     - Hacienda farms Banana, Cotton and Tobacco no longer need fertilities on the island in the Basic Gameplay Changes variant.
     - Chewing gum buildings (cinnamon orchard and chemical factory) now unlock at 2000 Obreros, not only the production chain. (Before you had to build the skyscrapers first to unlock these buildings.)
@@ -219,7 +230,7 @@ You can find a gallery of images from my mod [here](docs/).
 
 * Just some small bugfixes:
     - Obrero Residences can't be copied any longer. If selected with the Copy Tool, corresponding Jornalero residences will be used.
-    - Fixed a Typo in the German Localisation: Banenen -> Bananen 
+    - Fixed a Typo in the German Localisation: Banenen -> Bananen
 </details>
 
 <details>
@@ -295,8 +306,8 @@ The vanilla Hacienda Warehouse hasn’t a real value over the normal Depots insi
 
 ### Hacienda residences have been overhauled completely
 - Jornalero residences now take up to 85 Population each with lifestyle needs. Their needs have been left unchanged, but an extra incentive has been given to the two new goods Schnaps and Hot Sauce by increasing the amount of gained inhabitants.
-- The next big change is that Obrero residences can’t be build separately any longer. You’ll need to upgrade your Jornalero residences. 
-- For the Obrero Residences, they now get 3 points of attractiveness by default to help you reach the required amounts of it to unlock the Hacienda policies. Their inhabitant count has been lifted to 165. An extra incentive was given to the new products Hot Sauce and Atole as well as the newly introduced needs: Chewing Gum and Violins unlocked at 1500 and 2000 Obreros respectively to further strengthen the incentive to build those production lines in later game. 
+- The next big change is that Obrero residences can’t be build separately any longer. You’ll need to upgrade your Jornalero residences.
+- For the Obrero Residences, they now get 3 points of attractiveness by default to help you reach the required amounts of it to unlock the Hacienda policies. Their inhabitant count has been lifted to 165. An extra incentive was given to the new products Hot Sauce and Atole as well as the newly introduced needs: Chewing Gum and Violins unlocked at 1500 and 2000 Obreros respectively to further strengthen the incentive to build those production lines in later game.
 - To accommodate the changed needs, population boosting items like Saint D’Artois and Papal Paper now give extra residents from Hot Sauce as well as Chewing gums and Violins to promote not only NW usage of these goods but also the supply of Violins and Chewing gum to Engineer and Investor Skyscrapers, as those productions are not really space efficient for the amount of inhabitants they give.
 
 ### Fertilizer Factory got buffed and hasn’t to be build inside the Hacienda Radius
