@@ -1,0 +1,54 @@
+{
+  "Version": "2.0",
+  "ModID": "Taludas_sharedproduct_wine",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_wine (Taludas)",
+    "English": "sharedproduct_wine (Taludas)",
+    "French": "sharedproduct_wine (Taludas)",
+    "German": " sharedproduct_wine (Taludas)",
+    "Italian": "sharedproduct_wine (Taludas)",
+    "Japanese": "sharedproduct_wine (Taludas)",
+    "Korean": "sharedproduct_wine (Taludas)",
+    "Polish": "sharedproduct_wine (Taludas)",
+    "Russian": "sharedproduct_wine (Taludas)",
+    "Spanish": "sharedproduct_wine (Taludas)",
+    "Taiwanese": "sharedproduct_wine (Taludas)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n Champagne: changed icon and name to Wine",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Champagner: Symbol und Name in Wein geändert",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

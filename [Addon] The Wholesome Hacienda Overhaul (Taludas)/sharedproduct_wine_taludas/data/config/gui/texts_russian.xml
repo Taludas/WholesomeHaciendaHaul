@@ -1,0 +1,138 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>10026</GUID>
+      <Text>Beryl is hosting a luncheon and would like to rub her guests with some fine wine to ensure they keep their guards down.</Text>
+    </Text>
+    <Text>
+      <GUID>10059</GUID>
+      <Text>Beryl would like to teach you the ropes of business. Sink down Mr. Perky's wine suppliers to force him to trade with Beryl again.</Text>
+    </Text>
+    <Text>
+      <GUID>17650</GUID>
+      <Text>I have a few stiff-tongued guests coming over that could use some loosening, and I've yet to meet a single soul that can say no to a glass of wine.</Text>
+    </Text>
+    <Text>
+      <GUID>17655</GUID>
+      <Text>Business is a war, and as such it requires tactics. Care to learn a trick or two from an old warmonguer? Take down Mr. Perky's supply of wine and he'll have no choice but to come begging at Old Beryl's feet.</Text>
+    </Text>
+    <Text>
+      <GUID>14144</GUID>
+      <Text>Gasparov is expecting a distinguished guest used to fine things, in this case, wine. Bring Gasparov what he asks before his guests leave disappointed.</Text>
+    </Text>
+    <Text>
+      <GUID>18198</GUID>
+      <Text>Gasparov wants you to prove you can maintain your cellars of fine wine, because to have only a few bottles here and there only makes you look like a society fraud.</Text>
+    </Text>
+    <Text>
+      <GUID>16940</GUID>
+      <Text>Are you the catering people? We'll need wine, lots of it. Mrs Vichyssoise could arrive any minute, and I need that investment!</Text>
+    </Text>
+    <Text>
+      <GUID>18222</GUID>
+      <Text>I am still cringing from hearing the news about your stocks of wine. Have you any idea how embarassing it is in polite society, not to have a full and complete cellar of vintage? First impressions are everything, everything!</Text>
+    </Text>
+    <Text>
+      <GUID>18466</GUID>
+      <Text>Alonso wants wine. He seems well aware of the contradiction to his philosophy in needing such an intensively cultivated product, but is willing to forgive himself in order to experiemce such a divine sensory pleasure.</Text>
+    </Text>
+    <Text>
+      <GUID>18467</GUID>
+      <Text>Wine is a guilty pleasure. A sin for a man like me, who is always so quick to reject anything that reeks of 'civilised'. But I 'm sorry, it tastes wonderful. I can't resist it, all those amazing flavours tickling my tonsils!</Text>
+    </Text>
+    <Text>
+      <GUID>17058</GUID>
+      <Text>Eli would like to keep a stock of quality wine for when the inspectors visit, and to keep his wardens keen, believing they might one day be rewarded with a glass.</Text>
+    </Text>
+    <Text>
+      <GUID>18648</GUID>
+      <Text>Oh, unfortunately my joints are giving me trouble again and I will not be able to attend the party. Still, make sure Sir Archibald receives my special wine, I poured all my love into it.</Text>
+    </Text>
+    <Text>
+      <GUID>13532</GUID>
+      <Text>The Worker would like to taste Wine.</Text>
+    </Text>
+    <Text>
+      <GUID>15482</GUID>
+      <Text>I just became a precious little girl's papa, Guv! We need something fancier to toast just this once, for my baby. You could get us a bottle of wine, right?</Text>
+    </Text>
+    <Text>
+      <GUID>15485</GUID>
+      <Text>Er, is this what wine tastes like? I'll be sticking to beer then, thank you very much.</Text>
+    </Text>
+    <Text>
+      <GUID>16246</GUID>
+      <Text>This worker just had a baby girl! They want to toast to her with something classier than a pint of ale, but they cannot afford a glass of wine with their salary...</Text>
+    </Text>
+    <Text>
+      <GUID>16314</GUID>
+      <Text>An Investor wants an avalanche of wine and cigars for a monumental house party.</Text>
+    </Text>
+    <Text>
+      <GUID>20003</GUID>
+      <Text>An investor's gift. "Your wise leadership is beneficial to all of us. Let's celebrate with a small bottle of wine!"</Text>
+    </Text>
+    <Text>
+      <GUID>12858</GUID>
+      <Text>Wine</Text>
+    </Text>
+    <Text>
+      <GUID>14973</GUID>
+      <Text>WINE RUNS DRY!</Text>
+    </Text>
+    <Text>
+      <GUID>14974</GUID>
+      <Text>Wine shortage in [Newspaper FindArticle([RefGuid]) Context TownName] takes the fizz out of life. Trust in authorities put on ice, as supply continues to falter.</Text>
+    </Text>
+    <Text>
+      <GUID>11373</GUID>
+      <Text>FINE WINE MOMENT</Text>
+    </Text>
+    <Text>
+      <GUID>11374</GUID>
+      <Text>New Wine Cellar fizzpops into [Newspaper FindArticle([RefGuid]) Context TownName] to eveyone's sudden surprise! But be not alarmed, for this "devil's wine" is de facto divine— an elegance that celebrates how refined this city has become. </Text>
+    </Text>
+    <Text>
+      <GUID>11756</GUID>
+      <Text>Perfect for a laid back evening by the fireplace.</Text>
+    </Text>
+    <Text>
+      <GUID>100659</GUID>
+      <Text>Wine Cellar</Text>
+    </Text>
+    <Text>
+      <GUID>120016</GUID>
+      <Text>Wine</Text>
+    </Text>
+    <Text>
+      <GUID>190647</GUID>
+      <Text>Wine Taster</Text>
+    </Text>
+    <Text>
+      <GUID>192213</GUID>
+      <Text>A Bottle of Wine</Text>
+    </Text>
+    <Text>
+      <GUID>192269</GUID>
+      <Text>Spiced Wine</Text>
+    </Text>
+    <Text>
+      <GUID>500434</GUID>
+      <Text>Wine</Text>
+    </Text>
+    <Text>
+      <GUID>115037</GUID>
+      <Text>The Technician has asked for wine. Apart from a little home comfort, the flavours of the new vintage may prove influential in scientific circles. </Text>
+    </Text>
+    <Text>
+      <GUID>115038</GUID>
+      <Text>Now there's wine, Fritz won't hesitate to name me co-author on his magnetism paper. I may even get a mention at some award ceremony.</Text>
+    </Text>
+    <Text>
+      <GUID>133282</GUID>
+      <Text>Montmartre '75' (Sugar, Wine, Citrus)</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

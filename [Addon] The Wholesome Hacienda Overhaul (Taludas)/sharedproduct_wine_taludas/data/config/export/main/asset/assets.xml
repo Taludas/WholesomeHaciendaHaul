@@ -1,0 +1,12 @@
+<ModOps>
+    <!-- #Champagne name and Icon change -->
+    <ModOp Type="replace" GUID="100659,19639,120016,500434" Path="/Values/Standard/IconFilename">
+      <IconFilename>data/modgraphics/ui/icon_wine.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="100659" Path="/Values/Object/Variations/Item[Filename = 'data/graphics/buildings/production/processing_09/processing_09.cfg']">
+        <Item>
+          <Filename>data/modgraphics/models/wine_cellar/wine_cellar.cfg</Filename>
+        </Item>
+    </ModOp>
+</ModOps>
