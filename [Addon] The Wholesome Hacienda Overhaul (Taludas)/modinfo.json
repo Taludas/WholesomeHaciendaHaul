@@ -1,12 +1,14 @@
 {
-  "Version": "2.2.4",
+  "Version": "2.3.0",
   "ModID": "Taludas_TheWholesomeHaciendaHaul",
   "IncompatibleIds": null,
   "ModDependencies": [
-    "shared-pools-and-definitions"
+    "shared-pools-and-definitions",
+    "Taludas_sharedproduct_wine"
   ],
   "LoadAfterIds":[
-    "shared-pools-and-definitions"
+    "shared-pools-and-definitions",
+    "Taludas_sharedproduct_wine"
   ],
   "Category": {
     "Chinese": "Addon",
@@ -47,7 +49,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,
@@ -79,7 +81,7 @@
     {
       "DLC":"LandOfLions",
       "Dependant": "partly"
-    }   
+    }
   ],
   "CreatorName": "Taludas",
   "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
