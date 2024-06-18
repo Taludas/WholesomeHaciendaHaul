@@ -357,7 +357,7 @@
         <LogisticNode>
             <TransporterCountMax>0</TransporterCountMax>
             <QueueConfiguration>
-                <ProcessingQueueParallelCount>1</ProcessingQueueParallelCount>
+                <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
             </QueueConfiguration>
         </LogisticNode>
     </ModOp>
