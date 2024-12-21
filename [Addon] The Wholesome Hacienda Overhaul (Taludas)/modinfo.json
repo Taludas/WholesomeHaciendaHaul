@@ -1,5 +1,5 @@
 {
-  "Version": "2.3.0",
+  "Version": "2.3.1",
   "ModID": "Taludas_TheWholesomeHaciendaHaul",
   "IncompatibleIds": null,
   "ModDependencies": [
@@ -8,7 +8,9 @@
   ],
   "LoadAfterIds":[
     "shared-pools-and-definitions",
-    "Taludas_sharedproduct_wine"
+    "Taludas_sharedproduct_wine",
+    "jakob_new_world_cities",
+    "Hackner's Mantained Needs"
   ],
   "Category": {
     "Chinese": "Addon",

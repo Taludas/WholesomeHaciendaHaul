@@ -550,7 +550,7 @@
     <ImyaExpose Path="self::Culture/Attractiveness" ModOpID="HaciendaArtistasAttractivness" ExposeID="Hacienda Artistas: Attractivness Amount" />
 
     <!-- add Hacienda, Atole, Tabasco, Chewing Gums and Violins to consumption -->
-    <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+    <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25546']">
         <Item>
             <Product>25546</Product>
             <SupplyWeight>7</SupplyWeight>
@@ -561,8 +561,16 @@
             </RequiredBuildings>
         </Item>
     </ModOp>
+    <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']/RequiredBuildings"  Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25546']">
+        <Item>
+            <RequiredBuilding>6086</RequiredBuilding>
+        </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25546']/SupplyWeight" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25546']">
+        <SupplyWeight>7</SupplyWeight>
+    </ModOp>
 
-    <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+    <ModOp Type="addPrevSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25506']">
         <Item>
             <Product>25506</Product>
             <Amount>0.000476191</Amount>
@@ -575,8 +583,16 @@
             </RequiredBuildings>
         </Item>
     </ModOp>
+    <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']/RequiredBuildings" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25506']">
+        <Item>
+            <RequiredBuilding>6086</RequiredBuilding>
+        </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25506']/SupplyWeight" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25506']">
+        <SupplyWeight>10</SupplyWeight>
+    </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']">
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120035']" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25131']">
         <Item>
             <Product>25131</Product>
             <Amount>0.000952381</Amount>
@@ -589,8 +605,16 @@
             </RequiredBuildings>
         </Item>
     </ModOp>
+    <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']/RequiredBuildings" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25131']">
+        <Item>
+            <RequiredBuilding>6086</RequiredBuilding>
+        </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='25131']/SupplyWeight" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '25131']">
+        <SupplyWeight>8</SupplyWeight>
+    </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010206']">
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010206']" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product = '135186']">
         <Item>
             <Product>135186</Product>
             <Amount>0.0000866667</Amount>
@@ -603,8 +627,16 @@
             </RequiredBuildings>
         </Item>
     </ModOp>
+    <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']/RequiredBuildings" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '135186']">
+        <Item>
+            <RequiredBuilding>6086</RequiredBuilding>
+        </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']/SupplyWeight" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '135186']">
+        <SupplyWeight>7</SupplyWeight>
+    </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']">
+    <ModOp Type="addNextSibling" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135186']" Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product = '135233']">
         <Item>
             <Product>135233</Product>
             <Amount>0.00005</Amount>
@@ -616,6 +648,14 @@
                 </Item>
             </RequiredBuildings>
         </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135233']/RequiredBuildings" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '135233']">
+        <Item>
+            <RequiredBuilding>6086</RequiredBuilding>
+        </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="5403" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='135233']/SupplyWeight" Condition="~/Values/PopulationLevel7/PopulationInputs/Item[Product = '135233']">
+        <SupplyWeight>10</SupplyWeight>
     </ModOp>
 
     <ModOp Type="replace" GUID="6086" Path="/Values/UpgradeList/DefaultBuff">
