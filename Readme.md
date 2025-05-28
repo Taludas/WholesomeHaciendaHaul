@@ -22,7 +22,17 @@ If you like this mod and want to support me, feel free to share it with your fri
 You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 2.4.0</summary>
 
+* Updates:
+  - add Hacienda Mezcal Brewery
+  - add Hacienda Animal Farms: Alpaca, Cattle, Nandu, Sheep, Goat, Bees
+  - Policy 3 now gives extra Cherry Wood +1/7 and extra Resin +1/10 instead of Wanza Wood and Cherry Wood
+  - Winery and Violin manufactory can now access "regular" Cherry Wood from the Old World before having Tier 3 skyscrapers. A new build menu for OW orchards has been added to the Investor build menu and unlocks at 2500 Obreros along with the Cherry Wood Orchard
+  - add automatic translations
+
+</details>
 <details>
     <summary>Patch Notes Version 2.3.0</summary>
 

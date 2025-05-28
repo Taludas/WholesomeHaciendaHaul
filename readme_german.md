@@ -23,6 +23,17 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.4.0</summary>
+
+* Updates:
+  - Hacienda Mezcal-Brauerei hinzugefügt
+  - Hacienda Tierfarmen hinzugefügt: Alpakas, Rinder, Nandus, Schafe, Ziegen, Bienen
+  - Die Richtlinie 3 gibt jetzt zusätzliches Kirschholz +1/7 und zusätzliches Harz +1/10 anstelle von Wanza-Holz und Kirschholz
+  - Hacienda Weinkellerei und die Violinenmanufaktur können nun auf "normales" Kirschholz aus der Alten Welt zugreifen, bevor Tier 3-Wolkenkratzer freigeschaltet sind. Ein neues Baumenü für OW-Baumschulen wurde zum Baumenü der Investoren hinzugefügt und wird bei 2500 Obreros zusammen mit der Kirschholz-Baumschule freigeschaltet.
+  - automatische Übersetzungen hinzugefügt
+</details>
+
+<details>
     <summary>Patch Notes Version 2.3.0</summary>
 
 * Updates:
