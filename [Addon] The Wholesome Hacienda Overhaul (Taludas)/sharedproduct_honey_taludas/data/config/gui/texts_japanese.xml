@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>蜂蜜</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>甘くてねばねばした蜂の吐き気は、その並外れた特性で世界中で愛されています。</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>蜂蜜の種類によっては、創傷治癒特性さえあります!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

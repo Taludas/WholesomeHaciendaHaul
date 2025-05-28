@@ -683,7 +683,7 @@
                 <AttractivenessThreshold>Attractive</AttractivenessThreshold>
                 <Description>1999002049</Description>
             </Tier4Decree>
-        </ModOp>       
+        </ModOp>
     </Group>
 
     <ImyaExpose Path="*" ModOpID="ToggleTier4Decree" ExposeID="Toggle Tier4 Decree" Description="Replaces the fourth Hacienda Policy with the custom made." Kind="SkipToggle" InitState="True"></ImyaExpose>
@@ -1372,12 +1372,12 @@
                     </ProductivityUpgrade>
                     <AdditionalOutput>
                         <Item>
-                            <Product>114356</Product>
+                            <Product>135087</Product>
                             <AdditionalOutputCycle>7</AdditionalOutputCycle>
                             <Amount>1</Amount>
                         </Item>
                         <Item>
-                            <Product>135087</Product>
+                            <Product>135086</Product>
                             <AdditionalOutputCycle>10</AdditionalOutputCycle>
                             <Amount>1</Amount>
                         </Item>
@@ -1463,7 +1463,7 @@
         </Asset>
     </ModOp> -->
 
-    <!-- <ModOp Tpye="addNextSibling" GUID="193870"> 
+    <!-- <ModOp Tpye="addNextSibling" GUID="193870">
         <Asset>
             <Template>RewardPool</Template>
             <Values>
@@ -1647,13 +1647,13 @@
                   </Item>
                   <Item>
                     <ItemLink>1742000156</ItemLink>
-                  </Item> 
+                  </Item>
                 </ItemsPool>
                 <IgnoreUnlocks>1</IgnoreUnlocks>
               </RewardPool>
               <Locked>
                   <DefaultLockedState>0</DefaultLockedState>
-              </Locked> 
+              </Locked>
               <Text />
             </Values>
         </Asset>

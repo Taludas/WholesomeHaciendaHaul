@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Honig</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Süße und klebrige Bienenexkremente, die auf der ganzen Welt für ihre außergewöhnlichen Eigenschaften geliebt wird.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>Einige Honigsorten haben sogar wundheilende Eigenschaften!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

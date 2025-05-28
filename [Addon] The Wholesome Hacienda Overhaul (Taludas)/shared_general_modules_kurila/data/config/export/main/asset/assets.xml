@@ -1,0 +1,34 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID='269837'>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300830</GUID>
+          <Name>Tractor_Barn</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_conveyor_2.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300831</GUID>
+          <Name>Silo</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_conveyor_2.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300832</GUID>
+          <Name>Fertiliser_Silo</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_conveyor_2.png</IconFilename>
+        </Standard>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

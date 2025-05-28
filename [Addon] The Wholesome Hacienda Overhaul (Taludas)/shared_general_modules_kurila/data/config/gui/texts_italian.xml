@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300830</GUID>
+      <Text>Module supply</Text>
+    </Text>
+    <Text>
+      <GUID>1500300831</GUID>
+      <Text>Module supply</Text>
+    </Text>
+    <Text>
+      <GUID>1500300832</GUID>
+      <Text>Module supply</Text>
+    </Text>
+  </ModOp>
+</ModOps>

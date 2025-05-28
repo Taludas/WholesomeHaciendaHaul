@@ -1,0 +1,54 @@
+{
+  "Version": "1.1",
+  "ModID": "Taludas_sharedproduct_honey",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_honey (Taludas)",
+    "English": "sharedproduct_honey (Taludas)",
+    "French": "sharedproduct_honey (Taludas)",
+    "German": " sharedproduct_honey (Taludas)",
+    "Italian": "sharedproduct_honey (Taludas)",
+    "Japanese": "sharedproduct_honey (Taludas)",
+    "Korean": "sharedproduct_honey (Taludas)",
+    "Polish": "sharedproduct_honey (Taludas)",
+    "Russian": "sharedproduct_honey (Taludas)",
+    "Spanish": "sharedproduct_honey (Taludas)",
+    "Taiwanese": "sharedproduct_honey (Taludas)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - New product: Honey",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Neues Produkt: Honig",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "Image": null
+}

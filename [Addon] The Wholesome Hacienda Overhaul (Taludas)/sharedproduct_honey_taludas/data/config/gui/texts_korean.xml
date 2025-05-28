@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>꿀</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>달콤하고 끈적끈적한 꿀벌 토사물로, 뛰어난 특성으로 인해 전 세계적으로 사랑받고 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>일부 종류의 꿀은 상처 치유 특성이 있습니다!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

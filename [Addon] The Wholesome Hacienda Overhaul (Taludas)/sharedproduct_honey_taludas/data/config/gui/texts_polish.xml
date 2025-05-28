@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Miód</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Słodki i lepki wymiot pszczeli, uwielbiany na całym świecie za swoje niezwykłe właściwości.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>Niektóre rodzaje miodu mają nawet właściwości gojące rany!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

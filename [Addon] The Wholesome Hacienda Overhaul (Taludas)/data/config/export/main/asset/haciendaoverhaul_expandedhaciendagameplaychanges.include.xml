@@ -869,28 +869,28 @@
                 <NeededFertility>1010573</NeededFertility>
             </Factory7>
         </ModOp>
-    
+
         <!-- Corn -->
         <ModOp Type="replace" GUID="25003" Path="/Values/Factory7">
             <Factory7>
                 <NeededFertility>120038</NeededFertility>
             </Factory7>
         </ModOp>
-    
+
         <!-- Coffee -->
         <ModOp Type="replace" GUID="25005" Path="/Values/Factory7">
             <Factory7>
                 <NeededFertility>120039</NeededFertility>
             </Factory7>
         </ModOp>
-    
+
         <!-- Caoutchouc -->
         <ModOp Type="replace" GUID="25006" Path="/Values/Factory7">
             <Factory7>
                 <NeededFertility>1010574</NeededFertility>
             </Factory7>
         </ModOp>
-    
+
         <!-- Cacao -->
         <ModOp Type="replace" GUID="25009" Path="/Values/Factory7">
             <Factory7>
@@ -1073,6 +1073,55 @@
                     <Item>
                         <Product>1010367</Product>
                         <Amount>150</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+        </ModOp>
+    </Group>
+
+    <!-- Brewery Mezcal angepasst -->
+    <Group>
+        <ModOp Type="replace" GUID="1999010327" Path="/Values/Cost/Costs">
+            <Costs>
+                <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>5500</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>10</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>15</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010218</Ingredient>
+                </Item>
+                <Item>
+                    <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                    <Ingredient>1010202</Ingredient>
+                </Item>
+            </Costs>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999010327" Path="/Values/Selection/ParticipantMessageArcheType">
+            <ParticipantMessageArcheType>SA_Resident_tier03_atWork</ParticipantMessageArcheType>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="1999010327" Path="/Values/Maintenance">
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product>
+                        <Amount>250</Amount>
+                        <InactiveAmount>125</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>5406</Product>
+                        <Amount>50</Amount>
                     </Item>
                 </Maintenances>
             </Maintenance>

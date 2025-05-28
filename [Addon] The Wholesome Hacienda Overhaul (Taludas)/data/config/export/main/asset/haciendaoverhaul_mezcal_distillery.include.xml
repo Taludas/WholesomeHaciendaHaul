@@ -1,0 +1,473 @@
+<ModOps>
+  <!-- #Hacienda Mezcal Bar -->
+  <ModOp Type="addNextSibling" GUID="24800">
+    <Asset>
+      <Template>Multifactory</Template>
+      <Values>
+        <Standard>
+          <GUID>1999010327</GUID>
+          <Name>Hacienda Mezcal Brewery</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+          <InfoDescription>11143</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100000</BuildingCategoryName>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/buildings/production/hacienda/hacienda_brewery_mezcal/hacienda_brewery_mezcal.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>3500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+          <StaticHelpEntryPoint>SeedsOfChangeRecipes</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Hacienda Brewery</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>55216</LineID>
+        </Text>
+        <Constructable />
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+          <DLCDependency>24961</DLCDependency>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200809</Sound>
+            </Item>
+            <Item>
+              <Sound>282245</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>5383</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1010239</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+            <Item>
+              <Product>133097</Product>
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>6600</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010366</Product>
+              <Amount>30</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+        </Industrializable>
+        <IncidentInfectable>
+          <IncidentInfectionChanceFactors>
+            <Explosion>
+              <BaseChance>4</BaseChance>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Electrifiable />
+        <AmbientMoodProvider />
+        <Attackable>
+          <MaximumHitPoints>4500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <UpgradeList />
+        <Pausable>
+          <IsHaciendaDependent>1</IsHaciendaDependent>
+        </Pausable>
+        <FeedbackController />
+        <Infolayer />
+        <RecipeBuilding>
+          <RecipeList>24802</RecipeList>
+        </RecipeBuilding>
+        <Culture>
+          <CultureType>Culture</CultureType>
+          <Attractiveness>-5</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Add to relevant Pools -->
+  <ModOp Type="add" GUID="25674,435,192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1999010327</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="191380,192443,8908,116185,116176" Path="/Values/ItemEffect/EffectTargets">
+    <Item>
+      <GUID>1999010327</GUID>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1999010327</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1999010327</Factory>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25055,25672" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1999010327</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- #Hacienda Mezcal Recipe -->
+  <ModOp Type="addNextSibling" GUID="24803">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1999010328</GUID>
+          <Name>Recipe Mezcal</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png</IconFilename>
+        </Standard>
+        <Text />
+        <Recipe>
+          <RecipeBuilding>1999010327</RecipeBuilding>
+          <RecipeDescriptionText>1999010329</RecipeDescriptionText>
+          <RecipeImage>data/taludas/ui/icons/newworldtourists/bookimages/mezcal.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+                <PosX>-20</PosX>
+                <PosY>50</PosY>
+                <UICirclePointer>SouthEast</UICirclePointer>
+            </Item>
+            <Item>
+                <PosY>270</PosY>
+                <PosX>350</PosX>
+                <UICirclePointer>NorthWest</UICirclePointer>
+            </Item>
+            <Item>
+                <PosY>390</PosY>
+                <PosX>-40</PosX>
+                <UICirclePointer>NorthEast</UICirclePointer>
+            </Item>
+          </RecipeIngredientUIData>
+        </Recipe>
+        <Locked />
+        <Text>
+          <TextOverride>6600</TextOverride>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="24802" Path="/Values/RecipeList/Recipes">
+    <Item>
+      <Recipe>1999010328</Recipe>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="25061" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1999010328</Asset>
+    </Item>
+  </ModOp>
+
+  <!-- #add to Buildmenu: Sub-Menu Hacienda Breweries -->
+  <ModOp Type="add" GUID="1999002025" Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>1999010327</Building>
+    </Item>
+  </ModOp>
+
+  <!-- #Trigger Mezcal -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999010330</GUID>
+          <Name>Unhide Mezcal Modular Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition/>
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable/>
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition/>
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000006</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1999010327</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999010328</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999010331</GUID>
+          <Name>Mezcal Brewery Unlock Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition/>
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable/>
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition/>
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>5403</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999010327</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999010328</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999010332</GUID>
+          <Name>Mezcal Brewery Unlock Trigger Creative</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionIsDLCActive</Template>
+            <Values>
+              <Condition/>
+              <ConditionIsDLCActive>
+                <DLCAssetList>
+                  <Item>
+                    <DLCAsset>24963</DLCAsset>
+                  </Item>
+                </DLCAssetList>
+              </ConditionIsDLCActive>
+              <ConditionPropsNegatable/>
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionIsCreativeMode</Template>
+                      <Values>
+                        <ConditionPropsNegatable />
+                        <Condition />
+                        <ConditionIsCreativeMode />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1999010327</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1999010328</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ImyaTweaks Title="Features of Hacienda Overhaul: Hacienda Mezcal Distillery" Description="Add new Hacienda Mezcal Destillery to the game." Icon="data/ui/2kimages/main/3dicons/production_goods/icon_mezcal.png" />
+</ModOps>

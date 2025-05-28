@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Miel</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Vomi d’abeille sucré et collant, apprécié dans le monde entier pour ses propriétés extraordinaires.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>Certains types de miel ont même des propriétés cicatrisantes !</Text>
+    </Text>
+  </ModOp>
+</ModOps>

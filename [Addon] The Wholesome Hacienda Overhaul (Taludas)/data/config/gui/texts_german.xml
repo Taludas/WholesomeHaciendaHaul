@@ -493,6 +493,134 @@
             <GUID>1999002179</GUID>
             <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Deaktiviert während der Nutzung dieses Mod-Moduls: True Hacienda Streets&lt;/font&gt;</Text>
         </Text>
+        <Text>
+            <GUID>1999010329</GUID>
+            <Text>Im Gegensatz zu Tequila kann Mezcal aus verschiedenen Agavensorten hergestellt werden, was ihm die unterschiedlichsten Geschmacksprofile verleiht. Typisch für Mezcal ist sein rauchiger Geschmack, der durch das traditionelle Backen der Agavenherzen in unterirdischen Erdöfen entsteht.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010327</GUID>
+            <Text>Hacienda Mezcal-Destillerie</Text>
+        </Text>
+        <Text>
+            <GUID>1999010335</GUID>
+            <Text>Hacienda Tierfarm</Text>
+        </Text>
+        <Text>
+            <GUID>1999010336</GUID>
+            <Text>Zuchtbuch</Text>
+        </Text>
+        <Text>
+            <GUID>1999010337</GUID>
+            <Text>Hacienda Alpakafarm</Text>
+        </Text>
+        <Text>
+            <GUID>1999010338</GUID>
+            <Text>Elektrifizierte Hacienda-Weide</Text>
+        </Text>
+        <Text>
+            <GUID>1999010339</GUID>
+            <Text>Hacienda Rinderfarm</Text>
+        </Text>
+        <Text>
+            <GUID>1999010340</GUID>
+            <Text>Elektrifizierte Hacienda-Weide</Text>
+        </Text>
+        <Text>
+            <GUID>1999010341</GUID>
+            <Text>Hacienda Nandufarm</Text>
+        </Text>
+        <Text>
+            <GUID>1999010342</GUID>
+            <Text>Elektrifizierte Hacienda-Weide</Text>
+        </Text>
+        <Text>
+            <GUID>1999010343</GUID>
+            <Text>Hacienda Schaffarm</Text>
+        </Text>
+        <Text>
+            <GUID>1999010344</GUID>
+            <Text>Elektrifizierte Hacienda-Weide</Text>
+        </Text>
+        <Text>
+            <GUID>1999010345</GUID>
+            <Text>Hacienda Ziegenfarm</Text>
+        </Text>
+        <Text>
+            <GUID>1999010346</GUID>
+            <Text>Elektrifizierte Hacienda-Weide</Text>
+        </Text>
+        <Text>
+            <GUID>1999010347</GUID>
+            <Text>Hacienda Imkerei</Text>
+        </Text>
+        <Text>
+            <GUID>1999010348</GUID>
+            <Text>Elektrifizierte Hacienda-Weide</Text>
+        </Text>
+        <Text>
+            <GUID>1999010349</GUID>
+            <Text>Die Hacienda ist mit ihren weiten, üppigen Weideflächen der ideale Ort für eine groß angelegte und effiziente Viehzucht.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010351</GUID>
+            <Text>Das Alpaka ist das Aushängeschild der Viehzucht in den Anden. Seine Wolle ist ein fester Bestandteil des täglichen Lebens der indigenen Bevölkerung, wird aber von vielen Europäern immer noch als Luxusprodukt angesehen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010353</GUID>
+            <Text>Rinder gehören zu den vielseitigsten Nutztieren. Die ausgedehnten, saftigen Weiden der Neuen Welt bieten genügend Lebensraum für große Herden, die sich hier voll entfalten können.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010355</GUID>
+            <Text>Das üppige Savannenbiom ist der natürliche Lebensraum des Nandus, des größten Vogels der Neuen Welt. Einige Menschen haben offenbar eine Verwendung für ihre Federn und ihr Leder, aber ansonsten lässt man sie am besten in Ruhe.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010357</GUID>
+            <Text>Da Alpakas kein Wollfett produzieren, werden in den Anden auch Schafe wegen ihres Wollwachses gezüchtet. In der Oberschicht wird zartes Lammfleisch als Delikatesse geschätzt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010359</GUID>
+            <Text>Die Ziege ist häufig in den trockenen Regionen der Neuen Welt anzutreffen, wo sie aufgrund ihres geringen Nahrungsbedarfs das beliebteste Nutztier ist. Aus ihrer Milch wird oft ein kräftiger, köstlicher Käse hergestellt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010361</GUID>
+            <Text>Die Haltung von Bienen steigert nicht nur die Erträge auf Ihren Obstplantagen in der näheren Umgebung, sondern sorgt auch dafür, dass ihre begehrten Produkte wie Honig und Bienenwachs auf dem lokalen Markt leicht erhältlich sind.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010362</GUID>
+            <Text>Hacienda Tierfarmen</Text>
+        </Text>
+        <Text>
+            <GUID>25258</GUID>
+            <Text>Rezept auswählen</Text>
+        </Text>
+        <Text>
+            <GUID>25259</GUID>
+            <Text>Alle verfügbare Waren</Text>
+        </Text>
+        <Text>
+            <GUID>25260</GUID>
+            <Text>Rezeptliste</Text>
+        </Text>
+        <Text>
+            <GUID>25269</GUID>
+            <Text>Start</Text>
+        </Text>
+        <Text>
+            <GUID>25267</GUID>
+            <Text>Aktuelles Rezept</Text>
+        </Text>
+        <Text>
+            <GUID>25684</GUID>
+            <Text>Klicken Sie auf die Schaltfläche, um ein Rezept auszuwählen.</Text>
+        </Text>
+        <Text>
+            <GUID>25288</GUID>
+            <Text>Zum Rezept springen</Text>
+        </Text>
+        <Text>
+            <GUID>25745</GUID>
+            <Text>Aktuelles Rezept auswählen</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

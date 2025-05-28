@@ -1,0 +1,18 @@
+<ModOps>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Honey</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Sweet and sticky bee puke, loved around the world for it's extraordinary properties.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>Some types of honey even have wound-healing properties!</Text>
+    </Text>
+  </ModOp>
+
+</ModOps>

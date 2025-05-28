@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Miele</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Vomito d'ape dolce e appiccicoso, amato in tutto il mondo per le sue straordinarie proprietà.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>Alcuni tipi di miele hanno anche proprietà cicatrizzanti!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

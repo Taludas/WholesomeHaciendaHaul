@@ -1,498 +1,624 @@
 <ModOps>
-
-    <ModOp Type="add" Path="/TextExport/Texts">
-        <Text>
-            <GUID>1999002001</GUID>
-            <Text>Hacienda Plantains Farm</Text>
-        </Text>
-        <Text>
-            <GUID>1999002002</GUID>
-            <Text>Plantains</Text>
-        </Text>
-        <Text>
-            <GUID>1999002003</GUID>
-            <Text>Ancient traditions bring it that your Jornaleros prefere these mushy green and yellow cooking bananas over the domesticated sweet ones from the shelf. Don't judge them, those poor guys can't know what they are missing!</Text>
-        </Text>
-        <Text>
-            <GUID>1999002004</GUID>
-            <Text>Hacienda Cotton Farm</Text>
-        </Text>
-        <Text>
-            <GUID>1999002005</GUID>
-            <Text>Cotton</Text>
-        </Text>
-        <Text>
-            <GUID>1999002006</GUID>
-            <Text>Soft, fluffy fibre growing on a plant! Could you imagine that we used to run around in cloths made out of sheep wool? Enough of that, get this smooth, white fabric over here, now!</Text>
-        </Text>
-        <Text>
-            <GUID>1999002007</GUID>
-            <Text>Hacienda Tobacco Farm</Text>
-        </Text>
-        <Text>
-            <GUID>1999002008</GUID>
-            <Text>Tobacco</Text>
-        </Text>
-        <Text>
-            <GUID>1999002009</GUID>
-            <Text>Stinky dried brown leefs, cut to pieces and stuffed into sacks for export. Oh, those poor souls don't know what they are putting their bodys through. It's a treacherous modern addiction and unfortunately they are indulging it in my Restaurant!</Text>
-        </Text>
-        <Text>
-            <GUID>1999002010</GUID>
-            <Text>Hacienda Vineyard</Text>
-        </Text>
-        <Text>
-            <GUID>1999002011</GUID>
-            <Text>Grapes</Text>
-        </Text>
-        <Text>
-            <GUID>1999002012</GUID>
-            <Text>Sun-ripenend juicy red and violet grapes. These recent vintages from the New World will delight your pampered Investors' souls! We can just hope, that they'll accept the muddy fouly brewerage we call wine after having tasted this explosion of taste and flavour!</Text>
-        </Text>
-        <Text>
-            <GUID>1999002013</GUID>
-            <Text>Vines</Text>
-        </Text>
-        <Text>
-            <GUID>1999002015</GUID>
-            <Text>Hacienda Old World Farm</Text>
-        </Text>
-        <Text>
-            <GUID>24794</GUID>
-            <Text>Hacienda New World Farm</Text>
-        </Text>
-        <Text>
-            <GUID>24795</GUID>
-            <Text>Hacienda Almanac for New World Farms</Text>
-        </Text>
-        <Text>
-            <GUID>1999002014</GUID>
-            <Text>Hacienda Almanac for Old World Farms</Text>
-        </Text>
-        <Text>
-            <GUID>25178</GUID>
-            <Text>Hacienda Ornaments</Text>
-        </Text>
-        <Text>
-            <GUID>19564</GUID>
-            <Text>Ornaments with Hacienda Paving</Text>
-        </Text>
-        <Text>
-            <GUID>1999002017</GUID>
-            <Text>Hacienda</Text>
-        </Text>
-        <Text>
-            <GUID>1999002020</GUID>
-            <Text>Hacienda</Text>
-        </Text>
-        <Text>
-            <GUID>1999002021</GUID>
-            <Text>Hacienda Farms New World Crops</Text>
-        </Text>
-        <Text>
-            <GUID>1999002022</GUID>
-            <Text>Overview of the available New World Hacienda Crop Farms</Text>
-        </Text>
-        <Text>
-            <GUID>1999002023</GUID>
-            <Text>Hacienda Farms Old World Crops</Text>
-        </Text>
-        <Text>
-            <GUID>1999002024</GUID>
-            <Text>Overview of the available Old World Hacienda Crop Farms</Text>
-        </Text>
-        <Text>
-            <GUID>1999002025</GUID>
-            <Text>Hacienda Breweries</Text>
-        </Text>
-        <Text>
-            <GUID>1999002026</GUID>
-            <Text>Overview of the available Hacienda Breweries</Text>
-        </Text>
-        <Text>
-            <GUID>24775</GUID>
-            <Text>Hacienda Warehouse</Text>
-        </Text>
-        <Text>
-            <GUID>1999002028</GUID>
-            <Text>Accepts and distributes goods from, and to your production buildings. Provides additional storage space as well.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002030</GUID>
-            <Text>Increases the efficiency and attractivness of Lumberjack's Huts. Your Lumberjacks will now occasionaly plant luxourius foreign wood types.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002031</GUID>
-            <Text>Lumberjack Educational Decree</Text>
-        </Text>
-        <Text>
-            <GUID>1999002032</GUID>
-            <Text>"Oh, and one last thing: the tree will fall toward the notch you cut — I would suggest standing somewhere else."</Text>
-        </Text>
-        <Text>
-            <GUID>1999002033</GUID>
-            <Text>Lumberjack Educational Decree</Text>
-        </Text>
-        <Text>
-            <GUID>1999002034</GUID>
-            <Text>"Oh, and one last thing: the tree will fall toward the notch you cut — I would suggest standing somewhere else."</Text>
-        </Text>
-        <Text>
-            <GUID>1999002038</GUID>
-            <Text>Drastically reduces the environmental impact of heavy industruies to limit the propability of dretful disasters while maintaining good efficiency.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002039</GUID>
-            <Text>Clean Environment Regulation</Text>
-        </Text>
-        <Text>
-            <GUID>1999002040</GUID>
-            <Text>The safety of your workers, inhabitants and the condition of the surrounding ecosystem is your first priority as a wise Gouvernour.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002041</GUID>
-            <Text>Clean Environment Regulation</Text>
-        </Text>
-        <Text>
-            <GUID>1999002042</GUID>
-            <Text>The safety of your workers, inhabitants and the condition of the surrounding ecosystem is your first priority as a wise Gouvernour.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002043</GUID>
-            <Text>All Heavy Industries, Mines, Quarries, Chemical Plants and Breweries</Text>
-        </Text>
-        <Text>
-            <GUID>1999002044</GUID>
-            <Text>Reduced Goods consumption while remaining good productivity for certain industry branches.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002045</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
-        </Text>
-        <Text>
-            <GUID>1999002046</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002047</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
-        </Text>
-        <Text>
-            <GUID>1999002048</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002049</GUID>
-            <Text>Support your local craftsmen so that your colony can become an influential wine-growing region.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002050</GUID>
-            <Text>Vineyard Promotion Act</Text>
-        </Text>
-        <Text>
-            <GUID>1999002051</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002052</GUID>
-            <Text>Vineyard Promotion Act</Text>
-        </Text>
-        <Text>
-            <GUID>1999002053</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002054</GUID>
-            <Text>Reduces the amount of modern goods consumed by your inhabitents.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002055</GUID>
-            <Text>Cultural Conservation Act</Text>
-        </Text>
-        <Text>
-            <GUID>1999002056</GUID>
-            <Text>The local assembly decided to ban the resently invented electronic gadgets in order to concentrate on the traditional cultural heritage of the New World.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002057</GUID>
-            <Text>Cultural Conservation Act</Text>
-        </Text>
-        <Text>
-            <GUID>1999002058</GUID>
-            <Text>The local assembly decided to ban the resently invented electronic gadgets in order to concentrate on the traditional cultural heritage of the New World.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002066</GUID>
-            <Text>All Clothing Factories, All Intermediate Good Producers, Coffee Roaster, Cigar Factory, Scooter Factory and Fan Factory</Text>
-        </Text>
-        <Text>
-            <GUID>1999002067</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
-        </Text>
-        <Text>
-            <GUID>1999002068</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002069</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
-        </Text>
-        <Text>
-            <GUID>1999002070</GUID>
-            <Text>Hacienda</Text>
-        </Text>
-        <Text>
-            <GUID>1999002072</GUID>
-            <Text>Chewing Gum</Text>
-        </Text>
-        <Text>
-            <GUID>1999002074</GUID>
-            <Text>Hacienda Church</Text>
-        </Text>
-        <Text>
-            <GUID>1999002075</GUID>
-            <Text>Hacienda Police Station</Text>
-        </Text>
-        <Text>
-            <GUID>1999002076</GUID>
-            <Text>Hacienda Guildhouse</Text>
-        </Text>
-        <Text>
-            <GUID>1999002077</GUID>
-            <Text>Hacienda Connecting Border Wall</Text>
-        </Text>
-        <Text>
-            <GUID>1999002078</GUID>
-            <Text>Hacienda Small Marketplace</Text>
-        </Text>
-        <Text>
-            <GUID>1999002081</GUID>
-            <Text>Hacienda Border Wall Large Gate</Text>
-        </Text>
-        <Text>
-            <GUID>1999002082</GUID>
-            <Text>Hacienda Border Wall Small Gate</Text>
-        </Text>
-        <Text>
-            <GUID>1999002083</GUID>
-            <Text>Hacienda Border Wall Straight 1</Text>
-        </Text>
-        <Text>
-            <GUID>1999002084</GUID>
-            <Text>Hacienda Border Wall Straight 2</Text>
-        </Text>
-        <Text>
-            <GUID>1999002085</GUID>
-            <Text>Hacienda Border Wall Corner</Text>
-        </Text>
-        <Text>
-            <GUID>1999002086</GUID>
-            <Text>Hacienda Border Wall Corner End</Text>
-        </Text>
-        <Text>
-            <GUID>1999002087</GUID>
-            <Text>Hacienda Border Wall Corner Inwards Left</Text>
-        </Text>
-        <Text>
-            <GUID>1999002088</GUID>
-            <Text>Hacienda Border Wall Corner Inwards Right</Text>
-        </Text>
-        <Text>
-            <GUID>1999002089</GUID>
-            <Text>Hacienda Border Wall T-Tile</Text>
-        </Text>
-        <Text>
-            <GUID>1999002090</GUID>
-            <Text>Hacienda Border Wall Single Tiles</Text>
-        </Text>
-        <Text>
-            <GUID>1999002091</GUID>
-            <Text>Small Hacienda Jornalero Residence</Text>
-        </Text>
-        <Text>
-            <GUID>1999002092</GUID>
-            <Text>Small Hacienda Obrero Residence</Text>
-        </Text>
-        <Text>
-            <GUID>1999002093</GUID>
-            <Text>Hacienda Residences</Text>
-        </Text>
-        <Text>
-            <GUID>1999002098</GUID>
-            <Text>Hacienda Fire Station</Text>
-        </Text>
-        <Text>
-            <GUID>1999002099</GUID>
-            <Text>Hacienda Public Institutions</Text>
-        </Text>
-        <Text>
-            <GUID>1999002100</GUID>
-            <Text>Hacienda Hospital</Text>
-        </Text>
-        <Text>
-            <GUID>1999002103</GUID>
-            <Text>Hacienda Town Hall</Text>
-        </Text>
-        <Text>
-            <GUID>1999002104</GUID>
-            <Text>Hacienda Public Institutions</Text>
-        </Text>
-        <Text>
-            <GUID>1999002106</GUID>
-            <Text>Administration</Text>
-        </Text>
-        <Text>
-            <GUID>1999002107</GUID>
-            <Text>Ornaments</Text>
-        </Text>
-        <Text>
-            <GUID>1999002108</GUID>
-            <Text>Residences</Text>
-        </Text>
-        <Text>
-            <GUID>1999002109</GUID>
-            <Text>Emergency Services</Text>
-        </Text>
-        <Text>
-            <GUID>1999002110</GUID>
-            <Text>Hacienda Street</Text>
-        </Text>
-        <Text>
-            <GUID>1999002111</GUID>
-            <Text>Hacienda Street Bridge</Text>
-        </Text>
-        <Text>
-            <GUID>1999002112</GUID>
-            <Text>Hacienda Pathway</Text>
-        </Text>
-        <Text>
-            <GUID>1999002113</GUID>
-            <Text>Hacienda Pathway Bridge</Text>
-        </Text>
-        <Text>
-            <GUID>1999002115</GUID>
-            <Text>Sand Mine</Text>
-        </Text>
-        <Text>
-            <GUID>1999002116</GUID>
-            <Text>all Sand Mines</Text>
-        </Text>
-        <Text>
-            <GUID>1999002117</GUID>
-            <Text>Chemical Factory: Lacquer</Text>
-        </Text>
-        <Text>
-            <GUID>1999002118</GUID>
-            <Text>Lacquer</Text>
-        </Text>
-        <Text>
-            <GUID>1999002119</GUID>
-            <Text>Iron Mine</Text>
-        </Text>
-        <Text>
-            <GUID>1999002120</GUID>
-            <Text>all Iron Mines</Text>
-        </Text>
-        <Text>
-            <GUID>1999002121</GUID>
-            <Text>Steel Furnace</Text>
-        </Text>
-        <Text>
-            <GUID>1999002122</GUID>
-            <Text>all Steel Furnaces</Text>
-        </Text>
-        <Text>
-            <GUID>1999002123</GUID>
-            <Text>Violin Manufactory</Text>
-        </Text>
-        <Text>
-            <GUID>1999002124</GUID>
-            <Text>Violins</Text>
-        </Text>
-        <Text>
-            <GUID>1999002128</GUID>
-            <Text>all Charcoal Kilns</Text>
-        </Text>
-        <Text>
-            <GUID>1999002145</GUID>
-            <Text>Advanced Hacienda Police Station</Text>
-        </Text>
-        <Text>
-            <GUID>1999002146</GUID>
-            <Text>Advanced Hacienda Fire Station</Text>
-        </Text>
-        <Text>
-            <GUID>1999002147</GUID>
-            <Text>Advanced Hacienda Hospital</Text>
-        </Text>
-        <Text>
-            <GUID>1999002139</GUID>
-            <Text>Small Hacienda Artista Residence</Text>
-        </Text>
-        <Text>
-            <GUID>1999002310</GUID>
-            <Text>Hacienda Winery</Text>
-        </Text>
-        <Text>
-            <GUID>1999002311</GUID>
-            <Text>Wine Recipe</Text>
-        </Text>
-        <Text>
-            <GUID>1999002312</GUID>
-            <Text>The increasing popularity of your ever growing Hacienda attracted many wine connoisseurs to your Island. The intense flavour of the sunriped grapes combined with a dash of cinnamon produces a unique bouquet. Letting the young wine ripe inside exclusive cherry wood barrels refines its taste even more.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002149</GUID>
-            <Text>Vineyard Promotion Act</Text>
-        </Text>
-        <Text>
-            <GUID>1999002150</GUID>
-            <Text>Your residents enjoy the taste of a matured wine from one of your aspiring local Hacienda Wineries.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002151</GUID>
-            <Text>All Artista residences</Text>
-        </Text>
-        <Text>
-            <GUID>1999002152</GUID>
-            <Text>Vineyard Promotion Act</Text>
-        </Text>
-        <Text>
-            <GUID>1999002153</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002164</GUID>
-            <Text>Hacienda Herb Garden</Text>
-        </Text>
-        <Text>
-            <GUID>1999002165</GUID>
-            <Text>Herbs</Text>
-        </Text>
-        <Text>
-            <GUID>1999002166</GUID>
-            <Text>A variety of herbs are grown on this farm for their beautiful colours and aromatic scent! A wonderful ingredient to round off any dish! Definitely not to be missed in any kitchen.</Text>
-        </Text>
-        <Text>
-            <GUID>1999002169</GUID>
-            <Text>Hacienda Orchid Farm</Text>
-        </Text>
-        <Text>
-            <GUID>1999002170</GUID>
-            <Text>Orchids</Text>
-        </Text>
-        <Text>
-            <GUID>1999002171</GUID>
-            <Text>Orchids have been mysterious plants since their discovery and first cultivation. Their symmetry, flower and colour variety are highly valued among your Investors! But watch out: Your Investors might get sick with Orchidelirium, where they become unable to control their collector's passion!</Text>
-        </Text>
-        <Text>
-            <GUID>1999002178</GUID>
-            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
-        </Text>
-        <Text>
-            <GUID>1999002179</GUID>
-            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
-        </Text>
-    </ModOp>
-
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002001</GUID>
+      <Text>ハシエンダオオバコファーム</Text>
+    </Text>
+    <Text>
+      <GUID>1999002002</GUID>
+      <Text>バナナ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002003</GUID>
+      <Text>古代の伝統によると、ジョルナレロスは、棚から飼いならされた甘いバナナよりも、これらのどろどろした緑と黄色の料理用バナナを好みます。彼らを判断しないでください、それらのかわいそうな人たちは彼らが欠けているものを知ることができません!</Text>
+    </Text>
+    <Text>
+      <GUID>1999002004</GUID>
+      <Text>ハシエンダコットンファーム</Text>
+    </Text>
+    <Text>
+      <GUID>1999002005</GUID>
+      <Text>綿</Text>
+    </Text>
+    <Text>
+      <GUID>1999002006</GUID>
+      <Text>植物に育つふわふわの繊維!私たちが羊毛で作った布で走り回っていたと想像できますか?それで十分です、この滑らかな白い生地を今すぐここに持ってきてください!</Text>
+    </Text>
+    <Text>
+      <GUID>1999002007</GUID>
+      <Text>ハシエンダ タバコ ファーム</Text>
+    </Text>
+    <Text>
+      <GUID>1999002008</GUID>
+      <Text>タバコ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002009</GUID>
+      <Text>臭い乾燥した茶色のリーフを細かく切り、輸出用の袋に詰めます。ああ、あの哀れな魂たちは、自分たちが自分の体を何にさらしているのか分かっていない。それは危険な現代の中毒であり、残念ながら彼らは私のレストランでそれを甘やかしています!</Text>
+    </Text>
+    <Text>
+      <GUID>1999002010</GUID>
+      <Text>ハシエンダヴィンヤード</Text>
+    </Text>
+    <Text>
+      <GUID>1999002011</GUID>
+      <Text>ブドウ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002012</GUID>
+      <Text>太陽が熟したジューシーな赤と紫のブドウ。新世界のこれらの最近のヴィンテージは、あなたの甘やかされた投資家の魂を喜ばせるでしょう!私たちはただ、彼らが私たちがワインと呼ぶ泥だらけの醸造所を受け入れてくれることを願っています。この爆発的な味と風味を味わった後です。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002013</GUID>
+      <Text>ブドウ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002015</GUID>
+      <Text>ハシエンダ オールド ワールド ファーム</Text>
+    </Text>
+    <Text>
+      <GUID>24794</GUID>
+      <Text>ハシエンダ ニュー ワールド ファーム</Text>
+    </Text>
+    <Text>
+      <GUID>24795</GUID>
+      <Text>ハシエンダアルマナック for New World Farms</Text>
+    </Text>
+    <Text>
+      <GUID>1999002014</GUID>
+      <Text>旧世界の農場のためのハシエンダ年鑑</Text>
+    </Text>
+    <Text>
+      <GUID>25178</GUID>
+      <Text>ハシエンダオーナメント</Text>
+    </Text>
+    <Text>
+      <GUID>19564</GUID>
+      <Text>アシエンダ舗装のオーナメント</Text>
+    </Text>
+    <Text>
+      <GUID>1999002017</GUID>
+      <Text>ハシエンダ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002020</GUID>
+      <Text>ハシエンダ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002021</GUID>
+      <Text>ハシエンダファームズ新世界の作物</Text>
+    </Text>
+    <Text>
+      <GUID>1999002022</GUID>
+      <Text>利用可能な新世界ハシエンダ作物農場の概要</Text>
+    </Text>
+    <Text>
+      <GUID>1999002023</GUID>
+      <Text>ハシエンダファームズオールドワールドクロップ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002024</GUID>
+      <Text>利用可能な旧世界のハシエンダ作物農場の概要</Text>
+    </Text>
+    <Text>
+      <GUID>1999002025</GUID>
+      <Text>ハシエンダ醸造所</Text>
+    </Text>
+    <Text>
+      <GUID>1999002026</GUID>
+      <Text>利用可能なハシエンダ醸造所の概要</Text>
+    </Text>
+    <Text>
+      <GUID>24775</GUID>
+      <Text>ハシエンダ倉庫</Text>
+    </Text>
+    <Text>
+      <GUID>1999002028</GUID>
+      <Text>お客様の生産施設から、およびお客様の生産施設に商品を受け入れ、配送します。追加のストレージスペースも提供します。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002030</GUID>
+      <Text>木こりの小屋の効率と魅力を高めます。あなたの木こりは今、時折外国の木材タイプをluxourius植えるでしょう。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002031</GUID>
+      <Text>木こり教育法令</Text>
+    </Text>
+    <Text>
+      <GUID>1999002032</GUID>
+      <Text>「ああ、そして最後にもう1つ、木はあなたが切った切り込みに向かって落ちます。どこか別の場所に立つことをお勧めします。」</Text>
+    </Text>
+    <Text>
+      <GUID>1999002033</GUID>
+      <Text>木こり教育法令</Text>
+    </Text>
+    <Text>
+      <GUID>1999002034</GUID>
+      <Text>「ああ、そして最後にもう1つ、木はあなたが切った切り込みに向かって落ちます。どこか別の場所に立つことをお勧めします。」</Text>
+    </Text>
+    <Text>
+      <GUID>1999002038</GUID>
+      <Text>重工業の環境への影響を大幅に低減し、良好な効率を維持しながら、悲惨な災害の伝播性を制限します。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002039</GUID>
+      <Text>クリーン環境規制</Text>
+    </Text>
+    <Text>
+      <GUID>1999002040</GUID>
+      <Text>あなたの労働者、住民、そして周囲の生態系の状態の安全は、賢明なGouvernourとしてのあなたの最優先事項です。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002041</GUID>
+      <Text>クリーン環境規制</Text>
+    </Text>
+    <Text>
+      <GUID>1999002042</GUID>
+      <Text>あなたの労働者、住民、そして周囲の生態系の状態の安全は、賢明なGouvernourとしてのあなたの最優先事項です。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002043</GUID>
+      <Text>すべての重工業、鉱山、採石場、化学プラント、醸造所</Text>
+    </Text>
+    <Text>
+      <GUID>1999002044</GUID>
+      <Text>特定の業界部門で良好な生産性を維持しながら、商品の消費を削減しました。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002045</GUID>
+      <Text>地元工場アウトレット規制</Text>
+    </Text>
+    <Text>
+      <GUID>1999002046</GUID>
+      <Text>ハシエンダの強みは地元の市場です。小さな地元企業の地位を強化するために、ファクトリーアウトレットが導入されました。これらの活動は、特定の商品の消費を減らし、人々の全体的な幸福度を高め、したがって生産性を向上させることにつながります。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002047</GUID>
+      <Text>地元工場アウトレット規制</Text>
+    </Text>
+    <Text>
+      <GUID>1999002048</GUID>
+      <Text>ハシエンダの強みは地元の市場です。小さな地元企業の地位を強化するために、ファクトリーアウトレットが導入されました。これらの活動は、特定の商品の消費を減らし、人々の全体的な幸福度を高め、したがって生産性を向上させることにつながります。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002049</GUID>
+      <Text>あなたの植民地が影響力のあるワイン生産地域になることができるように、地元の職人を支援してください。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002050</GUID>
+      <Text>ぶどう園振興法</Text>
+    </Text>
+    <Text>
+      <GUID>1999002051</GUID>
+      <Text>ある日、あなたの農園の広大な土地を訪れた外国人旅行者が、深い紫色の液体のボトルを持ってきました。その真にユニークな風味に驚いたあなたは、自分のアシエンダワインセラーから最高級で長期熟成されたワインで輸出市場を始めることにしました。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002052</GUID>
+      <Text>ぶどう園振興法</Text>
+    </Text>
+    <Text>
+      <GUID>1999002053</GUID>
+      <Text>ある日、あなたの農園の広大な土地を訪れた外国人旅行者が、深い紫色の液体のボトルを持ってきました。その真にユニークな風味に驚いたあなたは、自分のアシエンダワインセラーから最高級で長期熟成されたワインで輸出市場を始めることにしました。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002054</GUID>
+      <Text>あなたの住民が消費する現代の商品の量を減らします。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002055</GUID>
+      <Text>文化財保存法</Text>
+    </Text>
+    <Text>
+      <GUID>1999002056</GUID>
+      <Text>地方議会は、新世界の伝統的な文化遺産に集中するために、憤慨して発明された電子機器を禁止することを決定しました。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002057</GUID>
+      <Text>文化財保存法</Text>
+    </Text>
+    <Text>
+      <GUID>1999002058</GUID>
+      <Text>地方議会は、新世界の伝統的な文化遺産に集中するために、憤慨して発明された電子機器を禁止することを決定しました。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002066</GUID>
+      <Text>すべての衣料品工場、すべての中級財生産者、コーヒーロースター、葉巻工場、スクーター工場、ファン工場</Text>
+    </Text>
+    <Text>
+      <GUID>1999002067</GUID>
+      <Text>地元工場アウトレット規制</Text>
+    </Text>
+    <Text>
+      <GUID>1999002068</GUID>
+      <Text>ハシエンダの強みは地元の市場です。小さな地元企業の地位を強化するために、ファクトリーアウトレットが導入されました。これらの活動は、特定の商品の消費を減らし、人々の全体的な幸福度を高め、したがって生産性を向上させることにつながります。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002069</GUID>
+      <Text>地元工場アウトレット規制</Text>
+    </Text>
+    <Text>
+      <GUID>1999002070</GUID>
+      <Text>ハシエンダ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002072</GUID>
+      <Text>チューインガム</Text>
+    </Text>
+    <Text>
+      <GUID>1999002074</GUID>
+      <Text>ハシエンダ教会</Text>
+    </Text>
+    <Text>
+      <GUID>1999002075</GUID>
+      <Text>ハシエンダ警察署</Text>
+    </Text>
+    <Text>
+      <GUID>1999002076</GUID>
+      <Text>ハシエンダ ギルドハウス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002077</GUID>
+      <Text>ハシエンダ コネクティング ボーダー ウォール</Text>
+    </Text>
+    <Text>
+      <GUID>1999002078</GUID>
+      <Text>ハシエンダ・スモール・マーケットプレイス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002081</GUID>
+      <Text>ハシエンダ国境の壁大門</Text>
+    </Text>
+    <Text>
+      <GUID>1999002082</GUID>
+      <Text>ハシエンダ国境の壁の小さな門</Text>
+    </Text>
+    <Text>
+      <GUID>1999002083</GUID>
+      <Text>ハシエンダ ボーダー ウォール ストレート 1</Text>
+    </Text>
+    <Text>
+      <GUID>1999002084</GUID>
+      <Text>ハシエンダボーダーウォールストレート2</Text>
+    </Text>
+    <Text>
+      <GUID>1999002085</GUID>
+      <Text>ハシエンダボーダーウォールコーナー</Text>
+    </Text>
+    <Text>
+      <GUID>1999002086</GUID>
+      <Text>ハシエンダボーダーウォールコーナーエンド</Text>
+    </Text>
+    <Text>
+      <GUID>1999002087</GUID>
+      <Text>ハシエンダボーダーウォールコーナー内側左</Text>
+    </Text>
+    <Text>
+      <GUID>1999002088</GUID>
+      <Text>ハシエンダボーダーウォールコーナー内側右</Text>
+    </Text>
+    <Text>
+      <GUID>1999002089</GUID>
+      <Text>ハシエンダボーダーウォールTタイル</Text>
+    </Text>
+    <Text>
+      <GUID>1999002090</GUID>
+      <Text>ハシエンダボーダーウォールシングルタイル</Text>
+    </Text>
+    <Text>
+      <GUID>1999002091</GUID>
+      <Text>スモール ハシエンダ ジョルナレロ レジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002092</GUID>
+      <Text>小さなハシエンダオブレロレジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002093</GUID>
+      <Text>ハシエンダ レジデンシズ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002098</GUID>
+      <Text>ハシエンダ消防署</Text>
+    </Text>
+    <Text>
+      <GUID>1999002099</GUID>
+      <Text>ハシエンダ公共機関</Text>
+    </Text>
+    <Text>
+      <GUID>1999002100</GUID>
+      <Text>ハシエンダ病院</Text>
+    </Text>
+    <Text>
+      <GUID>1999002103</GUID>
+      <Text>ハシエンダ市庁舎</Text>
+    </Text>
+    <Text>
+      <GUID>1999002104</GUID>
+      <Text>ハシエンダ公共機関</Text>
+    </Text>
+    <Text>
+      <GUID>1999002106</GUID>
+      <Text>行政</Text>
+    </Text>
+    <Text>
+      <GUID>1999002107</GUID>
+      <Text>装飾 品</Text>
+    </Text>
+    <Text>
+      <GUID>1999002108</GUID>
+      <Text>住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1999002109</GUID>
+      <Text>緊急サービス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002110</GUID>
+      <Text>ハシエンダ通り</Text>
+    </Text>
+    <Text>
+      <GUID>1999002111</GUID>
+      <Text>ハシエンダストリートブリッジ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002112</GUID>
+      <Text>ハシエンダパスウェイ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002113</GUID>
+      <Text>ハシエンダ・パスウェイ・ブリッジ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002115</GUID>
+      <Text>サンドマイン</Text>
+    </Text>
+    <Text>
+      <GUID>1999002116</GUID>
+      <Text>全てのサンドマイン</Text>
+    </Text>
+    <Text>
+      <GUID>1999002117</GUID>
+      <Text>化学工場:漆</Text>
+    </Text>
+    <Text>
+      <GUID>1999002118</GUID>
+      <Text>漆</Text>
+    </Text>
+    <Text>
+      <GUID>1999002119</GUID>
+      <Text>鉄鉱山</Text>
+    </Text>
+    <Text>
+      <GUID>1999002120</GUID>
+      <Text>全ての鉄鉱山</Text>
+    </Text>
+    <Text>
+      <GUID>1999002121</GUID>
+      <Text>スチールファーネス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002122</GUID>
+      <Text>全ての 鉄鋼炉</Text>
+    </Text>
+    <Text>
+      <GUID>1999002123</GUID>
+      <Text>バイオリン工房</Text>
+    </Text>
+    <Text>
+      <GUID>1999002124</GUID>
+      <Text>バイオリン</Text>
+    </Text>
+    <Text>
+      <GUID>1999002128</GUID>
+      <Text>全ての 炭窯</Text>
+    </Text>
+    <Text>
+      <GUID>1999002145</GUID>
+      <Text>アドバンスドハシエンダ警察署</Text>
+    </Text>
+    <Text>
+      <GUID>1999002146</GUID>
+      <Text>アドバンスド・ハシエンダ消防署</Text>
+    </Text>
+    <Text>
+      <GUID>1999002147</GUID>
+      <Text>アドバンスド・ハシエンダ病院</Text>
+    </Text>
+    <Text>
+      <GUID>1999002139</GUID>
+      <Text>スモール ハシエンダ アルティスタ レジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002310</GUID>
+      <Text>ハシエンダワイナリー</Text>
+    </Text>
+    <Text>
+      <GUID>1999002311</GUID>
+      <Text>ワインレシピ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002312</GUID>
+      <Text>あなたの成長し続けるハシエンダの人気の高まりは、あなたの島に多くのワイン愛好家を引き付けました。太陽の光を浴びたブドウの強烈な風味とシナモンが組み合わさり、独特のブーケを生み出します。若いワインを高級な桜の木樽で熟させることで、その味わいがさらに洗練されます。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002149</GUID>
+      <Text>ぶどう園振興法</Text>
+    </Text>
+    <Text>
+      <GUID>1999002150</GUID>
+      <Text>あなたの居住者は、意欲的な地元のハシエンダワイナリーの1つからの成熟したワインの味を楽しんでいます。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002151</GUID>
+      <Text>すべてのアルティスタレジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1999002152</GUID>
+      <Text>ぶどう園振興法</Text>
+    </Text>
+    <Text>
+      <GUID>1999002153</GUID>
+      <Text>ある日、あなたの農園の広大な土地を訪れた外国人旅行者が、深い紫色の液体のボトルを持ってきました。その真にユニークな風味に驚いたあなたは、自分のアシエンダワインセラーから最高級で長期熟成されたワインで輸出市場を始めることにしました。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002164</GUID>
+      <Text>ハシエンダハーブガーデン</Text>
+    </Text>
+    <Text>
+      <GUID>1999002165</GUID>
+      <Text>ハーブ</Text>
+    </Text>
+    <Text>
+      <GUID>1999002166</GUID>
+      <Text>この農場では、美しい色と香りの香りから、さまざまなハーブが栽培されています。どんな料理も締めくくるのに素晴らしい食材です!絶対にどのキッチンでも見逃せません。</Text>
+    </Text>
+    <Text>
+      <GUID>1999002169</GUID>
+      <Text>ハシエンダ オーキッド ファーム</Text>
+    </Text>
+    <Text>
+      <GUID>1999002170</GUID>
+      <Text>蘭</Text>
+    </Text>
+    <Text>
+      <GUID>1999002171</GUID>
+      <Text>蘭は、発見され、最初に栽培されて以来、神秘的な植物でした。彼らの対称性、花、色の多様性は、投資家の間で高く評価されています!しかし、注意してください:あなたの投資家はオーキデリリウムにうんざりし、コレクターの情熱を制御できなくなる可能性があります!</Text>
+    </Text>
+    <Text>
+      <GUID>1999002178</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;このModモジュールの使用中に無効になりました:真のハシエンダストリート&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1999002179</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;このModモジュールの使用中に無効になりました:真のハシエンダストリート&lt;/font&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1999010329</GUID>
+      <Text>テキーラとは異なり、メスカルはさまざまな種類のリュウゼツランから製造できるため、さまざまなフレーバープロファイルが得られます。メスカルの典型的なのは、地下のアースオーブンでリュウゼツランの心を伝統的に焼くことによって生み出されるスモーキーな味です。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010327</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(6600) Text] 蒸留所</Text>
+    </Text>
+    <Text>
+      <GUID>1999010335</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(150905) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010336</GUID>
+      <Text>スタッドブック</Text>
+    </Text>
+    <Text>
+      <GUID>1999010337</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(101272) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010338</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010339</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(1010263) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010340</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010341</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(5457) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010342</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010343</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(1010267) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010344</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010345</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(114456) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010346</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010347</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(114453) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010348</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999010349</GUID>
+      <Text>広大で緑豊かな草原のおかげで、ハシエンダは大規模で効率的な牧畜に理想的な場所である。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010351</GUID>
+      <Text>アルパカはアンデスにおける畜産の主力種である。 アルパカの毛は先住民の日常生活に欠かせないものだが、多くのヨーロッパ人はいまだにアルパカを高級品とみなしている。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010353</GUID>
+      <Text>牛は最も用途の広い家畜の一種である。 新大陸の広大で緑豊かな牧草地は、大規模な牛群がその潜在能力を最大限に発揮するための十分な生活空間を提供している。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010355</GUID>
+      <Text>緑豊かなサバンナのバイオームは、新世界で最も背の高い鳥、ナントゥスの生息地である。 羽毛や革を利用する人もいるようだが、そうでなければ放っておくのが一番だ。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010357</GUID>
+      <Text>アルパカは羊毛の脂肪を生産しないため、アンデスでは羊毛のワックスを生産するために羊も飼育されている。 一方、上流階級の多くは、柔らかい羊肉を珍味として楽しんでいる。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010359</GUID>
+      <Text>ヤギは新大陸の乾燥地帯に多く生息し、必要な餌が少ないため、家畜としてよく使われる。 ヤギのミルクは、強くておいしいチーズを作るのに使われることが多い。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010361</GUID>
+      <Text>ミツバチを飼うことで、近郊の果樹園の収穫量が増えるだけでなく、新世界で非常に人気の高い製品であるハチミツや蜜蝋が地元市場で容易に入手できるようになる。</Text>
+    </Text>
+    <Text>
+      <GUID>1999010362</GUID>
+      <Text>[AssetData(24768) Text] [AssetData(5564) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>25258</GUID>
+      <Text>レシピを選択</Text>
+    </Text>
+    <Text>
+      <GUID>25259</GUID>
+      <Text>入手可能な商品合計</Text>
+    </Text>
+    <Text>
+      <GUID>25260</GUID>
+      <Text>レシピ一覧</Text>
+    </Text>
+    <Text>
+      <GUID>25269</GUID>
+      <Text>スタート</Text>
+    </Text>
+    <Text>
+      <GUID>25267</GUID>
+      <Text>現在のレシピ</Text>
+    </Text>
+    <Text>
+      <GUID>25684</GUID>
+      <Text>ボタンをクリックしてレシピを選択してください。</Text>
+    </Text>
+    <Text>
+      <GUID>25288</GUID>
+      <Text>レシピへジャンプ</Text>
+    </Text>
+    <Text>
+      <GUID>25745</GUID>
+      <Text>現在のレシピを選択</Text>
+    </Text>
+  </ModOp>
 </ModOps>

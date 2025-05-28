@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Miel</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Vómito de abeja dulce y pegajoso, amado en todo el mundo por sus extraordinarias propiedades.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>¡Algunos tipos de miel incluso tienen propiedades cicatrizantes!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

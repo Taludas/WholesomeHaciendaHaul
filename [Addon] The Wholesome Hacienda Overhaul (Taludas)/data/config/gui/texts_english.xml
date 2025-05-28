@@ -1,5 +1,4 @@
 <ModOps>
-
     <ModOp Type="add" Path="/TextExport/Texts">
         <Text>
             <GUID>1999002001</GUID>
@@ -493,6 +492,133 @@
             <GUID>1999002179</GUID>
             <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
         </Text>
+        <Text>
+            <GUID>1999010329</GUID>
+            <Text>Unlike tequila, mezcal can be produced from different types of agave, which gives it a wide variety of flavor profiles. Typical of mezcal is its smoky taste, which is created by the traditional baking of the agave hearts in underground earth ovens.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010327</GUID>
+            <Text>Hacienda Mezcal Distillery</Text>
+        </Text>
+        <Text>
+            <GUID>1999010335</GUID>
+            <Text>Hacienda Animal Farm</Text>
+          </Text>
+          <Text>
+            <GUID>1999010336</GUID>
+            <Text>Studbook</Text>
+          </Text>
+          <Text>
+            <GUID>1999010337</GUID>
+            <Text>Hacienda Alpaca Farm</Text>
+          </Text>
+          <Text>
+            <GUID>1999010338</GUID>
+            <Text>Hacienda Powered Pasture</Text>
+          </Text>
+          <Text>
+            <GUID>1999010339</GUID>
+            <Text>Hacienda Cattle Farm</Text>
+          </Text>
+          <Text>
+            <GUID>1999010340</GUID>
+            <Text>Hacienda Powered Pasture</Text>
+          </Text>
+          <Text>
+            <GUID>1999010341</GUID>
+            <Text>Hacienda Nandu Farm</Text>
+          </Text>
+          <Text>
+            <GUID>1999010342</GUID>
+            <Text>Hacienda Powered Pasture</Text>
+          </Text>
+          <Text>
+            <GUID>1999010343</GUID>
+            <Text>Hacienda Sheep Farm</Text>
+          </Text>
+          <Text>
+            <GUID>1999010344</GUID>
+            <Text>Hacienda Powered Pasture</Text>
+          </Text>
+          <Text>
+            <GUID>1999010345</GUID>
+            <Text>Hacienda Goat Farm</Text>
+          </Text>
+          <Text>
+            <GUID>1999010346</GUID>
+            <Text>Hacienda Powered Pasture</Text>
+          </Text>
+          <Text>
+            <GUID>1999010347</GUID>
+            <Text>Hacienda Apiary</Text>
+          </Text>
+          <Text>
+            <GUID>1999010348</GUID>
+            <Text>Hacienda Powered Pasture</Text>
+          </Text>
+          <Text>
+            <GUID>1999010349</GUID>
+            <Text>Thanks to its vast, lush grasslands, the Hacienda is the ideal place for large-scale, efficient livestock ranching.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010351</GUID>
+            <Text>The alpaca is the flagship species of livestock farming in the Andes. Its wool is an integral part of the everyday lives of indigenous people, yet many Europeans still regard it as a luxury product.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010353</GUID>
+            <Text>Cattle are among the most versatile types of livestock. The extensive, lush pastures of the New World provide ample living space for large herds to develop to their full potential.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010355</GUID>
+            <Text>The lush savannah biome is the natural habitat of the Nandus, the tallest bird in the New World. Some people apparently have a use for their feathers and leather, but otherwise they are best left alone.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010357</GUID>
+            <Text>As alpacas do not produce wool fat, sheep are also raised in the Andes for their wool wax. Meanwhile, many of the upper classes enjoy tender lamb as a delicacy.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010359</GUID>
+            <Text>The goat is often found in the arid regions of the New World, where it is the go-to livestock animal thanks to its low food requirements. Its milk is often used to make strong, delicious cheese.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010361</GUID>
+            <Text>Keeping bees not only increases production yields on your orchards in the near vicinity, but also ensures that honey and beeswax, which are highly sought-after products in the New World, are readily available on the local market.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010362</GUID>
+            <Text>Hacienda Animal Farms</Text>
+          </Text>
+          <Text>
+            <GUID>25258</GUID>
+            <Text>Select Recipe</Text>
+          </Text>
+          <Text>
+            <GUID>25259</GUID>
+            <Text>Total Goods Available</Text>
+          </Text>
+          <Text>
+            <GUID>25260</GUID>
+            <Text>Recipe List</Text>
+          </Text>
+          <Text>
+            <GUID>25269</GUID>
+            <Text>Start</Text>
+          </Text>
+          <Text>
+            <GUID>25267</GUID>
+            <Text>Current Recipe</Text>
+          </Text>
+          <Text>
+            <GUID>25684</GUID>
+            <Text>Click the button to choice a recipe.</Text>
+          </Text>
+          <Text>
+            <GUID>25288</GUID>
+            <Text>Jump to Recipe</Text>
+          </Text>
+          <Text>
+            <GUID>25745</GUID>
+            <Text>Select Current Recipe</Text>
+          </Text>
     </ModOp>
-
 </ModOps>

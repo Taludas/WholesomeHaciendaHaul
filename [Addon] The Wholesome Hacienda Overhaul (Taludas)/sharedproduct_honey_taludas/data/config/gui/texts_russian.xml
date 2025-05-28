@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1440218</GUID>
+      <Text>Мёд</Text>
+    </Text>
+    <Text>
+      <GUID>1999005064</GUID>
+      <Text>Сладкий и липкий пчелиный продукт, любимый во всем мире за свои необыкновенные свойства.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005065</GUID>
+      <Text>Некоторые виды меда обладают даже ранозаживляющими свойствами!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

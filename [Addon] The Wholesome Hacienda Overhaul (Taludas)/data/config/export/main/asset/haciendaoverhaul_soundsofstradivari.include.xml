@@ -734,6 +734,48 @@
             <Building>1999002124</Building>
         </Item>
     </ModOp>
+    <ModOp Type="addNextSibling" GUID="7425" Condition="!@1999010332">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999010332</GUID>
+                    <Name>moderate orchard list</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>133496</Building>
+                        </Item>
+                        <Item>
+                            <Building>135085</Building>
+                        </Item>
+                        <Item>
+                            <Building>135088</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>132773</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Old World Orchards</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60385</LineID>
+                    <TextOverride>7425</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="500945,500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '137599']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building = '1999010332']">
+        <Item>
+            <Building>1999010332</Building>
+        </Item>
+    </ModOp>
 
     <!-- #Trigger new buildings and all products with 2500 Obreros -->
     <ModOp Type="addNextSibling" GUID="130248">
@@ -861,7 +903,7 @@
             <Values>
                 <Standard>
                     <GUID>1999002162</GUID>
-                    <Name>Violins NW Unlock Trigger</Name>
+                    <Name>Violins NW Unlock Trigger Creative</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -917,6 +959,60 @@
                                             </Item>
                                             <Item>
                                                 <Asset>135087</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999010334</GUID>
+                    <Name>Early Cherry Wood Unlock Trigger</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>2500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>133496</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135085</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999010332</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135088</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>135090</Asset>
                                             </Item>
                                         </UnlockAssets>
                                     </ActionUnlockAsset>

@@ -493,6 +493,134 @@
             <GUID>1999002179</GUID>
             <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
         </Text>
+        <Text>
+            <GUID>1999010329</GUID>
+            <Text>데킬라와 달리 메즈칼은 다양한 유형의 용설란으로 생산할 수 있어 다양한 풍미 프로필을 제공합니다. 메즈칼의 전형적인 특징은 스모키한 맛으로, 지하 흙 오븐에서 아가베 하트를 전통적으로 굽는 방식으로 만들어집니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010327</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(6600) Text] 증류소</Text>
+        </Text>
+        <Text>
+            <GUID>1999010335</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(150905) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010336</GUID>
+            <Text>스터디북</Text>
+        </Text>
+        <Text>
+            <GUID>1999010337</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(101272) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010338</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010339</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(1010263) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010340</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010341</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(5457) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010342</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010343</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(1010267) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010344</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010345</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(114456) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010346</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010347</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(114453) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010348</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010349</GUID>
+            <Text>광활하고 무성한 초원 덕분에 하시엔다는 대규모의 효율적인 가축 목장을 운영하기에 이상적인 장소입니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010351</GUID>
+            <Text>알파카는 안데스 산맥의 대표 축종입니다. 알파카의 양털은 원주민의 일상 생활에 없어서는 안 될 필수품이지만, 많은 유럽인은 여전히 알파카를 사치품으로 여깁니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010353</GUID>
+            <Text>소는 가장 다재다능한 가축 중 하나입니다. 신대륙의 넓고 울창한 목초지는 대규모 가축 무리가 잠재력을 최대한 발휘할 수 있는 충분한 생활 공간을 제공합니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010355</GUID>
+            <Text>무성한 사바나 생물군은 신대륙에서 가장 키가 큰 새인 난두스의 자연 서식지입니다. 일부 사람들은 깃털과 가죽을 사용하기도 하지만, 그 외에는 내버려 두는 것이 가장 좋습니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010357</GUID>
+            <Text>알파카는 양털 지방을 생산하지 않기 때문에 양털 왁스를 얻기 위해 안데스 산맥에서 양을 사육하기도 합니다. 한편 많은 상류층은 부드러운 양고기를 별미로 즐기고 있습니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010359</GUID>
+            <Text>염소는 신대륙의 건조한 지역에서 흔히 볼 수 있으며, 먹이가 적게 필요하기 때문에 가축으로 많이 이용됩니다. 염소의 우유는 종종 강하고 맛있는 치즈를 만드는 데 사용됩니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010361</GUID>
+            <Text>꿀벌을 키우면 인근 과수원의 생산량이 증가할 뿐만 아니라 신세계에서 인기가 높은 제품인 꿀과 밀랍을 현지 시장에서 쉽게 구할 수 있습니다.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010362</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(5564) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>25258</GUID>
+            <Text>레시피 선택</Text>
+        </Text>
+        <Text>
+            <GUID>25259</GUID>
+            <Text>사용 가능한 총 상품</Text>
+        </Text>
+        <Text>
+            <GUID>25260</GUID>
+            <Text>레시피 목록</Text>
+        </Text>
+        <Text>
+            <GUID>25269</GUID>
+            <Text>시작</Text>
+        </Text>
+        <Text>
+            <GUID>25267</GUID>
+            <Text>현재 레시피</Text>
+        </Text>
+        <Text>
+            <GUID>25684</GUID>
+            <Text>버튼을 클릭하여 레시피를 선택합니다.</Text>
+        </Text>
+        <Text>
+            <GUID>25288</GUID>
+            <Text>레시피로 이동</Text>
+        </Text>
+        <Text>
+            <GUID>25745</GUID>
+            <Text>현재 레시피 선택</Text>
+        </Text>
     </ModOp>
 
 </ModOps>

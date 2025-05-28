@@ -493,6 +493,134 @@
             <GUID>1999002179</GUID>
             <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Désactivé lors de l'utilisation de ce mod : True Hacienda Streets&lt;/font&gt;</Text>
         </Text>
+        <Text>
+            <GUID>1999010329</GUID>
+            <Text>Contrairement à la tequila, le mezcal peut être produit à partir de différents types d’agave, ce qui lui confère une grande variété de profils de saveurs. Le mezcal est typique de son goût fumé, créé par la cuisson traditionnelle des cœurs d’agave dans des fours souterrains en terre.</Text>
+        </Text>
+        <Text>
+            <GUID>1999010327</GUID>
+            <Text>Distillerie de [AssetData(6600) Text] ([AssetData(24768) Text])</Text>
+        </Text>
+        <Text>
+            <GUID>1999010335</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(150905) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010336</GUID>
+            <Text>Registre d'élevage</Text>
+          </Text>
+          <Text>
+            <GUID>1999010337</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(101272) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010338</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010339</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(1010263) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010340</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010341</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(5457) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010342</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010343</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(1010267) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010344</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010345</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(114456) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010346</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010347</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(114453) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010348</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>1999010349</GUID>
+            <Text>Grâce à ses vastes prairies luxuriantes, l'Hacienda est l'endroit idéal pour l'élevage de bétail à grande échelle et efficace.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010351</GUID>
+            <Text>L'alpaga est l'espèce phare de l'élevage dans les Andes. Sa laine fait partie intégrante de la vie quotidienne des populations indigènes, mais beaucoup d'Européens la considèrent encore comme un produit de luxe.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010353</GUID>
+            <Text>Les bovins font partie des animaux d'élevage les plus polyvalents. Les vastes et luxuriants pâturages du Nouveau Monde offrent un espace vital suffisant pour permettre aux grands troupeaux de développer tout leur potentiel.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010355</GUID>
+            <Text>Le biome luxuriant de la savane est l'habitat naturel du Nandus, l'oiseau le plus grand du Nouveau Monde. Certaines personnes utilisent apparemment leurs plumes et leur cuir, mais il vaut mieux les laisser tranquilles.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010357</GUID>
+            <Text>L'alpaga ne produisant pas de graisse de laine, les moutons sont également élevés dans les Andes pour leur cire de laine. Par ailleurs, une grande partie de la classe aisée apprécie l'agneau tendre comme un mets délicat.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010359</GUID>
+            <Text>La chèvre est souvent présente dans les régions arides du Nouveau Monde, où elle est l'animal d'élevage par excellence grâce à ses faibles besoins alimentaires. Son lait est souvent utilisé pour fabriquer des fromages forts et délicieux.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010361</GUID>
+            <Text>L'élevage d'abeilles permet non seulement d'augmenter les rendements de production de vos vergers à proximité, mais aussi de garantir la disponibilité sur le marché local du miel et de la cire d'abeille, produits très recherchés dans le Nouveau Monde.</Text>
+          </Text>
+          <Text>
+            <GUID>1999010362</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(5564) Text]</Text>
+          </Text>
+          <Text>
+            <GUID>25258</GUID>
+            <Text>Sélectionner une recette</Text>
+          </Text>
+          <Text>
+            <GUID>25259</GUID>
+            <Text>Total des marchandises disponibles</Text>
+          </Text>
+          <Text>
+            <GUID>25260</GUID>
+            <Text>Liste des recettes</Text>
+          </Text>
+          <Text>
+            <GUID>25269</GUID>
+            <Text>Démarrage</Text>
+          </Text>
+          <Text>
+            <GUID>25267</GUID>
+            <Text>Recette actuelle</Text>
+          </Text>
+          <Text>
+            <GUID>25684</GUID>
+            <Text>Cliquez sur le bouton pour choisir une recette.</Text>
+          </Text>
+          <Text>
+            <GUID>25288</GUID>
+            <Text>Sauter à la recette</Text>
+          </Text>
+          <Text>
+            <GUID>25745</GUID>
+            <Text>Sélectionner la recette en cours</Text>
+          </Text>
     </ModOp>
 
 </ModOps>

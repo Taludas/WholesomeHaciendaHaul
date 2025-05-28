@@ -3,495 +3,623 @@
     <ModOp Type="add" Path="/TextExport/Texts">
         <Text>
             <GUID>1999002001</GUID>
-            <Text>Hacienda Plantains Farm</Text>
+            <Text>庄园大蕉园</Text>
         </Text>
         <Text>
             <GUID>1999002002</GUID>
-            <Text>Plantains</Text>
+            <Text>大蕉</Text>
         </Text>
         <Text>
             <GUID>1999002003</GUID>
-            <Text>Ancient traditions bring it that your Jornaleros prefere these mushy green and yellow cooking bananas over the domesticated sweet ones from the shelf. Don't judge them, those poor guys can't know what they are missing!</Text>
+            <Text>不知道为什么，你的临时工更喜欢这些绿色香蕉撵成糊状炸至金黄，而不是吃货架上驯化的甜香蕉。不要批评他们，那些可怜的家伙不知道他们错过了什么！</Text>
         </Text>
         <Text>
             <GUID>1999002004</GUID>
-            <Text>Hacienda Cotton Farm</Text>
+            <Text>庄园棉花园</Text>
         </Text>
         <Text>
             <GUID>1999002005</GUID>
-            <Text>Cotton</Text>
+            <Text>棉花</Text>
         </Text>
         <Text>
             <GUID>1999002006</GUID>
-            <Text>Soft, fluffy fibre growing on a plant! Could you imagine that we used to run around in cloths made out of sheep wool? Enough of that, get this smooth, white fabric over here, now!</Text>
+            <Text>长在灌木上的柔软、蓬松纤维！你能想象我们过去穿着羊毛做的衣服，轻便地跑来跑去吗？把这块光滑的白色布料拿过来，快！</Text>
         </Text>
         <Text>
             <GUID>1999002007</GUID>
-            <Text>Hacienda Tobacco Farm</Text>
+            <Text>庄园烟草园</Text>
         </Text>
         <Text>
             <GUID>1999002008</GUID>
-            <Text>Tobacco</Text>
+            <Text>烟草</Text>
         </Text>
         <Text>
             <GUID>1999002009</GUID>
-            <Text>Stinky dried brown leefs, cut to pieces and stuffed into sacks for export. Oh, those poor souls don't know what they are putting their bodys through. It's a treacherous modern addiction and unfortunately they are indulging it in my Restaurant!</Text>
+            <Text>发臭的干棕色叶子，被切成块，塞进麻袋出口。这是一种危险的现代成瘾性物质。但不幸的是，居民沉迷于此！</Text>
         </Text>
         <Text>
             <GUID>1999002010</GUID>
-            <Text>Hacienda Vineyard</Text>
+            <Text>状元葡萄园</Text>
         </Text>
         <Text>
             <GUID>1999002011</GUID>
-            <Text>Grapes</Text>
+            <Text>葡萄</Text>
         </Text>
         <Text>
             <GUID>1999002012</GUID>
-            <Text>Sun-ripenend juicy red and violet grapes. These recent vintages from the New World will delight your pampered Investors' souls! We can just hope, that they'll accept the muddy fouly brewerage we call wine after having tasted this explosion of taste and flavour!</Text>
+            <Text>阳光成熟多汁的红色和紫色葡萄。这些用新世界产出制作的最新佳酿，一定会让您的投资者心旷神怡！我们只能希望，在品尝了这种香气爆棚的美味佳酿后，他们还能接受那些浑浊的所谓“葡萄酒”！</Text>
         </Text>
         <Text>
             <GUID>1999002013</GUID>
-            <Text>Vines</Text>
+            <Text>葡萄藤</Text>
         </Text>
         <Text>
             <GUID>1999002015</GUID>
-            <Text>Hacienda Old World Farm</Text>
+            <Text>庄园旧世界农场</Text>
         </Text>
         <Text>
             <GUID>24794</GUID>
-            <Text>Hacienda New World Farm</Text>
+            <Text>庄园新世界农场</Text>
         </Text>
         <Text>
             <GUID>24795</GUID>
-            <Text>Hacienda Almanac for New World Farms</Text>
+            <Text>庄园新世界农场目录</Text>
         </Text>
         <Text>
             <GUID>1999002014</GUID>
-            <Text>Hacienda Almanac for Old World Farms</Text>
+            <Text>庄园旧世界农场目录</Text>
         </Text>
         <Text>
             <GUID>25178</GUID>
-            <Text>Hacienda Ornaments</Text>
+            <Text>庄园装饰</Text>
         </Text>
         <Text>
             <GUID>19564</GUID>
-            <Text>Ornaments with Hacienda Paving</Text>
+            <Text>庄园道路装饰</Text>
         </Text>
         <Text>
             <GUID>1999002017</GUID>
-            <Text>Hacienda</Text>
+            <Text>庄园</Text>
         </Text>
         <Text>
             <GUID>1999002020</GUID>
-            <Text>Hacienda</Text>
+            <Text>庄园</Text>
         </Text>
         <Text>
             <GUID>1999002021</GUID>
-            <Text>Hacienda Farms New World Crops</Text>
+            <Text>庄园新世界作物农场</Text>
         </Text>
         <Text>
             <GUID>1999002022</GUID>
-            <Text>Overview of the available New World Hacienda Crop Farms</Text>
+            <Text>现有庄园新世界作物农场目录</Text>
         </Text>
         <Text>
             <GUID>1999002023</GUID>
-            <Text>Hacienda Farms Old World Crops</Text>
+            <Text>庄园旧世界作物农场</Text>
         </Text>
         <Text>
             <GUID>1999002024</GUID>
-            <Text>Overview of the available Old World Hacienda Crop Farms</Text>
+            <Text>现有庄园旧世界作物农场目录</Text>
         </Text>
         <Text>
             <GUID>1999002025</GUID>
-            <Text>Hacienda Breweries</Text>
+            <Text>庄园酿造厂</Text>
         </Text>
         <Text>
             <GUID>1999002026</GUID>
-            <Text>Overview of the available Hacienda Breweries</Text>
+            <Text>庄园啤酒厂目录</Text>
         </Text>
         <Text>
             <GUID>24775</GUID>
-            <Text>Hacienda Warehouse</Text>
+            <Text>庄园仓库</Text>
         </Text>
         <Text>
             <GUID>1999002028</GUID>
-            <Text>Accepts and distributes goods from, and to your production buildings. Provides additional storage space as well.</Text>
+            <Text>从你的生产建筑接收和分配货物。还提供了额外的存储空间。</Text>
         </Text>
         <Text>
             <GUID>1999002030</GUID>
-            <Text>Increases the efficiency and attractivness of Lumberjack's Huts. Your Lumberjacks will now occasionaly plant luxourius foreign wood types.</Text>
+            <Text>增加伐木工小屋的效率和吸引力。你的伐木工人现在会偶尔种植豪华的外国木材类型。</Text>
         </Text>
         <Text>
             <GUID>1999002031</GUID>
-            <Text>Lumberjack Educational Decree</Text>
+            <Text>伐木工人教育法令</Text>
         </Text>
         <Text>
             <GUID>1999002032</GUID>
-            <Text>"Oh, and one last thing: the tree will fall toward the notch you cut — I would suggest standing somewhere else."</Text>
+            <Text>“哦，还有最后一件事：这棵树会倒向你砍的凹口——我建议你站到别的地方。”</Text>
         </Text>
         <Text>
             <GUID>1999002033</GUID>
-            <Text>Lumberjack Educational Decree</Text>
+            <Text>伐木工人教育法令</Text>
         </Text>
         <Text>
             <GUID>1999002034</GUID>
-            <Text>"Oh, and one last thing: the tree will fall toward the notch you cut — I would suggest standing somewhere else."</Text>
+            <Text>“哦，还有最后一件事：这棵树会倒向你砍的凹口——我建议你站到别的地方。”</Text>
         </Text>
         <Text>
             <GUID>1999002038</GUID>
-            <Text>Drastically reduces the environmental impact of heavy industruies to limit the propability of dretful disasters while maintaining good efficiency.</Text>
+            <Text>大幅减少重工业对环境的影响，在保持良好效率的同时，限制灾难性灾害发生的可能性。</Text>
         </Text>
         <Text>
             <GUID>1999002039</GUID>
-            <Text>Clean Environment Regulation</Text>
+            <Text>清洁环境法令</Text>
         </Text>
         <Text>
             <GUID>1999002040</GUID>
-            <Text>The safety of your workers, inhabitants and the condition of the surrounding ecosystem is your first priority as a wise Gouvernour.</Text>
+            <Text>你的居民的安全以及周围生态系统的状况是你作为一个明智统治者的首要任务。</Text>
         </Text>
         <Text>
             <GUID>1999002041</GUID>
-            <Text>Clean Environment Regulation</Text>
+            <Text>清洁环境法令</Text>
         </Text>
         <Text>
             <GUID>1999002042</GUID>
-            <Text>The safety of your workers, inhabitants and the condition of the surrounding ecosystem is your first priority as a wise Gouvernour.</Text>
+            <Text>你的居民的安全以及周围生态系统的状况是你作为一个明智统治者的首要任务。</Text>
         </Text>
         <Text>
             <GUID>1999002043</GUID>
-            <Text>All Heavy Industries, Mines, Quarries, Chemical Plants and Breweries</Text>
+            <Text>所有重工业、矿山、采石场、化工厂和酒厂</Text>
         </Text>
         <Text>
             <GUID>1999002044</GUID>
-            <Text>Reduced Goods consumption while remaining good productivity for certain industry branches.</Text>
+            <Text>减少了货物消耗，同时保持了工业部门的良好生产力。</Text>
         </Text>
         <Text>
             <GUID>1999002045</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>工厂直销法令</Text>
         </Text>
         <Text>
             <GUID>1999002046</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
+            <Text>庄园在当地市场占有统治性地位。为了加强当地小企业的地位，目前已经引入了工厂直销。这些活动减少了某些商品的消费，总体上提高了人民的幸福感，从而提高了生产率。</Text>
         </Text>
         <Text>
             <GUID>1999002047</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>工厂直销法令</Text>
         </Text>
         <Text>
             <GUID>1999002048</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
+            <Text>庄园在当地市场占有统治性地位。为了加强当地小企业的地位，目前已经引入了工厂直销。这些活动减少了某些商品的消费，总体上提高了人民的幸福感，从而提高了生产率。</Text>
         </Text>
         <Text>
             <GUID>1999002049</GUID>
-            <Text>Support your local craftsmen so that your colony can become an influential wine-growing region.</Text>
+            <Text>支持当地的工人，这样你的殖民地就可以成为一个有影响力的葡萄种植区。</Text>
         </Text>
         <Text>
             <GUID>1999002050</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>葡萄扶持法令</Text>
         </Text>
         <Text>
             <GUID>1999002051</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
+            <Text>有一天，一个外国游客来到你那广袤的庄园农场，随身带了一瓶深紫色的液体。惊叹于它真正独特的风味，你决定开始引进这个产业。从自己的庄园酒窖出口最好的葡萄酒。</Text>
         </Text>
         <Text>
             <GUID>1999002052</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>葡萄扶持法令</Text>
         </Text>
         <Text>
             <GUID>1999002053</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
+            <Text>有一天，一个外国游客来到你那广袤的庄园农场，随身带了一瓶深紫色的液体。惊叹于它真正独特的风味，你决定开始引进这个产业。从自己的庄园酒窖出口最好的葡萄酒。</Text>
         </Text>
         <Text>
             <GUID>1999002054</GUID>
-            <Text>Reduces the amount of modern goods consumed by your inhabitents.</Text>
+            <Text>减少你的居民消费的现代商品的数量。</Text>
         </Text>
         <Text>
             <GUID>1999002055</GUID>
-            <Text>Cultural Conservation Act</Text>
+            <Text>文化保护法令</Text>
         </Text>
         <Text>
             <GUID>1999002056</GUID>
-            <Text>The local assembly decided to ban the resently invented electronic gadgets in order to concentrate on the traditional cultural heritage of the New World.</Text>
+            <Text>当地议会决定禁止最近发明的电子产品，以便集中精力保护新世界的传统文化遗产。</Text>
         </Text>
         <Text>
             <GUID>1999002057</GUID>
-            <Text>Cultural Conservation Act</Text>
+            <Text>文化保护法令</Text>
         </Text>
         <Text>
             <GUID>1999002058</GUID>
-            <Text>The local assembly decided to ban the resently invented electronic gadgets in order to concentrate on the traditional cultural heritage of the New World.</Text>
+            <Text>当地议会决定禁止最近发明的电子产品，以便集中精力保护新世界的传统文化遗产。</Text>
         </Text>
         <Text>
             <GUID>1999002066</GUID>
-            <Text>All Clothing Factories, All Intermediate Good Producers, Coffee Roaster, Cigar Factory, Scooter Factory and Fan Factory</Text>
+            <Text>所有服装厂，所有中间商品生产商，咖啡烘焙厂，雪茄厂，摩托车厂和风扇厂</Text>
         </Text>
         <Text>
             <GUID>1999002067</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>工厂直销法令</Text>
         </Text>
         <Text>
             <GUID>1999002068</GUID>
-            <Text>The strength of the Hacienda is the local market. In order to strengthen the position of small local buisnesses, Factory Outlets have been introduced. These activities leed to reduced consumption of certain goods, overall higher happiness of your people and therefore higher productivity.</Text>
+            <Text>庄园在当地市场占有统治性地位。为了加强当地小企业的地位，目前已经引入了工厂直销。这些活动减少了某些商品的消费，总体上提高了人民的幸福感，从而提高了生产率。</Text>
         </Text>
         <Text>
             <GUID>1999002069</GUID>
-            <Text>Local Factory Outlet Regulation</Text>
+            <Text>工厂直销法令</Text>
         </Text>
         <Text>
             <GUID>1999002070</GUID>
-            <Text>Hacienda</Text>
+            <Text>庄园</Text>
         </Text>
         <Text>
             <GUID>1999002072</GUID>
-            <Text>Chewing Gum</Text>
+            <Text>口香糖</Text>
         </Text>
         <Text>
             <GUID>1999002074</GUID>
-            <Text>Hacienda Church</Text>
+            <Text>庄园礼拜堂</Text>
         </Text>
         <Text>
             <GUID>1999002075</GUID>
-            <Text>Hacienda Police Station</Text>
+            <Text>庄园警察局</Text>
         </Text>
         <Text>
             <GUID>1999002076</GUID>
-            <Text>Hacienda Guildhouse</Text>
+            <Text>庄园工会</Text>
         </Text>
         <Text>
             <GUID>1999002077</GUID>
-            <Text>Hacienda Connecting Border Wall</Text>
+            <Text>庄园墙-交会处</Text>
         </Text>
         <Text>
             <GUID>1999002078</GUID>
-            <Text>Hacienda Small Marketplace</Text>
+            <Text>庄园小市场</Text>
         </Text>
         <Text>
             <GUID>1999002081</GUID>
-            <Text>Hacienda Border Wall Large Gate</Text>
+            <Text>庄园大门</Text>
         </Text>
         <Text>
             <GUID>1999002082</GUID>
-            <Text>Hacienda Border Wall Small Gate</Text>
+            <Text>庄园小门</Text>
         </Text>
         <Text>
             <GUID>1999002083</GUID>
-            <Text>Hacienda Border Wall Straight 1</Text>
+            <Text>庄园墙1</Text>
         </Text>
         <Text>
             <GUID>1999002084</GUID>
-            <Text>Hacienda Border Wall Straight 2</Text>
+            <Text>庄园墙2</Text>
         </Text>
         <Text>
             <GUID>1999002085</GUID>
-            <Text>Hacienda Border Wall Corner</Text>
+            <Text>庄园墙-转弯</Text>
         </Text>
         <Text>
             <GUID>1999002086</GUID>
-            <Text>Hacienda Border Wall Corner End</Text>
+            <Text>庄园墙-尾端</Text>
         </Text>
         <Text>
             <GUID>1999002087</GUID>
-            <Text>Hacienda Border Wall Corner Inwards Left</Text>
+            <Text>庄园边墙转角（左）</Text>
         </Text>
         <Text>
             <GUID>1999002088</GUID>
-            <Text>Hacienda Border Wall Corner Inwards Right</Text>
+            <Text>庄园边墙转角（右）</Text>
         </Text>
         <Text>
             <GUID>1999002089</GUID>
-            <Text>Hacienda Border Wall T-Tile</Text>
+            <Text>庄园墙-连接处</Text>
         </Text>
         <Text>
             <GUID>1999002090</GUID>
-            <Text>Hacienda Border Wall Single Tiles</Text>
+            <Text>庄园墙-单层</Text>
         </Text>
         <Text>
             <GUID>1999002091</GUID>
-            <Text>Small Hacienda Jornalero Residence</Text>
+            <Text>小庄园临时工住所</Text>
         </Text>
         <Text>
             <GUID>1999002092</GUID>
-            <Text>Small Hacienda Obrero Residence</Text>
+            <Text>小庄园劳工住所</Text>
         </Text>
         <Text>
             <GUID>1999002093</GUID>
-            <Text>Hacienda Residences</Text>
+            <Text>庄园住所</Text>
         </Text>
         <Text>
             <GUID>1999002098</GUID>
-            <Text>Hacienda Fire Station</Text>
+            <Text>庄园消防局</Text>
         </Text>
         <Text>
             <GUID>1999002099</GUID>
-            <Text>Hacienda Public Institutions</Text>
+            <Text>庄园公共服务</Text>
         </Text>
         <Text>
             <GUID>1999002100</GUID>
-            <Text>Hacienda Hospital</Text>
+            <Text>庄园医院</Text>
         </Text>
         <Text>
             <GUID>1999002103</GUID>
-            <Text>Hacienda Town Hall</Text>
+            <Text>庄园市政厅</Text>
         </Text>
         <Text>
             <GUID>1999002104</GUID>
-            <Text>Hacienda Public Institutions</Text>
+            <Text>庄园公共服务</Text>
         </Text>
         <Text>
             <GUID>1999002106</GUID>
-            <Text>Administration</Text>
+            <Text>行政机构</Text>
         </Text>
         <Text>
             <GUID>1999002107</GUID>
-            <Text>Ornaments</Text>
+            <Text>装饰</Text>
         </Text>
         <Text>
             <GUID>1999002108</GUID>
-            <Text>Residences</Text>
+            <Text>住所</Text>
         </Text>
         <Text>
             <GUID>1999002109</GUID>
-            <Text>Emergency Services</Text>
+            <Text>应急服务</Text>
         </Text>
         <Text>
             <GUID>1999002110</GUID>
-            <Text>Hacienda Street</Text>
+            <Text>庄园路面</Text>
         </Text>
         <Text>
             <GUID>1999002111</GUID>
-            <Text>Hacienda Street Bridge</Text>
+            <Text>庄园桥梁</Text>
         </Text>
         <Text>
             <GUID>1999002112</GUID>
-            <Text>Hacienda Pathway</Text>
+            <Text>庄园道路</Text>
         </Text>
         <Text>
             <GUID>1999002113</GUID>
-            <Text>Hacienda Pathway Bridge</Text>
+            <Text>庄园桥梁（道路）</Text>
         </Text>
         <Text>
             <GUID>1999002115</GUID>
-            <Text>Sand Mine</Text>
+            <Text>砂厂</Text>
         </Text>
         <Text>
             <GUID>1999002116</GUID>
-            <Text>all Sand Mines</Text>
+            <Text>所有砂厂</Text>
         </Text>
         <Text>
             <GUID>1999002117</GUID>
-            <Text>Chemical Factory: Lacquer</Text>
+            <Text>化学厂：亮面漆</Text>
         </Text>
         <Text>
             <GUID>1999002118</GUID>
-            <Text>Lacquer</Text>
+            <Text>亮面漆</Text>
         </Text>
         <Text>
             <GUID>1999002119</GUID>
-            <Text>Iron Mine</Text>
+            <Text>铁矿</Text>
         </Text>
         <Text>
             <GUID>1999002120</GUID>
-            <Text>all Iron Mines</Text>
+            <Text>所有铁矿</Text>
         </Text>
         <Text>
             <GUID>1999002121</GUID>
-            <Text>Steel Furnace</Text>
+            <Text>高炉</Text>
         </Text>
         <Text>
             <GUID>1999002122</GUID>
-            <Text>all Steel Furnaces</Text>
+            <Text>所有高炉</Text>
         </Text>
         <Text>
             <GUID>1999002123</GUID>
-            <Text>Violin Manufactory</Text>
+            <Text>小提琴厂</Text>
         </Text>
         <Text>
             <GUID>1999002124</GUID>
-            <Text>Violins</Text>
+            <Text>小提琴</Text>
         </Text>
         <Text>
             <GUID>1999002128</GUID>
-            <Text>all Charcoal Kilns</Text>
+            <Text>所有炭窑</Text>
         </Text>
         <Text>
             <GUID>1999002145</GUID>
-            <Text>Advanced Hacienda Police Station</Text>
+            <Text>先进庄园警察局</Text>
         </Text>
         <Text>
             <GUID>1999002146</GUID>
-            <Text>Advanced Hacienda Fire Station</Text>
+            <Text>先进庄园消防局</Text>
         </Text>
         <Text>
             <GUID>1999002147</GUID>
-            <Text>Advanced Hacienda Hospital</Text>
+            <Text>先进庄园医院</Text>
         </Text>
         <Text>
             <GUID>1999002139</GUID>
-            <Text>Small Hacienda Artista Residence</Text>
+            <Text>小庄园艺术家住所</Text>
         </Text>
         <Text>
             <GUID>1999002310</GUID>
-            <Text>Hacienda Winery</Text>
+            <Text>庄园酒庄</Text>
         </Text>
         <Text>
             <GUID>1999002311</GUID>
-            <Text>Wine Recipe</Text>
+            <Text>红酒配方</Text>
         </Text>
         <Text>
             <GUID>1999002312</GUID>
-            <Text>The increasing popularity of your ever growing Hacienda attracted many wine connoisseurs to your Island. The intense flavour of the sunriped grapes combined with a dash of cinnamon produces a unique bouquet. Letting the young wine ripe inside exclusive cherry wood barrels refines its taste even more.</Text>
+            <Text>您的庄园越来越受欢迎，吸引了许多葡萄酒鉴赏家到您的岛屿。晒熟葡萄的强烈味道与少许肉桂的味道相结合，产生独特的气味。让新酿的葡萄酒在独家樱桃木桶二次发酵，产生更深层次的香气。</Text>
         </Text>
         <Text>
             <GUID>1999002149</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>葡萄扶持法令</Text>
         </Text>
         <Text>
             <GUID>1999002150</GUID>
-            <Text>Your residents enjoy the taste of a matured wine from one of your aspiring local Hacienda Wineries.</Text>
+            <Text>您的居民享受着成功酒庄里葡萄酒的味道。</Text>
         </Text>
         <Text>
             <GUID>1999002151</GUID>
-            <Text>All Artista residences</Text>
+            <Text>所有艺术家住所</Text>
         </Text>
         <Text>
             <GUID>1999002152</GUID>
-            <Text>Vineyard Promotion Act</Text>
+            <Text>葡萄扶持法令</Text>
         </Text>
         <Text>
             <GUID>1999002153</GUID>
-            <Text>One day a foreign traveler visiting the vast lands of your hacienda farms brought a bottle of deep purple liquid with him. Amazed by its truly unique flavour, you decide to start an export market with finest, long-matured wine from your own hacienda wine cellars.</Text>
+            <Text>有一天，一个外国游客来到你那广袤的庄园农场，随身带了一瓶深紫色的液体。惊叹于它真正独特的风味，你决定开始引进这个产业。从自己的庄园酒窖出口最好的葡萄酒。</Text>
         </Text>
         <Text>
             <GUID>1999002164</GUID>
-            <Text>Hacienda Herb Garden</Text>
+            <Text>庄园药草园</Text>
         </Text>
         <Text>
             <GUID>1999002165</GUID>
-            <Text>Herbs</Text>
+            <Text>药草</Text>
         </Text>
         <Text>
             <GUID>1999002166</GUID>
-            <Text>A variety of herbs are grown on this farm for their beautiful colours and aromatic scent! A wonderful ingredient to round off any dish! Definitely not to be missed in any kitchen.</Text>
+            <Text>这个农场种植了各种各样的草药，因为它们的颜色美丽，气味芬芳！是任何一道菜的完美配料！任何厨房都应该准备一些。</Text>
         </Text>
         <Text>
             <GUID>1999002169</GUID>
-            <Text>Hacienda Orchid Farm</Text>
+            <Text>庄园兰花园</Text>
         </Text>
         <Text>
             <GUID>1999002170</GUID>
-            <Text>Orchids</Text>
+            <Text>兰花</Text>
         </Text>
         <Text>
             <GUID>1999002171</GUID>
-            <Text>Orchids have been mysterious plants since their discovery and first cultivation. Their symmetry, flower and colour variety are highly valued among your Investors! But watch out: Your Investors might get sick with Orchidelirium, where they become unable to control their collector's passion!</Text>
+            <Text>自从兰花被发现和首次种植以来，它一直是一种神秘的植物。他们的对称性，花和颜色的多样性引起您投资人的喜爱！但要注意：你的投资人可能会对兰花上瘾，在那里他们变得无法控制他们的收藏家的狂热！</Text>
         </Text>
         <Text>
             <GUID>1999002178</GUID>
-            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;在使用这个Mod模块时禁用：真实的庄园街道&lt;/font&gt;</Text>
         </Text>
         <Text>
             <GUID>1999002179</GUID>
-            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Disabled while using this Mod Module: True Hacienda Streets&lt;/font&gt;</Text>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;在使用这个Mod模块时禁用：真实的庄园街道&lt;/font&gt;</Text>
+        </Text>
+        <Text>
+            <GUID>1999010329</GUID>
+            <Text>与龙舌兰酒不同，梅斯卡尔酒可以由不同类型的龙舌兰制成，这赋予了它多种风味。梅斯卡尔酒的典型特点是它的烟熏味，这是通过在地下土炉中以传统方式烘烤龙舌兰心而产生的。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010327</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(6600) Text] 蒸馏器</Text>
+        </Text>
+        <Text>
+            <GUID>1999010335</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(150905) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010336</GUID>
+            <Text>梭哈簿</Text>
+        </Text>
+        <Text>
+            <GUID>1999010337</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(101272) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010338</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010339</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(1010263) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010340</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010341</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(5457) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010342</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010343</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(1010267) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010344</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010345</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(114456) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010346</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010347</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(114453) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010348</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(8026) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>1999010349</GUID>
+            <Text>庄园拥有广袤、茂盛的草原，是大规模、高效率畜牧业的理想之地。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010351</GUID>
+            <Text>羊驼是安第斯山脉畜牧业的旗舰品种。 它的羊毛是土著居民日常生活中不可或缺的一部分，但许多欧洲人仍将其视为奢侈品。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010353</GUID>
+            <Text>牛是用途最广的牲畜之一。 新大陆广阔而茂盛的牧场为大型牛群提供了充足的生存空间，使其能够充分发挥潜力。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010355</GUID>
+            <Text>郁郁葱葱的大草原生物群落是新世界最高的鸟类南杜斯的自然栖息地。 有些人显然会利用它们的羽毛和皮革，但除此之外，它们最好还是独善其身。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010357</GUID>
+            <Text>由于羊驼不生产羊毛脂，因此安第斯山脉也饲养绵羊，以获取羊毛蜡。 与此同时，许多上层阶级将鲜嫩的羊肉作为美味佳肴享用。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010359</GUID>
+            <Text>山羊经常出现在新大陆的干旱地区，由于对食物的需求量小，山羊是那里最常见的家畜。 山羊奶常用来制作浓郁美味的奶酪。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010361</GUID>
+            <Text>养蜂不仅能提高附近果园的产量，还能确保蜂蜜和蜂蜡这些在新世界非常抢手的产品在当地市场上随时供应。</Text>
+        </Text>
+        <Text>
+            <GUID>1999010362</GUID>
+            <Text>[AssetData(24768) Text] [AssetData(5564) Text]</Text>
+        </Text>
+        <Text>
+            <GUID>25258</GUID>
+            <Text>选择食谱</Text>
+        </Text>
+        <Text>
+            <GUID>25259</GUID>
+            <Text>可用货物总量</Text>
+        </Text>
+        <Text>
+            <GUID>25260</GUID>
+            <Text>食谱列表</Text>
+        </Text>
+        <Text>
+            <GUID>25269</GUID>
+            <Text>开始</Text>
+        </Text>
+        <Text>
+            <GUID>25267</GUID>
+            <Text>当前食谱</Text>
+        </Text>
+        <Text>
+            <GUID>25684</GUID>
+            <Text>点击按钮选择食谱。</Text>
+        </Text>
+        <Text>
+            <GUID>25288</GUID>
+            <Text>跳转到食谱</Text>
+        </Text>
+        <Text>
+            <GUID>25745</GUID>
+            <Text>选择当前配方</Text>
         </Text>
     </ModOp>
 

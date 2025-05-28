@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="replace" Path="//InfoTipData[Guid='483']/InfoElement/Icon[IconGUID='25240']/IconGUID">
+    <IconGUID>1500300832</IconGUID>
+  </ModOp>
+  <ModOp Type="replace" Path="//InfoTipData[Guid='483']/InfoElement/Text[TextGUID='25240']/TextGUID">
+    <TextGUID>1500300832</TextGUID>
+  </ModOp>
+
+  <ModOp Type="replace" Path="//InfoTipData[Guid='270058']/InfoElement/Icon[IconGUID='269957']/IconGUID">
+    <IconGUID>1500300831</IconGUID>
+  </ModOp>
+  <ModOp Type="replace" Path="//InfoTipData[Guid='270058']/InfoElement/Text[TextGUID='269957']/TextGUID">
+    <TextGUID>1500300831</TextGUID>
+  </ModOp>
+
+  <ModOp Type="replace" Path="//InfoTipData[Guid='270057']/InfoElement/Icon[IconGUID='269837']/IconGUID">
+    <IconGUID>1500300830</IconGUID>
+  </ModOp>
+  <ModOp Type="replace" Path="//InfoTipData[Guid='270057']/InfoElement/Text[TextGUID='269837']/TextGUID">
+    <TextGUID>1500300830</TextGUID>
+  </ModOp>
+</ModOps>
