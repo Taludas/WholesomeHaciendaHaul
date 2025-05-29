@@ -23,6 +23,12 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.4.1</summary>
+
+* Updates:
+  - Behebung einer fehlenden Lokalisation eines Buffs in der Hacienda Imkerei
+</details>
+<details>
     <summary>Patch Notes Version 2.4.0</summary>
 
 * Updates:

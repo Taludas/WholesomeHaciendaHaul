@@ -23,6 +23,13 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.4.1</summary>
+
+* Updates:
+  - fix issue with missing localisation for the default buff of the Hacienda Apiary
+
+</details>
+<details>
     <summary>Patch Notes Version 2.4.0</summary>
 
 * Updates:
