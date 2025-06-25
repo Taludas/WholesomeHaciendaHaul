@@ -23,6 +23,13 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.4.2</summary>
+
+* Updates:
+  - fix issue with GUID duplication on Hacienda Apiary Buffs when used together with the Riverslots mod
+
+</details>
+<details>
     <summary>Patch Notes Version 2.4.1</summary>
 
 * Updates:

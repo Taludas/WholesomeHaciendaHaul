@@ -23,6 +23,13 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.4.2</summary>
+
+* Updates:
+  - Behebung eines Problems mit einer GUID-Duplizierung bei den Hacienda Apiary Buffs, wenn diese Mod zusammen mit der Riverslots-Mod verwendet wird
+
+</details>
+<details>
     <summary>Patch Notes Version 2.4.1</summary>
 
 * Updates:

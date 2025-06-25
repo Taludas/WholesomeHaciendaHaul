@@ -2793,7 +2793,7 @@
         <FeedbackController />
         <Infolayer />
         <UpgradeList>
-          <DefaultBuff>1999010367</DefaultBuff>
+          <DefaultBuff>1999010376</DefaultBuff>
         </UpgradeList>
         <Factory7 />
         <FactoryBase>
@@ -2893,7 +2893,7 @@
       <Template>ForwardBuff</Template>
       <Values>
         <Standard>
-          <GUID>1999010367</GUID>
+          <GUID>1999010376</GUID>
           <Name>DefaultBuff Forward Apiary</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/machine_items/africa/item_birdhouse.png</IconFilename>
         </Standard>
@@ -2915,7 +2915,7 @@
           <LineID>36284</LineID>
         </Text>
         <EffectForward>
-          <ForwardEffect>1999010368</ForwardEffect>
+          <ForwardEffect>1999010377</ForwardEffect>
           <ForwardEffectRange>15</ForwardEffectRange>
         </EffectForward>
       </Values>
@@ -2924,7 +2924,7 @@
       <Template>GuildhouseBuff</Template>
       <Values>
         <Standard>
-          <GUID>1999010368</GUID>
+          <GUID>1999010377</GUID>
           <Name>DefaultBuff Apiary for NW Orchards</Name>
           <IconFilename>data/ui/2kimages/main/3dicons/machine_items/africa/item_birdhouse.png</IconFilename>
         </Standard>
