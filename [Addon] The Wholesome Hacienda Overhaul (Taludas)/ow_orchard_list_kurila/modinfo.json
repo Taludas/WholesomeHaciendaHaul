@@ -1,0 +1,57 @@
+{
+  "out": "${annoMods}/ow_orchard_list_kurila",
+  "Version": "1.0.1",
+  "ModID": "ow_orchard_list_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Old World Orchard List (Kurila)",
+    "English": "Old World Orchard List (Kurila)",
+    "French": "Old World Orchard List (Kurila)",
+    "German": "Old World Orchard List (Kurila)",
+    "Italian": "Old World Orchard List (Kurila)",
+    "Japanese": "Old World Orchard List (Kurila)",
+    "Korean": "Old World Orchard List (Kurila)",
+    "Polish": "Old World Orchard List (Kurila)",
+    "Russian": "Old World Orchard List (Kurila)",
+    "Spanish": "Old World Orchard List (Kurila)",
+    "Taiwanese": "Old World Orchard List (Kurila)"
+  },
+  "Description": {
+    "English": null,
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}
